@@ -39,6 +39,9 @@
                                 <div class="title-desc text-justify">
                                     <p>For E-commerce Website along with good design, there should be maximum user comfort, efficient information delivery, effective brand building and high reliability. For your customers, it should be seamless and engaging shopping experience across all platforms. This should be regardless of the responsive, native or adaptive design approaches. These websites also stand for the customised business approach.</p>
                                     <p>Our designers are therefore specialized in building websites that are not only visually attractive but also support existing brands. This boosts brand awareness and increases the revenue generation.</p>
+                                    <p>Codelock Solutions is the best E-commerce Web Development Company at Surat which follows a well-defined and systematic approach to developing the website. By analyzing the requirements of the customers, it will help us to develop better websites producing better results.</p>
+                                    <p>We analyze the requirement for the content and site functionality. The developers at E-commerce Website Development  Company in Surat uses best strategies to engage your target audience and deliver better business results.</p>
+                                    <P>Our involvement in the project will depend upon the client’s level of technical expertise and resources.</P>
                                 </div>
                             </div><!-- section title end -->
                         </div>
@@ -46,15 +49,12 @@
                             <div class="position-relative res-991-mt-30">
                                 <!-- ttm_single_image-wrapper -->
                                 <div class="ttm_single_image-wrapper text-sm-center">
-                                    <img class="img-fluid" src="images/s3.png" title="single-img-seven" alt="single-img-seven">
+                                    <img class="img-fluid" src="images/ecommerce-image3.png" title="single-img-seven" alt="single-img-seven">
                                 </div><!-- ttm_single_image-wrapper end -->
                             </div>
                         </div>
                         <div class="col-lg-12 mt-30">
                             <div class="title-desc text-justify">
-                                <p>Codelock Solutions is the best E-commerce Web Development Company at Surat which follows a well-defined and systematic approach to developing the website. By analyzing the requirements of the customers, it will help us to develop better websites producing better results.</p>
-                                <p>We analyze the requirement for the content and site functionality. The developers at E-commerce Website Development  Company in Surat uses best strategies to engage your target audience and deliver better business results.</p>
-                                <P>Our involvement in the project will depend upon the client’s level of technical expertise and resources.</P>
                                 <p>Call us today to get started on your business website.</p>
                             </div>
                         </div>

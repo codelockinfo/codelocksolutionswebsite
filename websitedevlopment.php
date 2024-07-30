@@ -46,7 +46,7 @@
                             <div class="position-relative res-991-mt-30">
                                 <!-- ttm_single_image-wrapper -->
                                 <div class="ttm_single_image-wrapper text-sm-center">
-                                    <img class="img-fluid" src="images/slides/slidernew4.png" title="single-img-seven" alt="single-img-seven">
+                                    <img class="img-fluid" src="images/webdevelopmwnt-image.gif" title="single-img-seven" alt="webdevelopmwnt-image">
                                 </div><!-- ttm_single_image-wrapper end -->
                             </div>
                         </div>
