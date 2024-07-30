@@ -1,0 +1,359 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.body-section{
+    background-color: #f8f9fa;
+}
+
+/* blogs page css start */
+.btn-menu{
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-menu li{
+    display: inline;
+}
+
+.btn-menu li a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button-group{
+    max-width: 71%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, .07);
+}
+
+.latest-btn{
+    display: flex;
+    justify-content: center;
+    border: none;
+    font-size: 16px;
+    margin: 5px 3px;
+    padding: 5px 21px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    background-color: #007bff;
+    text-transform: capitalize;
+}
+
+.latest-btn:hover{
+    color: white;
+}
+
+.trending-btn{
+    display: flex;
+    justify-content: center;
+    border: none;
+    font-size: 16px;
+    margin: 5px 3px;
+    padding: 5px 21px;
+    font-weight: 500;
+    border-radius: 6px;
+    color: black;
+    text-transform: capitalize;
+    background-color: #eceeef;
+}
+
+.trending-btn:hover{
+    transition: 0.3s;
+    color: white;
+    background-color: #007bff;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    border: none;
+    font-size: 18px;
+    margin: 5px 5px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    color: black;
+    background-color: #eceeef;
+}
+
+.card1{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.card-section{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 10px;
+    box-shadow: 0 5px 40px rgba(19, 19, 19, 0.07);
+}
+
+.download-image1{
+    border-radius: 10px;
+    cursor: pointer;
+    height: 300px;
+}
+
+.person-img1{
+    width: 8%;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.person-name1{
+    font-size: 18px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.date1{
+    font-size: 18px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.blog-read1{
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    /* display: flex; */
+    justify-content: end;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.blog-view1{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.blog-heading1{
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.pagination-sec{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 50px;
+}
+/* blogs page css end */
+
+/* blogcontact page css start */
+.contents-section{
+    background-color: #ecf3ff;
+    border-radius: 15px;
+    padding: 8px 0px;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.shopifylist{
+    color: black;
+}
+
+.shopifylist:hover{
+    color: #007bff;
+    text-decoration: none;
+    transition: 0.2s;
+}   
+
+.shopifyhelp{
+    color: #007bff;
+}
+
+.shopifyhelp:hover{
+    color: #007bff;
+    text-decoration: none;
+}
+
+.inputsearch{
+    border: none;
+    border-radius: 20px;
+    width: 400px;
+    padding: 10px 10px;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, .07);
+}
+
+.shopifyimage{
+    width: 30%;
+    cursor: pointer;
+}
+
+.shopifypara{
+    background-color: white;
+    width: 400px;
+    padding: 5px 10px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    font-weight: 500;
+    box-shadow: 0 5px 35px rgba(0,0,0, .07);
+}
+
+.shopifypara p{
+    font-weight: 400;
+}
+
+.facebookicon{
+    color: white;
+    background-color: #4267b2;
+    font-size: 24px;
+    border-radius: 100%;
+    padding: 10px 20px;
+}
+
+.twittericon{
+    color: white;
+    background-color: #1da1f2;
+    font-size: 24px;
+    border-radius: 100%;
+    padding: 10px 15px;
+}
+
+.linkedinicon{
+    color: white;
+    background-color: #0077b5;
+    font-size: 24px;
+    border-radius: 100%;
+    padding: 10px 20px;
+}
+
+.instagramicon{
+    color: white;
+    background-color: #ff4502;
+    font-size: 24px;
+    border-radius: 100%;
+    padding: 10px 20px;
+}
+
+.supportpara{
+    background-color: #ecf3ff;
+    padding: 30px 0px 30px 20px;
+    font-weight: 500;
+    margin: 20px 0px;
+    border-left: 5px solid #007bff;
+}
+
+.person1{
+    width: 150px;
+    height: 200px;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+
+.persondetail{
+    background-color: #ecf3ff;
+    padding: 30px 0px 30px 20px;
+    font-weight: 500;
+    margin: 20px 0px;
+    border-radius: 15px;
+}
+
+.author{
+    font-size: 24px;
+}
+
+.bidisha{
+    font-size: 22px;
+}
+
+.bidisha1{
+    font-weight: 400;
+}
+
+.card2{
+    display: flex;
+    margin: 0px auto;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, .07);
+}
+
+.leave{
+    color: #007bff;
+    text-align: center;
+}
+
+.leave1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.leave2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.leave3{
+    border: none;
+    width: 100%;
+    padding: 5px 0px;
+    border-radius: 8px;
+    background-color: #edeff1;
+}
+
+.post-btn1{
+    text-align: center;
+}
+
+.post-btn{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+.shopify-grp{
+    color: white;
+    padding: 8px 15px;
+    margin: 0px 10px;
+    font-weight: 500;
+    border: none;
+    background-color: #333;
+}
+
+.image-grp{
+    background: linear-gradient(180deg, rgba(253, 247, 245, 0) 0, rgba(200, 94, 45, .2) 100%);
+}
+/* blogcontact.html page css end */
+
+/* blogcontact page media query start */
+@media (max-width:1200px){
+    .image-1{
+        margin: 10px 0px;
+    }
+    .main-section{
+        margin: 20px 0px;
+    }
+}
+/* blogcontact page media query end*/
+
