@@ -149,7 +149,7 @@
       bottom: 0; 
       top:0;
       background: rgb(0, 0, 0);
-      background: rgba(0, 0, 0, 0.6); /* Black see-through */
+      background: rgba(0, 0, 0, 0.8); /* Black see-through */
       color: #fff;
       width: 100%;
       transition: .5s ease-in;
