@@ -95,7 +95,10 @@
 .image-slider#slider .row.displayblock_slider{
     display:block;
 }
-
+.displayblock_slider a{
+	margin-left:30px;
+	margin-right:30px;
+}
 .image-slider#slider span.nowrap {
 	white-space: nowrap;
 }
@@ -131,6 +134,7 @@
     max-width: 100%;
     border-radius: 30px;
     box-shadow: 0px 6px 15px 4px #95a984;
+	width:100%;
 }
 
 .image-slider#slider span.slider-name, span.slider-title {
@@ -235,63 +239,67 @@
 }
 	
 @media (max-width: 768px) {
-    .disflex-align-center{
-        display: flex;
-    flex-direction: column;
-}
+		.displayblock_slider a{
+			margin-left:10px;
+			margin-right:10px;
+		}
+		.disflex-align-center{
+			display: flex;
+			flex-direction: column;
+		}
 		.image-slider#slider .area {
 			padding-right: 0;
 			padding-left: 0;
 		}
 	
 		.image-slider#slider .slider-wrapper {
-        width: 100%;
-        order:2;
-    }
+			width: 100%;
+			order:2;
+    	}
 
-    .image-slider#slider .scroll-wrapper {
-        overflow-x: scroll;
-        -webkit-overflow-scrolling: touch;
-    }
+		.image-slider#slider .scroll-wrapper {
+			overflow-x: scroll;
+			-webkit-overflow-scrolling: touch;
+		}
 
-    .image-slider#slider li.slider {
-        width: 49.2vw;
-    }
-	
-	.image-slider#slider span.slider-title {
-        bottom: 3.5vw;
-        font-size: 3.3vw;
-    }
+		.image-slider#slider li.slider {
+			width: 49.2vw;
+		}
+		
+		.image-slider#slider span.slider-title {
+			bottom: 3.5vw;
+			font-size: 3.3vw;
+		}
 
-    .image-slider#slider span.slider-name {
-        bottom: 7vw;
-        font-size: 3.5vw;
-    }
+		.image-slider#slider span.slider-name {
+			bottom: 7vw;
+			font-size: 3.5vw;
+		}
 
-    .image-slider#slider .more-slider h4 br, .image-slider#slider .slide-controls {
-        display: none;
-    }
+		.image-slider#slider .more-slider h4 br, .image-slider#slider .slide-controls {
+			display: none;
+		}
 
-     .image-slider#slider .more-slider a.button {
-        margin-top: 0;
-    }
+		.image-slider#slider .more-slider a.button {
+			margin-top: 0;
+		}
 
-    .image-slider#slider {
-        padding-bottom: 0;
-				margin-left: 0;
-    }
+		.image-slider#slider {
+			padding-bottom: 0;
+					margin-left: 0;
+		}
 
-    .image-slider#slider .more-slider {
-        padding-left: 0;
-        display: block;
-        max-width: 100%;
-        flex: unset;
-    }
+		.image-slider#slider .more-slider {
+			padding-left: 0;
+			display: block;
+			max-width: 100%;
+			flex: unset;
+		}
 
-    .image-slider#slider .more-slider h4 {
-        font-size: 7vw;
-        
-    }
+		.image-slider#slider .more-slider h4 {
+			font-size: 7vw;
+			
+		}
 }
 	</style>
 <script>
