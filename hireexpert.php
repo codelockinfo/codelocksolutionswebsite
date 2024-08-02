@@ -1,5 +1,5 @@
-<?php include 'header.php';?>
-   <!-- page-title -->
+<?php include 'header.php'; ?>
+<!-- page-title -->
 <div class="ttm-page-title-row">
     <div class="container">
         <div class="row">
@@ -71,7 +71,7 @@
                     </div>
                     <div class="container">
                         <p class="">
-                              Hiring Shopify experts enhances your e-commerce business by leveraging their specialized knowledge and experience. They save you time by efficiently developing and optimizing your store, allowing you to focus on core activities. Experts create professional, custom designs that improve user experience and retention. Their technical proficiency ensures seamless functionality and quick issue resolution. Additionally, they optimize for SEO, ensure responsiveness, and provide ongoing support, making the investment highly cost-effective and beneficial for long-term success.
+                            Hiring Shopify experts enhances your e-commerce business by leveraging their specialized knowledge and experience. They save you time by efficiently developing and optimizing your store, allowing you to focus on core activities. Experts create professional, custom designs that improve user experience and retention. Their technical proficiency ensures seamless functionality and quick issue resolution. Additionally, they optimize for SEO, ensure responsiveness, and provide ongoing support, making the investment highly cost-effective and beneficial for long-term success.
                         </p>
                     </div>
                     <div class="container">
@@ -83,11 +83,11 @@
                             <ul class="container">
                                 <strong>Specialized Knowledge: </strong>
                                 <li>
-                                  Shopify experts are well-versed in the platform's intricacies, ensuring that your store leverages the best features and functionalities.
+                                    Shopify experts are well-versed in the platform's intricacies, ensuring that your store leverages the best features and functionalities.
                                 </li>
                                 <strong>Experience:</strong>
                                 <li>
-                                  Their experience in working with various e-commerce businesses allows them to understand your unique requirements and offer tailored solutions.
+                                    Their experience in working with various e-commerce businesses allows them to understand your unique requirements and offer tailored solutions.
                                 </li>
                             </ul>
                         </div>
@@ -96,11 +96,11 @@
                             <ul class="container">
                                 <strong>Speedy Development: </strong>
                                 <li>
-                                  Experts can set up and optimize your store quickly, saving you significant time.
+                                    Experts can set up and optimize your store quickly, saving you significant time.
                                 </li>
                                 <strong>Focus on Business:</strong>
                                 <li>
-                                  By delegating technical tasks to experts, you can focus more on core business activities like marketing and customer relations.
+                                    By delegating technical tasks to experts, you can focus more on core business activities like marketing and customer relations.
                                 </li>
                             </ul>
                         </div>
@@ -109,24 +109,24 @@
                             <ul class="container">
                                 <strong>Custom Designs: </strong>
                                 <li>
-                                  Experts can create visually appealing, custom designs that align with your brand identity.
+                                    Experts can create visually appealing, custom designs that align with your brand identity.
                                 </li>
                                 <strong>User Experience:</strong>
                                 <li>
-                                  A professionally designed store enhances user experience, potentially increasing customer retention and sales.
+                                    A professionally designed store enhances user experience, potentially increasing customer retention and sales.
                                 </li>
                             </ul>
                         </div>
                         <div class="container mt-3">
                             <h5>Technical Proficiency</h5>
                             <ul class="container">
-                                <strong>Complex Integrations:  </strong>
+                                <strong>Complex Integrations: </strong>
                                 <li>
-                                  Experts handle complex integrations with third-party applications, ensuring seamless functionality.
+                                    Experts handle complex integrations with third-party applications, ensuring seamless functionality.
                                 </li>
                                 <strong>Troubleshooting:</strong>
                                 <li>
-                                  They can quickly address and resolve technical issues, maintaining your store's performance.
+                                    They can quickly address and resolve technical issues, maintaining your store's performance.
                                 </li>
                             </ul>
                         </div>
@@ -135,11 +135,11 @@
                             <ul class="container">
                                 <strong>SEO Optimization:</strong>
                                 <li>
-                                   Experts can add custom features to your store, such as personalized shopping experiences and advanced analytics.
+                                    Experts can add custom features to your store, such as personalized shopping experiences and advanced analytics.
                                 </li>
                                 <strong>Marketing Strategies:</strong>
                                 <li>
-                                  They can implement effective marketing strategies to drive traffic and boost conversions.
+                                    They can implement effective marketing strategies to drive traffic and boost conversions.
                                 </li>
                             </ul>
                         </div>
@@ -148,11 +148,11 @@
                             <ul class="container">
                                 <strong>Custom Functionalities:</strong>
                                 <li>
-                                  Shopify experts optimize your store for search engines, improving your visibility and organic traffic.
+                                    Shopify experts optimize your store for search engines, improving your visibility and organic traffic.
                                 </li>
                                 <strong>Scalability:</strong>
                                 <li>
-                                 They ensure your store is scalable to accommodate growth and changing business needs.  
+                                    They ensure your store is scalable to accommodate growth and changing business needs.
                                 </li>
                             </ul>
                         </div>
@@ -161,11 +161,11 @@
                             <ul class="container">
                                 <strong>Continuous Improvement:</strong>
                                 <li>
-                                   Experts provide ongoing support and maintenance, ensuring your store stays updated and secure.
+                                    Experts provide ongoing support and maintenance, ensuring your store stays updated and secure.
                                 </li>
                                 <strong>Proactive Monitoring:</strong>
                                 <li>
-                                  They monitor your store proactively to prevent and address issues before they impact your  business.  
+                                    They monitor your store proactively to prevent and address issues before they impact your business.
                                 </li>
                             </ul>
                         </div>
@@ -174,21 +174,21 @@
                             <ul class="container">
                                 <strong>Avoid Mistakes: </strong>
                                 <li>
-                                  Hiring experts helps you avoid costly mistakes, ensuring your store is built right the first time.
+                                    Hiring experts helps you avoid costly mistakes, ensuring your store is built right the first time.
                                 </li>
                                 <strong>Better ROI:</strong>
                                 <li>
-                                  Their expertise can lead to increased sales and a better return on investment. 
+                                    Their expertise can lead to increased sales and a better return on investment.
                                 </li>
                             </ul>
                         </div>
-                        
+
                     </div>
-                    
+
                     <div class="container">
                         <h5 class="supportpara" id="Final">Final Thoughts</h5>
                         <p>
-                           Hiring Shopify experts can transform your e-commerce business by providing specialized knowledge, saving you time, ensuring a professional design, and offering ongoing support. Their technical proficiency, SEO optimization, and ability to implement advanced features can lead to a more successful and profitable online store.
+                            Hiring Shopify experts can transform your e-commerce business by providing specialized knowledge, saving you time, ensuring a professional design, and offering ongoing support. Their technical proficiency, SEO optimization, and ability to implement advanced features can lead to a more successful and profitable online store.
                         </p>
                     </div>
                     <div class="container persondetail">
@@ -241,6 +241,72 @@
                             <button class="shopify-grp">Shopify Support</button>
                             <button class="shopify-grp">Shopify Support Chat</button>
                             <button class="shopify-grp">Shopify Support Email</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-xl-6 main-section">
+                <div class="container">
+                    <div class="container mt-3">
+                        <input type="search" placeholder="Search anything" class="inputsearch" />
+                    </div>
+                    <div class="container mt-2 mx-1">
+                        <p>Try iCart Cart Drawer Cart Upsell Now</p>
+                    </div>
+                    <div class="container">
+                        <a href="#">
+                            <img src="images/blogdetail-img/Shopify-App-Store-Badge-Final-White.svg" alt="shopify app" class="shopifyimage" />
+                        </a>
+                    </div>
+                    <div class="container mt-4">
+                        <p>RECENT BLOGS</p>
+                    </div>
+                    <div class="container">
+                        <div class="shopifypara">
+                            <span><a href="#" class="shopifylist">How to Contact Shopify Support: A <br />Comprehensive
+                                    Guide</a></span>
+                            <p>July 9, 2024</p>
+                        </div>
+                        <div class="shopifypara">
+                            <span><a href="#" class="shopifylist">How to Hide Pages From Shopify Search <br />
+                                    Using Metafields</a></span>
+                            <p>July 2, 2024</p>
+                        </div>
+                        <div class="shopifypara">
+                            <span>
+                                <a href="#" class="shopifylist">
+                                    Shopify Online Store 2.0: Upgrade Your <br />
+                                    Ecommerce Business Needs
+                                </a>
+                            </span>
+                            <p>June 25, 2024</p>
+                        </div>
+                        <div class="shopifypara">
+                            <span><a href="#" class="shopifylist">A Detailed Guide for Shopify Merchants</a></span>
+                            <p>June 24, 2024</p>
+                        </div>
+                        <div class="shopifypara">
+                            <span>
+                                <a href="#" class="shopifylist">
+                                    How to Use Shopify Schema Markup to <br />Improve Your Store
+                                    SEO
+                                </a>
+                            </span>
+                            <p>June 20, 2024</p>
+                        </div>
+                    </div>
+                    <div class="container blogicart">
+                        <img src="images/blogdetail-img/blog-icart.png" alt="blog-icart" />
+                    </div>
+                    <div class="container">
+                        <div class="mt-3 mb-3">
+                            <p>SHARE THIS:</p>
+                        </div>
+                        <div class="container">
+                            <a href="#" class="facebookicon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" class="twittericon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#" class="linkedinicon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="#" class="instagramicon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -308,5 +374,5 @@
         </div>
     </div>
 </div>
-    
-<?php include 'footer.php';?>
+
+<?php include 'footer.php'; ?>
