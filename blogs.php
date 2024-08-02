@@ -28,7 +28,7 @@
             <div class="col-xl-3">
             <div class="card-section border-0 p-3 mb-3">
                 <img
-                src="images/blog-img/blogimg1.jpg"
+                src="images/blog-img/pricing.png"
                 alt="download1"
                 class="download-image1"
                 />
@@ -59,7 +59,7 @@
             <div class="col-xl-3">
             <div class="card-section border-0 p-3 mb-3">
                 <img
-                src="images/blog-img/blogimg2.jpg"
+                src="images/blog-img/custom_web.webp"
                 alt="download2"
                 class="download-image1"
                 />
@@ -76,7 +76,7 @@
                 <span class="col-xl-6 blog-view1"
                     ><i class="fa fa-eye text-primary"></i> 68 Views</span
                 >
-                <a href="">
+                <a href="custom_web.php">
                     <span class="col-xl-6 blog-read1"
                         >Read blog
                         <i class="fa fa-long-arrow-right text-primary mx-1"></i
@@ -88,7 +88,7 @@
             <div class="col-xl-3">
             <div class="card-section border-0 p-3 mb-3">
                 <img
-                src="images/blog-img/blogimg3.jpg"
+                src="images/blog-img/why_Shopify-Experts.webp"
                 alt="download3"
                 class="download-image1"
                 />
@@ -105,7 +105,7 @@
                 <span class="col-xl-6 blog-view1"
                     ><i class="fa fa-eye text-primary"></i> 110 Views</span
                 >
-                <a href="">
+                <a href="hireexpert.php">
                 <span class="col-xl-6 blog-read1"
                     >Read blog
                     <i class="fa fa-long-arrow-right text-primary mx-1"></i
@@ -121,7 +121,7 @@
             <div class="col-xl-3">
             <div class="card-section border-0 p-3 mb-3">
                 <img
-                src="images/blog-img/blogimg4.jpeg"
+                src="images/blog-img/Increase-shopify-sales.png"
                 alt="download4"
                 class="download-image1"
                 />
@@ -138,7 +138,7 @@
                 <span class="col-xl-6 blog-view1"
                     ><i class="fa fa-eye text-primary"></i> 123 Views</span
                 >
-                <a href="">
+                <a href="revenue24.php">
                 <span class="col-xl-6 blog-read1"
                     >Read blog
                     <i class="fa fa-long-arrow-right text-primary mx-1"></i
@@ -150,7 +150,7 @@
             <div class="col-xl-3">
             <div class="card-section border-0 p-3 mb-3">
                 <img
-                src="images/blog-img/blogimg5.jpg"
+                src="images/blog-img/shopify plus.webp"
                 alt="dowload5"
                 class="download-image1"
                 />
@@ -167,7 +167,7 @@
                 <span class="col-xl-6 blog-view1"
                     ><i class="fa fa-eye text-primary"></i> 169 Views</span
                 >
-                <a href="">
+                <a href="shopifyplus.php">
                 <span class="col-xl-6 blog-read1"
                     >Read blog
                     <i class="fa fa-long-arrow-right text-primary mx-1"></i
@@ -179,7 +179,7 @@
             <div class="col-xl-3">
             <div class="card-section border-0 p-3 mb-3">
                 <img
-                src="images/blog-img/blogimg6.jpg"
+                src="images/blog-img/setup.webp"
                 alt="download6"
                 class="download-image1"
                 />
@@ -196,7 +196,7 @@
                 <span class="col-xl-6 blog-view1"
                     ><i class="fa fa-eye text-primary"></i> 217 Views</span
                 >
-                <a href="">
+                <a href="coststart.php">
                 <span class="col-xl-6 blog-read1"
                     >Read blog
                     <i class="fa fa-long-arrow-right text-primary mx-1"></i
@@ -212,7 +212,7 @@
             <div class="col-xl-3">
             <div class="card-section border-0 p-3 mb-3">
                 <img
-                src="images/blog-img/blogimg7.png"
+                src="images/blog-img/What-is-Shopify-Collabs.jpg"
                 alt="download7"
                 class="download-image1"
                 />
@@ -229,17 +229,19 @@
                 <span class="col-xl-6 blog-view1"
                     ><i class="fa fa-eye text-primary"></i> 249 Views</span
                 >
+                <a href=" collabs.php">
                 <span class="col-xl-6 blog-read1"
                     >Read blog
                     <i class="fa fa-long-arrow-right text-primary mx-1"></i
                 ></span>
+                </a>
                 </div>
             </div>
             </div>
             <div class="col-xl-3">
             <div class="card-section border-0 p-3 mb-3">
                 <img
-                src="images/blog-img/blogimg8.png"
+                src="images/blog-img/shopify-develoment.png"
                 alt="download8"
                 class="download-image1"
                 />
@@ -256,7 +258,7 @@
                 <span class="col-xl-6 blog-view1"
                     ><i class="fa fa-eye text-primary"></i> 245 Views</span
                 >
-                <a href="">
+                <a href="tranceclient.php">
                 <span class="col-xl-6 blog-read1"
                     >Read blog
                     <i class="fa fa-long-arrow-right text-primary mx-1"></i
