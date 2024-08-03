@@ -279,15 +279,17 @@
                     <div class="container persondetail">
                         <div class="row">
                             <div class="col-xl-3">
-                                <img src="images/blog-img/person1.jpeg" alt="person1" class="person1" />
+                                <div class="author_img_box">
+                                    <img src="images/logo.png" alt="person1" class="person1" />
+                                </div>
                             </div>
                             <div class="col-xl-9 mt-3">
                                 <h5 class="author">About the author</h5>
                                 <h6>
-                                    <a href="#" class="shopifyhelp bidisha">Bidisha Saha</a>
+                                    <a href="#" class="shopifyhelp bidisha">Codelock team</a>
                                 </h6>
                                 <p class="bidisha1">
-                                    Step into the content world with Bidisha Saha, a seasoned
+                                    Step into the content world with Codelock team, a seasoned
                                     Senior Content Writer at Identixweb. Passionate about
                                     e-commerce, technology, and marketing, she optimizes online
                                     visibility, crafting engaging content for business growth.
@@ -400,7 +402,7 @@
     </div>
     <div class="container-fluid mt-5">
         <div class="section-heading">
-            <h3 class="text-center">Our Related Blogs</h3>
+            <h3 class="text-center">New added</h3>
         </div>
     </div>
     <div class="container-fluid p-5 image-grp">

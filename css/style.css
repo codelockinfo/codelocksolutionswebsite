@@ -255,12 +255,18 @@
     border-left: 5px solid #728948;
 }
 
-.person1{
-    width: 150px;
+.author_img_box{
     height: 200px;
-    border-radius: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid black;
-    margin-left: 20px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+.person1{
+    width: 100%;
 }
 
 .persondetail{

@@ -148,29 +148,29 @@
                             <h5 id="3.2">2. Fixed Pricing Model</h5>
                             <p>Fixed pricing is a clear approach where the cost remains steady regardless of market fluctuations. It’s a preferred model with stable demand and known production costs. Essentially, it gives customers stability in their purchases.</p>
                             <p>Some good examples of fixed pricing are:</p>
-                                <li><strong>Retail items: </strong>Products such as groceries or clothing are sold at a fixed price in brick-and-mortar stores.</li>
-                                <li><strong>Subscription services: </strong> Monthly fees for access to content or software remain constant.</li>
-                                <li><strong>Training programs: </strong> Organizations pay a flat fee for a training package, covering all activities included in the program.</li>
-                                <li><strong>Software licenses: </strong> Companies purchase a license to use software for a fixed duration or number of users.</li>
-                         <div class="container">
-                         <h5 class="mt-2">Pros of Fixed Pricing</h5>
-                            <li>Cost certainty attracts customers by providing clarity on financial commitment.</li>
-                            <li>Clients benefit from knowing their exact costs upfront.</li>
-                            <li>Informed budgeting and simplified financial planning are facilitated.</li>
-                            <li>Motivates designers to meet deadlines while maintaining quality standards.</li>
+                            <li><strong>Retail items: </strong>Products such as groceries or clothing are sold at a fixed price in brick-and-mortar stores.</li>
+                            <li><strong>Subscription services: </strong> Monthly fees for access to content or software remain constant.</li>
+                            <li><strong>Training programs: </strong> Organizations pay a flat fee for a training package, covering all activities included in the program.</li>
+                            <li><strong>Software licenses: </strong> Companies purchase a license to use software for a fixed duration or number of users.</li>
+                            <div class="container">
+                                <h5 class="mt-2">Pros of Fixed Pricing</h5>
+                                <li>Cost certainty attracts customers by providing clarity on financial commitment.</li>
+                                <li>Clients benefit from knowing their exact costs upfront.</li>
+                                <li>Informed budgeting and simplified financial planning are facilitated.</li>
+                                <li>Motivates designers to meet deadlines while maintaining quality standards.</li>
 
-                            <h5 class="mt-2">Cons of Fixed Pricing</h5>
-                            <li>Inability to accommodate project changes.</li>
-                            <li>Concern for clients seeking flexibility or requiring unforeseen modifications.</li>
-                            <li>Fixed pricing is disadvantageous for projects with highly specific requirements.</li>
-                            <li>Accurately estimating effort can be challenging.</li>
+                                <h5 class="mt-2">Cons of Fixed Pricing</h5>
+                                <li>Inability to accommodate project changes.</li>
+                                <li>Concern for clients seeking flexibility or requiring unforeseen modifications.</li>
+                                <li>Fixed pricing is disadvantageous for projects with highly specific requirements.</li>
+                                <li>Accurately estimating effort can be challenging.</li>
 
-                            <h5 class="mt-2">When Does Fixed Pricing Make Sense?</h5>
-                            <p>This model excels in scenarios in which</p>
-                            <li>The project scope is well-defined and unlikely to change significantly. </li>
-                            <li>Budget predictability is paramount.</li>
-                            <li>The project involves straightforward features and functionalities. </li>
-                         </div>
+                                <h5 class="mt-2">When Does Fixed Pricing Make Sense?</h5>
+                                <p>This model excels in scenarios in which</p>
+                                <li>The project scope is well-defined and unlikely to change significantly. </li>
+                                <li>Budget predictability is paramount.</li>
+                                <li>The project involves straightforward features and functionalities. </li>
+                            </div>
 
                         </div>
                         <div class="container mt-30">
@@ -208,40 +208,42 @@
                         <h3 class="supportpara" id="4">FAQs</h3>
                     </div>
                     <div class="container">
-                    <div class="container">
-                        <h5>How much does it cost to design a website on Shopify?</h5>
-                        <p>Designing a website on Shopify costs vary widely based on complexity and features. Expect to budget anywhere from a few hundred to several thousand dollars.</p>
-                        <h5>How much do Shopify designers charge?</h5>
-                        <p>Shopify designers typically charge based on project scope and expertise. Rates can range from $50 to $150 per hour or more, depending on the designer’s experience and location.</p>
-                        <h5>How much should I pay someone to build a Shopify website?</h5>
-                        <p>The cost to build a Shopify website depends on customization needs. Basic setups can start around $500-$1,000, while complex designs with custom features may range from $2,000 to $10,000 or more.</p>
-                        <h5>Is it free to build a website on Shopify?</h5>
-                        <p>Shopify offers a 14-day free trial, but beyond that, you’ll need to choose a paid plan starting at $29 per month. Additional costs may include themes, apps, and development fees.</p>
-                        <h5>How much can I charge for website design?</h5>
-                        <p>Website design pricing varies based on factors like complexity, client needs, and your expertise. Rates typically range from $500 to $5,000 or more per project.</p>
-                        <h5>Can I pay Shopify to build my website?</h5>
-                        <p>Shopify itself does not offer direct website building services, but you can hire Shopify Experts or agencies who specialize in Shopify development to build your website for a fee.</p>
-                    </div>
+                        <div class="container">
+                            <h5>How much does it cost to design a website on Shopify?</h5>
+                            <p>Designing a website on Shopify costs vary widely based on complexity and features. Expect to budget anywhere from a few hundred to several thousand dollars.</p>
+                            <h5>How much do Shopify designers charge?</h5>
+                            <p>Shopify designers typically charge based on project scope and expertise. Rates can range from $50 to $150 per hour or more, depending on the designer’s experience and location.</p>
+                            <h5>How much should I pay someone to build a Shopify website?</h5>
+                            <p>The cost to build a Shopify website depends on customization needs. Basic setups can start around $500-$1,000, while complex designs with custom features may range from $2,000 to $10,000 or more.</p>
+                            <h5>Is it free to build a website on Shopify?</h5>
+                            <p>Shopify offers a 14-day free trial, but beyond that, you’ll need to choose a paid plan starting at $29 per month. Additional costs may include themes, apps, and development fees.</p>
+                            <h5>How much can I charge for website design?</h5>
+                            <p>Website design pricing varies based on factors like complexity, client needs, and your expertise. Rates typically range from $500 to $5,000 or more per project.</p>
+                            <h5>Can I pay Shopify to build my website?</h5>
+                            <p>Shopify itself does not offer direct website building services, but you can hire Shopify Experts or agencies who specialize in Shopify development to build your website for a fee.</p>
+                        </div>
                     </div>
 
                     <div class="container">
                         <h5 class="supportpara" id="Final">Final Thoughts</h5>
                         <p>
-                        Investing in a well-designed Shopify store is crucial for eCommerce success in 2024-2025. While costs can vary significantly based on project scope, design complexity, required features, and ongoing maintenance, understanding these factors and budgeting wisely can set your store up for long-term success. Prioritizing user experience, focusing on consistent and compelling branding, and planning for future growth are key elements. A professional Shopify design enhances user experience, builds trust, and drives sales, making it a worthwhile investment for your eCommerce future.
+                            Investing in a well-designed Shopify store is crucial for eCommerce success in 2024-2025. While costs can vary significantly based on project scope, design complexity, required features, and ongoing maintenance, understanding these factors and budgeting wisely can set your store up for long-term success. Prioritizing user experience, focusing on consistent and compelling branding, and planning for future growth are key elements. A professional Shopify design enhances user experience, builds trust, and drives sales, making it a worthwhile investment for your eCommerce future.
                         </p>
                     </div>
                     <div class="container persondetail">
                         <div class="row">
                             <div class="col-xl-3">
-                                <img src="images/blog-img/person1.jpeg" alt="person1" class="person1" />
+                                <div class="author_img_box">
+                                    <img src="images/logo.png" alt="person1" class="person1" />
+                                </div>
                             </div>
                             <div class="col-xl-9 mt-3">
                                 <h5 class="author">About the author</h5>
                                 <h6>
-                                    <a href="#" class="shopifyhelp bidisha">Bidisha Saha</a>
+                                    <a href="#" class="shopifyhelp bidisha">Codelock team</a>
                                 </h6>
                                 <p class="bidisha1">
-                                    Step into the content world with Bidisha Saha, a seasoned
+                                    Step into the content world with Codelock team, a seasoned
                                     Senior Content Writer at Identixweb. Passionate about
                                     e-commerce, technology, and marketing, she optimizes online
                                     visibility, crafting engaging content for business growth.
@@ -354,59 +356,65 @@
     </div>
     <div class="container-fluid mt-5">
         <div class="section-heading">
-            <h3 class="text-center">Our Related Blogs</h3>
+            <h3 class="text-center">New added</h3>
         </div>
     </div>
     <div class="container-fluid p-5 image-grp">
         <div class="row card1">
             <div class="col-xl-3">
                 <div class="card-section border-0 p-3 mb-3">
-                    <img src="images/blog-img/download2.jpg" alt="download2" class="download-image1" />
+                    <img src="images/blog-img/setup.webp" alt="download6" class="download-image1" />
                     <div class="col-12 mt-3">
-                        <span class="date1"><i class="fa fa-calendar text-primary"></i> July 2, 2024</span>
+                        <span class="date1"><i class="fa fa-calendar text-primary"></i> June 14, 2024</span>
                     </div>
                     <h5 class="blog-heading1 mt-3">
-                        How to Hide Pages From Shopify Search Using Metafields
+                        How Much Does It Cost to Start or Run a Shopify Store?
                     </h5>
                     <hr />
-                    <div class="row">
-                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 68 Views</span>
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
+                    <div class="row justify-content-between">
+                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 217 Views</span>
+                        <a href="coststart.php">
+                            <span class="col-xl-6 blog-read1">Read blog
+                                <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-3">
                 <div class="card-section border-0 p-3 mb-3">
-                    <img src="images/blog-img/download3.png" alt="download3" class="download-image1" />
-                    <div class="col-12 mt-3">
-                        <span class="date1"><i class="fa fa-calendar text-primary"></i> June 25, 2024</span>
-                    </div>
-                    <h5 class="blog-heading1 mt-3">
-                        Shopify Online Store 2.0: Upgrade Your Ecommerce Business Needs
-                    </h5>
-                    <hr />
-                    <div class="row">
-                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 110 Views</span>
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3">
-                <div class="card-section border-0 p-3 mb-3">
-                    <img src="images/blog-img/download4.png" alt="download4" class="download-image1" />
+                    <img src="images/blog-img/Increase-shopify-sales.png" alt="download4" class="download-image1" />
                     <div class="col-12 mt-3">
                         <span class="date1"><i class="fa fa-calendar text-primary"></i> June 24, 2024</span>
                     </div>
                     <h5 class="blog-heading1 mt-3">
-                        A Detailed Guide for Shopify Merchants
+                        How to Increase Average Shopify Store Revenue in 2024
                     </h5>
                     <hr />
-                    <div class="row">
+                    <div class="row justify-content-between">
                         <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 123 Views</span>
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
+                        <a href="revenue24.php">
+                            <span class="col-xl-6 blog-read1">Read blog
+                                <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3">
+                <div class="card-section border-0 p-3 mb-3">
+                    <img src="images/blog-img/custom_web.webp" alt="download2" class="download-image1" />
+                    <div class="col-12 mt-3">
+                        <span class="date1"><i class="fa fa-calendar text-primary"></i> July 2, 2024</span>
+                    </div>
+                    <h5 class="blog-heading1 mt-3">
+                        Shopify vs Custom Website: Which One to Invest in 2024?
+                    </h5>
+                    <hr />
+                    <div class="row justify-content-between">
+                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 68 Views</span>
+                        <a href="custom_web.php">
+                            <span class="col-xl-6 blog-read1">Read blog
+                                <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>
