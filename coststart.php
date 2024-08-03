@@ -374,6 +374,72 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-12 col-xl-6 main-section">
+                <div class="container">
+                    <div class="container mt-3">
+                        <input type="search" placeholder="Search anything" class="inputsearch" />
+                    </div>
+                    <div class="container mt-2 mx-1">
+                        <p>Try iCart Cart Drawer Cart Upsell Now</p>
+                    </div>
+                    <div class="container">
+                        <a href="#">
+                            <img src="images/blogdetail-img/Shopify-App-Store-Badge-Final-White.svg" alt="shopify app" class="shopifyimage" />
+                        </a>
+                    </div>
+                    <div class="container mt-4">
+                        <p>RECENT BLOGS</p>
+                    </div>
+                    <div class="container">
+                        <div class="shopifypara">
+                            <span><a href="#" class="shopifylist">How to Contact Shopify Support: A <br />Comprehensive
+                                    Guide</a></span>
+                            <p>July 9, 2024</p>
+                        </div>
+                        <div class="shopifypara">
+                            <span><a href="#" class="shopifylist">How to Hide Pages From Shopify Search <br />
+                                    Using Metafields</a></span>
+                            <p>July 2, 2024</p>
+                        </div>
+                        <div class="shopifypara">
+                            <span>
+                                <a href="#" class="shopifylist">
+                                    Shopify Online Store 2.0: Upgrade Your <br />
+                                    Ecommerce Business Needs
+                                </a>
+                            </span>
+                            <p>June 25, 2024</p>
+                        </div>
+                        <div class="shopifypara">
+                            <span><a href="#" class="shopifylist">A Detailed Guide for Shopify Merchants</a></span>
+                            <p>June 24, 2024</p>
+                        </div>
+                        <div class="shopifypara">
+                            <span>
+                                <a href="#" class="shopifylist">
+                                    How to Use Shopify Schema Markup to <br />Improve Your Store
+                                    SEO
+                                </a>
+                            </span>
+                            <p>June 20, 2024</p>
+                        </div>
+                    </div>
+                    <div class="container blogicart">
+                        <img src="images/blogdetail-img/blog-icart.png" alt="blog-icart" />
+                    </div>
+                    <div class="container">
+                        <div class="mt-3 mb-3">
+                            <p>SHARE THIS:</p>
+                        </div>
+                        <div class="container">
+                            <a href="#" class="facebookicon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" class="twittericon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#" class="linkedinicon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="#" class="instagramicon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="container-fluid mt-5">

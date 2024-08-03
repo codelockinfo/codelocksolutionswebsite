@@ -46,7 +46,7 @@
     border-radius: 6px;
     color: white;
     font-weight: 500;
-    background-color: #007bff;
+    background-color: ##728948;
     text-transform: capitalize;
 }
 
@@ -71,7 +71,7 @@
 .trending-btn:hover{
     transition: 0.3s;
     color: white;
-    background-color: #007bff;
+    background-color: #728048;
 }
 
 .search-icon{
@@ -174,17 +174,17 @@
 }
 
 .shopifylist:hover{
-    color: #007bff;
+    color: #728948;
     text-decoration: none;
     transition: 0.2s;
 }   
 
 .shopifyhelp{
-    color: #007bff;
+    color: #728948;
 }
 
 .shopifyhelp:hover{
-    color: #007bff;
+    color: #728948;
     text-decoration: none;
 }
 
@@ -252,7 +252,7 @@
     padding: 30px 0px 30px 20px;
     font-weight: 500;
     margin: 20px 0px;
-    border-left: 5px solid #007bff;
+    border-left: 5px solid #728948;
 }
 
 .person1{
@@ -297,7 +297,7 @@
 }
 
 .leave{
-    color: #007bff;
+    color: #728948;
     text-align: center;
 }
 
@@ -324,7 +324,7 @@
 }
 
 .post-btn{
-    background-color: #007bff;
+    background-color: #728948;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -356,4 +356,8 @@
     }
 }
 /* blogcontact page media query end*/
-
+.ttm_single_image-wrapper{
+    border: 1px solid rgb(90, 85, 85);
+    padding: 10px;
+    border-radius: 40px;
+}
