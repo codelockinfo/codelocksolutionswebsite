@@ -6,65 +6,65 @@
 			<div class="slider-wrapper col-xs-8">
 					<div class="scroll-wrapper">
 						<ul class="row displayblock_slider">
-								<a href="https://www.fabdreamsorganic.com/" title="Feb Dreams">
+								<a href="https://kiddicare.co.nz/" title="create beautiful shopify stores">
 									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/image-slider/febdreams.png" alt="Feb Dreams" />
-										<h2 class="title"><span class="slider-name">Feb Dreams</span></h2>
+										<img src="images/our project/shopify website1.png" alt="create beautiful shopify stores" />
+										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
 									</li>
 								</a>
-								<a href="https://gardenbag.ca/" title="Garden Bag">
+								<a href="https://www.terragentle.in/" title="create beautiful shopify stores">
 									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/image-slider/gardenbag.png" alt="Garden Bag" />
-										<h2 class="title"><span class="slider-name">Garden Bag</span></h2>
+										<img src="images/our project/shopify website2.png" alt="create beautiful shopify stores" />
+										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
 									</li>
 								</a>
-								<a href="https://www.justmeats.com/" title="Just Meats">
+								<a href="https://www.justmeats.com/" title="create beautiful shopify stores">
 									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/image-slider/justmeats.png" alt="Just Meats" />
-										<h2 class="title"><span class="slider-name">Just Meats</span></h2>
+										<img src="images/our project/shopify website3.png" alt="create beautiful shopify stores" />
+										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
 									</li>
 								</a>
-								<a href="https://kiddicare.co.nz/" title="Kiddicare">
+								<a href="https://millenniumjewelery.com/" title="create beautiful shopify stores">
 									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/image-slider/kiddicare.png" alt="Kiddicare" />
-										<h2 class="title"><span class="slider-name">Kiddicare</span></h2>
+										<img src="images/our project/shopify website4.png" alt="create beautiful shopify stores" />
+										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
 									</li>
 								</a>
-								<a href="https://pazzion.in/" title="Pazzion">
+								<a href="https://www.tistabene.com/" title="create beautiful shopify stores">
 									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/image-slider/pazzion.png" alt="Pazzion" />
-										<h2 class="title"><span class="slider-name">Pazzion</span></h2>
+										<img src="images/our project/shopify website5.png" alt="create beautiful shopify stores" />
+										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
 									</li>
 								</a>
-								<a href="https://suppdog.nl/" title="Architecture">
+								<a href="https://www.fabdreamsorganic.com" title="create beautiful shopify stores">
 									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/image-slider/suppdog.png" alt="Suppdog" />
-										<h2 class="title"><span class="slider-name">Suppdog</span></h2>
+										<img src="images/our project/shopify website6.png" alt="create beautiful shopify stores" />
+										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
 									</li>
 								</a>
-								<a href="https://tipsyfly.com/" title="Tipsyfly">
+								<a href="https://ffab.com/" title="create beautiful shopify stores">
 									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/image-slider/tipsyfly.png" alt="Tipsyfly" />
-										<h2 class="title"><span class="slider-name">Tipsyfly</span></h2>
+										<img src="images/our project/shopify website7.png" alt="create beautiful shopify stores" />
+										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
 									</li>
 								</a>
-								<a href="https://thehamperstory.com/" title="The Hampor Story">
+								<a href="https://www.florenceblack.co.uk/" title="create beautiful shopify stores">
 									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/image-slider/thehamporstory.png" alt="The Hampor Story" />
-										<h2 class="title"><span class="slider-name">The Hampor Story</span></h2>
+										<img src="images/our project/shopify website8.png" alt="create beautiful shopify stores" />
+										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
 									
 									</li>
 								</a>
-								<a href="https://shoplivinggardens.com/" title="Shop Living Gardens">
+								<a href="https://pazzion.in/" title="create beautiful shopify stores">
 									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/image-slider/shoplivinggardens.png" alt="Shop Living Gardens" />
-										<h2 class="title"><span class="slider-name">Shop Living Gardens</span></h2>
+										<img src="images/our project/shopify website9.png" alt="create beautiful shopify stores" />
+										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
 									</li>
 								</a>
-								<a href="https://cleanhamptons.com/" title="Clean Hamptons">
+								<a href="https://fillerlab.dk/" title="create beautiful shopify stores">
 									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/image-slider/cleanhamptons.png" alt="Clean Hamptons" />
-										<h2 class="title"><span class="slider-name">Clean Hamptons</span></h2>
+										<img src="images/our project/shopify website10.png" alt="create beautiful shopify stores" />
+										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
 									</li>
 								</a>
 						</ul>

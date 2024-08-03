@@ -68,8 +68,10 @@
             </section>
             <!-- zero-padding-section -->
             <section class="ttm-row zero-padding-section mt_50 res-991-mt-0 clearfix">
-                <div class="container shopify-plus-img-container">
-                <img src="images/shopify-plus.png" class="shopify-plus-img"/>
+                <div class="container-fluid shopify-plus-img">
+        
+                  <img src="images/vedio/shopify.gif" alt="Animated GIF">
+                
                 </div>
             </section>
             <?php include 'image-slider.php';?>
@@ -367,7 +369,7 @@
                                        <!-- featured-imagebox-team -->
                             <div class="featured-imagebox featured-imagebox-team style1">
                                 <div class="featured-thumbnail"><!-- featured-thumbnail -->
-                                    <img class="img-fluid lazyload image_height_s" data-src="images/Urvashi Shopify Developer at Codelock Solutions.webp" alt="image">
+                                    <img class="img-fluid lazyload image_height_s"  src="images/team/urvashi hirapara.png" alt="image">
                                   
                                 </div> 
                                 <div class="featured-content box-shadow">
@@ -380,7 +382,7 @@
                        
                             <div class="featured-imagebox featured-imagebox-team style1">
                                 <div class="featured-thumbnail"><!-- featured-thumbnail -->
-                                    <img class="img-fluid lazyload image_height_s" data-src="images/Payal Shopify Developer at Codelock Solutions.webp" alt="image">
+                                    <img class="img-fluid lazyload image_height_s"  src="images/team/payal nakrani.png" alt="image">
                                    
                                 </div> 
                                 <div class="featured-content box-shadow">
@@ -393,7 +395,7 @@
                             
                              <div class="featured-imagebox featured-imagebox-team style1">
                                 <div class="featured-thumbnail"><!-- featured-thumbnail -->
-                                    <img class="img-fluid lazyload image_height_s" data-src="images/Bhavin Shopify Developer at Codelock Solutions.webp" alt="image">
+                                    <img class="img-fluid lazyload image_height_s" src="images/team/bhavin solanki.png" alt="image">
                                    
                                 </div> 
                                 <div class="featured-content box-shadow">
@@ -408,7 +410,7 @@
                               <!-- featured-imagebox-team -->
                             <div class="featured-imagebox featured-imagebox-team style1">
                                 <div class="featured-thumbnail"><!-- featured-thumbnail -->
-                                    <img class="img-fluid lazyload image_height_s" data-src="images/Harsh Shopify Developer at Codelock Solutions.webp" alt="image">
+                                    <img class="img-fluid lazyload image_height_s" src="images/team/harsh kansagara.png" alt="image">
                                    
                                 </div> 
                                 <div class="featured-content box-shadow">
@@ -419,23 +421,11 @@
                                 </div>
                             </div><!-- featured-imagebox-team end-->
                               <!-- featured-imagebox-team -->
-                            <div class="featured-imagebox featured-imagebox-team style1">
-                                <div class="featured-thumbnail"><!-- featured-thumbnail -->
-                                    <img class="img-fluid lazyload image_height_s" data-src="images/Julee Shopify Developer at Codelock Solutions.webp" alt="image">
-                                   
-                                </div> 
-                                <div class="featured-content box-shadow">
-                                    <div class="featured-title"><!-- featured-title -->
-                                        <h5><a href="#">Julee Kathiriya</a></h5>
-                                    </div>
-                                    <p class="category">Shopify Developer</p><!-- category -->
-                                </div>
-                            </div><!-- featured-imagebox-team end-->
-                   
+
                               <!-- featured-imagebox-team -->
                             <div class="featured-imagebox featured-imagebox-team style1">
                                 <div class="featured-thumbnail"><!-- featured-thumbnail -->
-                                    <img class="img-fluid lazyload image_height_s" data-src="images/Dhara Shopify Developer at Codelock Solutions.webp" alt="image">
+                                    <img class="img-fluid lazyload image_height_s" src="images/team/dhara golakiya.png" alt="image">
                                     
                                 </div> 
                                 <div class="featured-content box-shadow">
@@ -448,7 +438,7 @@
                               <!-- featured-imagebox-team -->
                             <div class="featured-imagebox featured-imagebox-team style1">
                                 <div class="featured-thumbnail"><!-- featured-thumbnail -->
-                                    <img class="img-fluid lazyload image_height_s" data-src="images/Jalak Shopify Developer at Codelock Solutions.webp" alt="image">
+                                    <img class="img-fluid lazyload image_height_s" src="images/team/jalak talaviya.png" alt="image">
                                    
                                 </div> 
                                 <div class="featured-content box-shadow">
@@ -459,31 +449,7 @@
                                 </div>
                             </div><!-- featured-imagebox-team end-->
                               <!-- featured-imagebox-team -->
-                            <div class="featured-imagebox featured-imagebox-team style1">
-                                <div class="featured-thumbnail"><!-- featured-thumbnail -->
-                                    <img class="img-fluid lazyload image_height_s" data-src="images/Huzaifa Shopify Developer at Codelock Solutions.webp" alt="image">
-                                   
-                                </div> 
-                                <div class="featured-content box-shadow">
-                                    <div class="featured-title"><!-- featured-title -->
-                                        <h5><a href="#">Huzaifa Malam</a></h5>
-                                    </div>
-                                    <p class="category">Shopify Developer</p><!-- category -->
-                                </div>
-                            </div><!-- featured-imagebox-team end-->
                            
-                                    <div class="featured-imagebox featured-imagebox-team style1">
-                                <div class="featured-thumbnail"><!-- featured-thumbnail -->
-                                    <img class="img-fluid lazyload image_height_s" data-src="images/Bhumit kapuriya Shopify Developer at Codelock Solutions.webp" alt="image">
-                                   
-                                </div> 
-                                <div class="featured-content box-shadow">
-                                    <div class="featured-title"><!-- featured-title -->
-                                        <h5><a href="#">Bhumit Kapuriya</a></h5>
-                                    </div>
-                                    <p class="category">Shopify Developer</p><!-- category -->
-                                </div>
-                            </div><!-- featured-imagebox-team end-->
                                    
                         </div>
                     </div><!-- row end-->
@@ -719,7 +685,7 @@
                                 <!--    <p class="mb-0">CODELOCK SOLUTIONS</p>-->
                                 <!--</div>-->
                                 <!-- featured-icon-box end-->
-                            </div>
+                            </div>  
                         </div>
                     </div>
                     <!-- row end -->

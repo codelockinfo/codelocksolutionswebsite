@@ -73,12 +73,12 @@ a:focus {
     text-decoration: none; 
 }
 a:focus, a:hover { 
-    color: #2d4a8a; 
+    color: #728948; 
     text-decoration: none; 
 }
 a, button, input { 
     outline: medium none; 
-    color: #2d4a8a; 
+    color: #728948; 
 }
 ol, ul{ 
     padding: 0; 
@@ -98,17 +98,17 @@ p {
 }
 
 *::-moz-selection { 
-    background: #2d4a8a; 
+    background: #728948; 
     color: #fff; 
     text-shadow: none; 
 }
 ::-moz-selection { 
-    background: #2d4a8a; 
+    background: #728948; 
     color: #fff;
     text-shadow: none; 
 }
 ::selection { 
-    background: #2d4a8a; 
+    background: #728948; 
     color: #fff; 
     text-shadow: none; 
 }
@@ -171,7 +171,7 @@ body {
     background-color: #fff;
     letter-spacing: 0px;
 }
-h1, h2, h3, h4, h5, h6{ font-family: "Poppins",sans-serif; margin-bottom: 15px; font-weight: 600; color: #1e2637;}
+h1, h2, h3, h4, h5, h6{ font-family: "Poppins",sans-serif; margin-bottom: 15px; font-weight: 600; color: #374a16;}
 h1 { font-size: 45px; line-height: 50px; text-transform: uppercase;}
 h2 { font-size: 35px; line-height: 40px; }
 h3 { font-size: 27px; line-height: 35px; }
@@ -263,7 +263,7 @@ body .page.sidebar-true .site-main{
     overflow: hidden;
 }
 
-a{ color: #1e2637; }
+a{ color: #374a16; }
 
 .z-1{z-index: 1 !important;}
 .z-0{z-index: 1 !important;}
@@ -299,7 +299,7 @@ a{ color: #1e2637; }
     bottom: 30px;
     left: 30px;
     padding: 15px 30px 15px 30px;
-    border-left: 8px solid #1e2637;
+    border-left: 8px solid #374a16;
 }
 .about-overlay-02 h3{
     font-size: 24px;
@@ -584,12 +584,13 @@ ul li .icon-box.icon-style-border i,
 .timing-box i,
 .widget_info .widget_icon,
 .ttm-bgcolor-grey.ttm-topbar-wrapper .social-icons li>a:hover i{
-  color: #2d4a8a ;
+    background-color: #728948 ;
+
 }
 
 h1.ttm-textcolor-skincolor, h2.ttm-textcolor-skincolor, h3.ttm-textcolor-skincolor, 
 h4.ttm-textcolor-skincolor, h5.ttm-textcolor-skincolor, h6.ttm-textcolor-skincolor {
-  color: #2d4a8a ;
+  color: #728948 ;
 }
 
 /** Skin-bg-color **/
@@ -666,7 +667,7 @@ div.product ul.tabs li a:before,
 .testimonial-slide.style2.owl-theme .owl-controls .owl-nav div:hover,
 .testimonial-slide.style3.owl-theme .owl-dots .owl-dot span,
 .portfolio-slide.owl-theme .owl-dots .owl-dot.active span {
-  background-color: #2d4a8a ;
+  background-color: #728948 ;
 }
 
 /** Skin-border-color **/
@@ -708,7 +709,7 @@ input[type="color"]:focus,
 .ttm-blog-single-content .social-icons li>a:hover,
 .testimonial-slide.style2.owl-theme .owl-controls .owl-nav div:hover,
 textarea:focus { 
-    border-color: #2d4a8a !important;
+    border-color: #728948 !important;
 }
 .ttm-search-overlay,
 .ttm-rounded-shadow-box, div.product ul.tabs li.active a:before,
@@ -717,15 +718,15 @@ textarea:focus {
 .tooltip-top:before, .tooltip:before, [data-tooltip]:before,
 .section-title.with-desc .title-header:before,
 #site-header-menu #site-navigation .menu > ul{
-    border-top-color: #2d4a8a !important; 
+    border-top-color: #728948 !important; 
 }
 .ttm-search-overlay .w-search-form-row:before,
 .tooltip-bottom:before,
 .featured-imagebox-services.style1 .featured-content,
-.ttm-pf-single-detail-box { border-bottom-color: #2d4a8a !important; }
+.ttm-pf-single-detail-box { border-bottom-color: #728948 !important; }
 
 .quicklink-box .featured-icon-box .ttm-icon:before,
-.ttm-blog-single .ttm-blog-single-content blockquote{ border-left-color: #2d4a8a !important; }
+.ttm-blog-single .ttm-blog-single-content blockquote{ border-left-color: #728948 !important; }
 
 
 /** 2.DarkGrey-color **/
@@ -748,7 +749,7 @@ textarea:focus {
 .product-price,
 div.product ul.tabs li.active a,
 .ttm-team-details-list{
-  color: #1e2637;
+  color: #374a16;
 }
 
 /** DarkGrey-bg-color **/
@@ -778,22 +779,22 @@ div.product ul.tabs li a,
 .ttm-tabs.ttm-tab-style-horizontal ul.tabs li a,
 .featured-imagebox-services.style2 .ttm-box-view-overlay:after,
 .featured-imagebox-services.style2 .ttm-box-view-overlay:before{
-  background-color: #1e2637;
+  background-color: #374a16;
 }
 .darkgrey-border,
 .ttm-header-style-01 .ttm-header-icons .ttm-header-cart-link a:hover,
 .ttm-header-icons .ttm-header-cart-link a:hover,
 .ttm-box-view-left-image .featured-content .category> a,
 div.product ul.tabs li a{ 
-  border-color: #1e2637;
+  border-color: #374a16;
 }
-.ttm-bgcolor-skincolor .testimonials .testimonial-content{border-bottom-color: #1e2637;}
+.ttm-bgcolor-skincolor .testimonials .testimonial-content{border-bottom-color: #374a16;}
 .ttm-bgcolor-skincolor .tooltip-top:before, 
 .ttm-bgcolor-skincolor .tooltip:before, 
-.ttm-bgcolor-skincolor [data-tooltip]:before{border-top-color: #1e2637 !important;}
+.ttm-bgcolor-skincolor [data-tooltip]:before{border-top-color: #374a16 !important;}
 
 .sidebar .widget.widget-nav-menu ul li.active a:before,
-.sidebar .widget.widget-nav-menu ul li:hover a:before{border-right-color: #1e2637 !important;}
+.sidebar .widget.widget-nav-menu ul li:hover a:before{border-right-color: #374a16 !important;}
 /** 3.White-color **/
 .ttm-textcolor-white h1, .ttm-textcolor-white h2, .ttm-textcolor-white h3, 
 .ttm-textcolor-white h4, .ttm-textcolor-white h5, .ttm-textcolor-white h6, 
@@ -1288,7 +1289,7 @@ div.product ul.tabs li a{
     text-transform: capitalize;
     font-size: 15px;
     line-height: 19px;
-    color: #1e2637;
+    color: #374a16;
 }
   #site-header-menu #site-navigation ul ul li {
       position: relative;
@@ -1531,8 +1532,8 @@ div.product ul.tabs li a{
 /** SecondFooter **/
 .second-footer .quicklink-box {
     padding: 17px 15px;
-    border: 1px solid rgba(46,56,77,1);
-    background-color: rgba(34,44,64,1);
+    border: 1px solid #374a16;
+    background-color: #374a16;
     margin: 22px 0 0px;
     position: relative;
 }
@@ -1557,7 +1558,7 @@ div.product ul.tabs li a{
 .quicklink-box .featured-title h5{font-size: 17px;line-height: 24px;margin-bottom: 0;}
 .quicklink-box .featured-content{padding-left: 15px !important;}
 /** bottom-footer **/
-.bottom-footer-text{background-color: #222c40;}
+.bottom-footer-text{background-color: #728948;}
 
 /* newsletter-form */
 .newsletter-form {
@@ -1566,8 +1567,8 @@ div.product ul.tabs li a{
     margin-top: 25px;
 }
 .newsletter-form input[type="email"] {
-    border: 1px solid rgba(46,56,77,1);
-    background-color: rgba(34,44,64,1);
+    border: 1px solid #728948;
+    background-color: #728948;
     height: 47px;
     width: 100%;
     font-size: 14px;
