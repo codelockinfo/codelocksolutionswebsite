@@ -142,7 +142,7 @@
                       </div>
                   </div>
                   <div class="container">
-                        <h3 class="supportpara" id="4">Frequently asked questions</h3>
+                        <h3 class="supportpara" id="4">FAQs</h3>
                   </div>
                  <div class="container">
                   <div class="container">

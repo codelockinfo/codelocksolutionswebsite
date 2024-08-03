@@ -46,7 +46,7 @@
                 <span class="col-xl-6 blog-view1"
                     ><i class="fa fa-eye text-primary"></i> 13 Views</span
                 >
-                <a href="">
+                <a href="pricing-blog.php ">
                     <span class="col-xl-6 blog-read1"
                         >Read blog<i
                         class="fa fa-long-arrow-right text-primary mx-1"
