@@ -43,23 +43,6 @@
                         </a>
                     </div>
                 </div>
-                <h5 class="blog-heading1 mt-3">
-                Shopify Website Design Pricing in 2024-2025
-                </h5>
-                <hr />
-                <div class="row justify-content-between">
-                <span class="col-xl-6 blog-view1"
-                    ><i class="fa fa-eye text-primary"></i> 13 Views</span
-                >
-                <a href="pricing-blog.php ">
-                    <span class="col-xl-6 blog-read1"
-                        >Read blog<i
-                        class="fa fa-long-arrow-right text-primary mx-1"
-                        ></i
-                    ></span>
-                </a>
-                </div>
-            </div>
             </div>
             <div class="col-xl-3">
                 <div class="card-section border-0 p-3 mb-3">
