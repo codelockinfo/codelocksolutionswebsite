@@ -185,64 +185,9 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="col-xl-3">
-            <div class="card-section border-0 p-3 mb-3">
-                <img
-                src="images/blog-img/download9.png"
-                alt="download9"
-                class="download-image1"
-                />
-                <div class="col-12 mt-3">
-                <span class="date1"
-                    ><i class="fa fa-calendar text-primary"></i> June 5, 2024</span
-                >
-                </div>
-                <h5 class="blog-heading1 mt-3">
-                16 Best Single Product Shopify Themes (Free+Paid)
-                </h5>
-                <hr />
-                <div class="row justify-content-between">
-                <span class="col-xl-6 blog-view1"
-                    ><i class="fa fa-eye text-primary"></i> 294 Views</span
-                >
-                <a href="">
-                <span class="col-xl-6 blog-read1"
-                    >Read blog
-                    <i class="fa fa-long-arrow-right text-primary mx-1"></i
-                ></span>
-                </a>
-                </div>
-            </div>
-            </div> -->
-        </div>
+         </div>
     </div>
-    <!-- blog-image section end -->
-    <!-- pagination section start -->
-    <!-- <nav aria-label="Page navigation example">
-        <ul class="pagination pagination-sec">
-            <li class="page-item">
-            <a class="page-link bg-light text-dark border-0 fw-bold" href="#">
-                <i class="fa fa-angle-double-left"></i>
-                Previous
-            </a>
-            </li>
-            <li class="page-item">
-            <a class="page-link border-0 bg-light text-dark" href="#">1</a>
-            </li>
-            <li class="page-item">
-            <a class="page-link border-0 bg-light text-dark" href="#">2</a>
-            </li>
-            <li class="page-item">
-            <a class="page-link border-0 bg-light text-dark" href="#">3</a>
-            </li>
-            <li class="page-item">
-            <a class="page-link bg-light text-dark border-0" href="#">
-                Next
-                <i class="fa fa-angle-double-right"></i>
-            </a>
-            </li>
-        </ul>
-        </nav> -->
+    
     <!-- pagination section end -->
 </div>
 

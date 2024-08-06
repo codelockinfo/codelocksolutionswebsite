@@ -1,5 +1,5 @@
-<?php include 'header.php';?>
-   <!-- page-title -->
+<?php include 'header.php'; ?>
+<!-- page-title -->
 <div class="ttm-page-title-row">
     <div class="container">
         <div class="row">
@@ -165,18 +165,18 @@
                             <h5>Shopify vs Custom Website: Functionality</h5>
                             <ul class="container">
                                 <li class="mb-2">
-                                <strong>Shopify </strong>is a user-friendly eCommerce platform ideal for beginners and experts alike. It provides ready-made solutions and options, making it easy to set up an online store. Even if you’re unsure where to start, Shopify offers guidance and pre-set choices to help you. For those who aren’t tech-savvy, hiring a freelancer to manage the store is a straightforward option.
+                                    <strong>Shopify </strong>is a user-friendly eCommerce platform ideal for beginners and experts alike. It provides ready-made solutions and options, making it easy to set up an online store. Even if you’re unsure where to start, Shopify offers guidance and pre-set choices to help you. For those who aren’t tech-savvy, hiring a freelancer to manage the store is a straightforward option.
                                 </li>
                                 <li class="mb-2">
-                                <strong>Custom Websites</strong> require building from scratch, meaning you must know exactly what you want and understand various features and tools. This can be challenging for beginners. Without clear instructions, even experienced designers may struggle to meet expectations.
+                                    <strong>Custom Websites</strong> require building from scratch, meaning you must know exactly what you want and understand various features and tools. This can be challenging for beginners. Without clear instructions, even experienced designers may struggle to meet expectations.
                                 </li>
                                 <strong>Ease of Use: </strong>
                                 <li>
-                                Shopify is designed for everyone, from novices to eCommerce experts. Setting up an account and configuring your store is quick and simple. In contrast, custom websites demand extensive knowledge in coding, web development, and hosting services, often requiring professional help.
+                                    Shopify is designed for everyone, from novices to eCommerce experts. Setting up an account and configuring your store is quick and simple. In contrast, custom websites demand extensive knowledge in coding, web development, and hosting services, often requiring professional help.
                                 </li>
                                 <strong>Setup and Management: </strong>
                                 <li>
-                                Shopify’s dashboard is intuitive, showing clear steps to add a domain, customize themes, and upload products. Custom websites need a web developer and separate services like hosting and domain registration, making the setup process more complex and time-consuming.
+                                    Shopify’s dashboard is intuitive, showing clear steps to add a domain, customize themes, and upload products. Custom websites need a web developer and separate services like hosting and domain registration, making the setup process more complex and time-consuming.
                                 </li>
                             </ul>
                         </div>
@@ -185,7 +185,7 @@
                             <ul class="container">
                                 <li class="mb-2">
                                     <strong class="me-1">Shopify </strong>offers convenient, pre-designed themes that are attractive and responsive. Users select the themes that best fit their business needs.
-                                    </li>
+                                </li>
                                 <li class="mb-2">
                                     <strong class="me-1">Custom Websites </strong> allow for unlimited customization, enabling owners to design their sites exactly as they envision. This flexibility supports growth and adaptability but requires more effort and expertise.
                                 </li>
@@ -196,7 +196,7 @@
                             <ul class="container">
                                 <li class="mb-2">
                                     <strong class="me-1">Shopify </strong>provides 73 pre-designed themes, including free and paid options ($140-$180), perfect for quick starts.
-                                    </li>
+                                </li>
                                 <li class="mb-2">
                                     <strong class="me-1">Custom Websites </strong>demand creativity to design unique themes from scratch. This is great for professionals but challenging for beginners and often more expensive.
                                 </li>
@@ -215,7 +215,7 @@
                             <ul class="container">
                                 <li class="mb-2">
                                     <strong class="me-1">Shopify </strong>includes built-in features like fraud analysis, payment gateways, and product management. Shopify Maintenance Services can help maintain these features.
-                                    </li>
+                                </li>
                                 <li class="mb-2">
                                     <strong class="me-1">Custom Websites </strong>need individual tools and features integrated, often at additional costs, making this process both expensive and time-consuming.
                                 </li>
@@ -229,7 +229,7 @@
                             <ul class="container">
                                 <li class="mb-2">
                                     <strong class="me-1">Shopify </strong>has its own payment system and supports major gateways like PayPal, Apple Pay, and Stripe. Using non-Shopify payment providers incurs small fees.
-                                    </li>
+                                </li>
                                 <li class="mb-2">
                                     <strong class="me-1">Custom Websites </strong>require manually integrating preferred payment gateways, which can be costly and complicated.
                                 </li>
@@ -238,12 +238,12 @@
                         <div class="container mt-3">
                             <h5>Budget and Pricing</h5>
                             <p><strong class="me-1">Shopify </strong> has tiered pricing plans:</p>
-                            
-                               <li>Shopify Lite: $9/month</li>
-                               <li>Advanced Shopify: $299/month</li>
-                               <li>Basic Shopify: $29/month</li>
-                               <li class="mb-3">Advanced Shopify: $299/month</li>
-                               
+
+                            <li>Shopify Lite: $9/month</li>
+                            <li>Advanced Shopify: $299/month</li>
+                            <li>Basic Shopify: $29/month</li>
+                            <li class="mb-3">Advanced Shopify: $299/month</li>
+
                             <p><strong class="me-1">Custom Websites</strong>involve one-time costs for hosting, payment gateways, staff accounts, and customizations, which can be very expensive.</p>
                         </div>
                         <div class="container mt-3">
@@ -251,7 +251,7 @@
                             <ul class="container">
                                 <li class="mb-2">
                                     <strong class="me-1">Shopify </strong>provides built-in SEO benefits, ensuring stores are optimized for search engines.
-                                    </li>
+                                </li>
                                 <li class="mb-2">
                                     <strong class="me-1">Custom Websites </strong>need manual SEO setup to ensure visibility on search engines, requiring more effort and expertise.
                                 </li>
@@ -262,7 +262,7 @@
                             <ul class="container">
                                 <li class="mb-2">
                                     <strong class="me-1">Shopify </strong>offers a variety of built-in marketing tools, from discount applications to customer engagement features.
-                                    </li>
+                                </li>
                                 <li class="mb-2">
                                     <strong class="me-1">Custom Websites </strong>require third-party marketing tools, needing careful selection and integration, which can be hit or miss.
                                 </li>
@@ -273,38 +273,38 @@
                         <h3 class="supportpara" id="allinone"> The All-in-One Solution</h3>
                     </div>
                     <div class="container mt-3">
-                            <h5>Dropshipping</h5>
-                            <ul class="container">
-                                <li class="mb-2">
-                                    <strong class="me-1">Shopify </strong>supports easy shipping options and drop-shipping features, allowing clients to sell products without maintaining inventory.
-                                    </li>
-                                <li class="mb-2">
-                                    <strong class="me-1">Custom Websites </strong>need to set up shipping and drop-shipping arrangements independently, which can be complex and costly.
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="container mt-3">
-                            <h5>Customer Support</h5>
-                            <ul class="container">
-                                <li class="mb-2">
-                                    <strong class="me-1">Shopify </strong>offers 24/7 customer and technical support via various communication methods, along with tutorials and community forums.
-                                    </li>
-                                <li class="mb-2">
-                                    <strong class="me-1">Custom Websites </strong> rely on self-research and resources like Google, YouTube tutorials, and forums, lacking dedicated support.
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="container mt-3">
-                            <h5>Mobile Responsiveness</h5>
-                            <ul class="container">
-                                <li class="mb-2">
-                                    <strong class="me-1">Shopify </strong> themes are mobile responsive and come with a mobile app for easy access.
-                                    </li>
-                                <li class="mb-2">
-                                    <strong class="me-1">Custom Websites </strong>may struggle with mobile responsiveness, requiring careful selection of themes and potentially additional investment in a mobile app.
-                                </li>
-                            </ul>
-                        </div>
+                        <h5>Dropshipping</h5>
+                        <ul class="container">
+                            <li class="mb-2">
+                                <strong class="me-1">Shopify </strong>supports easy shipping options and drop-shipping features, allowing clients to sell products without maintaining inventory.
+                            </li>
+                            <li class="mb-2">
+                                <strong class="me-1">Custom Websites </strong>need to set up shipping and drop-shipping arrangements independently, which can be complex and costly.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container mt-3">
+                        <h5>Customer Support</h5>
+                        <ul class="container">
+                            <li class="mb-2">
+                                <strong class="me-1">Shopify </strong>offers 24/7 customer and technical support via various communication methods, along with tutorials and community forums.
+                            </li>
+                            <li class="mb-2">
+                                <strong class="me-1">Custom Websites </strong> rely on self-research and resources like Google, YouTube tutorials, and forums, lacking dedicated support.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container mt-3">
+                        <h5>Mobile Responsiveness</h5>
+                        <ul class="container">
+                            <li class="mb-2">
+                                <strong class="me-1">Shopify </strong> themes are mobile responsive and come with a mobile app for easy access.
+                            </li>
+                            <li class="mb-2">
+                                <strong class="me-1">Custom Websites </strong>may struggle with mobile responsiveness, requiring careful selection of themes and potentially additional investment in a mobile app.
+                            </li>
+                        </ul>
+                    </div>
                     <div class="container">
                         <h3 class="supportpara" id="Making">Making the Decision</h3>
                     </div>
@@ -330,7 +330,7 @@
                             <li>
                                 Assess your business’s specific needs. If you require unique functionalities and a
                                 highly tailored user experience, a custom website might be worth the investment.
-                             </li>
+                            </li>
                         </ul>
                     </div>
                     <div class="container">
@@ -346,91 +346,6 @@
                             effective approach to obtaining the answers to your questions.
                         </p>
                     </div>
-                    <!-- <div class="container">
-                        <img src="images/blogdetail-img/image2-1-1.webp" alt="image2-1-1" class="w-100" />
-                    </div>
-                    <div class="container mt-3">
-                        <h5>Shopify Live Chat Support</h5>
-                        <p>
-                            Shopify’s live chat feature makes it easy to get in touch with
-                            customer support. As Shopify Live Support offers live chat
-                            support 24/7, you can get help with your store operations in
-                            real time. Simply do the following steps to get access:
-                        </p>
-                        <p>Log in to your Shopify account> Contact Shopify Support</p>
-                    </div>
-                    <div class="container">
-                        <img src="images/blogdetail-img/image2-1-1.webp" alt="image2-1-1" class="w-100" />
-                    </div>
-                    <div class="container mt-3">
-                        <p>
-                            You might be able to find answers to your question by browsing
-                            the most popular articles and FAQs on Shopify. After choosing a
-                            solution from the list, click “<strong>Chat with Us</strong>“.
-                            Kindly enter your name, email address, address, and question.
-                        </p>
-                    </div>
-                    <div class="container">
-                        <p>
-                            As an alternative, you can also connect with the
-                            <strong>Shopify virtual chat assistant</strong> situated on the
-                            right-hand side of the screen. If your problem is still unsolved
-                            and requires human assistance, you can request a chat with a
-                            support agent. Remember the following advice when participating
-                            in a live chat with Shopify support-
-                        </p>
-                    </div>
-                    <div class="container">
-                        <ul type="disc" class="container">
-                            <li>
-                                Give a detailed description of the problem you are having.
-                                Providing more details will help your support agent understand
-                                your situation and provide you with better assistance.
-                            </li>
-                            <li>
-                                Support advisors may have a few minutes to respond during peak
-                                times, especially during busy periods. Remember, they are
-                                handling a lot of inquiries at once, and are trying their best
-                                to help everyone as soon as possible.
-                            </li>
-                            <li>
-                                Be responsive to the agent’s messages as soon as possible.
-                                This keeps the discussion going and makes it possible to solve
-                                your issue more quickly.
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="container">
-                        <h5>Shopify Email Support</h5>
-                        <p>
-                            If you need a thorough explanation and your issue isn’t urgent,
-                            shopify email contact can be a fantastic method to ask for
-                            assistance. Although it might not be the quickest method,
-                            shopify email contact thoroughly describes your issue. Here’s
-                            how to use Shopify email contact-
-                        </p>
-                        <ul type="disc" class="container">
-                            <li>Clearly explain your problem in an email.</li>
-                            <li>
-                                Put your account information and store’s website address in
-                                there.
-                            </li>
-                            <li>
-                                For quicker troubleshooting, attach relevant documents or
-                                screenshots.
-                            </li>
-                            <li>
-                                Send the email to
-                                <a href="#" mailto:class="shopifyhelp">support@shopify.com.</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="container">
-                        <p>
-                            By using the shopify contact email, you can make sure that
-                            Shopify provides you with the thorough support you need.
-                        </p>
-                    </div> -->
                     <div class="container">
                         <h5>Shopify Contact Number</h5>
                     </div>
@@ -466,15 +381,17 @@
                     <div class="container persondetail">
                         <div class="row">
                             <div class="col-xl-3">
-                                <img src="images/blog-img/person1.jpeg" alt="person1" class="person1" />
+                                <div class="author_img_box">
+                                    <img src="images/logo.png" alt="person1" class="person1" />
+                                </div>
                             </div>
                             <div class="col-xl-9 mt-3">
                                 <h5 class="author">About the author</h5>
                                 <h6>
-                                    <a href="#" class="shopifyhelp bidisha">Bidisha Saha</a>
+                                    <a href="#" class="shopifyhelp bidisha">Codelock team</a>
                                 </h6>
                                 <p class="bidisha1">
-                                    Step into the content world with Bidisha Saha, a seasoned
+                                    Step into the content world with Codelock team, a seasoned
                                     Senior Content Writer at Identixweb. Passionate about
                                     e-commerce, technology, and marketing, she optimizes online
                                     visibility, crafting engaging content for business growth.
@@ -587,64 +504,70 @@
     </div>
     <div class="container-fluid mt-5">
         <div class="section-heading">
-            <h3 class="text-center">Our Related Blogs</h3>
+            <h3 class="text-center">New added</h3>
         </div>
     </div>
     <div class="container-fluid p-5 image-grp">
         <div class="row card1">
             <div class="col-xl-3">
                 <div class="card-section border-0 p-3 mb-3">
-                    <img src="images/blog-img/download2.jpg" alt="download2" class="download-image1" />
+                    <img src="images/blog-img/shopify plus.webp" alt="dowload5" class="download-image1" />
                     <div class="col-12 mt-3">
-                        <span class="date1"><i class="fa fa-calendar text-primary"></i> July 2, 2024</span>
+                        <span class="date1"><i class="fa fa-calendar text-primary"></i> June 20, 2024</span>
                     </div>
                     <h5 class="blog-heading1 mt-3">
-                        How to Hide Pages From Shopify Search Using Metafields
+                        What Are The Benefits Of Shopify Plus When You Upgrage?
                     </h5>
                     <hr />
-                    <div class="row">
-                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 68 Views</span>
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
+                    <div class="row justify-content-between">
+                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 169 Views</span>
+                        <a href="shopifyplus.php">
+                            <span class="col-xl-6 blog-read1">Read blog
+                                <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-3">
                 <div class="card-section border-0 p-3 mb-3">
-                    <img src="images/blog-img/download3.png" alt="download3" class="download-image1" />
+                    <img src="images/blog-img/What-is-Shopify-Collabs.jpg" alt="download7" class="download-image1" />
+                    <div class="col-12 mt-3">
+                        <span class="date1"><i class="fa fa-calendar text-primary"></i> June 12, 2024</span>
+                    </div>
+                    <h5 class="blog-heading1 mt-3">
+                        Shopify Collabs – Everything You Need to Know About It in 2024
+                    </h5>
+                    <hr />
+                    <div class="row justify-content-between">
+                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 249 Views</span>
+                        <a href=" collabs.php">
+                            <span class="col-xl-6 blog-read1">Read blog
+                                <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3">
+                <div class="card-section border-0 p-3 mb-3">
+                    <img src="images/blog-img/why_Shopify-Experts.webp" alt="download3" class="download-image1" />
                     <div class="col-12 mt-3">
                         <span class="date1"><i class="fa fa-calendar text-primary"></i> June 25, 2024</span>
                     </div>
                     <h5 class="blog-heading1 mt-3">
-                        Shopify Online Store 2.0: Upgrade Your Ecommerce Business Needs
+                        Why Should You Hire Shopify Experts
                     </h5>
                     <hr />
-                    <div class="row">
+                    <div class="row justify-content-between">
                         <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 110 Views</span>
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3">
-                <div class="card-section border-0 p-3 mb-3">
-                    <img src="images/blog-img/download4.png" alt="download4" class="download-image1" />
-                    <div class="col-12 mt-3">
-                        <span class="date1"><i class="fa fa-calendar text-primary"></i> June 24, 2024</span>
-                    </div>
-                    <h5 class="blog-heading1 mt-3">
-                        A Detailed Guide for Shopify Merchants
-                    </h5>
-                    <hr />
-                    <div class="row">
-                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 123 Views</span>
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
+                        <a href="hireexpert.php">
+                            <span class="col-xl-6 blog-read1">Read blog
+                                <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-    
-<?php include 'footer.php';?>
+
+<?php include 'footer.php'; ?>

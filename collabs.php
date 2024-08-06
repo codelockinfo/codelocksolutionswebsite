@@ -1,5 +1,5 @@
-<?php include 'header.php';?>
-   <!-- page-title -->
+<?php include 'header.php'; ?>
+<!-- page-title -->
 <div class="ttm-page-title-row">
     <div class="container">
         <div class="row">
@@ -44,10 +44,10 @@
                             <a href="#3" class="shopifylist">3 Advantages of Shopify Collaborations</a>
                         </p>
                         <p class="px-3">
-                            <a href="#3.1" class="shopifylist">3.1 Attention Merchants </a>   
+                            <a href="#3.1" class="shopifylist">3.1 Attention Merchants </a>
                         </p>
                         <p class="px-3">
-                            <a href="#3.2" class="shopifylist">3.2 Regarding Creators</a>   
+                            <a href="#3.2" class="shopifylist">3.2 Regarding Creators</a>
                         </p>
                         <p class="">
                             <a href="#4" class="shopifylist">4 Frequently asked questions</a>
@@ -58,7 +58,7 @@
                     </div>
                     <div class="container">
                         <p class="">
-                          Shopify Collabs is a platform that connects Shopify merchants with creators and influencers to enhance brand presence and drive sales. Key features include tools for discovering influencers, managing collaborations, tracking performance, seamless integration with Shopify, and handling payments and contracts. The platform benefits merchants by increasing visibility, providing authentic marketing, streamlining processes, and enabling data-driven decisions. To get started, merchants can sign up through their Shopify dashboard, set up a profile, search for creators, initiate contact, manage campaigns, and evaluate performance. Influencer marketing trends for 2024 include working with micro-influencers, focusing on video content, promoting authenticity, and fostering long-term partnerships. Ultimately, Shopify Collabs empowers merchants to build effective influencer partnerships, driving brand growth and sales in 2024.
+                            Shopify Collabs is a platform that connects Shopify merchants with creators and influencers to enhance brand presence and drive sales. Key features include tools for discovering influencers, managing collaborations, tracking performance, seamless integration with Shopify, and handling payments and contracts. The platform benefits merchants by increasing visibility, providing authentic marketing, streamlining processes, and enabling data-driven decisions. To get started, merchants can sign up through their Shopify dashboard, set up a profile, search for creators, initiate contact, manage campaigns, and evaluate performance. Influencer marketing trends for 2024 include working with micro-influencers, focusing on video content, promoting authenticity, and fostering long-term partnerships. Ultimately, Shopify Collabs empowers merchants to build effective influencer partnerships, driving brand growth and sales in 2024.
                         </p>
                     </div>
                     <div class="container">
@@ -89,22 +89,22 @@
                     <div class="container">
                         <div class="container">
                             <h5 id="3.1">Attention Merchants</h5>
-                                <p>1. <strong>Increased Brand Awareness:</strong> Brands may reach new audiences by partnering with creators, who already have strong followings. This increases brand visibility and awareness.
-                                </p>
-                                <p>2. <strong>Streamlined Collaboration:</strong> Shopify Collabs offers the resources needed to effectiveely oversee several partnerships, from the first outreach to the last performance evaluation, all from within a single platform.
-                                </p>
-                                <p>3. <strong>Performance Insights:</strong> The software provides comprehensive insights, such as engagement rates, traffic, and conversions, to monitor the effectiveness of every partnership. This allows for data-driven decision-making.
-                                </p>
-                                <p>4. <strong>Cost-Effective Marketing:</strong> Brands might attain noteworthy marketing outcomes without incurring the hefty expenses linked to conventional advertising channels by collaborating with creators.
-                                </p>
-                                <p>5. <strong>Enhanced Authenticity:</strong> Influencers lend a degree of credibility and sincerity to brand recommendations that traditional advertisements frequently do not, resulting in more sincer.
-                                </p>
+                            <p>1. <strong>Increased Brand Awareness:</strong> Brands may reach new audiences by partnering with creators, who already have strong followings. This increases brand visibility and awareness.
+                            </p>
+                            <p>2. <strong>Streamlined Collaboration:</strong> Shopify Collabs offers the resources needed to effectiveely oversee several partnerships, from the first outreach to the last performance evaluation, all from within a single platform.
+                            </p>
+                            <p>3. <strong>Performance Insights:</strong> The software provides comprehensive insights, such as engagement rates, traffic, and conversions, to monitor the effectiveness of every partnership. This allows for data-driven decision-making.
+                            </p>
+                            <p>4. <strong>Cost-Effective Marketing:</strong> Brands might attain noteworthy marketing outcomes without incurring the hefty expenses linked to conventional advertising channels by collaborating with creators.
+                            </p>
+                            <p>5. <strong>Enhanced Authenticity:</strong> Influencers lend a degree of credibility and sincerity to brand recommendations that traditional advertisements frequently do not, resulting in more sincer.
+                            </p>
                         </div>
                     </div>
-                  <div class="container">
-                      <div class="container mt-3">
-                          <h5 class="mb-30" id="3.2">Regarding Creators</h5>
-                          <h6 class="mt-3">Increased Brand Awareness:</h6>
+                    <div class="container">
+                        <div class="container mt-3">
+                            <h5 class="mb-30" id="3.2">Regarding Creators</h5>
+                            <h6 class="mt-3">Increased Brand Awareness:</h6>
                             <p>By collaborating with companies that connect with their audience, creators can generate additional revenue through affiliate marketing, sponsored content, and other means.
                             </p>
                             <h6>Simplified Management</h6>
@@ -119,59 +119,61 @@
                             <h6>Professional Development</h6>
                             <p>Creators can expand their professional network, learn best practices from the industry, and enhance the quality of their material by working with well-known businesses.
                             </p>
-                      </div>
-                  </div>
-                  <div class="container">
+                        </div>
+                    </div>
+                    <div class="container">
                         <h3 class="supportpara" id="4">Frequently asked questions</h3>
-                  </div>
-                 <div class="container">
-                  <div class="container">
-                    <h5>Why Are Shopify Collabs Required for Shopify Brands?</h5>
-                    <p>Shopify Collabs are essential for Shopify brands to effectively utilize influencer marketing. Through reputable recommendations, the platform assists brands in connecting with industry leaders, developing authentic relationships with new audiences, and increasing sales. It improves the entire process of working together, which facilitates the management and assessment of influencer interactions.</p>
-                   </div>   
-                  <div class="container">
-                    <h5>How to Evaluate Your Creator Relationships’ Effectiveness in Shopify Collabs?</h5>
-                    <p>The extensive analytics dashboard provided by Shopify Collabs can be used to assess effectiveness. This tool offers valuable insights into important performance indicators from each cooperation, including conversion rates, website traffic produced, engagement rates, and return on investment (ROI). Brands are able to determine which creators give the greatest outcomes and maximize their strategies of the future collaboration effectively.</p>
-                   </div>   
-                  <div class="container">
-                    <h5>Can Shopify Collabs Help Small Businesses?</h5>
-                    <p>Absolutely. Shopify Collabs aims to be useful and available to companies of all sizes. Small businesses don’t need a big marketing spend to reach a specific audience because they may use the platform to locate influencers who are enthusiastic about their industry.</p>
-                   </div>   
-                  <div class="container">
-                    <h5>Is it Easy for Novices to Use Shopify Collabs?</h5>
-                    <p>Yes, Shopify Collabs has a simple user interface that even beginners can easily utilize. To make sure new users have an easy time, the site offers step-by-step instructions for creating accounts, starting partnerships, and analyzing performance.</p>
-                   </div> 
-                  <div class="container">
-                    <h5>What Kind of Artists Can Utilize Shopify Collaborations?</h5>
-                    <p>Shopify Collabs serves a variety of creators, covering bloggers, vloggers, influencers on social media, and content producers on several platforms. Find brand collaborations that fit your content and audience using Shopify Collabs, regardless of your niche—be it fashion, beauty, tech, lifestyle, or anything else.</p>
-                   </div> 
-                </div>                    
-                             
-                     
+                    </div>
+                    <div class="container">
+                        <div class="container">
+                            <h5>Why Are Shopify Collabs Required for Shopify Brands?</h5>
+                            <p>Shopify Collabs are essential for Shopify brands to effectively utilize influencer marketing. Through reputable recommendations, the platform assists brands in connecting with industry leaders, developing authentic relationships with new audiences, and increasing sales. It improves the entire process of working together, which facilitates the management and assessment of influencer interactions.</p>
+                        </div>
+                        <div class="container">
+                            <h5>How to Evaluate Your Creator Relationships’ Effectiveness in Shopify Collabs?</h5>
+                            <p>The extensive analytics dashboard provided by Shopify Collabs can be used to assess effectiveness. This tool offers valuable insights into important performance indicators from each cooperation, including conversion rates, website traffic produced, engagement rates, and return on investment (ROI). Brands are able to determine which creators give the greatest outcomes and maximize their strategies of the future collaboration effectively.</p>
+                        </div>
+                        <div class="container">
+                            <h5>Can Shopify Collabs Help Small Businesses?</h5>
+                            <p>Absolutely. Shopify Collabs aims to be useful and available to companies of all sizes. Small businesses don’t need a big marketing spend to reach a specific audience because they may use the platform to locate influencers who are enthusiastic about their industry.</p>
+                        </div>
+                        <div class="container">
+                            <h5>Is it Easy for Novices to Use Shopify Collabs?</h5>
+                            <p>Yes, Shopify Collabs has a simple user interface that even beginners can easily utilize. To make sure new users have an easy time, the site offers step-by-step instructions for creating accounts, starting partnerships, and analyzing performance.</p>
+                        </div>
+                        <div class="container">
+                            <h5>What Kind of Artists Can Utilize Shopify Collaborations?</h5>
+                            <p>Shopify Collabs serves a variety of creators, covering bloggers, vloggers, influencers on social media, and content producers on several platforms. Find brand collaborations that fit your content and audience using Shopify Collabs, regardless of your niche—be it fashion, beauty, tech, lifestyle, or anything else.</p>
+                        </div>
+                    </div>
+
+
                     <div class="container">
                         <h5 class="supportpara" id="Final">Final Thoughts</h5>
                         <p>
-                          Shopify Collabs is a platform that connects Shopify merchants with creators and influencers to enhance brand presence and drive sales. Key features include tools for discovering influencers, managing collaborations, tracking performance, seamless integration with Shopify, and handling payments and contracts. The platform benefits merchants by increasing visibility, providing authentic marketing, streamlining processes, and enabling data-driven decisions. To get started, merchants can sign up through their Shopify dashboard, set up a profile, search for creators, initiate contact, manage campaigns, and evaluate performance. Influencer marketing trends for 2024 include working with micro-influencers, focusing on video content, promoting authenticity, and fostering long-term partnerships. Ultimately, Shopify Collabs empowers merchants to build effective influencer partnerships, driving brand growth and sales in 2024.
+                            Shopify Collabs is a platform that connects Shopify merchants with creators and influencers to enhance brand presence and drive sales. Key features include tools for discovering influencers, managing collaborations, tracking performance, seamless integration with Shopify, and handling payments and contracts. The platform benefits merchants by increasing visibility, providing authentic marketing, streamlining processes, and enabling data-driven decisions. To get started, merchants can sign up through their Shopify dashboard, set up a profile, search for creators, initiate contact, manage campaigns, and evaluate performance. Influencer marketing trends for 2024 include working with micro-influencers, focusing on video content, promoting authenticity, and fostering long-term partnerships. Ultimately, Shopify Collabs empowers merchants to build effective influencer partnerships, driving brand growth and sales in 2024.
                         </p>
                         <p>
-                        Shopify Collabs is a game-changing platform that gives creators and merchants alike an easy method to create powerful partnerships that promote expansion and success. Influencer partnerships increase brand awareness and sales for retailers. It gives creators chances to make money and enhances their visibility and authority.
+                            Shopify Collabs is a game-changing platform that gives creators and merchants alike an easy method to create powerful partnerships that promote expansion and success. Influencer partnerships increase brand awareness and sales for retailers. It gives creators chances to make money and enhances their visibility and authority.
                         </p>
                         <p>
-                        The platform is a priceless device in the modern marketing toolset because of its extensive capabilities, which include discovery, management, and performance analysis. Through the establishment of deep connections between creators and companies, Shopify Collabs opens up new avenues for genuine partnerships that yield tangible outcomes.Are you prepared to improve your teamwork skills? Get the Shopify Collabs app now to get started creating collaborations that have an actual impact. Accept the power of teamwork to expand your brand’s or your creative career’s possibilities. With Shopify Collabs, you can change the way you interact with your audience and leverage the power of influencer marketing to reach your professional or personal objectives.
+                            The platform is a priceless device in the modern marketing toolset because of its extensive capabilities, which include discovery, management, and performance analysis. Through the establishment of deep connections between creators and companies, Shopify Collabs opens up new avenues for genuine partnerships that yield tangible outcomes.Are you prepared to improve your teamwork skills? Get the Shopify Collabs app now to get started creating collaborations that have an actual impact. Accept the power of teamwork to expand your brand’s or your creative career’s possibilities. With Shopify Collabs, you can change the way you interact with your audience and leverage the power of influencer marketing to reach your professional or personal objectives.
                         </p>
                     </div>
                     <div class="container persondetail">
                         <div class="row">
                             <div class="col-xl-3">
-                                <img src="images/blog-img/person1.jpeg" alt="person1" class="person1" />
+                                <div class="author_img_box">
+                                    <img src="images/logo.png" alt="person1" class="person1" />
+                                </div>
                             </div>
                             <div class="col-xl-9 mt-3">
                                 <h5 class="author">About the author</h5>
                                 <h6>
-                                    <a href="#" class="shopifyhelp bidisha">Bidisha Saha</a>
+                                    <a href="#" class="shopifyhelp bidisha">Codelock team</a>
                                 </h6>
                                 <p class="bidisha1">
-                                    Step into the content world with Bidisha Saha, a seasoned
+                                    Step into the content world with Codelock team, a seasoned
                                     Senior Content Writer at Identixweb. Passionate about
                                     e-commerce, technology, and marketing, she optimizes online
                                     visibility, crafting engaging content for business growth.
@@ -284,64 +286,70 @@
     </div>
     <div class="container-fluid mt-5">
         <div class="section-heading">
-            <h3 class="text-center">Our Related Blogs</h3>
+            <h3 class="text-center">New added</h3>
         </div>
     </div>
     <div class="container-fluid p-5 image-grp">
         <div class="row card1">
             <div class="col-xl-3">
                 <div class="card-section border-0 p-3 mb-3">
-                    <img src="images/blog-img/download2.jpg" alt="download2" class="download-image1" />
+                    <img src="images/blog-img/shopify-develoment.png" alt="download8" class="download-image1" />
                     <div class="col-12 mt-3">
-                        <span class="date1"><i class="fa fa-calendar text-primary"></i> July 2, 2024</span>
+                        <span class="date1"><i class="fa fa-calendar text-primary"></i> June 7, 2024</span>
                     </div>
                     <h5 class="blog-heading1 mt-3">
-                        How to Hide Pages From Shopify Search Using Metafields
+                        Transferring Shopify Development Store to Clients
                     </h5>
                     <hr />
-                    <div class="row">
-                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 68 Views</span>
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
+                    <div class="row justify-content-between">
+                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 245 Views</span>
+                        <a href="tranceclient.php">
+                            <span class="col-xl-6 blog-read1">Read blog
+                                <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-3">
                 <div class="card-section border-0 p-3 mb-3">
-                    <img src="images/blog-img/download3.png" alt="download3" class="download-image1" />
+                    <img src="images/blog-img/pricing.png" alt="download1" class="download-image1" />
+                    <div class="col-12 mt-3">
+                        <span class="date1"><i class="fa fa-calendar text-primary calendar-icon"></i> July
+                            9, 2024</span>
+                    </div>
+                    <h5 class="blog-heading1 mt-3">
+                        Shopify Website Design Pricing in 2024-2025
+                    </h5>
+                    <hr />
+                    <div class="row justify-content-between">
+                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 13 Views</span>
+                        <a href="pricing-blog.php">
+                            <span class="col-xl-6 blog-read1">Read blog<i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3">
+                <div class="card-section border-0 p-3 mb-3">
+                    <img src="images/blog-img/why_Shopify-Experts.webp" alt="download3" class="download-image1" />
                     <div class="col-12 mt-3">
                         <span class="date1"><i class="fa fa-calendar text-primary"></i> June 25, 2024</span>
                     </div>
                     <h5 class="blog-heading1 mt-3">
-                        Shopify Online Store 2.0: Upgrade Your Ecommerce Business Needs
+                        Why Should You Hire Shopify Experts
                     </h5>
                     <hr />
-                    <div class="row">
+                    <div class="row justify-content-between">
                         <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 110 Views</span>
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3">
-                <div class="card-section border-0 p-3 mb-3">
-                    <img src="images/blog-img/download4.png" alt="download4" class="download-image1" />
-                    <div class="col-12 mt-3">
-                        <span class="date1"><i class="fa fa-calendar text-primary"></i> June 24, 2024</span>
-                    </div>
-                    <h5 class="blog-heading1 mt-3">
-                        A Detailed Guide for Shopify Merchants
-                    </h5>
-                    <hr />
-                    <div class="row">
-                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 123 Views</span>
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
+                        <a href="hireexpert.php">
+                            <span class="col-xl-6 blog-read1">Read blog
+                                <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-    
-<?php include 'footer.php';?>
+
+<?php include 'footer.php'; ?>
