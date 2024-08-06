@@ -673,7 +673,7 @@ div.product ul.tabs li a:before,
 .testimonial-slide.style2.owl-theme .owl-controls .owl-nav div:hover,
 .testimonial-slide.style3.owl-theme .owl-dots .owl-dot span,
 .portfolio-slide.owl-theme .owl-dots .owl-dot.active span {
-  background-color: #728948 ;
+  background-color: #728948 !important;
 }
 
 /** Skin-border-color **/
