@@ -68,10 +68,10 @@
             </section>
             <!-- zero-padding-section -->
             <section class="ttm-row zero-padding-section mt_50 res-991-mt-0 clearfix">
-                <div class="container-fluid shopify-plus-img">
-        
-                  <img src="images/vedio/shopify.gif" alt="Animated GIF">
-                
+                <div class="shopify-plus-img">
+                  <!-- <img src="images/vedio/shopify.gif" alt="Animated GIF"> -->
+                  <img src="images/vedio/shopify export.gif" alt="Animated GIF">
+
                 </div>
             </section>
             <?php include 'image-slider.php';?>

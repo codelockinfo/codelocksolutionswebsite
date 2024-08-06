@@ -187,7 +187,7 @@
 		    text-align: center;
 }
 .image-slider#slider .slide-controls {
-    color: #2d4a8a;
+    color: #374a16;
     font-weight: 300;
 }
 .image-slider#slider .slide-controls span.slider-previous {

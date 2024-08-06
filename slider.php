@@ -7,7 +7,7 @@
                         <rs-layer
                             id="slider-2-slide-1-layer-0" 
                             data-type="text"
-                            data-color="#2d4a8a"
+                            data-color="#728948"
                             data-rsp_ch="on"
                             data-xy="xo:50px,50px,40px,-164px;yo:326px,196px,94px,61px;"
                             data-text="w:normal;s:18,18,15,10;l:25,25,15,9;fw:500;"
@@ -35,7 +35,7 @@
                         <rs-layer
                             id="slider-2-slide-1-layer-3" 
                             data-type="text"
-                            data-color="#1e2637"
+                            data-color="#728948"
                             data-rsp_ch="on"
                             data-xy="x:l,l,l,c;xo:50px,50px,40px,0;yo:363px,233px,124px,59px;"
                             data-text="w:normal;s:62,52,45,37;l:70,60,50,60;fw:600;"
@@ -47,7 +47,7 @@
                         <rs-layer
                             id="slider-2-slide-1-layer-4" 
                             data-type="text"
-                            data-color="#1e2637"
+                            data-color="#728948"
                             data-rsp_ch="on"
                             data-xy="x:l,l,l,c;xo:50px,50px,40px,0;yo:436px,294px,173px,104px;"
                             data-text="w:normal;s:62,52,45,37;l:75,65,60,60;fw:600;"
@@ -86,7 +86,7 @@
                         <rs-layer
                             id="slider-2-slide-1-layer-10" 
                             data-type="text"
-                            data-color="#40444e"
+                            data-color="#728948"
                             data-rsp_ch="on"
                             data-xy="x:l,l,l,c;xo:50px,50px,40px,-409px;yo:519px,380px,237px,132px;"
                             data-text="w:normal;s:16,16,12,7;l:27,27,23,14;fw:400,400,500,500;"
@@ -104,7 +104,7 @@
                         <rs-layer
                             id="slider-2-slide-2-layer-0" 
                             data-type="text"
-                            data-color="#2d4a8a"
+                            data-color="#728948"
                             data-rsp_ch="on"
                             data-xy="xo:50px,50px,40px,-164px;yo:326px,206px,94px,61px;"
                             data-text="w:normal;s:18,18,15,10;l:25,25,15,9;fw:500;"
@@ -137,7 +137,7 @@
                             data-xy="x:l,l,l,c;xo:227px,227px,163px,0;yo:608px,468px,310px,233px;"
                             data-text="w:normal;s:15,15,12,11;l:29,29,25,30;fw:600;a:center;"
                             data-padding="t:11,11,7,4;r:35,35,22,14;b:11,11,7,4;l:35,35,22,14;"
-                            data-border="bos:solid;boc:#1e2637;bow:1px,1px,1px,1px;"
+                            data-border="bos:solid;boc:#728948;bow:1px,1px,1px,1px;"
                             data-frame_0="y:50,50,31,19;"
                             data-frame_1="st:760;sp:500;sR:760;"
                             data-frame_999="o:0;st:w;sR:7740;"
@@ -146,7 +146,7 @@
                         <rs-layer
                             id="slider-2-slide-2-layer-3" 
                             data-type="text"
-                            data-color="#1e2637"
+                            data-color="#374a16"
                             data-rsp_ch="on"
                             data-xy="x:l,l,l,c;xo:50px,50px,40px,0;yo:359px,239px,124px,59px;"
                             data-text="w:normal;s:62,52,45,37;l:80,60,50,60;fw:600;"
@@ -158,7 +158,7 @@
                         <rs-layer
                             id="slider-2-slide-2-layer-4" 
                             data-type="text"
-                            data-color="#1e2637"
+                            data-color="#728948"
                             data-rsp_ch="on"
                             data-xy="x:l,l,l,c;xo:50px,50px,40px,0;yo:436px,294px,173px,104px;"
                             data-text="w:normal;s:62,52,45,37;l:75,60,60,60;fw:600;"
@@ -197,7 +197,7 @@
                         <rs-layer
                             id="slider-2-slide-2-layer-7" 
                             data-type="text"
-                            data-color="#40444e"
+                            data-color="#728948"
                             data-rsp_ch="on"
                             data-xy="x:l,l,l,c;xo:50px,50px,40px,-409px;yo:521px,379px,237px,132px;"
                             data-text="w:normal;s:16,16,12,7;l:27,27,23,14;fw:400,400,500,500;"
