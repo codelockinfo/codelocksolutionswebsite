@@ -167,7 +167,13 @@
                                     </div>
                                 </div>
                                 <div class="ttm-history-box-border"></div><!-- ttm-history-box-border  --> 
-
+                                <div class="ttm-history-box-details">
+                                    <div class="ttm-historybox-title"><h5>Third-party Integration with Shopify</h5></div><!-- historybox-title  --> 
+                                    <div class="ttm-historybox-description"><!-- description  --> 
+                                        "Seamlessly expand your Shopify store's capabilities by integrating third-party solutions that suit your unique business requirements. Our expertise lies in integrating a myriad of third-party services, applications, and systems with Shopify, ensuring smooth functionality and enhanced performance. Maximize your Shopify store's potential with our tailored third-party integrations, optimizing your business for success."
+                                    </div>
+                                    <!-- <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a> -->
+                                </div>
                             </div><!-- ttm-history-box-wrapper  END-->
                         </div>
                     </div><!-- row end-->
@@ -289,21 +295,7 @@
                                         <div class="row">
                                             <div class="col-12">
                                                 <!-- featured-icon-box -->
-                                                <div class="featured-icon-box style2 left-icon icon-align-top">
-                                                    <div class="featured-icon"><!-- featured-icon -->
-                                                        <div class="ttm-icon ttm-icon_element-border ttm-icon_element-color-white ttm-icon_element-size-md">
-                                                            <i class="flaticon flaticon-data"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="featured-content">
-                                                        <div class="featured-title"><!-- featured title -->
-                                                            <h5>Third-party Integration with Shopify</h5>
-                                                        </div>
-                                                        <div class="featured-desc"><!-- featured desc -->
-                                                            <p>Seamlessly expand your Shopify store's capabilities by integrating third-party solutions that suit your unique business requirements. Our expertise lies in integrating a myriad of third-party services, applications, and systems with Shopify, ensuring smooth functionality and enhanced performance. Maximize your Shopify store's potential with our tailored third-party integrations, optimizing your business for success.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
+
                                             </div>
                                         </div>
                                         
