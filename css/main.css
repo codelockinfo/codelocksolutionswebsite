@@ -675,7 +675,16 @@ div.product ul.tabs li a:before,
 .portfolio-slide.owl-theme .owl-dots .owl-dot.active span {
   background-color: #728948 !important;
 }
-
+.history-slide .ttm-history-box-wrapper:hover .ttm-history-box-details{
+    background-color: white !important;
+    
+}
+.ttm-history-box-wrapper:hover .ttm-historybox-title h5,
+.ttm-history-box-wrapper:hover .ttm-historybox-description{
+     color: #374a16 !important;
+   
+ }
+ 
 /** Skin-border-color **/
 .skincolor-border,
 .ttm-btn.ttm-btn-color-skincolor.ttm-btn-style-border,
@@ -1012,7 +1021,7 @@ div.product ul.tabs li a{
     left: 0;
     display: block;
     background: #fff;
-    background-image: url(../images/pre-loader-1.gif);
+    background-image: url(../images/preloder/preloder2.gif);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -1850,6 +1859,7 @@ ul.ttm-list {
   -moz-box-shadow: 0 0 12px 0 rgba(32, 46, 60, .06);
   box-shadow: 0 0 12px 0 rgba(32, 46, 60, .06)
 }
+
 .ttm-history-box-wrapper .ttm-historybox-title h5 {font-size: 19px;line-height: 26px;margin-bottom: 8px}
 .ttm-history-box-wrapper:hover .ttm-icon.ttm-icon_element-size-md {
   -ms-transform: scale(1.15);

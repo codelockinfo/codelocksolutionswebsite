@@ -331,7 +331,7 @@
                             <div class="section-title style2 clearfix">
                                 <div class="title-header">
                                     <h5>About us</h5>
-                                    <h2 class="title">Meet our <span>Leadership</span></h2>
+                                    <h2 class="title">Meet our <span>team</span></h2>
                                 </div>
                                 <div class="title-desc">The positive distinction within the World Inspiring of Success and Connections of People and Organizations.</div>
                             </div><!-- section-title end -->
@@ -350,7 +350,7 @@
                                <!-- featured-imagebox-team -->
                             <div class="featured-imagebox featured-imagebox-team style1">
                                 <div class="featured-thumbnail"><!-- featured-thumbnail -->
-                                    <img class="img-fluid lazyload image_height_s" data-src="images/boy-profile.jpg" alt="image">
+                                    <img class="img-fluid lazyload image_height_s" src="images/team/7.png" alt="image">
                                      <div class="ttm-social-links-wrapper">
                                         <ul class="social-icons list-inline"><!-- social-icons -->
                                             <li class="social-twitter"><a href="https://twitter.com/RathodTushar7"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -369,7 +369,7 @@
                                        <!-- featured-imagebox-team -->
                             <div class="featured-imagebox featured-imagebox-team style1">
                                 <div class="featured-thumbnail"><!-- featured-thumbnail -->
-                                    <img class="img-fluid lazyload image_height_s"  src="images/team/urvashi hirapara.png" alt="image">
+                                    <img class="img-fluid lazyload image_height_s"  src="images/team/2.png" alt="image">
                                   
                                 </div> 
                                 <div class="featured-content box-shadow">
@@ -382,7 +382,7 @@
                        
                             <div class="featured-imagebox featured-imagebox-team style1">
                                 <div class="featured-thumbnail"><!-- featured-thumbnail -->
-                                    <img class="img-fluid lazyload image_height_s"  src="images/team/payal nakrani.png" alt="image">
+                                    <img class="img-fluid lazyload image_height_s"  src="images/team/1.png" alt="image">
                                    
                                 </div> 
                                 <div class="featured-content box-shadow">
@@ -395,7 +395,7 @@
                             
                              <div class="featured-imagebox featured-imagebox-team style1">
                                 <div class="featured-thumbnail"><!-- featured-thumbnail -->
-                                    <img class="img-fluid lazyload image_height_s" src="images/team/bhavin solanki.png" alt="image">
+                                    <img class="img-fluid lazyload image_height_s" src="images/team/5.png" alt="image">
                                    
                                 </div> 
                                 <div class="featured-content box-shadow">
@@ -410,7 +410,7 @@
                               <!-- featured-imagebox-team -->
                             <div class="featured-imagebox featured-imagebox-team style1">
                                 <div class="featured-thumbnail"><!-- featured-thumbnail -->
-                                    <img class="img-fluid lazyload image_height_s" src="images/team/harsh kansagara.png" alt="image">
+                                    <img class="img-fluid lazyload image_height_s" src="images/team/3.png" alt="image">
                                    
                                 </div> 
                                 <div class="featured-content box-shadow">
@@ -425,7 +425,7 @@
                               <!-- featured-imagebox-team -->
                             <div class="featured-imagebox featured-imagebox-team style1">
                                 <div class="featured-thumbnail"><!-- featured-thumbnail -->
-                                    <img class="img-fluid lazyload image_height_s" src="images/team/dhara golakiya.png" alt="image">
+                                    <img class="img-fluid lazyload image_height_s" src="images/team/4.png" alt="image">
                                     
                                 </div> 
                                 <div class="featured-content box-shadow">
@@ -438,7 +438,7 @@
                               <!-- featured-imagebox-team -->
                             <div class="featured-imagebox featured-imagebox-team style1">
                                 <div class="featured-thumbnail"><!-- featured-thumbnail -->
-                                    <img class="img-fluid lazyload image_height_s" src="images/team/jalak talaviya.png" alt="image">
+                                    <img class="img-fluid lazyload image_height_s" src="images/team/6.png" alt="image">
                                    
                                 </div> 
                                 <div class="featured-content box-shadow">
@@ -563,7 +563,9 @@
                                                         <img class="img-center lazyload" data-src="images/testimonial/boy.jpg" alt="testimonial-img">
                                                     </div>
                                                 </div>
-                                                <blockquote>Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far. No coding skills.</blockquote>
+                                                <blockquote>Hats off to you! Your expertise in Shopify development truly shined through in this project. Thank you for delivering a website that exceeds our expectations. I'm amazed by your attention to detail. Every aspect of the Shopify store is polished and functional. Your meticulous work has created a fantastic user experience.
+
+.</blockquote>
                                                 <div class="ttm-ratting-star">
                                                     <i class="fa fa-star"></i>
                                                     <i class="fa fa-star"></i>
@@ -573,7 +575,7 @@
                                                 </div>
                                                 <div class="testimonial-caption">
                                                     <h6>Vrushti Chauhan</h6>
-                                                    <label>Web Devloper</label>
+                                                    <label>shopify developer</label>
                                                 </div>
                                             </div>
                                         </div>
