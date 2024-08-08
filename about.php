@@ -56,8 +56,8 @@
                                 <div class="col-md-6 col-lg-6 col-sm-6">
                                     <ul class="ttm-list ttm-list-style-icon">
                                         <li><i class="fa fa-check-square-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">Quick To Respond Flexible Price </span></li>
-                                        <li><i class="fa fa-check-square-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">Improving Our Website Design</span></li>
-                                        <li><i class="fa fa-check-square-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">Web &amp; Email Hosting Services </span></li>
+                                        <li><i class="fa fa-check-square-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">shopify theme devlopment</span></li>
+                                        <li><i class="fa fa-check-square-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">shopify speed optimization </span></li>
                                        
                                     </ul>
                                 </div>

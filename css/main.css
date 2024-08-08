@@ -1576,8 +1576,9 @@ div.product ul.tabs li a{
 .quicklink-box .featured-title h5{font-size: 17px;line-height: 24px;margin-bottom: 0;}
 .quicklink-box .featured-content{padding-left: 15px !important;}
 /** bottom-footer **/
-.bottom-footer-text{background-color: #728948
-;}
+.bottom-footer-text{
+    background-color: #374a16;
+}
 
 /* newsletter-form */
 .newsletter-form {
