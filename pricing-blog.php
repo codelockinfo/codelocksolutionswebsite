@@ -27,44 +27,9 @@
         <div class="row">
             <div class="col-12 col-md-6 col-xl-8 blog_contain">
                 <div class="container">
-                    <img src="images/blog-img/pricing.png" alt="image2-1-1" class="w-100 mt-3" />
+                    <img src="images/blog-img/pricing.png" alt="image2-1-1" class="w-100 mt-3 mb-3" />
                 </div>
                 <div class="row">
-                    <div class="container contents-section">
-                        <p class="mb-4">
-                            Contents <a href="#" class="shopifylist">[ hide ]</a>
-                        </p>
-                        <p>
-                            <a href="#1" class="shopifylist">1 Shopify’s Role in Design</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#1.1" class="shopifylist">1.1 Key Considerations for Shopify Website Design Pricing </a>
-                        </p>
-                        <p class="">
-                            <a href="#2" class="shopifylist">2 Breaking Down the Costs</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#2.1" class="shopifylist">2.1 Additional Factors Affecting Price </a>
-                        </p>
-                        <p class="">
-                            <a href="#3" class="shopifylist">3 Shopify Website Design Pricing</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#3.1" class="shopifylist">3.1 Time-Based Pricing Mode </a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#3.2" class="shopifylist">3.2 Fixed Pricing Model</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#3.3" class="shopifylist">3.3 Value-Based Pricing Model</a>
-                        </p>
-                        <p class="">
-                            <a href="#4" class="shopifylist">4 FAQs</a>
-                        </p>
-                        <p class="">
-                            <a href="#Final" class="shopifylist">5 Final Thoughts</a>
-                        </p>
-                    </div>
                     <div class="container">
                         <p class="">
                             While Shopify provides a user-friendly platform for building online stores, the intricacies of design and development costs can be daunting for many merchants. This guide sheds light on the factors influencing Shopify website design pricing, helping you make informed decisions.

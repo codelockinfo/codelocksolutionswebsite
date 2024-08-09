@@ -27,50 +27,10 @@
         <div class="row">
             <div class="col-12 col-md-6 col-xl-8 blog_contain">
                 <div class="container">
-                    <img src="images/blog-img/setup.webp" alt="image2-1-1" class="w-100 mt-3" />
+                    <img src="images/blog-img/setup.webp" alt="image2-1-1" class="w-100 mt-3 mb-3"/>
                 </div>
                 <div class="row">
-                    <div class="container contents-section">
-                        <p class="mb-4">
-                            Contents <a href="#" class="shopifylist">[ hide ]</a>
-                        </p>
-                        <p>
-                            <a href="#1" class="shopifylist">1 How much does it cost to start or run a Shopify store?</a>
-                        </p>
-                        <p>
-                            <a href="#2" class="shopifylist">2 An Overview: How much money do you need to start a Shopify business?</a>
-                        </p>
-                        <p>
-                            <a href="#3" class="shopifylist">3 Is it worth opening a Shopify store?</a>
-                        </p>
-                        <p class="">
-                            <a href="#4" class="shopifylist">4 How much does the average Shopify store make?</a>
-                        </p>
-                        <p class="">
-                            <a href="#5" class="shopifylist">5 Shopify: More Than Just Cheap and Easy</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="5.1" class="shopifylist">5.1 Built-in SEO Tools</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="5.2" class="shopifylist">5.2 Robust Marketing Automation</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="5.3" class="shopifylist">5.3 Comprehensive Payment Processing</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#5.4" class="shopifylist">5.4 A Thriving App Ecosystem</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#5.5" class="shopifylist">5.5 Is Shopify Store Profitable?</a>
-                        </p>
-                        <p class="">
-                            <a href="#6" class="shopifylist">6 Estimating Startup Costs and Maximizing ROI</a>
-                        </p>
-                        <p class="">
-                            <a href="#Final" class="shopifylist"> Final Thoughts</a>
-                        </p>
-                    </div>
+
                     <div class="container">
                         <p class="">
                             Starting and running a Shopify store involves several costs. The main expenses include Shopify subscription plans ($39 to $2,000+ per month), domain name registration ($10-$20 per year), and themes (free or $140-$350 for paid themes). Additional costs include apps (free or paid), payment processing fees (2.4%-2.9% + 30¢ per transaction), and marketing expenses. Other potential costs include shipping, custom development, legal fees, and taxes. Careful budgeting and planning can help manage these expenses effectively, enabling a successful e-commerce business.
@@ -426,7 +386,7 @@
         <h3 class="text-center">New added</h3>
     </div>
 </div>
-<div class="container-fluid  image-grp">
+<div class="container-fluid image-grp">
     <div class="row card1">
         <div class="col-xl-3">
             <div class="card-section border-0 p-3 mb-3">

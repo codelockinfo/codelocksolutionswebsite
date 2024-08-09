@@ -27,60 +27,9 @@
         <div class="row">
             <div class="col-12 col-md-6 col-xl-8 blog_contain">
                 <div class="container">
-                    <img src="images/blog-img/custom_web.webp" alt="image2-1-1" class="w-100 mt-3" />
+                    <img src="images/blog-img/custom_web.webp" alt="image2-1-1" class="w-100 mt-3 mb-3 " />
                 </div>
                 <div class="row">
-                    <div class="container contents-section">
-                        <p class="mb-4">
-                            Contents <a href="#" class="shopifylist">[ hide ]</a>
-                        </p>
-                        <p>
-                            <a href="#Websitekey" class="shopifylist">1 Shopify vs Own Website Key Differences</a>
-                        </p>
-                        <p>
-                            <a href="#" class="shopifylist">2 Comparison: Online Shopify Store vs eCommerce Custom
-                                Website</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">2.1 Shopify Store</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">2.2 Custom eCommerce Website</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">2.3 Shopify vs Custom Website: Functionality</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">2.4 Design</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">2.4 Themes</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">2.5 Development Time</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">2.6 Features</a>
-                        </p>
-                        <p><a href="#SEO" class="shopifylist">3 SEO, Marketing Tools, Budget and Pricing, Payment Gateways, and Fees</a></p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">3.1 Payment Gateways and Fees</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">3.2 Budget and Pricing</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">3.2 Marketing Tools</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">3.4 SEO</a>
-                        </p>
-                        <p><a href="#allinone" class="shopifylist">4 The All-in-One Solution</a></p>
-                        <p><a href="#Making" class="shopifylist">5 Making the Decision</a></p>
-                        <p class="px-3">
-                            <a href="#Final" class="shopifylist">6 Final Thoughts</a>
-                        </p>
-                    </div>
                     <div class="container">
                         <p class="">
                             In the rapidly evolving landscape of e-commerce, choosing the right platform for your online

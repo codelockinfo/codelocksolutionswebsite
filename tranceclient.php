@@ -27,29 +27,9 @@
         <div class="row">
             <div class=" col-12 col-md-6 col-xl-8 blog_contain">
                 <div class="container">
-                    <img src="images/blog-img/shopify-develoment.png" alt="image2-1-1" class="w-100 mt-3" />
+                    <img src="images/blog-img/shopify-develoment.png" alt="image2-1-1" class="w-100 mt-3 mb-3" />
                 </div>
                 <div class="row">
-                    <div class="container contents-section">
-                        <p class="mb-4">
-                            Contents <a href="#" class="shopifylist">[ hide ]</a>
-                        </p>
-                        <p>
-                            <a href="#Websitekey" class="shopifylist">1 Transferring Shopify Development Store to Clients</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#Process" class="shopifylist">1.1 Understanding the Process</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#Considerations" class="shopifylist">1.2 Key Considerations</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#Notes" class="shopifylist">1.3 Important Notes</a>
-                        </p>
-                        <p class="">
-                            <a href="#Final" class="shopifylist">2 Final Thoughts</a>
-                        </p>
-                    </div>
                     <div class="container">
                         <p class="">
                             When you're ready to hand over a Shopify development store to your client, it signifies the completion of one of the most critical phases of your project. This process, while straightforward, involves a few essential steps to ensure a smooth and successful transition. In this blog post, we'll walk you through the entire process of transferring a Shopify development store to your client, from preparation to final handoff.

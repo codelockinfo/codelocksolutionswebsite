@@ -27,48 +27,9 @@
         <div class="row">
             <div class="col-12 col-md-6 col-xl-8 blog_contain">
                 <div class="container">
-                    <img src="images/blog-img/why_Shopify-Experts.webp" alt="image2-1-1" class="w-100 mt-3" />
+                    <img src="images/blog-img/why_Shopify-Experts.webp" alt="image2-1-1" class="w-100 mt-3 mb-3" />
                 </div>
                 <div class="row">
-                    <div class="container contents-section">
-                        <p class="mb-4">
-                            Contents <a href="#" class="shopifylist">[ hide ]</a>
-                        </p>
-                        <p>
-                            <a href="#hire" class="shopifylist">1 Why Should You Hire Shopify Experts?</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">1.1 Expertise in Shopify Development
-                                Website</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">1.2 Efficient Time Management</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">1.3 Professional Store Design</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">1.4 Technical Proficiency</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">1.5 SEO and Marketing</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">1.6 Responsive Design</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">1.7 Enhanced Features</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">1.8 Ongoing Support and Maintenance</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">1.9 Cost-Effectiveness</a>
-                        </p>
-                        <p>
-                            <a href="#Final" class="shopifylist">2 Final Thoughts</a>
-                        </p>
-                    </div>
                     <div class="container">
                         <p class="">
                             Hiring Shopify experts enhances your e-commerce business by leveraging their specialized knowledge and experience. They save you time by efficiently developing and optimizing your store, allowing you to focus on core activities. Experts create professional, custom designs that improve user experience and retention. Their technical proficiency ensures seamless functionality and quick issue resolution. Additionally, they optimize for SEO, ensure responsiveness, and provide ongoing support, making the investment highly cost-effective and beneficial for long-term success.

@@ -27,44 +27,9 @@
         <div class="row">
             <div class=" col-12 col-md-6 col-xl-8 blog_contain">
                 <div class="container">
-                    <img src="images/blog-img/Increase-shopify-sales.png" alt="image2-1-1" class="w-100 mt-3" />
+                    <img src="images/blog-img/Increase-shopify-sales.png" alt="image2-1-1" class="w-100 mt-3 mb-3" />
                 </div>
                 <div class="row">
-                    <div class="container contents-section">
-                        <p class="mb-4">
-                            Contents <a href="#" class="shopifylist">[ hide ]</a>
-                        </p>
-                        <p>
-                            <a href="#Increase" class="shopifylist">1 How to Increase Average Shopify Store Revenue in 2024</a>
-                        </p>
-                        <p>
-                            <a href="#Competitive" class="shopifylist">2 Shopify’s Competitive Advantage</a>
-                        </p>
-                        <p>
-                            <a href="#Make" class="shopifylist">3 How Much Can You Make With Shopify?</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">3.1 Average Revenue Insights</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#" class="shopifylist">3.2 Profit Margins: A Closer Look</a>
-                        </p>
-                        <p class="">
-                            <a href="#Analyzing" class="shopifylist">4 Analyzing Average Monthly Shopify Store Revenue</a>
-                        </p>
-                        <p class="">
-                            <a href="#Startups" class="shopifylist">5 The Shopify Advantage – Why eCommerce Startups are Cashing</a>
-                        </p>
-                        <p class="">
-                            <a href="#Key" class="shopifylist">6 Key Factors Contributing to Shopify Store Success</a>
-                        </p>
-                        <p class="">
-                            <a href="#Monthly" class="shopifylist">7 How to Increase Your Shopify Store’s Monthly Revenue</a>
-                        </p>
-                        <p class="">
-                            <a href="#Final" class="shopifylist"> Final Thoughts</a>
-                        </p>
-                    </div>
                     <div class="container">
                         <p class="">
                             To increase your Shopify store's average revenue in 2024, optimize for mobile and enhance user experience with simplified navigation and fast checkout. Leverage SEO and content marketing, utilize social media and email marketing for personalized engagement, and implement upselling and cross-selling techniques. Invest in advertising, use data analytics to continuously optimize your store, and improve product reviews and social proof. Focus on sustainability and ethical practices to attract conscious consumers.
@@ -412,7 +377,7 @@
         <h3 class="text-center">New added</h3>
     </div>
 </div>
-<div class="container-fluid  image-grp">
+<div class="container-fluid image-grp">
     <div class="row card1">
         <div class="col-xl-3">
             <div class="card-section border-0 p-3 mb-3">

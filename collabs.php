@@ -27,35 +27,9 @@
         <div class="row">
             <div class="col-12 col-md-6 col-xl-8 blog_contain">
                 <div class="container">
-                    <img src="images/blog-img/What-is-Shopify-Collabs.jpg" alt="image2-1-1" class="w-100 mt-3" />
+                    <img src="images/blog-img/What-is-Shopify-Collabs.jpg" alt="image2-1-1" class="w-100 mt-3 mb-3" />
                 </div>
                 <div class="row">
-                    <div class="container contents-section">
-                        <p class="mb-4">
-                            Contents <a href="#" class="shopifylist">[ hide ]</a>
-                        </p>
-                        <p>
-                            <a href="#1" class="shopifylist">1 Shopify Collabs: What Is It?</a>
-                        </p>
-                        <p class="">
-                            <a href="#2" class="shopifylist">2 The Operation of Shopify Collabs</a>
-                        </p>
-                        <p class="">
-                            <a href="#3" class="shopifylist">3 Advantages of Shopify Collaborations</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#3.1" class="shopifylist">3.1 Attention Merchants </a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#3.2" class="shopifylist">3.2 Regarding Creators</a>
-                        </p>
-                        <p class="">
-                            <a href="#4" class="shopifylist">4 Frequently asked questions</a>
-                        </p>
-                        <p class="">
-                            <a href="#Final" class="shopifylist">5 Final Thoughts</a>
-                        </p>
-                    </div>
                     <div class="container">
                         <p class="">
                             Shopify Collabs is a platform that connects Shopify merchants with creators and influencers to enhance brand presence and drive sales. Key features include tools for discovering influencers, managing collaborations, tracking performance, seamless integration with Shopify, and handling payments and contracts. The platform benefits merchants by increasing visibility, providing authentic marketing, streamlining processes, and enabling data-driven decisions. To get started, merchants can sign up through their Shopify dashboard, set up a profile, search for creators, initiate contact, manage campaigns, and evaluate performance. Influencer marketing trends for 2024 include working with micro-influencers, focusing on video content, promoting authenticity, and fostering long-term partnerships. Ultimately, Shopify Collabs empowers merchants to build effective influencer partnerships, driving brand growth and sales in 2024.
@@ -262,7 +236,7 @@
             <h3 class="text-center">New added</h3>
         </div>
     </div>
-    <div class="container-fluid  image-grp">
+    <div class="container-fluid image-grp">
         <div class="row card1">
             <div class="col-xl-3">
                 <div class="card-section border-0 p-3 mb-3">

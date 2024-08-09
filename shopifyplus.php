@@ -27,32 +27,9 @@
         <div class="row">
             <div class=" col-12 col-md-6 col-xl-8 blog_contain">
                 <div class="container">
-                    <img src="images/blog-img/shopify plus.webp" alt="image2-1-1" class="w-100 mt-3" />
+                    <img src="images/blog-img/shopify plus.webp" alt="image2-1-1" class="w-100 mt-3 mb-3" />
                 </div>
                 <div class="row">
-                    <div class="container contents-section">
-                        <p class="mb-4">
-                            Contents <a href="#" class="shopifylist">[ hide ]</a>
-                        </p>
-                        <p>
-                            <a href="#Websitekey" class="shopifylist">1 What Are The Benefits Of Shopify Plus When You Upgrage?</a>
-                        </p>
-                        <p class="px-3">
-                            <a href="#What" class="shopifylist">1.1 What is Shopify Plus?</a>
-                        </p>
-                        <p>
-                            <a href="#Right" class="shopifylist">2 Is it the Right Time to Advance Your Ecommerce Strategy with Shopify Plus? </a>
-                        </p>
-                        <p>
-                            <a href="#Reasons" class="shopifylist">3 Reasons to Upgrade to Shopify Plus</a>
-                        </p>
-                        <p>
-                            <a href="#Benefits" class="shopifylist">4 Benefits of Shopify Plus</a>
-                        </p>
-                        <p>
-                            <a href="#Final" class="shopifylist">5 Final Thoughts</a>
-                        </p>
-                    </div>
                     <div class="container">
                         <p class="">
                             Imagine millions of customers flooding your online store each month, only to have your platform crash, causing massive losses. If your business is growing rapidly, it’s time to consider upgrading from standard Shopify plans to Shopify Plus. This move can prevent future issues and support your growth. A recent report shows businesses that switch to Shopify Plus see a 30% increase in sales within a year. Shopify Plus is the key to taking your eCommerce business to the next level. Let’s explore why this upgrade is essential for your success.
