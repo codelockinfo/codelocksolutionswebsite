@@ -283,11 +283,11 @@
                         <p>SHARE THIS:</p>
                     </div>
                     <div class="container">
-                        <a href="#" class="facebookicon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#" class="twittericon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#" class="linkedinicon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        <a href="#" class="instagramicon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    </div>
+                            <a href="#" class="facebookicon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://x.com/Codelock63" class="twittericon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/company/codelock-solutions" class="linkedinicon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/codelocksolutions" class="instagramicon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
                 </div>
             </div>
         </div>
