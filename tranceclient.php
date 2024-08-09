@@ -23,9 +23,9 @@
 <!-- page-title end-->
 
 <div class="body-section ttm-row">
-    <div class="container-fluid">
+    <div class="wrap">
         <div class="row">
-            <div class="col-md-12 col-xl-6">
+            <div class=" col-12 col-md-6 col-xl-8 blog_contain">
                 <div class="container">
                     <img src="images/blog-img/shopify-develoment.png" alt="image2-1-1" class="w-100 mt-3" />
                 </div>
@@ -135,7 +135,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12 col-xl-6 main-section">
+            <div class=" col-12 col-md-6 col-xl-4 main-section">
                 <div class="container">
                     <div class="container mt-2 mx-1">
                         <a href="https://apps.shopify.com/rewriter-mega-description">ReWriter ‑ Mega Description</a>
@@ -212,7 +212,7 @@
             <h3 class="text-center">New added</h3>
         </div>
     </div>
-    <div class="container-fluid p-5 image-grp">
+    <div class="container-fluid  image-grp">
         <div class="row card1">
             <div class="col-xl-3">
                 <div class="card-section border-0 p-3 mb-3">
