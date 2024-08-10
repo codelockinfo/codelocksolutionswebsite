@@ -287,7 +287,7 @@
                                 <img src="images/logo.png" alt="person1" class="person1" />
                             </div>
                         </div>
-                        <div class="col-xl-9 mt-3">
+                        <div class="col-xl-9 mt-3 about_autor">
                             <h5 class="author">About the author</h5>
                             <h6>
                                 <a href="#" class="shopifyhelp bidisha">Codelock team</a>
@@ -370,7 +370,6 @@
                             <p>SHARE THIS:</p>
                         </div>
                         <div class="container">
-                            <a href="#" class="facebookicon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             <a href="https://x.com/Codelock63" class="twittericon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             <a href="https://www.linkedin.com/company/codelock-solutions" class="linkedinicon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                             <a href="https://www.instagram.com/codelocksolutions" class="instagramicon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
