@@ -120,7 +120,7 @@
 
                                             <li class="social-flickr"><a class=" tooltip-top" target="_blank" href="https://www.linkedin.com/company/38132884/admin/" data-tooltip="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 
-                                            <li class="social-linkedin"><a class=" tooltip-top" target="_blank" href="#" data-tooltip="Whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                                            <li class="social-linkedin"><a class=" tooltip-top" target="_blank" href="https://api.whatsapp.com/send/?phone=%2B917600464414&text&type=phone_number&app_absent=0" data-tooltip="Whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
