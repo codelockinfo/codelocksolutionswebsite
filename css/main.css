@@ -73,14 +73,12 @@ a:focus {
     text-decoration: none; 
 }
 a:focus, a:hover { 
-    color: #374a16
-; 
+    color: #374a16; 
     text-decoration: none; 
 }
 a, button, input { 
     outline: medium none; 
-    color: #374a16
-; 
+    color: #374a16; 
 }
 ol, ul{ 
     padding: 0; 
@@ -1273,7 +1271,7 @@ div.product ul.tabs li a{
     max-height: 80px;
 }
 .ttm-header-style-01 .site-branding img {
-    max-height: 80px;
+    max-height: 50px;
 }
 .ttm-header-style-01 .fixed-header .site-branding img {
     max-height: 42px;

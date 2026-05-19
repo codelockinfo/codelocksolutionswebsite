@@ -48,6 +48,130 @@
 <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 
+<style>
+/* Header & Topbar Dark Theme Overrides */
+.ttm-topbar-wrapper {
+    background: #04030a !important; /* Slightly darker than hero for contrast */
+    color: #a3a3a3 !important;
+    border-bottom: 1px solid rgba(124, 58, 237, 0.2) !important;
+}
+.ttm-topbar-wrapper a, .ttm-topbar-wrapper .top-contact li, .ttm-topbar-wrapper .top-contact li i {
+    color: #a3a3a3 !important;
+    transition: color 0.3s;
+}
+.ttm-topbar-wrapper a:hover {
+    color: #00f2fe !important; /* Cyan glow color */
+}
+
+/* Main Header */
+.ttm-stickable-header {
+    background: rgba(7, 5, 20, 0.85) !important; /* Cosmic violet with transparency */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.is-sticky .ttm-stickable-header, .ttm-header-wrap.is-sticky {
+    background: rgba(7, 5, 20, 0.95) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Logo inversion (if original logo is dark text) */
+.site-branding img {
+    filter: brightness(0) invert(1);
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+.site-branding img:hover {
+    opacity: 1;
+}
+
+/* Navigation Links */
+#site-navigation .menu ul.dropdown > li > a {
+    color: #e0e0e0 !important;
+    font-weight: 500;
+}
+#site-navigation .menu ul.dropdown > li:hover > a, 
+#site-navigation .menu ul.dropdown > li.active > a {
+    color: #00f2fe !important;
+}
+
+/* Dropdown Menu styling */
+#site-navigation .menu ul.dropdown ul {
+    background: #0a0818 !important; /* Dark background for dropdowns */
+    border: 1px solid rgba(124, 58, 237, 0.3) !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8) !important;
+}
+#site-navigation .menu ul.dropdown ul > li > a {
+    color: #cccccc !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+#site-navigation .menu ul.dropdown ul > li:hover > a {
+    color: #ffffff !important;
+    background: rgba(124, 58, 237, 0.2) !important;
+    padding-left: 20px !important; /* Slight indent on hover */
+}
+
+/* Social icons in topbar */
+.ttm-social-links-wrapper.list-inline .social-icons li a {
+    background: rgba(255, 255, 255, 0.05) !important;
+    color: #fff !important;
+    border-color: transparent !important;
+}
+.ttm-social-links-wrapper.list-inline .social-icons li a:hover {
+    background: #7c3aed !important;
+    color: #fff !important;
+    box-shadow: 0 0 15px rgba(124, 58, 237, 0.5);
+    border-color: transparent !important;
+}
+
+/* Mobile Responsive Fixes */
+@media (max-width: 1199px) {
+    /* Mobile menu toggle button */
+    .ttm-menu-toggle-block .toggle-block {
+        background-color: #fff !important;
+    }
+    
+    /* Fix mobile header background being white, making white logo invisible */
+    .ttm-stickable-header-w {
+        background-color: #070514 !important; /* Dark background */
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .ttm-header-wrap {
+        background-color: #070514 !important;
+    }
+
+    /* Fix mobile menu dropdown background and links */
+    #site-header-menu #site-navigation .menu > ul {
+        background-color: #0a0818 !important;
+        border-top: 3px solid #00f2fe !important;
+    }
+    #site-header-menu #site-navigation .menu ul li a {
+        color: #e0e0e0 !important;
+    }
+    #site-header-menu #site-navigation .menu ul li:hover > a,
+    #site-header-menu #site-navigation .menu ul li.active > a {
+        color: #00f2fe !important;
+        background-color: rgba(255,255,255,0.02) !important;
+    }
+    
+    /* Fix header alignment (Logo left, Toggle right) */
+    .site-branding {
+        text-align: left !important;
+        padding-left: 15px;
+        width: 70% !important;
+    }
+    .ttm-menu-toggle {
+        float: right !important;
+        margin-right: 15px !important;
+        z-index: 10;
+        margin-top: 5px;
+    }
+    .ttm-menu-toggle label {
+        top: 25px !important;
+    }
+}
+</style>
 </head>
 
 <body>

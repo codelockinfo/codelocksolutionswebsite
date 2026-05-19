@@ -1,215 +1,1608 @@
-        <!-- START homeclassicmain REVOLUTION SLIDER 6.0.1 -->
-        <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery">
-            <rs-module id="rev_slider_1_1" style="" data-version="6.0.1" class="rev_slider_1_1_height">
-                <rs-slides>
-                    <rs-slide data-key="rs-3" data-title="Slide" data-thumb="images/slides/slider-mainbg-003.jpg" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
-                        <img title="slider-mainbg-003" width="1920" height="790" class="rev-slidebg" data-no-retina>
-                        <rs-layer
-                            id="slider-2-slide-1-layer-0" 
-                            data-type="text"
-                            data-color="#728948"
-                            data-rsp_ch="on"
-                            data-xy="xo:50px,50px,40px,-164px;yo:326px,196px,94px,61px;"
-                            data-text="w:normal;s:18,18,15,10;l:25,25,15,9;fw:500;"
-                            data-vbility="t,t,t,f"
-                            data-frame_0="x:-50,-50,-31,-19;"
-                            data-frame_1="e:Linear.easeNone;st:120;sp:400;sR:120;"
-                            data-frame_999="o:0;st:w;sR:8480;"
-                            >
-                        </rs-layer>
-                        <a
-                            id="slider-2-slide-1-layer-2" 
-                            class="rs-layer ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-darkgrey"
-                            href="contact.php" target="_self" rel="nofollow"
-                            data-type="text"
-                            data-rsp_ch="on"
-                            data-xy="x:l,l,l,c;xo:279px,279px,210px,0;yo:609px,468px,310px,233px;"
-                            data-text="w:normal;s:15,15,12,11;l:29,29,25,30;fw:600;a:center;"
-                            data-border="bos:solid;boc:#1e2637;bow:1px,1px,1px,1px;"
-                            data-padding="t:11,11,7,4;r:35,35,22,14;b:11,11,7,4;l:35,35,22,14;"
-                            data-frame_0="y:50,50,31,19;"
-                            data-frame_1="st:760;sp:500;sR:760;"
-                            data-frame_999="o:0;st:w;sR:7740;"
-                            >Contact Us  
-                        </a>
-                        <rs-layer
-                            id="slider-2-slide-1-layer-3" 
-                            data-type="text"
-                            data-color="#728948"
-                            data-rsp_ch="on"
-                            data-xy="x:l,l,l,c;xo:50px,50px,40px,0;yo:363px,233px,124px,59px;"
-                            data-text="w:normal;s:62,52,45,37;l:70,60,50,60;fw:600;"
-                            data-frame_0="x:-50,-50,-31,-19;"
-                            data-frame_1="e:Linear.easeNone;st:260;sp:800;sR:260;"
-                            data-frame_999="o:0;st:w;sR:7940;"
-                            >Shopify Development
-                        </rs-layer>
-                        <rs-layer
-                            id="slider-2-slide-1-layer-4" 
-                            data-type="text"
-                            data-color="#728948"
-                            data-rsp_ch="on"
-                            data-xy="x:l,l,l,c;xo:50px,50px,40px,0;yo:436px,294px,173px,104px;"
-                            data-text="w:normal;s:62,52,45,37;l:75,65,60,60;fw:600;"
-                            data-frame_0="x:-50,-50,-31,-19;"
-                            data-frame_1="st:410;sp:800;sR:410;"
-                            data-frame_999="o:0;st:w;sR:7790;"
-                            >With  <strong class="ttm-textcolor-skincolor">Codelock Solutions</strong> 
-                        </rs-layer>
-                        <a
-                            id="slider-2-slide-1-layer-5" 
-                            class="rs-layer ttm-btn ttm-btn-size-md ttm-btn-bgcolor-skincolor"
-                            href="services.php" target="_self" rel="nofollow"
-                            data-type="text"
-                            data-rsp_ch="on"
-                            data-xy="x:l,l,l,c;xo:50px,50px,40px,0;yo:608px,468px,309px,180px;"
-                            data-text="w:normal;s:15,15,12,11;l:27,27,25,30;fw:600;a:center;"
-                            data-padding="t:12,12,8,5;r:35,35,22,14;b:15,15,9,6;l:35,35,22,14;"
-                            data-frame_0="y:50,50,31,19;"
-                            data-frame_1="st:720;sp:500;sR:720;"
-                            data-frame_999="o:0;st:w;sR:7780;"
-                            >View More Details 
-                        </a>
-                        <rs-layer
-                            id="slider-2-slide-1-layer-6" 
-                            data-type="image"
-                            data-rsp_ch="on"
-                            data-xy="x:r;xo:-70px,-70px,-123px,-267px;yo:220px,90px,66px,36px;"
-                            data-text="w:normal;s:20,20,12,7;l:0,0,15,9;"
-                            data-dim="w:578px,478px,362px,223px;h:auto,464px,353px,217px;"
-                            data-vbility="t,t,t,f"
-                            data-frame_0="sX:0.9;sY:0.9;"
-                            data-frame_1="e:Linear.easeNone;st:100;sp:400;sR:100;"
-                            data-frame_999="o:0;st:w;sR:8500;"
-                            ><img src="images/slides/slidernew_2.png" alt="singl-image" width="578" data-no-retina> 
-                        </rs-layer>
-                        <rs-layer
-                            id="slider-2-slide-1-layer-10" 
-                            data-type="text"
-                            data-color="#728948"
-                            data-rsp_ch="on"
-                            data-xy="x:l,l,l,c;xo:50px,50px,40px,-409px;yo:519px,380px,237px,132px;"
-                            data-text="w:normal;s:16,16,12,7;l:27,27,23,14;fw:400,400,500,500;"
-                            data-vbility="t,t,t,f"
-                            data-frame_0="y:50,50,31,19;"
-                            data-frame_1="e:Linear.easeNone;st:630;sp:500;sR:630;"
-                            data-frame_999="o:0;st:w;sR:7870;"
-                            >Experienced & highly talented web developers.
-                        </rs-layer>
-                    </rs-slide>
-                    <!-- rs-slide -->
-                    <!-- rs-slide -->
-                    <rs-slide data-key="rs-4" data-title="Slide" data-thumb="images/slides/slider-mainbg-004.jpg" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
-                        <img title="slider-mainbg-004" width="1920" height="790" class="rev-slidebg" data-no-retina>
-                        <rs-layer
-                            id="slider-2-slide-2-layer-0" 
-                            data-type="text"
-                            data-color="#728948"
-                            data-rsp_ch="on"
-                            data-xy="xo:50px,50px,40px,-164px;yo:326px,206px,94px,61px;"
-                            data-text="w:normal;s:18,18,15,10;l:25,25,15,9;fw:500;"
-                            data-vbility="t,t,t,f"
-                            data-frame_0="x:-50,-50,-31,-19;"
-                            data-frame_1="e:Linear.easeNone;st:120;sp:400;sR:120;"
-                            data-frame_999="o:0;st:w;sR:8480;"
-                            >Trust and Client Focus 
-                        </rs-layer>
-                        <rs-layer
-                            id="slider-2-slide-2-layer-1"
-                            class="ttm-bgcolor-skincolor" 
-                            data-type="shape"
-                            data-rsp_ch="on"
-                            data-xy="xo:262px,262px,-119px,-73px;yo:339px,219px,136px,83px;"
-                            data-text="w:normal;s:20,20,12,7;l:0,0,15,9;"
-                            data-dim="w:36px,36px,22px,13px;h:2px,2px,1px,1px;"
-                            data-vbility="t,t,f,f"
-                            data-frame_0="x:50,50,31,19;"
-                            data-frame_1="e:Linear.easeNone;st:190;sp:200;sR:190;"
-                            data-frame_999="o:0;st:w;sR:8610;"
-                            > 
-                        </rs-layer>
-                        <a
-                            id="slider-2-slide-2-layer-2" 
-                            class="rs-layer ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-darkgrey"
-                            href="contact.php" target="_self" rel="nofollow"
-                            data-type="text"
-                            data-rsp_ch="on"
-                            data-xy="x:l,l,l,c;xo:227px,227px,163px,0;yo:608px,468px,310px,233px;"
-                            data-text="w:normal;s:15,15,12,11;l:29,29,25,30;fw:600;a:center;"
-                            data-padding="t:11,11,7,4;r:35,35,22,14;b:11,11,7,4;l:35,35,22,14;"
-                            data-border="bos:solid;boc:#728948;bow:1px,1px,1px,1px;"
-                            data-frame_0="y:50,50,31,19;"
-                            data-frame_1="st:760;sp:500;sR:760;"
-                            data-frame_999="o:0;st:w;sR:7740;"
-                            >Contact Us 
-                        </a>
-                        <rs-layer
-                            id="slider-2-slide-2-layer-3" 
-                            data-type="text"
-                            data-color="#374a16"
-                            data-rsp_ch="on"
-                            data-xy="x:l,l,l,c;xo:50px,50px,40px,0;yo:359px,239px,124px,59px;"
-                            data-text="w:normal;s:62,52,45,37;l:80,60,50,60;fw:600;"
-                            data-frame_0="x:-50,-50,-31,-19;"
-                            data-frame_1="e:Linear.easeNone;st:260;sp:800;sR:260;"
-                            data-frame_999="o:0;st:w;sR:7940;"
-                            >Best <strong class="ttm-textcolor-skincolor"> Ecommerce </strong> 
-                        </rs-layer>
-                        <rs-layer
-                            id="slider-2-slide-2-layer-4" 
-                            data-type="text"
-                            data-color="#728948"
-                            data-rsp_ch="on"
-                            data-xy="x:l,l,l,c;xo:50px,50px,40px,0;yo:436px,294px,173px,104px;"
-                            data-text="w:normal;s:62,52,45,37;l:75,60,60,60;fw:600;"
-                            data-frame_0="x:-50,-50,-31,-19;"
-                            data-frame_1="st:410;sp:800;sR:410;"
-                            data-frame_999="o:0;st:w;sR:7790;"
-                            > Solutions and Business  
-                        </rs-layer>
-                        <a
-                            id="slider-2-slide-2-layer-5" 
-                            class="rs-layer ttm-btn ttm-btn-size-md ttm-btn-bgcolor-skincolor"
-                            href="about.php" target="_self" rel="nofollow"
-                            data-type="text"
-                            data-rsp_ch="on"
-                            data-xy="x:l,l,l,c;xo:50px,50px,40px,0;yo:608px,468px,309px,180px;"
-                            data-text="w:normal;s:15,15,12,11;l:27,27,25,30;fw:600;a:center;"
-                            data-padding="t:12,12,8,5;r:35,35,22,14;b:15,15,9,6;l:35,35,22,14;"
-                            data-frame_0="y:50,50,31,19;"
-                            data-frame_1="st:720;sp:500;sR:720;"
-                            data-frame_999="o:0;st:w;sR:7780;"
-                            >Read More 
-                        </a>
-                        <rs-layer
-                            id="slider-2-slide-2-layer-6" 
-                            data-type="image"
-                            data-rsp_ch="on"
-                            data-xy="x:r;xo:-60px,-60px,-123px,-267px;yo:213px,87px,66px,36px;"
-                            data-text="w:normal;s:20,20,12,7;l:0,0,15,9;"
-                            data-dim="w:663px,663px,415px,256px;h:auto,637px,399px,246px;"
-                            data-vbility="t,t,t,f"
-                            data-frame_0="x:50,50,31,19;"
-                            data-frame_1="e:Linear.easeNone;st:30;sp:500;"
-                            data-frame_999="o:0;st:w;sR:8570;"
-                            ><img src="images/slides/slidernew_1.png" alt="banner" width="663" data-no-retina> 
-                        </rs-layer>
-                        <rs-layer
-                            id="slider-2-slide-2-layer-7" 
-                            data-type="text"
-                            data-color="#728948"
-                            data-rsp_ch="on"
-                            data-xy="x:l,l,l,c;xo:50px,50px,40px,-409px;yo:521px,379px,237px,132px;"
-                            data-text="w:normal;s:16,16,12,7;l:27,27,23,14;fw:400,400,500,500;"
-                            data-vbility="t,t,t,f"
-                            data-frame_0="y:50,50,31,19;"
-                            data-frame_1="e:Linear.easeNone;st:630;sp:500;sR:630;"
-                            data-frame_999="o:0;st:w;sR:7870;"
-                            >We are equipped with an updated technical knowledge to serve our customers<br> properly. Our method of application maintains the industry. 
-                        </rs-layer>
-                    </rs-slide>
-                    <!-- rs-slide -->
-                </rs-slides>
-            </rs-module><!-- rs-module -->
-        </rs-module-wrap>
-        <!-- END REVOLUTION SLIDER -->
+<!-- Unique Animated Hero Section - Merged Design (Palette 1 Dark Tech & Slider) -->
+<section class="hero-unique" id="hero-section">
+    <div class="hero-background">
+        <!-- Slide 0 Orbs (Cyan & Emerald) -->
+        <div class="gradient-orbs-group slide-0-orbs active">
+            <div class="gradient-orb orb-1 cyan-glow"></div>
+            <div class="gradient-orb orb-2 emerald-glow"></div>
+            <div class="gradient-orb orb-3 cyan-glow"></div>
+        </div>
+        <!-- Slide 1 Orbs (Magenta & Purple) -->
+        <div class="gradient-orbs-group slide-1-orbs">
+            <div class="gradient-orb orb-1 magenta-glow"></div>
+            <div class="gradient-orb orb-2 purple-glow"></div>
+            <div class="gradient-orb orb-3 magenta-glow"></div>
+        </div>
+        <!-- Slide 2 Orbs (Purple & Blue) -->
+        <div class="gradient-orbs-group slide-2-orbs">
+            <div class="gradient-orb orb-1 purple-glow"></div>
+            <div class="gradient-orb orb-2 blue-glow"></div>
+            <div class="gradient-orb orb-3 purple-glow"></div>
+        </div>
+        
+        <div class="grid-pattern"></div>
+        <div class="floating-particles"></div>
+        <div class="parallax-overlay"></div>
+    </div>
+
+    <!-- Slide Pagination Dots (on the right) -->
+    <div class="slider-pagination">
+        <button class="pagination-dot active" data-slide="0" aria-label="Go to slide 1"></button>
+        <button class="pagination-dot" data-slide="1" aria-label="Go to slide 2"></button>
+        <button class="pagination-dot" data-slide="2" aria-label="Go to slide 3"></button>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-content-wrapper">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span class="badge-text">Certified Shopify Development Agency</span>
+            </div>
+
+            <h1 class="hero-headline">
+                <span class="headline-static">We Build</span>
+                <span class="headline-animated">
+                    <span class="animated-word">Bold</span>
+                    <span class="animated-word">Smart</span>
+                    <span class="animated-word">Fast</span>
+                    <span class="animated-word">Scalable</span>
+                </span>
+                <span class="headline-static">Shopify Stores</span>
+            </h1>
+
+            <!-- Sliding descriptions container -->
+            <div class="hero-subheadline-container">
+                <p class="hero-subheadline slide-desc active" data-slide="0">
+                    We build more than stores. We build revenue. 
+                    Transform your e-commerce vision into a high-converting reality with Codelock Solutions.
+                </p>
+                <p class="hero-subheadline slide-desc" data-slide="1">
+                    Custom Shopify Themes & Apps designed for maximum engagement, lightning-fast speed, and pixel-perfect responsiveness.
+                </p>
+                <p class="hero-subheadline slide-desc" data-slide="2">
+                    Scale your enterprise with Shopify Plus. Bespoke checkout workflows, seamless migrations, and high-volume performance.
+                </p>
+            </div>
+
+            <div class="hero-cta-group">
+                <a href="contact.php" class="cta-primary">
+                    <span>Start Your Project</span>
+                    <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <a href="services.php" class="cta-secondary">
+                    <span>View Services</span>
+                    <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M12 6v6l4 2"/>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="hero-trust-bar floating-card">
+                <div class="trust-item">
+                    <div class="trust-number">500+</div>
+                    <div class="trust-label">Projects Delivered</div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <div class="trust-number">98%</div>
+                    <div class="trust-label">Client Satisfaction</div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <div class="trust-number">24/7</div>
+                    <div class="trust-label">Expert Support</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visual-wrapper">
+            <!-- Sliding images container -->
+            <div class="hero-image-slider">
+                <div class="hero-image-slide active" data-slide="0">
+                    <div class="image-wrapper-3d">
+                        <img src="images/slides/slidernew_2.png" alt="Shopify Development" class="hero-main-image">
+                        <div class="image-shine"></div>
+                    </div>
+                </div>
+                <div class="hero-image-slide" data-slide="1">
+                    <div class="image-wrapper-3d">
+                        <img src="images/slides/slidernew_1.png" alt="Custom Theme Design" class="hero-main-image">
+                        <div class="image-shine"></div>
+                    </div>
+                </div>
+                <div class="hero-image-slide" data-slide="2">
+                    <div class="image-wrapper-3d">
+                        <img src="images/slides/slidernew_3.png.png" alt="Shopify Plus Scaling" class="hero-main-image">
+                        <div class="image-shine"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Floating cards (remain static or float on top of the active slide) -->
+            <div class="floating-card card-1" data-tilt>
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                    </svg>
+                </div>
+                <div class="card-content">
+                    <div class="card-title">Fast Delivery</div>
+                    <div class="card-value">2-4 Weeks</div>
+                </div>
+            </div>
+
+            <div class="floating-card card-2" data-tilt>
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                </div>
+                <div class="card-content">
+                    <div class="card-title">Premium Quality</div>
+                    <div class="card-value">5-Star Rated</div>
+                </div>
+            </div>
+
+            <div class="floating-card card-3" data-tilt>
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M23 6l-9.5 9.5-5-5L1 18"/>
+                        <path d="M17 6h6v6"/>
+                    </svg>
+                </div>
+                <div class="card-content">
+                    <div class="card-title">High Conversion</div>
+                    <div class="card-value">+40% Sales</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-indicator">
+        <div class="scroll-mouse">
+            <div class="scroll-wheel"></div>
+        </div>
+        <span>Scroll to explore</span>
+    </div>
+</section>
+
+<style>
+    .hero-unique {
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background: #070514; /* Deep cosmic violet base */
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .hero-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+    .gradient-orbs-group {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 1.2s ease-in-out, visibility 1.2s;
+        z-index: 1;
+    }
+
+    .gradient-orbs-group.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .gradient-orb {
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(90px);
+        opacity: 0.6;
+        animation: orbFloat 22s ease-in-out infinite;
+    }
+
+    .orb-1 {
+        width: 600px;
+        height: 600px;
+        top: -150px;
+        left: -150px;
+        animation-delay: 0s;
+    }
+
+    .orb-2 {
+        width: 550px;
+        height: 550px;
+        bottom: -150px;
+        right: -150px;
+        animation-delay: 5s;
+    }
+
+    .orb-3 {
+        width: 450px;
+        height: 450px;
+        top: 40%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        animation-delay: 10s;
+    }
+
+    /* Glow Definitions */
+    .cyan-glow { background: radial-gradient(circle, rgba(0, 242, 254, 0.25) 0%, transparent 70%); }
+    .emerald-glow { background: radial-gradient(circle, rgba(16, 185, 129, 0.2) 0%, transparent 70%); }
+    .magenta-glow { background: radial-gradient(circle, rgba(255, 0, 127, 0.25) 0%, transparent 70%); }
+    .purple-glow { background: radial-gradient(circle, rgba(124, 58, 237, 0.23) 0%, transparent 70%); }
+    .blue-glow { background: radial-gradient(circle, rgba(37, 99, 235, 0.2) 0%, transparent 70%); }
+
+    @keyframes orbFloat {
+        0%, 100% { transform: translate(0, 0) scale(1); }
+        25% { transform: translate(40px, -40px) scale(1.08); }
+        50% { transform: translate(-30px, 30px) scale(0.92); }
+        75% { transform: translate(30px, 40px) scale(1.04); }
+    }
+
+    .grid-pattern {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: 
+            linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+        background-size: 50px 50px;
+        animation: gridMove 30s linear infinite;
+        z-index: 2;
+    }
+
+    @keyframes gridMove {
+        0% { transform: translate(0, 0); }
+        100% { transform: translate(50px, 50px); }
+    }
+
+    .floating-particles {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: 
+            radial-gradient(circle, rgba(0, 242, 254, 0.22) 2px, transparent 2px),
+            radial-gradient(circle, rgba(255, 0, 127, 0.18) 1.5px, transparent 1.5px),
+            radial-gradient(circle, rgba(124, 58, 237, 0.15) 1px, transparent 1px);
+        background-size: 120px 120px, 180px 180px, 240px 240px;
+        background-position: 0 0, 60px 60px, 120px 120px;
+        animation: particlesFloat 25s linear infinite;
+        z-index: 2;
+    }
+
+    .parallax-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, transparent 0%, rgba(7, 5, 20, 0.85) 100%);
+        pointer-events: none;
+        z-index: 3;
+    }
+
+    @keyframes particlesFloat {
+        0% { transform: translateY(0) translateX(0); }
+        100% { transform: translateY(-120px) translateX(120px); }
+    }
+
+    /* Navigation dots on the right (like kurlicodes.com) */
+    .slider-pagination {
+        position: absolute;
+        right: 40px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        z-index: 10;
+    }
+
+    .pagination-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.25);
+        border: 2px solid transparent;
+        cursor: pointer;
+        padding: 0;
+        transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+        position: relative;
+    }
+
+    .pagination-dot::after {
+        content: '';
+        position: absolute;
+        top: -6px;
+        left: -6px;
+        right: -6px;
+        bottom: -6px;
+        border: 1px solid transparent;
+        border-radius: 50%;
+        transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+        opacity: 0;
+    }
+
+    .pagination-dot:hover {
+        background: rgba(255, 255, 255, 0.85);
+    }
+
+    .pagination-dot.active {
+        background: #00f2fe;
+        border-color: #00f2fe;
+        transform: scale(1.2);
+        box-shadow: 0 0 12px #00f2fe;
+    }
+
+    .pagination-dot.active::after {
+        border-color: rgba(0, 242, 254, 0.5);
+        opacity: 1;
+        transform: scale(1.2);
+    }
+
+    .hero-container {
+        position: relative;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 40px;
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 60px;
+        align-items: center;
+        z-index: 4;
+        width: 100%;
+    }
+
+    .hero-content-wrapper {
+        animation: slideInLeft 1s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    @keyframes slideInLeft {
+        from {
+            opacity: 0;
+            transform: translateX(-50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .hero-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 22px;
+        background: rgba(0, 242, 254, 0.05);
+        border: 1px solid rgba(0, 242, 254, 0.2);
+        border-radius: 50px;
+        margin-bottom: 30px;
+        animation: fadeInUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) 0.2s both;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .badge-dot {
+        width: 8px;
+        height: 8px;
+        background: #00f2fe;
+        border-radius: 50%;
+        animation: dotPulse 2s ease-in-out infinite;
+        box-shadow: 0 0 8px #00f2fe;
+    }
+
+    @keyframes dotPulse {
+        0%, 100% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.3); opacity: 0.6; }
+    }
+
+    .badge-text {
+        color: #00f2fe;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+    }
+
+    .hero-headline {
+        font-size: clamp(38px, 4.8vw, 62px);
+        font-weight: 800;
+        line-height: 1.12;
+        color: #ffffff;
+        margin-bottom: 25px;
+        animation: fadeInUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) 0.4s both;
+    }
+
+    .headline-static {
+        display: block;
+    }
+
+    .headline-animated {
+        display: inline-block;
+        position: relative;
+        height: 1.25em;
+        vertical-align: bottom;
+        min-width: 350px;   
+    }
+
+    .animated-word {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        white-space: nowrap;
+        background: linear-gradient(90deg, #00f2fe, #ff007f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s ease, transform 0.5s ease;
+        transform: translateY(12px);
+    }
+
+    .animated-word.active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    /* Subheadline & Slider descriptions */
+    .hero-subheadline-container {
+        position: relative;
+        min-height: 80px;
+        margin-bottom: 40px;
+        width: 100%;
+        max-width: 580px;
+        animation: fadeInUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) 0.6s both;
+    }
+
+    .hero-subheadline {
+        font-size: 17px;
+        line-height: 1.75;
+        color: rgba(255, 255, 255, 0.7);
+        max-width: 580px;
+    }
+
+    .slide-desc {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin-bottom: 0 !important;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(15px);
+        transition: opacity 0.6s cubic-bezier(0.25, 1, 0.5, 1), 
+                    transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), 
+                    visibility 0.6s;
+    }
+
+    .slide-desc.active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    @keyframes underlineExpand {
+        to { transform: scaleX(1); transform-origin: left; }
+    }
+
+    .hero-cta-group {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 50px;
+        animation: fadeInUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) 0.8s both;
+    }
+
+    .cta-primary,
+    .cta-secondary {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        padding: 16px 32px;
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: none;
+        border-radius: 12px;
+        transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .cta-primary {
+        background: linear-gradient(135deg, #00f2fe, #10b981);
+        color: #070514;
+        border: none;
+        box-shadow: 0 4px 18px rgba(0, 242, 254, 0.25);
+    }
+
+    .cta-primary::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+        transition: left 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .cta-primary:hover::before {
+        left: 100%;
+    }
+
+    .cta-primary:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 24px rgba(0, 242, 254, 0.45);
+    }
+
+    .cta-secondary {
+        background: rgba(255, 255, 255, 0.03);
+        color: #ffffff;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+
+    .cta-secondary:hover {
+        background: rgba(255, 255, 255, 0.08);
+        border-color: #00f2fe;
+        color: #00f2fe;
+        transform: translateY(-3px);
+        box-shadow: 0 8px 25px rgba(0, 242, 254, 0.15);
+    }
+
+    .cta-icon {
+        width: 18px;
+        height: 18px;
+        transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .cta-primary:hover .cta-icon,
+    .cta-secondary:hover .cta-icon {
+        transform: translateX(4px);
+    }
+
+    /* Span Mother Hover Text Transitions */
+    .button-text-wrapper {
+        position: relative;
+        display: inline-flex;
+        overflow: hidden;
+        height: 1.4em;
+        align-items: center;
+    }
+
+    .span-mother {
+        display: flex;
+        position: relative;
+    }
+
+    .span-mother2 {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .span-mother span {
+        display: inline-block;
+        transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .span-mother2 span {
+        display: inline-block;
+        transform: translateY(-1.4em);
+        transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .cta-primary:hover .span-mother span,
+    .cta-secondary:hover .span-mother span {
+        transform: translateY(1.4em);
+    }
+
+    .cta-primary:hover .span-mother2 span,
+    .cta-secondary:hover .span-mother2 span {
+        transform: translateY(0);
+    }
+
+    /* Trust Bar (Glassmorphic) */
+    .hero-trust-bar {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        padding: 24px 35px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        backdrop-filter: blur(15px);
+        border-radius: 16px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+        animation: fadeInUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) 1s both;
+        max-width: 580px;
+    }
+
+    .trust-item {
+        text-align: center;
+        flex: 1;
+    }
+
+    .trust-number {
+        font-size: 28px;
+        font-weight: 800;
+        background: linear-gradient(135deg, #00f2fe, #ff007f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 4px;
+        line-height: 1.1;
+    }
+
+    .trust-label {
+        font-size: 11px;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+    }
+
+    .trust-divider {
+        width: 1px;
+        height: 45px;
+        background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.1), transparent);
+    }
+
+    /* Sliding Visual Wrapper */
+    .hero-visual-wrapper {
+        position: relative;
+        animation: slideInRight 1s cubic-bezier(0.25, 1, 0.5, 1) 0.3s both;
+        height: 520px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @keyframes slideInRight {
+        from {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .hero-image-slider {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        perspective: 1000px;
+        z-index: 2;
+    }
+
+    .hero-image-slide {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(80px) scale(0.95);
+        transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1),
+                    transform 0.8s cubic-bezier(0.25, 1, 0.5, 1),
+                    visibility 0.8s;
+    }
+
+    .hero-image-slide.active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0) scale(1);
+        z-index: 5;
+    }
+
+    .hero-image-slide.prev {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-80px) scale(0.95);
+        z-index: 1;
+    }
+
+    .image-wrapper-3d {
+        position: relative;
+        z-index: 2;
+        transform-style: preserve-3d;
+        transition: transform 0.35s ease-out;
+        max-width: 80%;
+        height: 100%; /* Ensure it takes full height of container */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-main-image {
+        max-width: 100%;
+        max-height: 100%; /* Prevent vertical overflow */
+        object-fit: contain;
+        height: auto;
+        position: relative;
+        z-index: 2;
+        border-radius: 20px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+        transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+    }
+
+    /* Idle vertical float applied to active slide's image */
+    .hero-image-slide.active .hero-main-image {
+        animation: floatImage 8s ease-in-out infinite;
+    }
+
+    .image-shine {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+            135deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.05) 40%,
+            rgba(255, 255, 255, 0.2) 50%,
+            rgba(255, 255, 255, 0.05) 60%,
+            rgba(255, 255, 255, 0) 100%
+        );
+        border-radius: 20px;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: 3;
+    }
+
+    .image-wrapper-3d:hover .image-shine {
+        opacity: 1;
+        animation: shineMove 1.5s ease-in-out;
+    }
+
+    @keyframes shineMove {
+        0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+        100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+    }
+
+    @keyframes floatImage {
+        0%, 100% { transform: translateY(0) rotate(0deg); }
+        50% { transform: translateY(-20px) rotate(0.8deg); }
+    }
+
+    /* Floating Cards (Glassmorphism) */
+    .floating-card {
+        position: absolute;
+        padding: 16px 20px;
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(15px);
+        border-radius: 16px;
+        box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        z-index: 6;
+        animation: cardFloat 6s ease-in-out infinite;
+        transform-style: preserve-3d;
+        transition: transform 0.3s ease-out, box-shadow 0.3s ease-out, border-color 0.3s;
+        color: #ffffff;
+    }
+
+    .floating-card:hover {
+        box-shadow: 0 18px 45px rgba(0, 242, 254, 0.2);
+        border-color: rgba(0, 242, 254, 0.3);
+    }
+
+    .card-1 {
+        top: 8%;
+        left: -10px;
+        animation-delay: 0s;
+    }
+
+    .card-2 {
+        top: 52%;
+        right: -15px;
+        animation-delay: 1.5s;
+    }
+
+    .card-3 {
+        bottom: 12%;
+        left: 20px;
+        animation-delay: 3s;
+    }
+
+    @keyframes cardFloat {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-16px); }
+    }
+
+    .card-icon {
+        width: 42px;
+        height: 42px;
+        background: linear-gradient(135deg, #00f2fe, #ff007f);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+
+    .card-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .card-content {
+        flex: 1;
+    }
+
+    .card-title {
+        font-size: 11px;
+        color: rgba(255, 255, 255, 0.45);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 2px;
+    }
+
+    .card-value {
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 700;
+    }
+
+    .scroll-indicator {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        animation: bounce 2s ease-in-out infinite;
+        z-index: 5;
+    }
+
+    @keyframes bounce {
+        0%, 100% { transform: translateX(-50%) translateY(0); }
+        50% { transform: translateX(-50%) translateY(10px); }
+    }
+
+    .scroll-mouse {
+        width: 24px;
+        height: 38px;
+        border: 2px solid #00f2fe;
+        border-radius: 12px;
+        position: relative;
+    }
+
+    .scroll-wheel {
+        position: absolute;
+        top: 6px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 4px;
+        height: 7px;
+        background: #00f2fe;
+        border-radius: 2px;
+        animation: wheelScroll 2s ease-in-out infinite;
+    }
+
+    @keyframes wheelScroll {
+        0%, 100% { opacity: 1; transform: translateX(-50%) translateY(0); }
+        50% { opacity: 0.4; transform: translateX(-50%) translateY(10px); }
+    }
+
+    /* Responsive Design */
+    @media (max-width: 1200px) {
+        .hero-container {
+            grid-template-columns: 1fr;
+            text-align: center;
+            padding: 130px 30px 60px;
+            gap: 50px;
+        }
+
+        .hero-content-wrapper {
+            order: 1; /* Content first on mobile */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero-visual-wrapper {
+            order: 2; /* Image second on mobile */
+            height: 400px;
+        }
+
+        .hero-cta-group {
+            justify-content: center;
+        }
+
+        .hero-trust-bar {
+            justify-content: center;
+            width: 100%;
+        }
+
+        .hero-headline {
+            font-size: clamp(34px, 4.5vw, 50px);
+        }
+
+        .hero-subheadline {
+            margin: 0 auto;
+        }
+
+        .floating-card {
+            display: none; /* Hide floating cards on smaller screens to prevent clutter */
+        }
+        
+        .slider-pagination {
+            right: 20px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .hero-container {
+            padding: 140px 20px 40px; /* Increased top padding to prevent header overlap */
+            gap: 30px;
+        }
+
+        .hero-visual-wrapper {
+            height: 300px; /* Smaller image height on mobile */
+        }
+
+        .hero-badge {
+            padding: 8px 18px;
+            margin-bottom: 20px;
+        }
+
+        .hero-headline {
+            font-size: 30px;
+        }
+
+        .hero-subheadline-container {
+            min-height: 100px;
+        }
+
+        .hero-subheadline {
+            font-size: 15px;
+        }
+
+        .hero-cta-group {
+            flex-direction: column;
+            width: 100%;
+            max-width: 300px;
+            gap: 15px;
+        }
+
+        .cta-primary,
+        .cta-secondary {
+            justify-content: center;
+            width: 100%;
+        }
+
+        .hero-trust-bar {
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .trust-divider {
+            width: 40px;
+            height: 1px;
+        }
+
+        .image-wrapper-3d {
+            max-width: 90%;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .hero-headline {
+            font-size: 26px;
+        }
+
+        .hero-subheadline {
+            font-size: 13.5px;
+        }
+        
+        .slider-pagination {
+            display: none; /* Hide pagination dots on tiny screens to save room */
+        }
+    }
+
+    /* Shopify Apps Section Styles */
+    .shopify-apps-section {
+        position: relative;
+        padding: 80px 40px;
+        background: #070514;
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        overflow: hidden;
+    }
+
+    .shopify-apps-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: 
+            radial-gradient(circle at 20% 30%, rgba(0, 242, 254, 0.08) 0%, transparent 50%),
+            radial-gradient(circle at 80% 70%, rgba(255, 0, 127, 0.06) 0%, transparent 50%);
+        pointer-events: none;
+        z-index: 0;
+    }
+
+    .apps-container {
+        position: relative;
+        max-width: 1400px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1.2fr;
+        gap: 80px;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .apps-content-wrapper {
+        animation: fadeInUp 1s cubic-bezier(0.25, 1, 0.5, 1) 0.3s both;
+    }
+
+    .apps-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 22px;
+        background: rgba(0, 242, 254, 0.05);
+        border: 1px solid rgba(0, 242, 254, 0.2);
+        border-radius: 50px;
+        margin-bottom: 30px;
+    }
+
+    .apps-badge .badge-dot {
+        width: 8px;
+        height: 8px;
+        background: #00f2fe;
+        border-radius: 50%;
+        animation: dotPulse 2s ease-in-out infinite;
+        box-shadow: 0 0 8px #00f2fe;
+    }
+
+    .apps-badge .badge-text {
+        color: #00f2fe;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+    }
+
+    .apps-headline {
+        font-size: clamp(36px, 4.5vw, 52px);
+        font-weight: 800;
+        line-height: 1.15;
+        color: #ffffff;
+        margin-bottom: 25px;
+    }
+
+    .apps-description {
+        font-size: 17px;
+        line-height: 1.75;
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 40px;
+        max-width: 500px;
+    }
+
+    .apps-cta {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        padding: 16px 32px;
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: none;
+        border-radius: 12px;
+        background: linear-gradient(135deg, #00f2fe, #10b981);
+        color: #070514;
+        border: none;
+        box-shadow: 0 4px 18px rgba(0, 242, 254, 0.25);
+        transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .apps-cta::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+        transition: left 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .apps-cta:hover::before {
+        left: 100%;
+    }
+
+    .apps-cta:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 24px rgba(0, 242, 254, 0.45);
+    }
+
+    .apps-cta .cta-icon {
+        width: 18px;
+        height: 18px;
+        transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .apps-cta:hover .cta-icon {
+        transform: translateX(4px);
+    }
+
+    .apps-cards-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        animation: fadeInUp 1s cubic-bezier(0.25, 1, 0.5, 1) 0.5s both;
+    }
+
+    .app-card {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 25px;
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(15px);
+        border-radius: 16px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+        transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+        cursor: pointer;
+        animation: cardFloat 6s ease-in-out infinite;
+    }
+
+    .app-card:hover {
+        transform: translateY(-5px);
+        border-color: rgba(0, 242, 254, 0.3);
+        box-shadow: 0 15px 50px rgba(0, 242, 254, 0.15);
+        background: rgba(255, 255, 255, 0.04);
+    }
+
+    .app-screenshot {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        overflow: hidden;
+        flex-shrink: 0;
+        background: rgba(255, 255, 255, 0.05);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .app-screenshot img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .app-details {
+        flex: 1;
+    }
+
+    .app-name {
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 6px;
+    }
+
+    .app-desc {
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.6);
+        margin-bottom: 10px;
+        line-height: 1.4;
+    }
+
+    .app-stats {
+        display: flex;
+        gap: 15px;
+    }
+
+    .app-rating {
+        font-size: 12px;
+        color: #00f2fe;
+        font-weight: 600;
+    }
+
+    .app-installs {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 500;
+    }
+
+    /* Responsive Design for Apps Section */
+    @media (max-width: 1200px) {
+        .apps-container {
+            grid-template-columns: 1fr;
+            text-align: center;
+            gap: 50px;
+        }
+
+        .apps-content-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .apps-description {
+            margin: 0 auto 40px;
+        }
+
+        .apps-cards-wrapper {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .shopify-apps-section {
+            padding: 40px 20px;
+        }
+
+        .apps-headline {
+            font-size: 32px;
+        }
+
+        .apps-description {
+            font-size: 15px;
+        }
+
+        .app-card {
+            flex-direction: column;
+            text-align: center;
+            gap: 15px;
+        }
+
+        .app-stats {
+            justify-content: center;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .apps-headline {
+            font-size: 28px;
+        }
+
+        .apps-cta {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+</style>
+
+<script>
+    // Helper function to split button text into letter spans for rolling animation
+    function makeAnimatedButton(buttonSelector) {
+        const buttons = document.querySelectorAll(buttonSelector);
+        buttons.forEach(button => {
+            const textSpan = button.querySelector('span');
+            if (!textSpan) return;
+
+            const text = textSpan.textContent.trim();
+            const iconSvg = button.querySelector('svg');
+
+            button.innerHTML = '';
+
+            const textWrapper = document.createElement('span');
+            textWrapper.className = 'button-text-wrapper';
+
+            const mother1 = document.createElement('span');
+            mother1.className = 'span-mother';
+            
+            const mother2 = document.createElement('span');
+            mother2.className = 'span-mother2';
+
+            for (let i = 0; i < text.length; i++) {
+                const char = text[i];
+                const letter1 = document.createElement('span');
+                const letter2 = document.createElement('span');
+
+                if (char === ' ') {
+                    letter1.innerHTML = '&nbsp;';
+                    letter2.innerHTML = '&nbsp;';
+                } else {
+                    letter1.textContent = char;
+                    letter2.textContent = char;
+                }
+
+                const delay = i * 0.035;
+                letter1.style.transitionDelay = `${delay}s`;
+                letter2.style.transitionDelay = `${delay}s`;
+
+                mother1.appendChild(letter1);
+                mother2.appendChild(letter2);
+            }
+
+            textWrapper.appendChild(mother1);
+            textWrapper.appendChild(mother2);
+            
+            button.appendChild(textWrapper);
+            if (iconSvg) {
+                button.appendChild(iconSvg);
+            }
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // Dynamic Button Animations (Span Mothers)
+        makeAnimatedButton('.cta-primary');
+        makeAnimatedButton('.cta-secondary');
+
+        // Animated Words Cycling
+        const animatedWords = document.querySelectorAll('.animated-word');
+        let currentWordIndex = 0;
+        const wordCycleInterval = 4000; // 4 seconds per word
+
+        function cycleWords() {
+            if (animatedWords.length > 0) {
+                animatedWords[currentWordIndex].classList.remove('active');
+                currentWordIndex = (currentWordIndex + 1) % animatedWords.length;
+                animatedWords[currentWordIndex].classList.add('active');
+            }
+        }
+
+        if (animatedWords.length > 0) {
+            animatedWords[0].classList.add('active');
+            setInterval(cycleWords, wordCycleInterval);
+        }
+
+        // Slider Logic (Descriptions, Images, Glow Orbs)
+        const slides = document.querySelectorAll('.hero-image-slide');
+        const descriptions = document.querySelectorAll('.slide-desc');
+        const orbGroups = document.querySelectorAll('.gradient-orbs-group');
+        const paginationDots = document.querySelectorAll('.pagination-dot');
+        let currentSlideIndex = 0;
+        let autoplayTimer = null;
+        const autoplayInterval = 6000; // 6 seconds per slide
+
+        function gotoSlide(index) {
+            if (index === currentSlideIndex) return;
+
+            // Determine transition direction
+            const isNext = index > currentSlideIndex || (currentSlideIndex === slides.length - 1 && index === 0);
+
+            // Remove active classes
+            slides[currentSlideIndex].classList.remove('active');
+            if (isNext) {
+                slides[currentSlideIndex].classList.add('prev');
+            } else {
+                slides[currentSlideIndex].classList.remove('prev');
+            }
+            
+            descriptions[currentSlideIndex].classList.remove('active');
+            orbGroups[currentSlideIndex].classList.remove('active');
+            paginationDots[currentSlideIndex].classList.remove('active');
+
+            // Handle transition animation clean-up for previously active slides
+            const oldIndex = currentSlideIndex;
+            setTimeout(() => {
+                if (slides[oldIndex] && oldIndex !== currentSlideIndex) {
+                    slides[oldIndex].classList.remove('prev');
+                }
+            }, 800); // matches slide transition time
+
+            // Update index
+            currentSlideIndex = index;
+
+            // Add active class to new elements
+            slides[currentSlideIndex].classList.remove('prev');
+            slides[currentSlideIndex].classList.add('active');
+            descriptions[currentSlideIndex].classList.add('active');
+            orbGroups[currentSlideIndex].classList.add('active');
+            paginationDots[currentSlideIndex].classList.add('active');
+        }
+
+        function nextSlide() {
+            const nextIndex = (currentSlideIndex + 1) % slides.length;
+            gotoSlide(nextIndex);
+        }
+
+        function startAutoplay() {
+            stopAutoplay();
+            autoplayTimer = setInterval(nextSlide, autoplayInterval);
+        }
+
+        function stopAutoplay() {
+            if (autoplayTimer) {
+                clearInterval(autoplayTimer);
+            }
+        }
+
+        // Initialize pagination dot events
+        paginationDots.forEach(dot => {
+            dot.addEventListener('click', () => {
+                const slideIndex = parseInt(dot.getAttribute('data-slide'));
+                gotoSlide(slideIndex);
+                startAutoplay(); // Reset autoplay timer on manual click
+            });
+        });
+
+        // Start autoplay initially
+        startAutoplay();
+
+        // 3D Tilt Effect for active sliding image wrapper
+        const heroImageContainer = document.querySelector('.hero-image-slider');
+        
+        if (heroImageContainer) {
+            heroImageContainer.addEventListener('mousemove', (e) => {
+                const activeSlide = document.querySelector('.hero-image-slide.active');
+                if (!activeSlide) return;
+                
+                const imageWrapper = activeSlide.querySelector('.image-wrapper-3d');
+                const heroImage = activeSlide.querySelector('.hero-main-image');
+                
+                if (imageWrapper && heroImage) {
+                    const rect = heroImageContainer.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    
+                    const centerX = rect.width / 2;
+                    const centerY = rect.height / 2;
+                    
+                    const rotateX = (y - centerY) / 25;
+                    const rotateY = (centerX - x) / 25;
+                    
+                    imageWrapper.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.03)`;
+                    heroImage.style.transform = `translateZ(30px)`;
+                }
+            });
+
+            heroImageContainer.addEventListener('mouseleave', () => {
+                const activeSlide = document.querySelector('.hero-image-slide.active');
+                if (!activeSlide) return;
+                
+                const imageWrapper = activeSlide.querySelector('.image-wrapper-3d');
+                const heroImage = activeSlide.querySelector('.hero-main-image');
+                
+                if (imageWrapper && heroImage) {
+                    imageWrapper.style.transform = 'rotateX(0) rotateY(0) scale(1)';
+                    heroImage.style.transform = 'translateZ(0)';
+                }
+            });
+        }
+
+        // 3D Tilt Effect for Floating Cards
+        const tiltCards = document.querySelectorAll('[data-tilt]');
+        tiltCards.forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                
+                const rotateX = (y - centerY) / 15;
+                const rotateY = (centerX - x) / 15;
+                
+                card.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(20px)`;
+            });
+
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'rotateX(0) rotateY(0) translateZ(0)';
+            });
+        });
+
+        // Smooth Scroll and Parallax Effects on scroll
+        const heroSection = document.getElementById('hero-section');
+        const gridPattern = document.querySelector('.grid-pattern');
+        const particles = document.querySelector('.floating-particles');
+
+        let ticking = false;
+
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                window.requestAnimationFrame(() => {
+                    const scrolled = window.pageYOffset;
+                    
+                    // Parallax effect for active gradient orbs
+                    const activeOrbs = document.querySelectorAll('.gradient-orbs-group.active .gradient-orb');
+                    activeOrbs.forEach((orb, index) => {
+                        const speed = 0.1 + (index * 0.05);
+                        orb.style.transform = `translateY(${scrolled * speed}px)`;
+                    });
+
+                    // Parallax for grid pattern
+                    if (gridPattern) {
+                        gridPattern.style.transform = `translateY(${scrolled * 0.15}px)`;
+                    }
+
+                    // Parallax for particles
+                    if (particles) {
+                        particles.style.transform = `translateY(${scrolled * 0.1}px)`;
+                    }
+
+                    // Parallax for hero content & visual
+                    if (heroSection) {
+                        const heroContent = document.querySelector('.hero-content-wrapper');
+                        const heroVisual = document.querySelector('.hero-visual-wrapper');
+                        
+                        if (heroContent) {
+                            heroContent.style.transform = `translateY(${scrolled * 0.25}px)`;
+                            heroContent.style.opacity = 1 - (scrolled / 800);
+                        }
+                        
+                        if (heroVisual) {
+                            heroVisual.style.transform = `translateY(${scrolled * 0.15}px)`;
+                            heroVisual.style.opacity = 1 - (scrolled / 600);
+                        }
+                    }
+
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        });
+
+        // Intersection observer for entry animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        const heroElements = document.querySelectorAll('.hero-badge, .hero-headline, .hero-subheadline-container, .hero-cta-group, .hero-trust-bar, .floating-card');
+        heroElements.forEach(el => observer.observe(el));
+    });
+</script>

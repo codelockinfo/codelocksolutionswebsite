@@ -1,71 +1,13 @@
 
 <?php include 'header.php';?>
 <?php include 'slider.php';?>
+<?php include 'app-section.php';?>  
+<?php include 'trust-section.php';?>
+<?php include 'image-slider.php';?>
 
         <!--site-main start-->
         <div class="site-main">
 
-            <!-- zero-padding-section -->
-            <section class="ttm-row zero-padding-section position-relative z-1 clearfix">
-                <div class="container">
-                    <div class="row no-gutters ttm-bgcolor-darkgrey featured-icon-box-style1-row  mt_100 ">
-                        <div class="col-md-4">
-                            <!--  featured-icon-box --> 
-                            <div class="featured-icon-box left-icon style1 ttm-bgcolor-skincolor">
-                                <div class="featured-icon"><!--  featured-icon --> 
-                                    <div class="ttm-icon ttm-icon_element-bgcolor-darkgrey ttm-icon_element-size-md">
-                                        <i class="flaticon flaticon-system"></i><!--  ttm-icon --> 
-                                    </div>
-                                </div>
-                                <div class="featured-content"><!--  featured-content -->
-                                    <div class="featured-title"><!--  featured-title -->
-                                        <h5>Trusted Services</h5>
-                                    </div>
-                                    <div class="featured-desc"><!--  featured-desc -->
-                                        <p>We Are Trusted Our Customers</p>
-                                    </div>
-                                </div>
-                            </div><!--  featured-icon-box END -->
-                        </div>
-                        <div class="col-md-4">
-                            <!--  featured-icon-box --> 
-                            <div class="featured-icon-box left-icon style1 ttm-bgcolor-darkgrey">
-                                <div class="featured-icon"><!--  featured-icon --> 
-                                    <div class="ttm-icon ttm-icon_element-bgcolor-skincolor ttm-icon_element-size-md">
-                                        <i class="flaticon flaticon-clock"></i><!--  ttm-icon --> 
-                                    </div>
-                                </div>
-                                <div class="featured-content"><!--  featured-content -->
-                                    <div class="featured-title"><!--  featured-title -->
-                                        <h5>24/7 Support</h5>
-                                    </div>
-                                    <div class="featured-desc"><!--  featured-desc -->
-                                        <p>+91 76004 64414</p>
-                                    </div>
-                                </div>
-                            </div><!--  featured-icon-box END -->
-                        </div>
-                        <div class="col-md-4">
-                            <!--  featured-icon-box --> 
-                            <div class="featured-icon-box left-icon style1 ttm-bgcolor-skincolor">
-                                <div class="featured-icon"><!--  featured-icon --> 
-                                    <div class="ttm-icon ttm-icon_element-bgcolor-darkgrey ttm-icon_element-size-md">
-                                        <i class="flaticon flaticon-developer"></i><!--  ttm-icon --> 
-                                    </div>
-                                </div>
-                                <div class="featured-content"><!--  featured-content -->
-                                    <div class="featured-title"><!--  featured-title -->
-                                        <h5>Expert &amp; Professional</h5>
-                                    </div>
-                                    <div class="featured-desc"><!--  featured-desc -->
-                                        <p>We Are Trusted Our Customers</p>
-                                    </div>
-                                </div>
-                            </div><!--  featured-icon-box END -->
-                        </div>
-                    </div>
-                </div>
-            </section>
             <!-- zero-padding-section -->
             <section class="ttm-row zero-padding-section mt_50 res-991-mt-0 clearfix">
                 <div class="shopify-plus-img">
@@ -74,7 +16,7 @@
 
                 </div>
             </section>
-            <?php include 'image-slider.php';?>
+
 
             <!-- history-section -->
             <section class="ttm-row history-section bg-img3 ttm-bgcolor-grey ttm-bg ttm-bgimage-yes clearfix">

@@ -1,333 +1,228 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"/>
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<section id="slider" class="row image-slider">
-		<div class="col-xs-12 area disflex-align-center">
-			<div class="slider-wrapper col-xs-8">
-					<div class="scroll-wrapper">
-						<ul class="row displayblock_slider">
-								<a href="https://kiddicare.co.nz/" title="create beautiful shopify stores">
-									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/our project/shopify website1.png" alt="create beautiful shopify stores" />
-										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
-									</li>
-								</a>
-								<a href="https://www.terragentle.in/" title="create beautiful shopify stores">
-									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/our project/shopify website2.png" alt="create beautiful shopify stores" />
-										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
-									</li>
-								</a>
-								<a href="https://www.justmeats.com/" title="create beautiful shopify stores">
-									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/our project/shopify website3.png" alt="create beautiful shopify stores" />
-										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
-									</li>
-								</a>
-								<a href="https://millenniumjewelery.com/" title="create beautiful shopify stores">
-									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/our project/shopify website4.png" alt="create beautiful shopify stores" />
-										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
-									</li>
-								</a>
-								<a href="https://www.tistabene.com/" title="create beautiful shopify stores">
-									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/our project/shopify website5.png" alt="create beautiful shopify stores" />
-										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
-									</li>
-								</a>
-								<a href="https://www.fabdreamsorganic.com" title="create beautiful shopify stores">
-									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/our project/shopify website6.png" alt="create beautiful shopify stores" />
-										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
-									</li>
-								</a>
-								<a href="https://ffab.com/" title="create beautiful shopify stores">
-									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/our project/shopify website7.png" alt="create beautiful shopify stores" />
-										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
-									</li>
-								</a>
-								<a href="https://www.florenceblack.co.uk/" title="create beautiful shopify stores">
-									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/our project/shopify website8.png" alt="create beautiful shopify stores" />
-										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
-									
-									</li>
-								</a>
-								<a href="https://pazzion.in/" title="create beautiful shopify stores">
-									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/our project/shopify website9.png" alt="create beautiful shopify stores" />
-										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
-									</li>
-								</a>
-								<a href="https://fillerlab.dk/" title="create beautiful shopify stores">
-									<li class="slider section-title" style="left:-0%;-webkit-transition:left 1s;transition:left 1s;">
-										<img src="images/our project/shopify website10.png" alt="create beautiful shopify stores" />
-										<h2 class="title"><span class="slider-name">create beautiful shopify stores</span></h2>
-									</li>
-								</a>
-						</ul>
-					</div>
-			</div>
-			<div class="more-slider col-xs-12 col-sm-12  col-md-4">
-				<article class="content row justify-center section-title">
-					<h2 class="title"><span>Our Projects</span></h4>
-					<p>Explore our portfolio showcasing expertise in Shopify development. Our projects highlight tailored solutions for Shopify and Shopify Plus, empowering businesses with seamless e-commerce experiences. Witness our success stories and discover how we elevate online stores with our specialized expertise.</p>
-					<div class="slide-controls"><span class="slider-previous"><i class="fas fa-angle-left"></i></span><span class="slider-next"><i class="fas fa-angle-right"></i></span></div>
-				</article>
-			</div>
-		</div>
-	</section>
+<section id="marquee-slider" class="marquee-slider-section">
+    <div class="marquee-slider-container">
+        
+        <div class="marquee-badge">
+            <div class="marquee-badge-inner">
+                <span>1200+ Websites Built on Shopify</span>
+                <svg class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                   <circle cx="12" cy="12" r="10"></circle>
+                   <line x1="2" y1="12" x2="22" y2="12"></line>
+                   <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+            </div>
+        </div>
+
+        <?php
+        $projects = [
+            ['img' => 'images/our project/shopify website1.png', 'link' => 'https://kiddicare.co.nz/'],
+            ['img' => 'images/our project/shopify website2.png', 'link' => 'https://www.terragentle.in/'],
+            ['img' => 'images/our project/shopify website3.png', 'link' => 'https://www.justmeats.com/'],
+            ['img' => 'images/our project/shopify website4.png', 'link' => 'https://millenniumjewelery.com/'],
+            ['img' => 'images/our project/shopify website5.png', 'link' => 'https://www.tistabene.com/'],
+            ['img' => 'images/our project/shopify website6.png', 'link' => 'https://www.fabdreamsorganic.com'],
+            ['img' => 'images/our project/shopify website7.png', 'link' => 'https://ffab.com/'],
+            ['img' => 'images/our project/shopify website8.png', 'link' => 'https://www.florenceblack.co.uk/'],
+            ['img' => 'images/our project/shopify website9.png', 'link' => 'https://pazzion.in/'],
+            ['img' => 'images/our project/shopify website10.png', 'link' => 'https://fillerlab.dk/']
+        ];
+        
+        // Ensure minimum items for smooth scrolling by duplicating the array
+        $row1 = array_slice(array_merge($projects, $projects), 0, 10);
+        $row2 = array_slice(array_merge($projects, $projects), 4, 10);
+        $row3 = array_slice(array_merge($projects, $projects), 8, 10);
+
+        function renderRow($items, $speedClass, $directionClass) {
+            $content = '<div class="marquee-content">';
+            foreach($items as $item) {
+                $content .= '<a href="'.$item['link'].'" target="_blank" class="marquee-item">';
+                $content .= '<img src="'.$item['img'].'" alt="Shopify Store">';
+                $content .= '</a>';
+            }
+            $content .= '</div>';
+            
+            return '<div class="marquee-row '.$directionClass.' '.$speedClass.'"><div class="marquee-track">'.$content.$content.'</div></div>';
+        }
+        ?>
+
+        <?= renderRow($row1, 'speed-slow', 'dir-left') ?>
+        <?= renderRow($row2, 'speed-normal', 'dir-right') ?>
+        <?= renderRow($row3, 'speed-slow', 'dir-left') ?>
+        
+    </div>
+</section>
+
 <style>
-.justify-center{
-    justify-content: center;
-}
-.disflex-align-center{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-}
-.image-slider#slider {
-	width: 100%;
-}
-.image-slider#slider .row.displayblock_slider{
-    display:block;
-}
-.displayblock_slider a{
-	margin-left:30px;
-	margin-right:30px;
-}
-.image-slider#slider span.nowrap {
-	white-space: nowrap;
-}
-
-.image-slider#slider .slider-wrapper {
-    padding: 0;
-}
-
-.image-slider#slider .scroll-wrapper {
-    width: 100%;
-    overflow-x: hidden;
-}
-
-.image-slider#slider ul {
-    padding: 0;
-    width: max-content;
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: 5%;
-    margin-top: 5%;
-}
-
-.image-slider#slider li.slider {
-    display: inline-block;
+.marquee-slider-section {
     position: relative;
-    width: 21.9vw;
+    background: #070514; /* Match hero section deep cosmic violet */
+    padding: 80px 0;
+    overflow: hidden;
+    width: 100%;
 }
 
-.image-slider#slider li.slider img {
-    margin: 5px 0 0 0;
-    display: block;
-    height: auto;
-    max-width: 100%;
-    border-radius: 30px;
-    box-shadow: 0px 6px 15px 4px #95a984;
-	width:100%;
-}
-
-.image-slider#slider span.slider-name, span.slider-title {
-    display: block;
-    position: absolute;
-    color: #fff;
-}
-
-.image-slider#slider span.slider-name {
-    bottom: 4vw;
-      position: absolute; 
-      bottom: 0; 
-      top:0;
-      background: rgb(0, 0, 0);
-      background: rgba(0, 0, 0, 0.8); /* Black see-through */
-      color: #fff;
-      width: 100%;
-      transition: .5s ease-in;
-      opacity:0;
-      padding: 20px;
-      text-align: center;
-    align-items: center;
+.marquee-slider-container {
+    position: relative;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
 }
-.image-slider#slider li.slider:hover span.slider-name{
-    opacity:1;
-    border-radius: 30px;
+
+/* Badge Styling */
+.marquee-badge {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    padding: 3px; 
+    background: linear-gradient(90deg, #00f2fe, #2563eb, #7c3aed, #ff007f);
+    background-size: 300% 300%;
+    border-radius: 50px;
+    box-shadow: 0 0 40px rgba(124, 58, 237, 0.6), 0 0 20px rgba(0, 242, 254, 0.4);
+    animation: gradientSpin 4s ease infinite;
 }
-.image-slider#slider span.slider-title {
-    font-weight: 100;
-    bottom: 2.5vw;
-    font-size: 1.3vw;
-}
-.image-slider#slider .more-slider {
-    padding: 1vh 5% 0;
-}
-.image-slider#slider .more-slider h4 {
-    color: #2d4a8a;
-    font-style: italic;
+
+.marquee-badge-inner {
+    background: #ffffff;
+    color: #000000;
+    padding: 14px 28px;
+    border-radius: 46px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
     font-weight: 700;
-    font-family: 'Playfair Display', serif;
-    font-size: 3vw;
-    padding: 35px 0 25px 0px;
-    margin-bottom: 0;
-    margin-top: 8px;
-}
-.image-slider#slider .more-slider p {
-		padding-bottom: 2vh;
-		    text-align: center;
-}
-.image-slider#slider .slide-controls {
-    color: #374a16;
-    font-weight: 300;
-}
-.image-slider#slider .slide-controls span.slider-previous {
-    margin-right: 75px;
-}
-.image-slider#slider .slide-controls i {
-    font-size: 26px;
-}
-.image-slider#slider .more-slider a.button {
-    border: 1px solid #5896b0;
-    max-width: 200px;
-    color: #5896b0;
-    margin-top: 6vw;
-}
-.image-slider#slider .more-slider a.button:hover {
-    color: #fff;
-}
-.image-slider#slider .more-slider a.button:before {
-    background: #5896b0;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    white-space: nowrap;
 }
 
-/*** Media Queries ***/
+.marquee-badge-inner svg {
+    width: 22px;
+    height: 22px;
+}
 
+@keyframes gradientSpin {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Marquee Tracks */
+.marquee-row {
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+}
+
+.marquee-track {
+    display: flex;
+    gap: 30px;
+    width: max-content;
+}
+
+.marquee-content {
+    display: flex;
+    gap: 15px;
+}
+
+/* Animation directions */
+.dir-left .marquee-track {
+    animation: scrollLeft 50s linear infinite;
+}
+.dir-right .marquee-track {
+    animation: scrollRight 60s linear infinite;
+}
+
+/* Speeds */
+.speed-slow .marquee-track { animation-duration: 120s; }
+.speed-normal .marquee-track { animation-duration: 100s; }
+
+@keyframes scrollLeft {
+    to { transform: translateX(calc(-50% - 15px)); }
+}
+@keyframes scrollRight {
+    from { transform: translateX(calc(-50% - 15px)); }
+    to { transform: translateX(0); }
+}
+
+/* Pause on hover */
+.marquee-slider-container:hover .marquee-track {
+    animation-play-state: paused;
+}
+
+/* Items */
+.marquee-item {
+    position: relative;
+    display: block;
+    width: 425px;
+    height: 225px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.4s;
+    filter: grayscale(60%) brightness(0.6);
+}
+
+.marquee-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.marquee-item:hover {
+    transform: scale(1) translateY(0px);
+    filter: grayscale(0%) brightness(0.9);
+    z-index: 5;
+    box-shadow: 0 20px 40px rgba(0, 242, 254, 0.2);
+}
+
+.marquee-item:hover img {
+    transform: scale(1);
+}
+
+/* Mobile Adjustments */
 @media (max-width: 991px) {
-    
-		.image-slider#slider .more-slider {
-				padding: 1vh 3% 0;
-		}
-
-		.image-slider#slider .more-slider h4 {
-				font-size: 5vw;
-				padding: 0 0 15px 0;
-		}
-
-    .image-slider#slider .slider-wrapper {
-        width: 50%;
+    .marquee-item {
+        width: 350px;
+        height: 220px;
     }
-
-    .image-slider#slider .content {
-        padding: 35px;
-    }
-
-    .image-slider#slider .more-slider a.button {
-        margin-top: 4vw;
-        max-width: 175px;
-        font-size: 15px;
-        padding: 5px 0;
+    .marquee-badge-inner {
+        font-size: 1rem;
+        padding: 10px 20px;
     }
 }
-	
 @media (max-width: 768px) {
-		.displayblock_slider a{
-			margin-left:10px;
-			margin-right:10px;
-		}
-		.disflex-align-center{
-			display: flex;
-			flex-direction: column;
-		}
-		.image-slider#slider .area {
-			padding-right: 0;
-			padding-left: 0;
-		}
-	
-		.image-slider#slider .slider-wrapper {
-			width: 100%;
-			order:2;
-    	}
-
-		.image-slider#slider .scroll-wrapper {
-			overflow-x: scroll;
-			-webkit-overflow-scrolling: touch;
-		}
-
-		.image-slider#slider li.slider {
-			width: 49.2vw;
-		}
-		
-		.image-slider#slider span.slider-title {
-			bottom: 3.5vw;
-			font-size: 3.3vw;
-		}
-
-		.image-slider#slider span.slider-name {
-			bottom: 7vw;
-			font-size: 3.5vw;
-		}
-
-		.image-slider#slider .more-slider h4 br, .image-slider#slider .slide-controls {
-			display: none;
-		}
-
-		.image-slider#slider .more-slider a.button {
-			margin-top: 0;
-		}
-
-		.image-slider#slider {
-			padding-bottom: 0;
-					margin-left: 0;
-		}
-
-		.image-slider#slider .more-slider {
-			padding-left: 0;
-			display: block;
-			max-width: 100%;
-			flex: unset;
-		}
-
-		.image-slider#slider .more-slider h4 {
-			font-size: 7vw;
-			
-		}
+    .marquee-item {
+        width: 280px;
+        height: 150px;
+        filter: grayscale(2%) brightness(0.8);
+    }
+    .marquee-badge-inner {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+    .marquee-badge-inner svg {
+        width: 18px;
+        height: 18px;
+    }
+    .marquee-slider-section {
+        padding: 40px 0;
+    }
+    .marquee-slider-container {
+        gap: 15px;
+    }
+    .marquee-track, .marquee-content {
+        gap: 15px;
+    }
+    @keyframes scrollLeft {
+        to { transform: translateX(calc(-50% - 7.5px)); }
+    }
+    @keyframes scrollRight {
+        from { transform: translateX(calc(-50% - 7.5px)); }
+        to { transform: translateX(0); }
+    }
 }
-	</style>
-<script>
-		var i = 0;
-
-	$(document).on('click', '.slider-next', function(){
-		var next = i + 10;
-		if (i === 70) {
-		$('div.scroll-wrapper ul.row li').removeAttr('style');
-		$('div.scroll-wrapper ul.row li').attr('style', 'left:0%;-webkit-transition:left 1s;transition:left 1s;');
-		i = 0;
-		} else {
-		$('div.scroll-wrapper ul.row li').removeAttr('style');
-		$('div.scroll-wrapper ul.row li').attr('style', 'left:-'+ next +'.1%;-webkit-transition:left 1s;transition:left 1s;');
-		i = next;
-		}   
-	});
-
-	$(document).on('click', '.slider-previous', function(){
-		var previous = i - 10;
-		if (i === 0) {
-			$('div.scroll-wrapper ul.row li').removeAttr('style');
-			$('div.scroll-wrapper ul.row li').attr('style', 'left:-70%;-webkit-transition:left 1s;transition:left 1s;');
-			i = 70;
-		} else {
-			$('div.scroll-wrapper ul.row li').removeAttr('style');
-			$('div.scroll-wrapper ul.row li').attr('style', 'left:-'+ previous +'.1%;-webkit-transition:left 1s;transition:left 1s;');
-			i = previous;
-		}
-	});
-</script>
+</style>
