@@ -4,6 +4,7 @@
 <?php include 'app-section.php';?>  
 <?php include 'trust-section.php';?>
 <?php include 'image-slider.php';?>
+<?php include 'what-we-do.php';?>
 
         <!--site-main start-->
         <div class="site-main">
@@ -637,6 +638,5 @@
 }
 .social-icons li .fa{
     font: normal normal normal 14px/1 FontAwesome;
-    color:#fff;
 }
 </style>

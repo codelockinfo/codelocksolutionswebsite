@@ -1,9 +1,9 @@
 <section class="trust-metrics-section">
     <div class="container">
         <div class="metrics-top-row">
-            <h2 class="metrics-title trust-animate">Performance Metrics.</h2>
+            <h2 class="metrics-title trust-animate">Shopify Experts Trust Metrics.</h2>
             <p class="metrics-desc trust-animate">
-                Delivering measurable impact through strategic<br>design, development, and growth optimization.
+                Delivering measurable growth and e-commerce success through certified Shopify development,<br>conversion rate optimization (CRO), and enterprise-grade store setups.
             </p>
         </div>
         
@@ -33,10 +33,10 @@
 
 <style>
 .trust-metrics-section {
-    background-color: #070514; /* Matches hero section */
+    background-color: var(--bg-primary);
     padding: 80px 0;
     font-family: 'Inter', sans-serif;
-    color: #ffffff;
+    color: var(--text-primary);
     overflow: hidden;
 }
 
@@ -46,23 +46,28 @@
     align-items: flex-end;
     margin-bottom: 60px;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
 }
 
 .metrics-title {
     font-size: 48px;
     font-weight: 700;
+    line-height: 58px;
     margin: 0;
     letter-spacing: -1px;
-    color: #fff;
+    color: var(--text-primary);
+    flex: 1 1 50%;
+    max-width: 600px;
+    text-align: left;
 }
 
 .metrics-desc {
-    color: #a1a1aa;
+    color: var(--text-secondary);
     font-size: 16px;
     line-height: 1.6;
     margin: 0;
-    text-align: right;
+    flex: 1 1 40%;
+    text-align: left;
 }
 
 .metrics-grid {
@@ -72,23 +77,40 @@
 }
 
 .metric-card {
-    background: #0d0f17;
+    background: var(--card-bg);
     border-radius: 16px;
     padding: 40px 30px;
     transition: all 0.4s ease;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 40px var(--shadow-color);
     position: relative;
     z-index: 1;
 }
 
 /* Continuous gradient border animation (Without Hover) */
-.metric-card::before {
+[data-theme="dark"] .metric-card::before {
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     border-radius: 16px;
     padding: 2px;
     background: linear-gradient(90deg, #00f2fe, #2563eb, #7c3aed, #ff007f);
+    background-size: 300% 300%;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0.4; /* Always visible */
+    animation: gradientSpin 3s ease infinite;
+    z-index: -1;
+    transition: all 0.4s ease;
+}
+
+[data-theme="light"] .metric-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border-radius: 16px;
+    padding: 2px;
+    background: linear-gradient(90deg, #374a16, #728948, #6fab06, #374a16);
     background-size: 300% 300%;
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
@@ -108,8 +130,8 @@
 /* Hover effects */
 .metric-card.active:hover {
     transform: translateY(-12px) scale(1.03);
-    background: #111420;
-    box-shadow: 0 20px 40px rgba(124, 58, 237, 0.3);
+    background: var(--card-bg);
+    box-shadow: 0 20px 40px var(--shadow-color);
 }
 
 .metric-card:hover::before {
@@ -122,7 +144,7 @@
     font-size: 56px;
     font-weight: 700;
     margin: 0 0 15px 0;
-    background: linear-gradient(135deg, #00f2fe, #ff007f);
+    background: var(--gradient-secondary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 1;
@@ -136,7 +158,7 @@
 .metric-label {
     font-size: 12px;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--text-tertiary);
     text-transform: uppercase;
     letter-spacing: 1.5px;
     margin: 0;
@@ -177,18 +199,25 @@
         flex-direction: column;
         align-items: flex-start;
         margin-bottom: 40px;
+        gap: 15px;
     }
     .metrics-desc {
         text-align: left;
+        max-width: 100%;
     }
-    .metrics-grid {
-        grid-template-columns: 1fr;
-    }
+    
     .metrics-title {
         font-size: 32px;
+        max-width: 100%;
     }
     .metric-number {
         font-size: 48px;
+    }
+}
+
+@media (max-width: 749px) {
+    .metrics-grid {
+        grid-template-columns: 1fr;
     }
 }
 </style>

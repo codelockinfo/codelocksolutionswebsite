@@ -1,0 +1,122 @@
+/* =====================================================
+   Theme CSS Variables – Dark (default) & Light Theme
+   ===================================================== */
+
+:root {
+    --bg-primary: #070514;
+    --bg-secondary: rgba(255, 255, 255, 0.02);
+    --bg-tertiary: rgba(255, 255, 255, 0.03);
+    --bg-image: radial-gradient(circle, rgba(0, 242, 254, 0.22) 2px, transparent 2px),
+            radial-gradient(circle, rgba(255, 0, 127, 0.18) 1.5px, transparent 1.5px),
+            radial-gradient(circle, rgba(124, 58, 237, 0.15) 1px, transparent 1px);
+    --text-primary: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.7);
+    --text-tertiary: rgba(255, 255, 255, 0.5);
+    --border-color: rgba(255, 255, 255, 0.08);
+    --accent-primary: #00f2fe;
+    --accent-secondary: #ff007f;
+    --accent-tertiary: #10b981;
+    --gradient-primary: linear-gradient(135deg, #00f2fe, #10b981);
+    --gradient-secondary: linear-gradient(135deg, #00f2fe, #ff007f);
+    --shadow-color: rgba(0, 242, 254, 0.2);
+    --card-bg: rgba(255, 255, 255, 0.02);
+    --card-border: rgba(0, 242, 254, 0.3);
+    --badge-bg: rgba(0, 242, 254, 0.05);
+    --badge-border: rgba(0, 242, 254, 0.2);
+}
+
+[data-theme="light"] {
+    --bg-primary: #f4f6f9;
+    --bg-secondary: rgba(0, 0, 0, 0.03);
+    --bg-tertiary: rgba(0, 0, 0, 0.05);
+    --bg-image: radial-gradient(circle, #374a1638 2px, transparent 2px), 
+            radial-gradient(circle, #72894829 1.5px, transparent 1.5px), 
+            radial-gradient(circle, #40502342 1px, transparent 1px);
+    --text-primary: #1a1a2e;
+    --text-secondary: rgba(26, 26, 46, 0.75);
+    --text-tertiary: rgba(26, 26, 46, 0.55);
+    --border-color: rgba(0, 0, 0, 0.1);
+    --accent-primary: #728948;
+    --accent-secondary: #374a16;
+    --accent-tertiary: #5a6e34;
+    --gradient-primary: linear-gradient(135deg, #728948, #374a16);
+    --gradient-secondary: linear-gradient(135deg, #728948, #5a6e34);
+    --shadow-color: #72894891;
+    --card-bg: #ffffff;
+    --card-border: #72894891;
+    --badge-bg: rgb(220 245 176 / 15%);
+    --badge-border: rgb(114 137 72 / 48%);
+}
+
+/* =====================================================
+   Theme Toggle Button Styles
+   ===================================================== */
+.theme-toggle-btn {
+    position: relative;
+    width: 38px;
+    height: 38px;
+    border: none;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    vertical-align: middle;
+    flex-shrink: 0;
+}
+
+.theme-toggle-btn:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: scale(1.1);
+}
+
+[data-theme="light"] .theme-toggle-btn {
+    background: rgba(114, 137, 72, 0.15);
+    border: 1px solid rgba(114, 137, 72, 0.3);
+}
+
+[data-theme="light"] .theme-toggle-btn:hover {
+    background: rgba(114, 137, 72, 0.25);
+}
+
+/* Theme toggle positioned at right corner of sticky header */
+.theme-toggle-header-right {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    transform: translateY(40%);
+    z-index: 1000;
+}
+
+/* Mobile responsive positioning for theme toggle */
+@media (max-width: 1199px) {
+    .theme-toggle-header-right {
+        position: absolute;
+        top: 5px;
+        right: 15px;
+    }
+}
+
+.theme-toggle-btn .sun-icon,
+.theme-toggle-btn .moon-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+    transition: opacity 0.3s ease, transform 0.4s ease;
+}
+
+[data-theme="light"] .theme-toggle-btn .sun-icon,
+[data-theme="light"] .theme-toggle-btn .moon-icon {
+    color: #374a16;
+}
+
+.theme-toggle-btn .sun-icon  { opacity: 1; transform: rotate(0deg); }
+.theme-toggle-btn .moon-icon { opacity: 0; transform: rotate(-90deg); }
+
+[data-theme="light"] .theme-toggle-btn .sun-icon  { opacity: 0; transform: rotate(90deg); }
+[data-theme="light"] .theme-toggle-btn .moon-icon { opacity: 1; transform: rotate(0deg); }
+

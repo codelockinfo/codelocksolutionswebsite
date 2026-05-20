@@ -1,0 +1,324 @@
+/* =====================================================
+   What We Do Section Styles - Codelock Solutions
+   ===================================================== */
+
+.what-we-do-section {
+    background: var(--bg-primary);
+    padding: 100px 0;
+    color: var(--text-primary);
+    transition: background 0.3s ease, color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.wwd-left-container {
+    padding-right: 30px;
+}
+
+.wwd-subheading {
+    background: var(--gradient-secondary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.wwd-heading {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.25;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+}
+
+.wwd-desc {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin-bottom: 30px;
+}
+
+.view-all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.wwd-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none !important;
+    transition: gap 0.3s ease, color 0.3s ease;
+}
+
+.wwd-arrow-icon {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+
+.wwd-link:hover .wwd-arrow-icon {
+    transform: translateX(4px);
+}
+
+/* =====================================================
+   Cards Grid Layout
+   ===================================================== */
+
+.wwd-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 10px 0;
+}
+
+/* =====================================================
+   Card Layout & Inner Container
+   ===================================================== */
+
+.wwd-tilt-card {
+    will-change: transform;
+}
+
+.wwd-card-inner {
+    background: var(--card-bg, rgba(255, 255, 255, 0.02));
+    border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+    border-radius: 20px;
+    padding: 35px 20px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    transition: border-color 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 20;
+    cursor: pointer;
+    perspective: 1200px;
+    transform-style: preserve-3d;
+}
+
+[data-theme="light"] .wwd-card-inner {
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+/* Door overlay swing shut from the left */
+[data-theme="dark"] .wwd-card-door {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: -10;
+    transform-origin: left center;
+    transform: rotateY(90deg);
+    opacity: 0;
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.5s ease;
+    pointer-events: none;
+    border-radius: 19px;
+    will-change: transform, opacity;
+}
+
+[data-theme="light"] .wwd-card-door {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #728948, #abd373);
+    z-index: -10;
+    transform-origin: left center;
+    transform: rotateY(90deg);
+    opacity: 0;
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.5s ease;
+    pointer-events: none;
+    border-radius: 19px;
+    will-change: transform, opacity;
+}
+
+.wwd-card-inner.is-hovered {
+    border-color: transparent;
+    box-shadow: 0 20px 45px rgba(114, 137, 72, 0.3);
+}
+
+/* =====================================================
+   Card Contents
+   ===================================================== */
+
+.wwd-card-icon {
+    color: var(--accent-primary);
+    width: 42px;
+    height: 42px;
+    margin-bottom: 25px;
+    transition: transform 0.4s ease, color 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.wwd-card-icon svg {
+    width: 100%;
+    height: 100%;
+    stroke-width: 1.5;
+}
+
+[data-theme="dark"] .wwd-card-inner.is-hovered .wwd-card-icon {
+    transform: scale(1.1);
+    color: #000 !important;
+}
+
+[data-theme="light"] .wwd-card-inner.is-hovered .wwd-card-icon {
+    transform: scale(1.1);
+    color: #ffffff !important;
+}
+
+.wwd-card-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    color: var(--text-primary);
+    transition: color 0.4s ease;
+    position: relative;
+    z-index: 2;
+}
+
+[data-theme="dark"] .wwd-card-inner.is-hovered .wwd-card-title {
+    color: #000;
+}
+
+[data-theme="light"] .wwd-card-inner.is-hovered .wwd-card-title {
+    color: #fff;
+}
+
+.wwd-card-text {
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    margin: 0;
+    transition: color 0.4s ease;
+    transition-delay: 0.1s;
+    position: relative;
+    z-index: 2;
+}
+
+[data-theme="dark"] .wwd-card-inner.is-hovered .wwd-card-text {
+    color: #000;
+}
+
+[data-theme="light"] .wwd-card-inner.is-hovered .wwd-card-text {
+    color: #fff;
+}
+
+/* =====================================================
+   Watermark Decoration
+   ===================================================== */
+
+.wwd-card-watermark {
+    position: absolute;
+    right: -25px;
+    bottom: -25px;
+    width: 140px;
+    height: 140px;
+    color: var(--text-primary);
+    opacity: 0.02;
+    pointer-events: none;
+    transition: transform 0.6s ease, opacity 0.4s ease, color 0.4s ease;
+    transform: rotate(-15deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -5;
+}
+
+.wwd-card-watermark svg {
+    width: 100%;
+    height: 100%;
+    stroke-width: 1;
+}
+
+.wwd-card-inner.is-hovered .wwd-card-watermark {
+    transform: rotate(-5deg) scale(1.12);
+    opacity: 0.08;
+    color: #ffffff;
+}
+
+[data-theme="light"] .wwd-card-watermark {
+    opacity: 0.035;
+    color: #000000;
+}
+
+[data-theme="light"] .wwd-card-inner.is-hovered .wwd-card-watermark {
+    opacity: 0.08;
+    color: #ffffff;
+}
+
+[data-theme="light"] .wwd-card-inner.is-hovered .wwd-card-icon {
+    color: #ffffff !important;
+}
+
+[data-theme="light"] .wwd-card-inner.is-hovered .wwd-card-title {
+    color: #ffffff;
+}
+
+[data-theme="light"] .wwd-card-inner.is-hovered .wwd-card-text {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* =====================================================
+   Responsive Design
+   ===================================================== */
+
+@media (max-width: 1400px) {
+    .wwd-cards-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .what-we-do-section {
+        padding: 80px 0;
+    }
+    .wwd-cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .wwd-left-container {
+        padding-right: 0;
+        margin-bottom: 45px;
+        text-align: center;
+    }
+    .wwd-link {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .what-we-do-section {
+        padding: 60px 0;
+    }
+    .wwd-cards-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    .wwd-heading {
+        font-size: 2rem;
+    }
+}

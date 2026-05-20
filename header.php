@@ -47,28 +47,61 @@
 <!-- responsive -->
 <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/theme.css"/>
+
+<!-- Prevent FOUC: apply saved theme before first paint -->
+<script>
+(function(){
+    var t = localStorage.getItem('clTheme') || 'dark';
+    document.documentElement.setAttribute('data-theme', t);
+})();
+</script>
 
 <style>
-/* Header & Topbar Dark Theme Overrides */
+/* Header & Topbar Theme Support */
 .ttm-topbar-wrapper {
-    background: #04030a !important; /* Slightly darker than hero for contrast */
+    display: none;
+    background: #04030a !important;
     color: #a3a3a3 !important;
     border-bottom: 1px solid rgba(124, 58, 237, 0.2) !important;
+    transition: background 0.3s ease, color 0.3s ease;
 }
+
+[data-theme="light"] .ttm-topbar-wrapper {
+    background: #ffffff !important;
+    color: #333333 !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
 .ttm-topbar-wrapper a, .ttm-topbar-wrapper .top-contact li, .ttm-topbar-wrapper .top-contact li i {
     color: #a3a3a3 !important;
     transition: color 0.3s;
 }
+
+[data-theme="light"] .ttm-topbar-wrapper a, 
+[data-theme="light"] .ttm-topbar-wrapper .top-contact li, 
+[data-theme="light"] .ttm-topbar-wrapper .top-contact li i {
+    color: #333333 !important;
+}
+
 .ttm-topbar-wrapper a:hover {
-    color: #00f2fe !important; /* Cyan glow color */
+    color: #00f2fe !important;
+}
+
+[data-theme="light"] .ttm-topbar-wrapper a:hover {
+    color: #0066cc !important;
 }
 
 /* Main Header */
 .ttm-stickable-header {
-    background: rgba(7, 5, 20, 0.85) !important; /* Cosmic violet with transparency */
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background: rgba(7, 5, 20, 0.85) !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    transition: background 0.3s ease;
+}
+
+[data-theme="light"] .ttm-stickable-header {
+    background: rgba(255, 255, 255, 0.95) !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .is-sticky .ttm-stickable-header, .ttm-header-wrap.is-sticky {
@@ -76,12 +109,24 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
 }
 
-/* Logo inversion (if original logo is dark text) */
+[data-theme="light"] .is-sticky .ttm-stickable-header, 
+[data-theme="light"] .ttm-header-wrap.is-sticky {
+    background: rgba(255, 255, 255, 0.98) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Logo */
 .site-branding img {
     filter: brightness(0) invert(1);
     opacity: 0.9;
     transition: opacity 0.3s ease;
 }
+
+[data-theme="light"] .site-branding img {
+    filter: none;
+    opacity: 1;
+}
+
 .site-branding img:hover {
     opacity: 1;
 }
@@ -90,79 +135,136 @@
 #site-navigation .menu ul.dropdown > li > a {
     color: #e0e0e0 !important;
     font-weight: 500;
+    transition: color 0.3s ease;
 }
+
+[data-theme="light"] #site-navigation .menu ul.dropdown > li > a {
+    color: #333333 !important;
+}
+
 #site-navigation .menu ul.dropdown > li:hover > a, 
 #site-navigation .menu ul.dropdown > li.active > a {
     color: #00f2fe !important;
 }
 
+[data-theme="light"] #site-navigation .menu ul.dropdown > li:hover > a, 
+[data-theme="light"] #site-navigation .menu ul.dropdown > li.active > a {
+    color: #728948 !important;
+}
+
 /* Dropdown Menu styling */
 #site-navigation .menu ul.dropdown ul {
-    background: #0a0818 !important; /* Dark background for dropdowns */
+    background: #0a0818 !important;
     border: 1px solid rgba(124, 58, 237, 0.3) !important;
     box-shadow: 0 10px 30px rgba(0,0,0,0.8) !important;
+    transition: background 0.3s ease;
 }
+
+[data-theme="light"] #site-navigation .menu ul.dropdown ul {
+    background: #ffffff !important;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
+}
+
 #site-navigation .menu ul.dropdown ul > li > a {
     color: #cccccc !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
 }
+
+[data-theme="light"] #site-navigation .menu ul.dropdown ul > li > a {
+    color: #333333 !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
 #site-navigation .menu ul.dropdown ul > li:hover > a {
     color: #ffffff !important;
     background: rgba(124, 58, 237, 0.2) !important;
-    padding-left: 20px !important; /* Slight indent on hover */
+    padding-left: 20px !important;
+}
+
+[data-theme="light"] #site-navigation .menu ul.dropdown ul > li:hover > a {
+    color: #728948 !important;
+    background: rgba(0, 102, 204, 0.1) !important;
 }
 
 /* Social icons in topbar */
 .ttm-social-links-wrapper.list-inline .social-icons li a {
-    background: rgba(255, 255, 255, 0.05) !important;
     color: #fff !important;
     border-color: transparent !important;
+    transition: background 0.3s ease;
 }
-.ttm-social-links-wrapper.list-inline .social-icons li a:hover {
-    background: #7c3aed !important;
-    color: #fff !important;
-    box-shadow: 0 0 15px rgba(124, 58, 237, 0.5);
-    border-color: transparent !important;
+
+[data-theme="light"] .ttm-social-links-wrapper.list-inline .social-icons li a {
+    color: #000 !important;
 }
 
 /* Mobile Responsive Fixes */
 @media (max-width: 1199px) {
     /* Mobile menu toggle button */
     .ttm-menu-toggle-block .toggle-block {
-        background-color: #fff !important;
+        background-color: var(--text-primary) !important;
     }
     
-    /* Fix mobile header background being white, making white logo invisible */
+    /* Fix mobile header background */
     .ttm-stickable-header-w {
-        background-color: #070514 !important; /* Dark background */
+        background-color: #070514 !important;
         border-bottom: 1px solid rgba(255,255,255,0.05);
+        transition: background-color 0.3s ease;
     }
+    
+    [data-theme="light"] .ttm-stickable-header-w {
+        background-color: #ffffff !important;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+    
     .ttm-header-wrap {
         background-color: #070514 !important;
+        transition: background-color 0.3s ease;
+    }
+    
+    [data-theme="light"] .ttm-header-wrap {
+        background-color: #ffffff !important;
     }
 
     /* Fix mobile menu dropdown background and links */
     #site-header-menu #site-navigation .menu > ul {
         background-color: #0a0818 !important;
         border-top: 3px solid #00f2fe !important;
+        transition: background-color 0.3s ease;
     }
+    
+    [data-theme="light"] #site-header-menu #site-navigation .menu > ul {
+        background-color: #ffffff !important;
+        border-top: 3px solid #0066cc !important;
+    }
+    
     #site-header-menu #site-navigation .menu ul li a {
         color: #e0e0e0 !important;
+        transition: color 0.3s ease;
     }
+    
+    [data-theme="light"] #site-header-menu #site-navigation .menu ul li a {
+        color: #333333 !important;
+    }
+    
     #site-header-menu #site-navigation .menu ul li:hover > a,
     #site-header-menu #site-navigation .menu ul li.active > a {
         color: #00f2fe !important;
         background-color: rgba(255,255,255,0.02) !important;
     }
     
+    [data-theme="light"] #site-header-menu #site-navigation .menu ul li:hover > a,
+    [data-theme="light"] #site-header-menu #site-navigation .menu ul li.active > a {
+        color: #0066cc !important;
+        background-color: rgba(0,0,0,0.02) !important;
+    }
+    
     /* Fix header alignment (Logo left, Toggle right) */
     .site-branding {
-        text-align: left !important;
-        padding-left: 15px;
-        width: 70% !important;
+        text-align: center !important;
     }
     .ttm-menu-toggle {
-        float: right !important;
+        float: left !important;
         margin-right: 15px !important;
         z-index: 10;
         margin-top: 5px;
@@ -224,6 +326,23 @@
                 <div id="ttm-stickable-header-w" class="ttm-stickable-header-w clearfix">
                     <div id="site-header-menu" class="site-header-menu">
                         <div class="site-header-menu-inner ttm-stickable-header">
+                            <!-- theme toggle button - positioned at right corner -->
+                            <button id="theme-toggle" class="theme-toggle-btn theme-toggle-header-right" aria-label="Toggle theme">
+                                <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="5"/>
+                                    <line x1="12" y1="1" x2="12" y2="3"/>
+                                    <line x1="12" y1="21" x2="12" y2="23"/>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                                    <line x1="1" y1="12" x2="3" y2="12"/>
+                                    <line x1="21" y1="12" x2="23" y2="12"/>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                                </svg>
+                                <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                                </svg>
+                            </button>
                             <div class="container">
                                 <!-- site-branding -->
                                 <div class="site-branding">

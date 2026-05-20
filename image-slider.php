@@ -55,10 +55,11 @@
 <style>
 .marquee-slider-section {
     position: relative;
-    background: #070514; /* Match hero section deep cosmic violet */
+    background: var(--bg-primary);
     padding: 80px 0;
     overflow: hidden;
     width: 100%;
+    transition: background 0.3s ease;
 }
 
 .marquee-slider-container {
@@ -77,16 +78,16 @@
     transform: translate(-50%, -50%);
     z-index: 10;
     padding: 3px; 
-    background: linear-gradient(90deg, #00f2fe, #2563eb, #7c3aed, #ff007f);
+    background: var(--gradient-secondary);
     background-size: 300% 300%;
     border-radius: 50px;
-    box-shadow: 0 0 40px rgba(124, 58, 237, 0.6), 0 0 20px rgba(0, 242, 254, 0.4);
+    box-shadow: 0 0 40px rgba(var(--accent-secondary), 0.6), 0 0 20px rgba(var(--accent-primary), 0.4);
     animation: gradientSpin 4s ease infinite;
 }
 
 .marquee-badge-inner {
-    background: #ffffff;
-    color: #000000;
+    background: var(--bg-primary);
+    color: var(--text-primary);
     padding: 14px 28px;
     border-radius: 46px;
     display: flex;
@@ -160,7 +161,7 @@
     height: 225px;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 30px var(--shadow-color);
     transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.4s;
     filter: grayscale(60%) brightness(0.6);
 }
@@ -176,7 +177,7 @@
     transform: scale(1) translateY(0px);
     filter: grayscale(0%) brightness(0.9);
     z-index: 5;
-    box-shadow: 0 20px 40px rgba(0, 242, 254, 0.2);
+    box-shadow: 0 20px 40px rgba(var(--accent-primary), 0.2);
 }
 
 .marquee-item:hover img {
@@ -184,7 +185,7 @@
 }
 
 /* Mobile Adjustments */
-@media (max-width: 991px) {
+@media (max-width: 990px) {
     .marquee-item {
         width: 350px;
         height: 220px;

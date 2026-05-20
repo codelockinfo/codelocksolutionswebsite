@@ -1131,7 +1131,7 @@ div.product ul.tabs li a{
     opacity: 1;
 }
 .tooltip-bottom:after{
-    bottom: -68px;
+    bottom: -59px;
     left: 0;
     margin-left: -10px;
 }
@@ -1141,7 +1141,7 @@ div.product ul.tabs li a{
     border-top-color: transparent!important;
 }
 .tooltip-bottom:before{
-    bottom: -24px;
+    bottom: -14px;
 }
 
 /*  ===============================================
