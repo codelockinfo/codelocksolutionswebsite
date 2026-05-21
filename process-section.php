@@ -27,8 +27,10 @@
                         <div class="timeline-track">
                             <!-- Step 1 -->
                             <div class="timeline-step">
-                                <div class="timeline-marker">
-                                    <div class="timeline-number">01</div>
+                                <div class="timeline-marker-row">
+                                    <div class="timeline-marker">
+                                        <div class="timeline-number">01</div>
+                                    </div>
                                 </div>
                                 <div class="timeline-content">
                                     <h3 class="timeline-title">Discovery &amp; Planning</h3>
@@ -38,8 +40,10 @@
 
                             <!-- Step 2 -->
                             <div class="timeline-step">
-                                <div class="timeline-marker">
-                                    <div class="timeline-number">02</div>
+                                <div class="timeline-marker-row">
+                                    <div class="timeline-marker">
+                                        <div class="timeline-number">02</div>
+                                    </div>
                                 </div>
                                 <div class="timeline-content">
                                     <h3 class="timeline-title">UI/UX Design</h3>
@@ -49,8 +53,10 @@
 
                             <!-- Step 3 -->
                             <div class="timeline-step">
-                                <div class="timeline-marker">
-                                    <div class="timeline-number">03</div>
+                                <div class="timeline-marker-row">
+                                    <div class="timeline-marker">
+                                        <div class="timeline-number">03</div>
+                                    </div>
                                 </div>
                                 <div class="timeline-content">
                                     <h3 class="timeline-title">Web &amp; App Development</h3>
@@ -60,8 +66,10 @@
 
                             <!-- Step 4 -->
                             <div class="timeline-step">
-                                <div class="timeline-marker">
-                                    <div class="timeline-number">04</div>
+                                <div class="timeline-marker-row">
+                                    <div class="timeline-marker">
+                                        <div class="timeline-number">04</div>
+                                    </div>
                                 </div>
                                 <div class="timeline-content">
                                     <h3 class="timeline-title">Testing &amp; Quality Assurance</h3>
@@ -71,8 +79,10 @@
 
                             <!-- Step 5 -->
                             <div class="timeline-step">
-                                <div class="timeline-marker">
-                                    <div class="timeline-number">05</div>
+                                <div class="timeline-marker-row">
+                                    <div class="timeline-marker">
+                                        <div class="timeline-number">05</div>
+                                    </div>
                                 </div>
                                 <div class="timeline-content">
                                     <h3 class="timeline-title">Launch &amp; Ongoing Support</h3>

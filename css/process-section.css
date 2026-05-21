@@ -1,22 +1,9 @@
 /* =====================================================
-   Process Section Styles - Left Image Right Content Layout
-   ===================================================== */
-
-/* CSS Variables for Process Section */
-:root {
-    --process-bg: var(--bg-primary);
-    --process-text-primary: var(--text-primary);
-    --process-text-secondary: var(--text-secondary);
-    --process-accent: var(--accent-primary);
-    --process-accent-secondary: var(--accent-secondary);
-}
-
-/* =====================================================
    Section Container
    ===================================================== */
 .process-section {
-    padding: 100px 0;
-    background: var(--process-bg);
+    padding: 80px 0;
+    background: var(--bg-primary);
     position: relative;
     overflow: hidden;
 }
@@ -80,14 +67,14 @@
     font-size: 42px;
     font-weight: 700;
     margin: 0 0 16px 0;
-    color: var(--process-text-primary);
+    color: var(--text-primary);
     letter-spacing: -1px;
     line-height: 1.2;
 }
 
 .process-subtitle {
     font-size: 16px;
-    color: var(--process-text-secondary);
+    color: var(--text-secondary);
     margin: 0;
     line-height: 1.6;
 }
@@ -118,22 +105,29 @@
 .timeline-step {
     flex: 0 0 calc(33.333% - 27px);
     position: relative;
-    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Timeline Marker Row */
+.timeline-marker-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 /* Timeline Marker */
 .timeline-marker {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 28px;
-    height: 28px;
-    background: linear-gradient(135deg, var(--process-accent), var(--process-accent-secondary));
+    width: 40px;
+    height: 40px;
+    background: var(--gradient-secondary);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 12px rgba(114, 137, 72, 0.3);
+    box-shadow: 0 4px 12px var(--shadow-color);
+    flex-shrink: 0;
 }
 
 .timeline-marker::before {
@@ -141,7 +135,7 @@
     position: absolute;
     inset: -4px;
     border-radius: 50%;
-    border: 2px solid var(--process-accent);
+    border: 2px solid var(--accent-primary);
     opacity: 0;
     transition: all 0.3s ease;
 }
@@ -164,40 +158,42 @@
 
 /* Timeline Number */
 .timeline-number {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     color: #ffffff;
 }
 
 /* Timeline Content */
 .timeline-content {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 /* Timeline Title */
 .timeline-title {
     font-size: 18px;
     font-weight: 600;
-    margin: 0 0 12px 0;
-    color: var(--process-text-primary);
+    margin: 0;
+    color: var(--text-primary);
     transition: color 0.3s ease;
 }
 
 .timeline-step:hover .timeline-title {
-    color: var(--process-accent);
+    color: var(--accent-primary);
 }
 
 /* Timeline Description */
 .timeline-description {
     font-size: 14px;
     line-height: 1.6;
-    color: var(--process-text-secondary);
+    color: var(--text-secondary);
     margin: 0;
     transition: color 0.3s ease;
 }
 
 .timeline-step:hover .timeline-description {
-    color: var(--process-text-primary);
+    color: var(--text-primary);
 }
 
 /* =====================================================
@@ -206,25 +202,25 @@
 .timeline-nav {
     display: flex;
     gap: 12px;
-    margin-top: 20px;
+    margin-top: -20px;
 }
 
 .timeline-arrow {
     width: 44px;
     height: 44px;
     background: transparent;
-    border: 2px solid var(--process-accent);
+    border: 2px solid var(--accent-primary);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     transition: all 0.3s ease;
-    color: var(--process-accent);
+    color: var(--accent-primary);
 }
 
 .timeline-arrow:hover {
-    background: var(--process-accent);
+    background: var(--accent-primary);
     color: #ffffff;
     transform: scale(1.1);
 }
@@ -237,46 +233,6 @@
 .timeline-arrow svg {
     width: 20px;
     height: 20px;
-}
-
-/* =====================================================
-   Light Theme Overrides
-   ===================================================== */
-[data-theme="light"] .process-section {
-    background: #f4f6f9;
-}
-
-[data-theme="light"] .process-section::before {
-    background: 
-        radial-gradient(circle at 20% 30%, rgba(114, 137, 72, 0.08) 0%, transparent 50%),
-        radial-gradient(circle at 80% 70%, rgba(114, 137, 72, 0.05) 0%, transparent 50%);
-}
-
-
-[data-theme="light"] .timeline-marker {
-    background: linear-gradient(135deg, #728948, #374a16);
-    box-shadow: 0 4px 12px rgba(114, 137, 72, 0.4);
-}
-
-[data-theme="light"] .timeline-marker::before {
-    border-color: #728948;
-}
-
-[data-theme="light"] .timeline-title {
-    color: #1a1a2e;
-}
-
-[data-theme="light"] .timeline-description {
-    color: #5a5a6e;
-}
-
-[data-theme="light"] .timeline-arrow {
-    border-color: #728948;
-    color: #728948;
-}
-
-[data-theme="light"] .timeline-arrow:hover {
-    background: #728948;
 }
 
 /* =====================================================
@@ -314,7 +270,7 @@
 
 @media (max-width: 768px) {
     .process-section {
-        padding: 60px 0;
+        padding: 40px 0;
     }
 
     .process-wrapper {
@@ -366,6 +322,10 @@
         font-size: 13px;
     }
 
+    .timeline-nav {
+        margin-top: -18px;
+    }
+
     .timeline-arrow {
         width: 40px;
         height: 40px;
@@ -377,8 +337,13 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 490px) {
     .timeline-nav {
-        justify-content: center;
+        margin-top: -60px;
+    }
+
+    .process-timeline {
+        margin-left: 38%;
+        margin-top: -34%;
     }
 }
