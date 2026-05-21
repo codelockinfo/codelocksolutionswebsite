@@ -5,6 +5,7 @@
 <?php include 'trust-section.php';?>
 <?php include 'image-slider.php';?>
 <?php include 'what-we-do.php';?>
+<?php include 'process-section.php';?>
 
         <!--site-main start-->
         <div class="site-main">

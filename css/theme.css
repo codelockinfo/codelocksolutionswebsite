@@ -85,9 +85,8 @@
 /* Theme toggle positioned at right corner of sticky header */
 .theme-toggle-header-right {
     position: absolute;
-    top: 0;
+    top: 22%;
     right: 20px;
-    transform: translateY(40%);
     z-index: 1000;
 }
 

@@ -4,7 +4,7 @@
 
 .what-we-do-section {
     background: var(--bg-primary);
-    padding: 100px 0;
+    padding: 80px 0;
     color: var(--text-primary);
     transition: background 0.3s ease, color 0.3s ease;
     position: relative;
@@ -91,8 +91,7 @@
 }
 
 .wwd-card-inner {
-    background: var(--card-bg, rgba(255, 255, 255, 0.02));
-    border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+    background: var(--card-bg);
     border-radius: 20px;
     padding: 35px 20px;
     height: 100%;
@@ -312,7 +311,7 @@
 
 @media (max-width: 575px) {
     .what-we-do-section {
-        padding: 60px 0;
+        padding: 40px 0;
     }
     .wwd-cards-grid {
         grid-template-columns: 1fr;

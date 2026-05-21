@@ -190,17 +190,20 @@
         font-size: 40px;
     }
 }
-
-@media (max-width: 768px) {
-    .trust-metrics-section {
-        padding: 40px 0;;
-    }
+@media (max-width: 990px) {
     .metrics-top-row {
         flex-direction: column;
         align-items: flex-start;
         margin-bottom: 40px;
         gap: 15px;
     }
+}
+
+@media (max-width: 768px) {
+    .trust-metrics-section {
+        padding: 40px 0;;
+    }
+    
     .metrics-desc {
         text-align: left;
         max-width: 100%;
