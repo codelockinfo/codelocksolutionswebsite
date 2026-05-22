@@ -150,6 +150,14 @@
         font-weight: 600;
         letter-spacing: 0.8px;
         text-transform: uppercase;
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .badge-text.anim-in {
+        opacity: 1;
+        transform: translateY(0);
     }
 
     .apps-headline {
@@ -158,6 +166,14 @@
         line-height: 1.15;
         color: var(--text-primary);
         margin-bottom: 25px;
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .apps-headline.anim-in {
+        opacity: 1;
+        transform: translateY(0);
     }
 
     .apps-description {
@@ -166,6 +182,14 @@
         color: var(--text-secondary);
         margin-bottom: 40px;
         max-width: 500px;
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .apps-description.anim-in {
+        opacity: 1;
+        transform: translateY(0);
     }
 
     .apps-cta {
@@ -398,44 +422,70 @@
 <!-- JavaScript for App Cards fluid 3D Tilt Effect -->
 <script>
 (function() {
-    function initAppTilt() {
-        const cards = document.querySelectorAll('.app-card');
-        
-        cards.forEach(card => {
-            card.addEventListener('mousemove', (e) => {
-                // Disable transitions during tracking for absolute, responsive feedback
-                card.style.transition = 'none';
-                
-                const rect = card.getBoundingClientRect();
-                const x = e.clientX - rect.left;
-                const y = e.clientY - rect.top;
-                
-                const xc = rect.width / 2;
-                const yc = rect.height / 2;
-                
-                const dx = x - xc;
-                const dy = y - yc;
-                
-                // Calculate tilt angle: max 8 degrees rotation (since app cards are wider)
-                const tiltX = -(dy / yc) * 8;
-                const tiltY = (dx / xc) * 8;
-                
-                // Apply 3D rotation
-                card.style.transform = `rotateX(${tiltX}deg) rotateY(${tiltY}deg) scale3d(1.03, 1.03, 1.03)`;
+    'use strict';
+
+    function initHeaderReveal(section) {
+        var els = section.querySelectorAll('.badge-text, .apps-headline, .apps-description');
+        if (!els.length) return;
+
+        if (!('IntersectionObserver' in window)) {
+            els.forEach(function (el) { el.classList.add('anim-in'); });
+            return;
+        }
+
+        var obs = new IntersectionObserver(function (entries, o) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('anim-in');
+                    o.unobserve(entry.target);
+                }
             });
-            
-            card.addEventListener('mouseleave', () => {
-                // Re-enable smooth transition for return snap
+        }, { threshold: 0.2 });
+
+        els.forEach(function (el) { obs.observe(el); });
+    }
+
+    function initAppTilt() {
+        var cards = document.querySelectorAll('.app-card');
+
+        cards.forEach(function(card) {
+            card.addEventListener('mousemove', function(e) {
+                card.style.transition = 'none';
+
+                var rect = card.getBoundingClientRect();
+                var x = e.clientX - rect.left;
+                var y = e.clientY - rect.top;
+
+                var xc = rect.width / 2;
+                var yc = rect.height / 2;
+
+                var dx = x - xc;
+                var dy = y - yc;
+
+                var tiltX = -(dy / yc) * 8;
+                var tiltY = (dx / xc) * 8;
+
+                card.style.transform = 'rotateX(' + tiltX + 'deg) rotateY(' + tiltY + 'deg) scale3d(1.03, 1.03, 1.03)';
+            });
+
+            card.addEventListener('mouseleave', function() {
                 card.style.transition = 'transform 0.5s cubic-bezier(0.25, 1, 0.5, 1), border-color 0.4s ease, box-shadow 0.4s ease, background 0.4s ease';
                 card.style.transform = 'rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
             });
         });
     }
 
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initAppTilt);
-    } else {
+    function init() {
+        document.querySelectorAll('.shopify-apps-section').forEach(function(section) {
+            initHeaderReveal(section);
+        });
         initAppTilt();
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
     }
 })();
 </script>

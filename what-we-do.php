@@ -178,6 +178,27 @@
 <!-- JavaScript for 3D Directional Door-Swing Hover Effect -->
 <script>
 (function() {
+    'use strict';
+    function initHeaderReveal(section) {
+        var els = section.querySelectorAll('.wwd-subheading, .wwd-heading, .wwd-desc');
+        if (!els.length) return;
+
+        if (!('IntersectionObserver' in window)) {
+            els.forEach(function (el) { el.classList.add('anim-in'); });
+            return;
+        }
+
+        var obs = new IntersectionObserver(function (entries, o) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('anim-in');
+                    o.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.2 });
+
+        els.forEach(function (el) { obs.observe(el); });
+    }
     function getHoverDirection(e, element) {
         const rect = element.getBoundingClientRect();
         const w = rect.width;
@@ -268,11 +289,17 @@
             });
         });
     }
+    function init() {
+        document.querySelectorAll('.what-we-do-section').forEach(function (section) {
+            initHeaderReveal(section);
+        });
+        initDirectionalDoorHover();
+    }
 
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initDirectionalDoorHover);
+        document.addEventListener('DOMContentLoaded', init);
     } else {
-        initDirectionalDoorHover();
+        init();
     }
 })();
 </script>

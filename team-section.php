@@ -2,15 +2,18 @@
 <section class="team-section" aria-labelledby="team-heading">
     <div class="container">
         <div class="team-header">
-            <h2 class="team-title" id="team-heading">Our Team</h2>
-            <p class="team-subtitle">Meet the experts behind your digital success</p>
+            <span class="team-subheading">The People Behind Your Success</span>
+            <h2 class="team-title" id="team-heading">Meet Our Team</h2>
+            <p class="team-subtitle">Passionate experts dedicated to delivering exceptional digital experiences</p>
         </div>
 
         <div class="team-slider">
             <div class="slider-container">
                 <div class="slider-track">
+
                     <!-- Team Member 1 -->
-                    <div class="team-member">
+                    <div class="team-member team-reveal">
+                        <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
                             <img src="images/team-member/team-img02.jpg" alt="John Smith" class="team-image">
                         </div>
@@ -21,7 +24,8 @@
                     </div>
 
                     <!-- Team Member 2 -->
-                    <div class="team-member">
+                    <div class="team-member team-reveal">
+                        <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
                             <img src="images/team-member/team-img01.jpg" alt="Sarah Johnson" class="team-image">
                         </div>
@@ -32,7 +36,8 @@
                     </div>
 
                     <!-- Team Member 3 -->
-                    <div class="team-member">
+                    <div class="team-member team-reveal">
+                        <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
                             <img src="images/team-member/team-img04.jpg" alt="Michael Chen" class="team-image">
                         </div>
@@ -43,7 +48,8 @@
                     </div>
 
                     <!-- Team Member 4 -->
-                    <div class="team-member">
+                    <div class="team-member team-reveal">
+                        <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
                             <img src="images/team-member/team-img03.jpg" alt="Emily Davis" class="team-image">
                         </div>
@@ -54,7 +60,8 @@
                     </div>
 
                     <!-- Team Member 5 -->
-                    <div class="team-member">
+                    <div class="team-member team-reveal">
+                        <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
                             <img src="images/team-member/team-img06.jpg" alt="David Wilson" class="team-image">
                         </div>
@@ -65,7 +72,7 @@
                     </div>
 
                     <!-- Team Member 6 -->
-                    <div class="team-member">
+                    <div class="team-member team-reveal">
                         <div class="team-image-wrapper">
                             <img src="images/team-member/team-img05.jpg" alt="Lisa Anderson" class="team-image">
                         </div>
@@ -74,21 +81,25 @@
                             <p class="team-role">UX Designer</p>
                         </div>
                     </div>
+
                 </div>
             </div>
 
-            <!-- Navigation Arrows -->
-            <div class="slider-nav">
-                <button class="slider-arrow slider-prev" aria-label="Previous team member">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="15 18 9 12 15 6"/>
-                    </svg>
-                </button>
-                <button class="slider-arrow slider-next" aria-label="Next team member">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="9 18 15 12 9 6"/>
-                    </svg>
-                </button>
+            <!-- Navigation Controls & Dots -->
+            <div class="slider-controls-wrapper">
+                <div class="slider-nav">
+                    <button class="slider-arrow slider-prev" aria-label="Previous team member">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="15 18 9 12 15 6"/>
+                        </svg>
+                    </button>
+                    <button class="slider-arrow slider-next" aria-label="Next team member">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="9 18 15 12 9 6"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="slider-dots" aria-label="Slider navigation indicators"></div>
             </div>
         </div>
     </div>

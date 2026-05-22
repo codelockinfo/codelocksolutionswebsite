@@ -59,6 +59,14 @@
     flex: 1 1 50%;
     max-width: 600px;
     text-align: left;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.metrics-title.anim-in {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .metrics-desc {
@@ -68,6 +76,14 @@
     margin: 0;
     flex: 1 1 40%;
     text-align: left;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.metrics-desc.anim-in {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .metrics-grid {
@@ -226,45 +242,77 @@
 </style>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-    // Scroll animation observer
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('active');
-                
-                // Trigger counter if it's a metric card
-                const counters = entry.target.querySelectorAll('.counter');
-                counters.forEach(counter => {
-                    const target = +counter.getAttribute('data-target');
-                    const duration = 2000; // ms
-                    const increment = target / (duration / 16); // 60fps
-                    
-                    let current = 0;
-                    const updateCounter = () => {
-                        current += increment;
-                        if (current < target) {
-                            counter.innerText = Math.ceil(current);
-                            requestAnimationFrame(updateCounter);
-                        } else {
-                            counter.innerText = target;
-                        }
-                    };
-                    
-                    // Only run once
-                    if (counter.innerText === "0") {
-                        updateCounter();
-                    }
-                });
-                
-            }
-        });
-    }, {
-        threshold: 0.1
-    });
+(function() {
+    'use strict';
 
-    document.querySelectorAll('.trust-animate').forEach((el) => {
-        observer.observe(el);
-    });
-});
+    function initHeaderReveal(section) {
+        var els = section.querySelectorAll('.metrics-title, .metrics-desc');
+        if (!els.length) return;
+
+        if (!('IntersectionObserver' in window)) {
+            els.forEach(function (el) { el.classList.add('anim-in'); });
+            return;
+        }
+
+        var obs = new IntersectionObserver(function (entries, o) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('anim-in');
+                    o.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.2 });
+
+        els.forEach(function (el) { obs.observe(el); });
+    }
+
+    function initCounters(section) {
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    
+                    var counters = entry.target.querySelectorAll('.counter');
+                    counters.forEach(function(counter) {
+                        var target = +counter.getAttribute('data-target');
+                        var duration = 2000;
+                        var increment = target / (duration / 16);
+                        
+                        var current = 0;
+                        var updateCounter = function() {
+                            current += increment;
+                            if (current < target) {
+                                counter.innerText = Math.ceil(current);
+                                requestAnimationFrame(updateCounter);
+                            } else {
+                                counter.innerText = target;
+                            }
+                        };
+                        
+                        if (counter.innerText === "0") {
+                            updateCounter();
+                        }
+                    });
+                }
+            });
+        }, { threshold: 0.1 });
+
+        section.querySelectorAll('.trust-animate').forEach(function(el) {
+            observer.observe(el);
+        });
+    }
+
+    function init() {
+        document.querySelectorAll('.trust-metrics-section').forEach(function(section) {
+            initHeaderReveal(section);
+            initCounters(section);
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+})();
 </script>

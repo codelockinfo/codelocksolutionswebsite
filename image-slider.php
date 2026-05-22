@@ -77,7 +77,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
-    padding: 3px; 
+    padding: 3px;
     background: var(--gradient-secondary);
     background-size: 300% 300%;
     border-radius: 50px;
@@ -97,6 +97,14 @@
     font-size: 1.25rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     white-space: nowrap;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.marquee-badge-inner.anim-in {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .marquee-badge-inner svg {
@@ -227,3 +235,42 @@
     }
 }
 </style>
+
+<script>
+(function() {
+    'use strict';
+
+    function initHeaderReveal(section) {
+        var els = section.querySelectorAll('.marquee-badge-inner');
+        if (!els.length) return;
+
+        if (!('IntersectionObserver' in window)) {
+            els.forEach(function (el) { el.classList.add('anim-in'); });
+            return;
+        }
+
+        var obs = new IntersectionObserver(function (entries, o) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('anim-in');
+                    o.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.2 });
+
+        els.forEach(function (el) { obs.observe(el); });
+    }
+
+    function init() {
+        document.querySelectorAll('.marquee-slider-section').forEach(function(section) {
+            initHeaderReveal(section);
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+})();
+</script>
