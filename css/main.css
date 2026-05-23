@@ -176,7 +176,7 @@ body {
     background-color: #fff;
     letter-spacing: 0px;
 }
-h1, h2, h3, h4, h5, h6{ font-family: "Poppins",sans-serif; margin-bottom: 15px; font-weight: 600; color: #374a16;}
+h1, h2, h3, h4, h5, h6{ font-family: "Poppins",sans-serif; margin-bottom: 15px; font-weight: 600; color: var(--text-primary);}
 h1 { font-size: 45px; line-height: 50px; text-transform: uppercase;}
 h2 { font-size: 35px; line-height: 40px; }
 h3 { font-size: 27px; line-height: 35px; }
@@ -197,7 +197,7 @@ rs-slide a { transition: unset; }
     transition: all 0.5s ease-in-out 0s; 
 }
 a, .site-branding, #site-header-menu #site-navigation .menu ul li > a, .ttm-header-icon, .header-btn,
-a.ttm-btn, i.ttm-btn, a.nav-link , .social-icons li>a ,
+a.ttm-btn, i.ttm-btn, a.nav-link ,
 .ttm-menu-toggle .toggle-block,.accordion .toggle-title a,
 .widget-download ul.download li,
 .featured-icon-box.style6 .featured-desc p,
@@ -268,7 +268,7 @@ body .page.sidebar-true .site-main{
     overflow: hidden;
 }
 
-a{ color: #374a16; }
+a{ color: var(--text-primary); }
 
 .z-1{z-index: 1 !important;}
 .z-0{z-index: 1 !important;}
@@ -634,9 +634,7 @@ a.checkout-button:hover, .coupon button:hover, .ttm-cart-form button:hover, .pla
 .sidebar .widget .tagcloud a:hover,
 .color-trigger, 
 .ttm-header-icons .ttm-header-search-link a,
-.tooltip:after, [data-tooltip]:after,
 .newsletter-form input[type="submit"],
-.footer .social-icons li>a:hover,
 .about-overlay-01,
 .ttm-history-box-wrapper:hover .ttm-history-box-details,
 .featured-imagebox-team .social-icons,
@@ -711,8 +709,6 @@ input[type="color"]:focus,
 .ttm-tabs ul.tabs li.active a,
 .ttm-blog-classic .ttm-blog-classic-content  blockquote,
 .ttm-header-icons .ttm-header-search-link a:hover,
-.footer .social-icons li>a:hover,
-.footer .social-icons li>a:hover,
 .featured-imagebox-team.style1:hover .featured-content,
 .ttm-processbox:hover .ttm-box-image,
 .featured-imagebox-portfolio .ttm-media-link a,
@@ -728,7 +724,6 @@ textarea:focus {
 .ttm-rounded-shadow-box, div.product ul.tabs li.active a:before,
 .coupon_toggle .coupon_code,
 #payment .payment_box,
-.tooltip-top:before, .tooltip:before, [data-tooltip]:before,
 .section-title.with-desc .title-header:before,
 #site-header-menu #site-navigation .menu > ul{
     border-top-color: #728948 !important; 
@@ -738,7 +733,6 @@ textarea:focus {
 .featured-imagebox-services.style1 .featured-content,
 .ttm-pf-single-detail-box { border-bottom-color: #728948 !important;background: #f4f4f4; }
 
-.quicklink-box .featured-icon-box .ttm-icon:before,
 .ttm-blog-single .ttm-blog-single-content blockquote{ border-left-color: #728948 !important; }
 
 
@@ -886,7 +880,6 @@ div.product ul.tabs li a{
 .ttm-btn.ttm-btn-color-darkgrey.ttm-btn-style-border:hover,
 .ttm-rt-contact .ttm-custombutton a,
 .ttm-rt-contact .ttm-custombutton a:hover,
-.footer .social-icons li>a,
 .ttm-tag-list span a:hover,
 .ttm-bgcolor-skincolor .ttm-fid-icon-wrapper i,
 .ttm-bgcolor-skincolor .ttm-fid.inside h4,
@@ -897,7 +890,6 @@ div.product ul.tabs li a{
 .ttm-header-style-01 .top-contact li, 
 .ttm-header-style-01 .top-contact li a,
 .ttm-header-style-01 .ttm-topbar-wrapper .social-icons li>a,
-.footer .social-icons li>a:hover,
 .ttm-history-box-wrapper:hover .ttm-historybox-title h5,
 .ttm-history-box-wrapper:hover .ttm-historybox-description,
 .ttm-history-box-wrapper:hover .ttm-btn.ttm-btn-color-skincolor,
@@ -1041,31 +1033,6 @@ div.product ul.tabs li a{
     border: none;
     margin: 0 3px;
 }
-.social-icons.circle li>a,
-.social-icons.square li>a {
-    border: 1px solid #e8ecef;
-    height: 33px;
-    width: 33px;
-    line-height: 33px;
-    text-align: center;
-    display: block;
-    font-size: 13px;
-    border-radius: 50%;
-    transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-}
-.social-icons.square li>a{border-radius: 0;}
-.ttm-bgcolor-darkgrey .social-icons.circle li>a, 
-.ttm-bgcolor-skincolor .social-icons.circle li>a {
-    border: none;
-    color: #2c2c2c;
-}
-.ttm-bgcolor-darkgrey .social-icons.circle li>a, 
-.ttm-bgcolor-skincolor .social-icons.circle li>a{
-  background-color: #fff;
-}
 
 /*  ===============================================
     TooltipTop
@@ -1095,8 +1062,7 @@ div.product ul.tabs li a{
 .tooltip-top:before, .tooltip:before, [data-tooltip]:before {
     margin-left: -6px;
     margin-bottom: -12px;
-    border-top-color: #000;
-    border-top-color: rgba(24,35,51,1);
+    border-top-color: var(--accent-primary);
 }
 .tooltip-top:after, .tooltip-top:before, .tooltip:after, .tooltip:before, [data-tooltip]:after, [data-tooltip]:before {
     bottom: 78%;
@@ -1117,6 +1083,7 @@ div.product ul.tabs li a{
     padding: 8px;
     width: 160px;
     color: #fff;
+    background-color: var(--accent-primary);
     content: attr(data-tooltip);
     font-size: 14px;
     line-height: 1.2;
@@ -1550,8 +1517,6 @@ div.product ul.tabs li a{
 /** SecondFooter **/
 .second-footer .quicklink-box {
     padding: 17px 15px;
-    border: 1px solid #374a16;
-    background-color: #374a16;
     margin: 22px 0 0px;
     position: relative;
 }
@@ -1560,20 +1525,8 @@ div.product ul.tabs li a{
     width: 50px;
     line-height: 51px;
 }
-.quicklink-box .featured-icon-box .ttm-icon:before{
-    position: absolute;
-    content: '';
-    width: 0;
-    height: 0;
-    z-index: 1;
-    top: 19px;
-    right: -7px;
-    border: 7px solid transparent;
-    border-right: 0;
-    border-left-color: #000;
-}
 .quicklink-box .featured-icon-box .ttm-icon span{font-size: 23px;}
-.quicklink-box .featured-title h5{font-size: 17px;line-height: 24px;margin-bottom: 0;}
+.quicklink-box .featured-title h5{font-size: 17px;line-height: 24px;margin-bottom: 0; color: var(--text-primary);}
 .quicklink-box .featured-content{padding-left: 15px !important;}
 /** bottom-footer **/
 .bottom-footer-text{
@@ -1662,10 +1615,6 @@ div.product ul.tabs li a{
     padding-bottom: 0 !important;
 }
 .footer .social-icons li:first-child{margin-left: 0;}
-.footer .social-icons li>a {
-    border: 1px solid #fff ;
-    font-size: 14px;
-}
 
 /** .widget.link-widget **/
 .widget.link-widget ul li:last-child {padding-bottom: 0;}

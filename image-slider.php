@@ -170,9 +170,19 @@
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 10px 30px var(--shadow-color);
-    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.4s;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.4s, box-shadow 0.4s;
     filter: grayscale(60%) brightness(0.6);
+    animation: itemFloat 4s ease-in-out infinite;
+    animation-delay: var(--item-delay, 0s);
 }
+
+@keyframes itemFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+.marquee-item:nth-child(odd) { --item-delay: 0s; }
+.marquee-item:nth-child(even) { --item-delay: 2s; }
 
 .marquee-item img {
     width: 100%;
@@ -186,6 +196,7 @@
     filter: grayscale(0%) brightness(0.9);
     z-index: 5;
     box-shadow: 0 20px 40px rgba(var(--accent-primary), 0.2);
+    animation: none;
 }
 
 .marquee-item:hover img {

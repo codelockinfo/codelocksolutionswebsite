@@ -424,7 +424,7 @@
         50% { transform: scale(1.3); opacity: 0.6; }
     }
 
-    .badge-text {
+    .hero-badge .badge-text {
         color: var(--accent-primary);
         font-size: 13px;
         font-weight: 600;
