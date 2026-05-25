@@ -36,17 +36,23 @@
         align-items: center;
         justify-content: space-between;
         gap: 40px;
-        animation: wrapperFadeIn 0.8s ease-out;
+        opacity: 0;
+        transform: scale(0.8) rotate(-5deg);
+        transition: opacity 0.8s cubic-bezier(0.34, 1.56, 0.64, 1), transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+        animation: wrapperPulse 4s ease-in-out infinite;
     }
 
-    @keyframes wrapperFadeIn {
-        from {
-            opacity: 0;
-            transform: translateY(30px);
+    .cta-wrapper.anim-in {
+        opacity: 1;
+        transform: scale(1) rotate(0deg);
+    }
+
+    @keyframes wrapperPulse {
+        0%, 100% {
+            box-shadow: 0 20px 60px rgba(var(--accent-primary), 0.3);
         }
-        to {
-            opacity: 1;
-            transform: translateY(0);
+        50% {
+            box-shadow: 0 20px 60px rgba(var(--accent-primary), 0.5), 0 0 40px rgba(var(--accent-primary), 0.3);
         }
     }
 
@@ -267,10 +273,12 @@
         'use strict';
 
         function initCTAReveal(section) {
+            var wrapper = section.querySelector('.cta-wrapper');
             var els = section.querySelectorAll('.cta-badge, .cta-headline, .cta-description, .cta-buttons');
             if (!els.length) return;
 
             if (!('IntersectionObserver' in window)) {
+                if (wrapper) wrapper.classList.add('anim-in');
                 els.forEach(function (el) { el.classList.add('anim-in'); });
                 return;
             }
@@ -278,12 +286,13 @@
             var obs = new IntersectionObserver(function (entries, o) {
                 entries.forEach(function (entry) {
                     if (entry.isIntersecting) {
+                        if (wrapper) wrapper.classList.add('anim-in');
                         entry.target.classList.add('anim-in');
-                        o.unobserve(entry.target);
                     }
                 });
             }, { threshold: 0.2 });
 
+            if (wrapper) obs.observe(wrapper);
             els.forEach(function (el) { obs.observe(el); });
         }
 

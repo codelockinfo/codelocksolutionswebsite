@@ -14,7 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
             entries.forEach(function (entry) {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('anim-in');
-                    o.unobserve(entry.target);
+                } else {
+                    entry.target.classList.remove('anim-in');
                 }
             });
         }, { threshold: 0.2 });
@@ -169,7 +170,9 @@ document.addEventListener('DOMContentLoaded', function() {
                                 item.classList.add('reveal-active');
                             }, index * 100);
                         });
-                        observer.unobserve(entry.target);
+                    } else {
+                        const revealItems = entry.target.querySelectorAll('.team-reveal');
+                        revealItems.forEach(item => item.classList.remove('reveal-active'));
                     }
                 });
             }, observerOptions);
@@ -187,9 +190,6 @@ document.addEventListener('DOMContentLoaded', function() {
     function init() {
         document.querySelectorAll('.team-section').forEach(function (section) {
             initHeaderReveal(section);
-        });
-        document.querySelectorAll('.team-slider').forEach(function (slider) {
-            initSlider(slider);
         });
     }
 

@@ -121,7 +121,14 @@
     }
 
     .apps-content-wrapper {
-        animation: fadeInUp 1s cubic-bezier(0.25, 1, 0.5, 1) 0.3s both;
+        opacity: 0;
+        transform: translateX(-50px) scale(0.9);
+        transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .apps-content-wrapper.anim-in {
+        opacity: 1;
+        transform: translateX(0) scale(1);
     }
 
     .apps-badge {
@@ -151,13 +158,13 @@
         letter-spacing: 0.8px;
         text-transform: uppercase;
         opacity: 0;
-        transform: translateY(30px);
-        transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        transform: translateX(-20px);
+        transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.1s, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.1s;
     }
 
     .badge-text.anim-in {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateX(0);
     }
 
     .apps-headline {
@@ -167,13 +174,13 @@
         color: var(--text-primary);
         margin-bottom: 25px;
         opacity: 0;
-        transform: translateY(30px);
-        transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        transform: translateX(-30px);
+        transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.2s, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.2s;
     }
 
     .apps-headline.anim-in {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateX(0);
     }
 
     .apps-description {
@@ -183,13 +190,13 @@
         margin-bottom: 40px;
         max-width: 500px;
         opacity: 0;
-        transform: translateY(30px);
-        transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        transform: translateX(-30px);
+        transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.3s, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.3s;
     }
 
     .apps-description.anim-in {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateX(0);
     }
 
     .apps-cta {
@@ -425,10 +432,12 @@
     'use strict';
 
     function initHeaderReveal(section) {
+        var contentWrapper = section.querySelector('.apps-content-wrapper');
         var els = section.querySelectorAll('.badge-text, .apps-headline, .apps-description');
         if (!els.length) return;
 
         if (!('IntersectionObserver' in window)) {
+            if (contentWrapper) contentWrapper.classList.add('anim-in');
             els.forEach(function (el) { el.classList.add('anim-in'); });
             return;
         }
@@ -436,12 +445,16 @@
         var obs = new IntersectionObserver(function (entries, o) {
             entries.forEach(function (entry) {
                 if (entry.isIntersecting) {
+                    if (contentWrapper) contentWrapper.classList.add('anim-in');
                     entry.target.classList.add('anim-in');
-                    o.unobserve(entry.target);
+                } else {
+                    if (contentWrapper) contentWrapper.classList.remove('anim-in');
+                    entry.target.classList.remove('anim-in');
                 }
             });
         }, { threshold: 0.2 });
 
+        if (contentWrapper) obs.observe(contentWrapper);
         els.forEach(function (el) { obs.observe(el); });
     }
 

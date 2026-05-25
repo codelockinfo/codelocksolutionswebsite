@@ -192,12 +192,35 @@
             entries.forEach(function (entry) {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('anim-in');
-                    o.unobserve(entry.target);
+                } else {
+                    entry.target.classList.remove('anim-in');
                 }
             });
         }, { threshold: 0.2 });
 
         els.forEach(function (el) { obs.observe(el); });
+    }
+
+    function initCardsReveal(section) {
+        var cards = section.querySelectorAll('.wwd-tilt-card');
+        if (!cards.length) return;
+
+        if (!('IntersectionObserver' in window)) {
+            cards.forEach(function (card) { card.classList.add('card-reveal-active'); });
+            return;
+        }
+
+        var obs = new IntersectionObserver(function (entries, o) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('card-reveal-active');
+                } else {
+                    entry.target.classList.remove('card-reveal-active');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        cards.forEach(function (card) { obs.observe(card); });
     }
     function getHoverDirection(e, element) {
         const rect = element.getBoundingClientRect();
@@ -292,6 +315,7 @@
     function init() {
         document.querySelectorAll('.what-we-do-section').forEach(function (section) {
             initHeaderReveal(section);
+            initCardsReveal(section);
         });
         initDirectionalDoorHover();
     }

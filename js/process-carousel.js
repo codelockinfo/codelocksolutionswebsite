@@ -18,7 +18,8 @@
             entries.forEach(function (entry) {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('anim-in');
-                    o.unobserve(entry.target);
+                } else {
+                    entry.target.classList.remove('anim-in');
                 }
             });
         }, { threshold: 0.2 });
@@ -112,7 +113,10 @@
                         });
                         /* Animate progress line in after items appear */
                         setTimeout(function () { updateProgress(); }, items.length * 160 + 200);
-                        o.unobserve(entry.target);
+                    } else {
+                        var items = entry.target.querySelectorAll('.reveal-item');
+                        items.forEach(function (item) { item.classList.remove('reveal-active'); });
+                        updateProgress();
                     }
                 });
             }, { threshold: 0.15 });

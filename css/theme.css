@@ -94,8 +94,14 @@
 @media (max-width: 1199px) {
     .theme-toggle-header-right {
         position: absolute;
-        top: 5px;
+        top: 22px;
         right: 15px;
+    }
+    .ttm-header-style-01 .site-branding img {
+        max-height: 40px;
+    }
+    .ttm-header-style-01 .fixed-header .site-branding img {
+        max-height: 35px;
     }
 }
 
@@ -119,3 +125,6 @@
 [data-theme="light"] .theme-toggle-btn .sun-icon  { opacity: 0; transform: rotate(90deg); }
 [data-theme="light"] .theme-toggle-btn .moon-icon { opacity: 1; transform: rotate(0deg); }
 
+button:focus {
+    outline: none !important;
+}

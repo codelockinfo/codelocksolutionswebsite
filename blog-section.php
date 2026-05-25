@@ -60,7 +60,9 @@
         </div>
 
         <div class="blog-footer">
-            <a href="blogs.php" class="view-all-btn">View All Articles</a>
+            <a href="blogs.php" class="view-all-btn cta-primary">
+                <span>View All Articles</span>
+            </a>
         </div>
     </div>
 
@@ -145,8 +147,16 @@
         transition: all 0.4s ease;
         box-shadow: 0 0 15px var(--shadow-color);
         backdrop-filter: blur(10px);
-        animation: cardFloat 5s ease-in-out infinite;
-        animation-delay: var(--card-delay, 0s);
+        animation: cardFloat 5s ease-in-out infinite, cardShimmer 3s ease-in-out infinite;
+        animation-delay: var(--card-delay, 0s), var(--shimmer-delay, 0s);
+        opacity: 0;
+        transform: perspective(1000px) rotateY(-30deg) translateX(-50px);
+        transition: opacity 0.8s cubic-bezier(0.34, 1.56, 0.64, 1), transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .blog-card.anim-in {
+        opacity: 1;
+        transform: perspective(1000px) rotateY(0deg) translateX(0);
     }
 
     @keyframes cardFloat {
@@ -154,9 +164,19 @@
         50% { transform: translateY(-6px); }
     }
 
-    .blog-card:nth-child(1) { --card-delay: 0s; }
-    .blog-card:nth-child(2) { --card-delay: 0.5s; }
-    .blog-card:nth-child(3) { --card-delay: 1s; }
+    @keyframes cardShimmer {
+        0%, 100% {
+            border-color: var(--card-border);
+        }
+        50% {
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 15px var(--shadow-color), 0 0 20px rgba(var(--accent-primary), 0.2);
+        }
+    }
+
+    .blog-card:nth-child(1) { --card-delay: 0s; --shimmer-delay: 0s; }
+    .blog-card:nth-child(2) { --card-delay: 0.5s; --shimmer-delay: 0.5s; }
+    .blog-card:nth-child(3) { --card-delay: 1s; --shimmer-delay: 1s; }
 
     .blog-card:hover {
         border-color: var(--accent-primary);
@@ -287,10 +307,12 @@
 
         function initHeaderReveal(section) {
             var els = section.querySelectorAll('.blog-subheading , .blog-headline, .blog-description, .blog-footer');
+            var cards = section.querySelectorAll('.blog-card');
             if (!els.length) return;
 
             if (!('IntersectionObserver' in window)) {
                 els.forEach(function (el) { el.classList.add('anim-in'); });
+                cards.forEach(function (card) { card.classList.add('anim-in'); });
                 return;
             }
 
@@ -298,12 +320,14 @@
                 entries.forEach(function (entry) {
                     if (entry.isIntersecting) {
                         entry.target.classList.add('anim-in');
-                        o.unobserve(entry.target);
+                    } else {
+                        entry.target.classList.remove('anim-in');
                     }
                 });
             }, { threshold: 0.2 });
 
             els.forEach(function (el) { obs.observe(el); });
+            cards.forEach(function (card) { obs.observe(card); });
         }
 
         document.addEventListener('DOMContentLoaded', function() {

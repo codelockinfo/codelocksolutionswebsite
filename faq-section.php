@@ -159,23 +159,29 @@
         transition: all 0.4s ease;
         box-shadow: 0 0 15px var(--shadow-color);
         backdrop-filter: blur(10px);
-        animation: itemReveal 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        animation: itemReveal 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards, itemPulse 4s ease-in-out infinite;
+        animation-delay: var(--item-delay, 0s), var(--pulse-delay, 0s);
         opacity: 0;
-        transform: translateY(30px);
+        transform: translateY(-50px) rotateX(20deg);
     }
 
-    .faq-item:nth-child(1) { animation-delay: 0.1s; }
-    .faq-item:nth-child(2) { animation-delay: 0.2s; }
-    .faq-item:nth-child(3) { animation-delay: 0.3s; }
-    .faq-column:nth-child(2) .faq-item:nth-child(1) { animation-delay: 0.4s; }
-    .faq-column:nth-child(2) .faq-item:nth-child(2) { animation-delay: 0.5s; }
-    .faq-column:nth-child(2) .faq-item:nth-child(3) { animation-delay: 0.6s; }
+    .faq-item:nth-child(1) { --item-delay: 0.1s; --pulse-delay: 0s; }
+    .faq-item:nth-child(2) { --item-delay: 0.2s; --pulse-delay: 0.5s; }
+    .faq-item:nth-child(3) { --item-delay: 0.3s; --pulse-delay: 1s; }
+    .faq-column:nth-child(2) .faq-item:nth-child(1) { --item-delay: 0.4s; --pulse-delay: 1.5s; }
+    .faq-column:nth-child(2) .faq-item:nth-child(2) { --item-delay: 0.5s; --pulse-delay: 2s; }
+    .faq-column:nth-child(2) .faq-item:nth-child(3) { --item-delay: 0.6s; --pulse-delay: 2.5s; }
 
     @keyframes itemReveal {
         to {
             opacity: 1;
-            transform: translateY(0);
+            transform: translateY(0) rotateX(0deg);
         }
+    }
+
+    @keyframes itemPulse {
+        0%, 100% { box-shadow: 0 0 15px var(--shadow-color); }
+        50% { box-shadow: 0 0 15px var(--shadow-color), 0 0 20px rgba(var(--accent-primary), 0.2); }
     }
 
     .faq-item:hover {
@@ -194,6 +200,9 @@
         align-items: center;
         cursor: pointer;
         text-align: left;
+    }
+    .faq-question:focus {
+        outline: none;
     }
 
     .question-text {
@@ -277,7 +286,8 @@
                 entries.forEach(function (entry) {
                     if (entry.isIntersecting) {
                         entry.target.classList.add('anim-in');
-                        o.unobserve(entry.target);
+                    } else {
+                        entry.target.classList.remove('anim-in');
                     }
                 });
             }, { threshold: 0.2 });

@@ -109,6 +109,14 @@
 
 .wwd-tilt-card {
     will-change: transform;
+    opacity: 0;
+    transform: translateY(50px) rotateX(-20deg);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.wwd-tilt-card.card-reveal-active {
+    opacity: 1;
+    transform: translateY(0) rotateX(0deg);
 }
 
 .wwd-card-inner {

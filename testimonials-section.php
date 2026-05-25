@@ -224,13 +224,13 @@
         text-transform: uppercase;
         margin-bottom: 14px;
         opacity: 0;
-        transform: translateY(20px);
-        transition: opacity 0.7s ease, transform 0.7s ease;
+        transform: scale(0) rotateY(90deg);
+        transition: opacity 0.8s cubic-bezier(0.34, 1.56, 0.64, 1), transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
     }
 
     .testimonials-subheading.anim-in {
         opacity: 1;
-        transform: translateY(0);
+        transform: scale(1) rotateY(0deg);
     }
 
     .testimonials-headline {
@@ -241,13 +241,13 @@
         letter-spacing: -1px;
         line-height: 1.2;
         opacity: 0;
-        transform: translateY(24px);
-        transition: opacity 0.7s ease 0.1s, transform 0.7s ease 0.1s;
+        transform: scale(0.8);
+        transition: opacity 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 0.1s, transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 0.1s;
     }
 
     .testimonials-headline.anim-in {
         opacity: 1;
-        transform: translateY(0);
+        transform: scale(1);
     }
 
     .testimonials-description {
@@ -256,13 +256,13 @@
         margin: 0;
         line-height: 1.7;
         opacity: 0;
-        transform: translateY(24px);
-        transition: opacity 0.7s ease 0.2s, transform 0.7s ease 0.2s;
+        transform: scale(0.8);
+        transition: opacity 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 0.2s, transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 0.2s;
     }
 
     .testimonials-description.anim-in {
         opacity: 1;
-        transform: translateY(0);
+        transform: scale(1);
     }
 
     .testimonials-slider-wrapper {
@@ -296,10 +296,9 @@
         position: relative;
         overflow: hidden;
         transition: all 0.4s ease;
-        box-shadow: 0 0 15px var(--shadow-color);
         backdrop-filter: blur(10px);
-        animation: cardFloat 5s ease-in-out infinite;
-        animation-delay: var(--card-delay, 0s);
+        animation: cardFloat 5s ease-in-out infinite, cardTilt 4s ease-in-out infinite;
+        animation-delay: var(--card-delay, 0s), var(--tilt-delay, 0s);
     }
 
     @keyframes cardFloat {
@@ -307,12 +306,18 @@
         50% { transform: translateY(-8px); }
     }
 
-    .testimonial-card:nth-child(1) { --card-delay: 0s; }
-    .testimonial-card:nth-child(2) { --card-delay: 0.5s; }
-    .testimonial-card:nth-child(3) { --card-delay: 1s; }
-    .testimonial-card:nth-child(4) { --card-delay: 1.5s; }
-    .testimonial-card:nth-child(5) { --card-delay: 2s; }
-    .testimonial-card:nth-child(6) { --card-delay: 2.5s; }
+    @keyframes cardTilt {
+        0%, 100% { transform: rotate(0deg); }
+        25% { transform: rotate(1deg); }
+        75% { transform: rotate(-1deg); }
+    }
+
+    .testimonial-card:nth-child(1) { --card-delay: 0s; --tilt-delay: 0s; }
+    .testimonial-card:nth-child(2) { --card-delay: 0.5s; --tilt-delay: 0.5s; }
+    .testimonial-card:nth-child(3) { --card-delay: 1s; --tilt-delay: 1s; }
+    .testimonial-card:nth-child(4) { --card-delay: 1.5s; --tilt-delay: 1.5s; }
+    .testimonial-card:nth-child(5) { --card-delay: 2s; --tilt-delay: 2s; }
+    .testimonial-card:nth-child(6) { --card-delay: 2.5s; --tilt-delay: 2.5s; }
 
     .testimonial-card:hover {
         border-color: var(--accent-primary);
@@ -476,7 +481,8 @@
                 entries.forEach(function (entry) {
                     if (entry.isIntersecting) {
                         entry.target.classList.add('anim-in');
-                        o.unobserve(entry.target);
+                    } else {
+                        entry.target.classList.remove('anim-in');
                     }
                 });
             }, { threshold: 0.2 });

@@ -972,7 +972,7 @@
         }
 
         .floating-card {
-            display: none; /* Hide floating cards on smaller screens to prevent clutter */
+            display: none; 
         }
         
         .slider-pagination {
@@ -982,12 +982,12 @@
 
     @media (max-width: 768px) {
         .hero-container {
-            padding: 140px 20px 40px; /* Increased top padding to prevent header overlap */
+            padding: 80px 20px 40px; 
             gap: 30px;
         }
 
         .hero-visual-wrapper {
-            height: 300px; /* Smaller image height on mobile */
+            height: 300px;
         }
 
         .hero-badge {

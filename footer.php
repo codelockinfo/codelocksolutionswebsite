@@ -141,11 +141,14 @@
 .social-icons a i:before {
     display: block;
 }
-
+.cta-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px var(--shadow-color);
+    color: #fff;
+}
 .ttm-btn {
     background: var(--gradient-primary);
     color: #ffffff;
-    border: 2px solid var(--accent-primary);
     padding: 12px 24px;
     border-radius: 8px;
     text-decoration: none;
@@ -205,7 +208,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 order-md-3">
                             <div class="text-sm-right">
-                                <a class="ttm-btn ttm-btn-size-md ttm-icon-btn-left" href="mailto:codelockinfo@gmail.com" title="" style="text-transform: lowercase;"> codelockinfo@gmail.com <i class="fa fa-envelope-o"></i></a>
+                                <a class="ttm-btn ttm-btn-size-md ttm-icon-btn-left cta-primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=codelockinfo@gmail.com" target="_blank" title="" style="text-transform: lowercase;"> codelockinfo@gmail.com</a>
                             </div>
                         </div>
                     </div>

@@ -73,7 +73,6 @@ a:focus {
     text-decoration: none; 
 }
 a:focus, a:hover { 
-    color: #374a16; 
     text-decoration: none; 
 }
 a, button, input { 
@@ -616,7 +615,6 @@ h4.ttm-textcolor-skincolor, h5.ttm-textcolor-skincolor, h6.ttm-textcolor-skincol
 .ttm-btn-bgcolor-darkgrey:hover,
 .ttm-btn.ttm-btn-color-skincolor.ttm-btn-style-border:hover,
 .ttm-btn.ttm-btn-bgcolor-darkgrey:hover,
-#totop.top-visible,
 .ttm-processbox-wrapper .ttm-processbox:hover .process-num,
 .ttm-tabs.ttm-tab-style-horizontal ul.tabs li.active a,
 .widget.widget-nav-menu ul li a:after,
@@ -1682,6 +1680,7 @@ ul.footer-nav-menu li:not(:last-child):after {
     width: 40px;
     font-size: 22px;
     display: inline;
+    background: var(--gradient-secondary);
 }
 
 /* ===============================================

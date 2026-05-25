@@ -116,12 +116,12 @@
     text-transform: uppercase;
     margin-bottom: 14px;
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateX(50px);
     transition: opacity 0.7s ease, transform 0.7s ease;
 }
 .process-subheading.anim-in {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
 }
 
 .process-title {
@@ -132,12 +132,12 @@
     letter-spacing: -1px;
     line-height: 1.2;
     opacity: 0;
-    transform: translateY(24px);
+    transform: translateX(50px);
     transition: opacity 0.7s ease 0.1s, transform 0.7s ease 0.1s;
 }
 .process-title.anim-in {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
 }
 
 .process-subtitle {
@@ -146,12 +146,12 @@
     margin: 0;
     line-height: 1.7;
     opacity: 0;
-    transform: translateY(24px);
+    transform: translateX(50px);
     transition: opacity 0.7s ease 0.2s, transform 0.7s ease 0.2s;
 }
 .process-subtitle.anim-in {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
 }
 
 /* =====================================================
@@ -233,26 +233,33 @@
     padding: 24px;
     z-index: 1;
     cursor: default;
-    animation: stepReveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    animation: stepReveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards, stepBounce 3s ease-in-out infinite;
+    animation-delay: var(--step-delay, 0s), var(--bounce-delay, 0s);
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(30px) scale(0.9);
 }
 
-.timeline-step:nth-child(1) { animation-delay: 0.1s; }
-.timeline-step:nth-child(2) { animation-delay: 0.2s; }
-.timeline-step:nth-child(3) { animation-delay: 0.3s; }
-.timeline-step:nth-child(4) { animation-delay: 0.4s; }
-.timeline-step:nth-child(5) { animation-delay: 0.5s; }
+.timeline-step:nth-child(1) { --step-delay: 0.1s; --bounce-delay: 0s; }
+.timeline-step:nth-child(2) { --step-delay: 0.2s; --bounce-delay: 0.5s; }
+.timeline-step:nth-child(3) { --step-delay: 0.3s; --bounce-delay: 1s; }
+.timeline-step:nth-child(4) { --step-delay: 0.4s; --bounce-delay: 1.5s; }
+.timeline-step:nth-child(5) { --step-delay: 0.5s; --bounce-delay: 2s; }
 
 @keyframes stepReveal {
     to {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateY(0) scale(1);
     }
+}
+
+@keyframes stepBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
 }
 
 .timeline-step:hover {
     transform: translateY(-10px);
+    animation: none;
 }
 
 /* Scroll reveal */

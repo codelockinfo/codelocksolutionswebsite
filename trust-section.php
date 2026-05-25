@@ -60,13 +60,15 @@
     max-width: 600px;
     text-align: left;
     opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    transform: scale(0.8);
+    filter: blur(10px);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1), filter 0.8s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .metrics-title.anim-in {
     opacity: 1;
-    transform: translateY(0);
+    transform: scale(1);
+    filter: blur(0);
 }
 
 .metrics-desc {
@@ -77,13 +79,15 @@
     flex: 1 1 40%;
     text-align: left;
     opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    transform: scale(0.8);
+    filter: blur(10px);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.1s, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.1s, filter 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.1s;
 }
 
 .metrics-desc.anim-in {
     opacity: 1;
-    transform: translateY(0);
+    transform: scale(1);
+    filter: blur(0);
 }
 
 .metrics-grid {
@@ -183,19 +187,32 @@
 /* Animations */
 .trust-animate {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(30px) scale(0.9);
     transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .trust-animate.active {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
 }
 
-.metric-card:nth-child(1) { transition-delay: 0.1s; }
-.metric-card:nth-child(2) { transition-delay: 0.2s; }
-.metric-card:nth-child(3) { transition-delay: 0.3s; }
-.metric-card:nth-child(4) { transition-delay: 0.4s; }
+.metric-card {
+    animation: metricPulse 3s ease-in-out infinite;
+}
+
+.metric-card:nth-child(1) { transition-delay: 0.1s; animation-delay: 0s; }
+.metric-card:nth-child(2) { transition-delay: 0.2s; animation-delay: 0.5s; }
+.metric-card:nth-child(3) { transition-delay: 0.3s; animation-delay: 1s; }
+.metric-card:nth-child(4) { transition-delay: 0.4s; animation-delay: 1.5s; }
+
+@keyframes metricPulse {
+    0%, 100% { 
+        box-shadow: 0 10px 40px var(--shadow-color);
+    }
+    50% { 
+        box-shadow: 0 10px 40px var(--shadow-color), 0 0 30px rgba(var(--accent-primary), 0.3);
+    }
+}
 
 /* Responsive */
 @media (max-width: 1200px) {
@@ -258,7 +275,8 @@
             entries.forEach(function (entry) {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('anim-in');
-                    o.unobserve(entry.target);
+                } else {
+                    entry.target.classList.remove('anim-in');
                 }
             });
         }, { threshold: 0.2 });
