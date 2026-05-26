@@ -1,12 +1,13 @@
 <?php include 'header.php'; ?>
 <!-- page-title -->
-<div class="ttm-page-title-row">
+<link rel="stylesheet" type="text/css" href="css/service-pages.css" />
+<div class="ttm-page-title-row redesign-page-title-row">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="title-box text-center">
                     <div class="page-title-heading">
-                        <h1 class="title">Blog</h1>
+                        <h1 class="title">Increase Store Revenue</h1>
                     </div><!-- /.page-title-captions -->
                     <div class="breadcrumb-wrapper">
                         <span>
@@ -22,7 +23,7 @@
 </div>
 <!-- page-title end-->
 
-<div class="body-section ttm-row">
+<div class="service-body-redesign body-section ttm-row">
     <div class="wrap">
         <div class="row">
             <div class=" col-12 col-md-6 col-xl-8 blog_contain">
@@ -89,9 +90,11 @@
                     <div class="container">
                         <h5 class="supportpara" id="Make">How Much Can You Make With Shopify?</h5>
                     </div>
-                    <p>
-                        The question of potential income is a constant for any entrepreneur venturing into the world of eCommerce with Shopify. While various factors affect quantifying earnings, this discourse explains the insights of average revenue Shopify store, its profit margins, and approaches to estimating customer base requirements for achieving target profit goals.
-                    </p>
+                    <div class="container">
+                        <p>
+                            The question of potential income is a constant for any entrepreneur venturing into the world of eCommerce with Shopify. While various factors affect quantifying earnings, this discourse explains the insights of average revenue Shopify store, its profit margins, and approaches to estimating customer base requirements for achieving target profit goals.
+                        </p>
+                    </div>
                     <div class="container">
                         <div class="container mt-3">
                             <h5>Average Revenue Insights</h5>
@@ -117,9 +120,11 @@
                     <div class="container">
                         <h5 class="supportpara" id="Analyzing">Analyzing Average Monthly Shopify Store Revenue</h5>
                     </div>
-                    <p>
-                        While the average Shopify store revenue provides a general benchmark, a more nuanced understanding requires examining revenue distribution across various segments.
-                    </p>
+                    <div class="container">
+                        <p>
+                            While the average Shopify store revenue provides a general benchmark, a more nuanced understanding requires examining revenue distribution across various segments.
+                        </p>
+                    </div>
                     <div class="container">
                         <div class="container mt-3">
                             <h5>Revenue by Industry:</h5>
@@ -200,8 +205,10 @@
                     <div class="container">
                         <h5 class="supportpara" id="Key">Key Factors Contributing to Shopify Store Success</h5>
                     </div>
+                    <div class="container">
                     <p>Creating a successful Shopify demands several blocks to come together and fit perfectly to captivate customers. Four major elements contribute to its success. In other words, it affects the average Shopify store revenue.
                     </p>
+                    </div>
                     <div class="container">
                         <div class="container">
                             <h5>1 Effective Marketing Strategies</h5>
@@ -233,7 +240,9 @@
                     <div class="container">
                         <h5 class="supportpara" id="Monthly"> How to Increase Your Shopify Store’s Monthly Revenue</h5>
                     </div>
+                    <div class="container">
                     <p>Predicting the average Shopify store revenue increase per year is possible only if entrepreneurs put in the effort every month with these strategies. </p>
+                    </div>
                     <div class="container">
                         <div class="container">
                             <h5>1 Implementing Data-Driven Marketing Techniques</h5>
@@ -271,9 +280,11 @@
                     <div class="container">
                         <h5 class="supportpara" id="Final">Final Thoughts</h5>
                     </div>
+                    <div class="container">
                     <p>
                         To increase average Shopify store revenue in 2024, focus on enhancing customer experience through personalized recommendations and superior service. Optimize mobile responsiveness, streamline checkout processes, and offer flexible payment options. Utilize effective SEO strategies and targeted marketing campaigns. Implement loyalty programs to encourage repeat purchases, and leverage data analytics to identify trends and make informed decisions.
                     </p>
+                    </div>
                 </div>
                 <div class="container persondetail">
                     <div class="row">
@@ -370,73 +381,67 @@
             </div>
         </div>
     </div>
-</div>
-<div class="container-fluid mt-5">
-    <div class="section-heading">
-        <h3 class="text-center">New added</h3>
+
+    <div class="container-fluid mt-5">
+        <div class="section-heading">
+            <h2 class="text-center related-blogs-title">Related Blogs</h2>
+        </div>
     </div>
-</div>
-<div class="container-fluid image-grp">
-    <div class="row card1">
-        <div class="col-xl-3">
-            <div class="card-section border-0 p-3 mb-3">
-                <img src="images/blog-img/shopify plus.webp" alt="dowload5" class="download-image1" />
-                <div class="col-12 mt-3">
-                    <span class="date1"><i class="fa fa-calendar text-primary"></i> June 20, 2024</span>
-                </div>
-                <h5 class="blog-heading1 mt-3">
-                    What Are The Benefits Of Shopify Plus When You Upgrage?
-                </h5>
-                <hr />
-                <div class="row justify-content-between">
-                    <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 169 Views</span>
-                    <a href="shopifyplus.php">
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
-                    </a>
+    <div class="container-fluid p-5 related-blogs-section">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
+                <div class="resource-card">
+                    <div class="resource-card-image">
+                        <img src="images/blog-img/shopify plus.webp" alt="Shopify Plus Benefits" />
+                    </div>
+                    <div class="resource-card-body">
+                        <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
+                        <h4 class="resource-card-title">
+                            <a href="shopifyplus.php">What Are The Benefits Of Shopify Plus When You Upgrade?</a>
+                        </h4>
+                        <p class="resource-card-excerpt">
+                            Learn about global multi-store setups, wholesale B2B modules, and automated scaling on Shopify Plus.
+                        </p>
+                        <a href="shopifyplus.php" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-xl-3">
-            <div class="card-section border-0 p-3 mb-3">
-                <img src="images/blog-img/setup.webp" alt="download6" class="download-image1" />
-                <div class="col-12 mt-3">
-                    <span class="date1"><i class="fa fa-calendar text-primary"></i> June 14, 2024</span>
-                </div>
-                <h5 class="blog-heading1 mt-3">
-                    How Much Does It Cost to Start or Run a Shopify Store?
-                </h5>
-                <hr />
-                <div class="row justify-content-between">
-                    <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 217 Views</span>
-                    <a href="coststart.php">
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
-                    </a>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
+                <div class="resource-card">
+                    <div class="resource-card-image">
+                        <img src="images/blog-img/setup.webp" alt="Shopify Store Cost" />
+                    </div>
+                    <div class="resource-card-body">
+                        <div class="resource-card-tagline">CodelockSolutions. <span>Pricing</span></div>
+                        <h4 class="resource-card-title">
+                            <a href="coststart.php">How Much Does It Cost to Start or Run a Shopify Store?</a>
+                        </h4>
+                        <p class="resource-card-excerpt">
+                            Comprehensive guide on Shopify store startup costs, including platform fees, theme expenses, and development budgets.
+                        </p>
+                        <a href="coststart.php" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-xl-3">
-            <div class="card-section border-0 p-3 mb-3">
-                <img src="images/blog-img/What-is-Shopify-Collabs.jpg" alt="download7" class="download-image1" />
-                <div class="col-12 mt-3">
-                    <span class="date1"><i class="fa fa-calendar text-primary"></i> June 12, 2024</span>
-                </div>
-                <h5 class="blog-heading1 mt-3">
-                    Shopify Collabs – Everything You Need to Know About It in 2024
-                </h5>
-                <hr />
-                <div class="row justify-content-between">
-                    <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 249 Views</span>
-                    <a href=" collabs.php">
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
-                    </a>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
+                <div class="resource-card">
+                    <div class="resource-card-image">
+                        <img src="images/blog-img/What-is-Shopify-Collabs.jpg" alt="Shopify Collabs" />
+                    </div>
+                    <div class="resource-card-body">
+                        <div class="resource-card-tagline">CodelockSolutions. <span>Growth</span></div>
+                        <h4 class="resource-card-title">
+                            <a href="collabs.php">Shopify Collabs – Everything You Need to Know About It in 2024</a>
+                        </h4>
+                        <p class="resource-card-excerpt">
+                            Discover how Shopify Collabs helps you build influencer partnerships and grow your brand reach.
+                        </p>
+                        <a href="collabs.php" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <?php include 'footer.php'; ?>

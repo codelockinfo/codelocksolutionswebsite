@@ -16,22 +16,21 @@
 }
 
 /* Hero Section */
-[data-theme="dark"] .services-hero {
+.services-hero {
     padding: 120px 0 80px;
-    background: radial-gradient(circle at top right, rgba(0, 242, 254, 0.08), transparent 45%),
-                radial-gradient(circle at bottom left, rgba(255, 0, 127, 0.06), transparent 45%);
     text-align: center;
     position: relative;
     overflow: hidden;
 }
 
+[data-theme="dark"] .services-hero {
+    background: radial-gradient(circle at top right, rgba(0, 242, 254, 0.08), transparent 45%),
+                radial-gradient(circle at bottom left, rgba(255, 0, 127, 0.06), transparent 45%);
+}
+
 [data-theme="light"] .services-hero {
-    padding: 120px 0 80px;
     background: radial-gradient(circle at top right, rgb(114 137 72 / 7%) 0%, transparent 45%),            
                 radial-gradient(circle at bottom left, rgb(207 255 121 / 13%) 0%, transparent 45%);
-    text-align: center;
-    position: relative;
-    overflow: hidden;
 }
 
 .services-hero h1 {
@@ -55,7 +54,7 @@
 
 .services-hero p {
     color: var(--text-secondary);
-    font-size: 1.25rem;
+    font-size: 18px;
     max-width: 700px;-
     margin: 0 auto 35px;
     line-height: 1.6;
@@ -173,7 +172,7 @@
     color: var(--text-primary);
     font-weight: 600;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 16px;
     gap: 8px;
     transition: all 0.3s ease;
     margin-top: auto;
@@ -392,7 +391,7 @@
     align-items: center;
     cursor: pointer;
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 600;
     color: var(--text-primary);
     user-select: none;
 }
@@ -472,20 +471,18 @@
     padding: 80px 0;
 }
 
-[data-theme="dark"] .banner-container{
-    background: linear-gradient(135deg, rgba(7, 5, 20, 0.96), rgba(10, 8, 24, 0.96)), var(--bg-image);
+.banner-container {
     border: 1px solid var(--border-color);
     border-radius: 32px;
     padding: 60px 40px;
+}
 
+[data-theme="dark"] .banner-container{
+    background: linear-gradient(135deg, rgba(7, 5, 20, 0.96), rgba(10, 8, 24, 0.96)), var(--bg-image);
 }
 
 [data-theme="light"] .banner-container{
     background: var(--bg-primary);
-    border: 1px solid var(--border-color);
-    border-radius: 32px;
-    padding: 60px 40px;
-
 }
 
 .cta-content {
@@ -514,7 +511,7 @@
 
 .cta-banner p {
     color: var(--text-primary);
-    font-size: 1.25rem;
+    font-size: 18px;
     max-width: 650px;
     margin: 0 auto 40px;
     line-height: 1.6;
@@ -617,7 +614,7 @@
 @media (max-width: 1024px) {
     .process-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 40px;
+        gap: 20px;
     }
     
     .process-grid::before {
@@ -626,6 +623,9 @@
 }
 
 @media (max-width: 768px) {
+    .services-hero {
+        padding: 60px 0 40px;
+    }
     .services-showcase-section,
     .process-section,
     .faq-section,
@@ -633,19 +633,54 @@
         padding: 40px 0;
     }
     .services-hero h1 {
-        font-size: 2.8rem;
+        font-size: 30px;
+    }
+    .services-hero p {
+        font-size: 16px;
+    }
+
+    .process-section h2,
+    .faq-section h2 {
+        font-size: 28px;
+    }
+    .process-section p.subtitle,
+    .faq-section p.subtitle {
+        font-size: 16px;
+    }
+
+    .faq-question {
+        font-size: 16px;
+    }
+
+    .faq-answer {
+        font-size: 14px;
     }
     
     .process-grid {
         grid-template-columns: 1fr;
     }
+
+    .banner-container {
+        padding: 40px 20px;
+    }
     
     .cta-banner h2 {
-        font-size: 2.2rem;
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .cta-banner p {
+        font-size: 16px;
+    }
+
+    .cta-btn-primary, 
+    .cta-btn-secondary {
+        font-size: 14px;
+        padding: 14px 30px;
     }
     
     .faq-item {
-        padding: 20px 20px;
+        padding: 16px;
     }
 }
 
@@ -967,7 +1002,7 @@
     background: var(--card-bg);
     border: 1px solid var(--border-color);
     border-radius: 24px;
-    padding: 40px;
+    padding: 30px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     position: relative;
@@ -996,31 +1031,31 @@
 }
 
 .showcase-card h3 {
-    font-size: 2.2rem;
+    font-size: 30px;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: var(--text-primary);
     letter-spacing: -0.5px;
 }
 .showcase-card p {
-    font-size: 1.1rem;
+    font-size: 16px;
     line-height: 1.6;
     color: var(--text-secondary);
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .showcase-checklist {
     list-style: none;
     padding: 0;
-    margin: 0 0 35px 0;
+    margin: 0 0 20px 0;
 }
 .showcase-checklist li {
     display: flex;
     align-items: center;
     gap: 12px;
-    font-size: 1.05rem;
+    font-size: 16px;
     color: var(--text-secondary);
-    margin-bottom: 14px;
+    margin-bottom: 10px;
 }
 .showcase-checklist li:last-child {
     margin-bottom: 0;
@@ -1845,37 +1880,95 @@
 
 /* Responsive styles for Services Showcase Section */
 @media (max-width: 991px) {
-    .showcase-row,
-    .showcase-row:nth-child(even) {
-        flex-direction: column-reverse;
-        gap: 50px;
-        margin-bottom: 80px;
+    .services-showcase-section {
+        padding: 60px 0;
+        min-height: 100vh;
+        overflow: visible;
     }
+    
+    .cards-container {
+        overflow: visible;
+        min-height: 100vh;
+        height: auto !important;
+    }
+    
+    .showcase-row {
+        flex-direction: column-reverse !important;
+        gap: 30px;
+        padding: 20px;
+        overflow: visible;
+        min-height: 90vh;
+        height: auto !important;
+    }
+    
     .showcase-visual-col,
     .showcase-content-col {
         width: 100%;
-    }
-    .visual-wrapper {
-        min-height: 400px;
-    }
-    .showcase-card {
-        padding: 30px;
-    }
-    .showcase-card h3 {
-        font-size: 1.8rem;
+        padding: 0;
+        overflow: visible;
+        height: auto !important;
+        flex-shrink: 0;
     }
     
+    .showcase-visual-col {
+        min-height: 240px;
+    }
+    
+    .showcase-content-col {
+        min-height: 320px;
+    }
+    
+    .visual-wrapper {
+        min-height: 240px;
+        overflow: visible;
+    }
+    
+    .showcase-card {
+        padding: 20px;
+        overflow: visible;
+        height: auto !important;
+    }
+    .showcase-card h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .showcase-card p {
+        font-size: 14px;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+    .showcase-checklist {
+        margin: 0 0 10px 0;
+    }
+    .showcase-checklist li {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-bottom: 0;
+    }
+    .service-link {
+        font-size: 13px;
+    }
     .mockup-browser {
-        width: 320px;
-        height: 230px;
+        width: 260px;
+        height: 180px;
+    }
+    
+    .mockup-phone {
+        height: 350px;
+        width: 210px;
+    }
+
+    .mockup-tablet {
+        width: 300px;
+        height: 310px;
     }
     
     /* Make widgets slightly smaller on mobile */
     .floating-widget-inner {
-        padding: 8px 12px;
+        padding: 5px 8px;
     }
     .floating-widget-inner span {
-        font-size: 0.75rem;
+        font-size: 0.65rem;
     }
 }
 </style>
@@ -2864,7 +2957,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Services Showcase GSAP ScrollTrigger Animation
+    // Services Showcase GSAP ScrollTrigger Animation (All Devices)
     if (typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefined") {
         gsap.registerPlugin(ScrollTrigger);
 
@@ -2872,6 +2965,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const showcaseRows = document.querySelectorAll(".showcase-row");
 
         if (section && showcaseRows.length > 0) {
+            // Adjust duration based on viewport
+            const isMobile = window.innerWidth <= 991;
+            const durationPerCard = isMobile ? 1200 : 1000;
+            const totalDuration = showcaseRows.length * durationPerCard;
+            
             // Set initial states for all cards except the first one
             showcaseRows.forEach((row, index) => {
                 if (index > 0) {
@@ -2888,8 +2986,6 @@ document.addEventListener('DOMContentLoaded', function() {
             });
 
             // Create timeline for each card transition
-            const totalDuration = showcaseRows.length * 1000;
-            
             const tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: section,
@@ -2908,7 +3004,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     
                     // Shrink and darken current card
                     tl.to(row, {
-                        scale: 0.92,
+                        scale: isMobile ? 0.95 : 0.92,
                         filter: "brightness(0.4)",
                         duration: 1,
                         ease: "power1.inOut"
@@ -2924,12 +3020,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             });
         }
-    } else {
-        // Fallback for browsers without GSAP
-        const showcaseRows = document.querySelectorAll('.showcase-row');
-        showcaseRows.forEach(row => {
-            row.classList.add('reveal-active');
-        });
     }
 });
 </script>

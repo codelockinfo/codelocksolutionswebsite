@@ -726,7 +726,6 @@
 
 	/* ttm-bg-layer */
 	.ttm-row .container, .ttm-row .container-fluid, .ttm-page-title-row .container, footer .container, .element-row .container,.sidebar .container{ max-width: 100%; }
-	.ttm-row .container, .ttm-page-title-row .container, footer .container, .element-row .container, .sidebar .container{ padding: 0; }
 	.ttm-row .container > .row, .ttm-page-title-row .container > .row, footer .container .row, .element-row .container > .row , .sidebar .container > .row{ margin: 0; }
     
     .ttm-fid-view-topicon-row {margin-left: 15px !important;margin-right: 15px!important;}

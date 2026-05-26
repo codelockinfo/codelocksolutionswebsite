@@ -1,12 +1,13 @@
 <?php include 'header.php'; ?>
 <!-- page-title -->
-<div class="ttm-page-title-row">
+<link rel="stylesheet" type="text/css" href="css/service-pages.css" />
+<div class="ttm-page-title-row redesign-page-title-row">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="title-box text-center">
                     <div class="page-title-heading">
-                        <h1 class="title">Blog</h1>
+                        <h1 class="title">Shopify vs Custom Website</h1>
                     </div><!-- /.page-title-captions -->
                     <div class="breadcrumb-wrapper">
                         <span>
@@ -22,7 +23,7 @@
 </div>
 <!-- page-title end-->
 
-<div class="body-section ttm-row">
+<div class="service-body-redesign body-section ttm-row">
     <div class="wrap">
         <div class="row">
             <div class="col-12 col-md-6 col-xl-8 blog_contain">
@@ -427,65 +428,59 @@
     </div>
     <div class="container-fluid mt-5">
         <div class="section-heading">
-            <h3 class="text-center">New added</h3>
+            <h2 class="text-center related-blogs-title">Related Blogs</h2>
         </div>
     </div>
-    <div class="container-fluid  image-grp">
-        <div class="row card1">
-            <div class="col-xl-3">
-                <div class="card-section border-0 p-3 mb-3">
-                    <img src="images/blog-img/shopify plus.webp" alt="dowload5" class="download-image1" />
-                    <div class="col-12 mt-3">
-                        <span class="date1"><i class="fa fa-calendar text-primary"></i> June 20, 2024</span>
+    <div class="container-fluid p-5 related-blogs-section">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
+                <div class="resource-card">
+                    <div class="resource-card-image">
+                        <img src="images/blog-img/shopify plus.webp" alt="Shopify Plus Benefits" />
                     </div>
-                    <h5 class="blog-heading1 mt-3">
-                        What Are The Benefits Of Shopify Plus When You Upgrage?
-                    </h5>
-                    <hr />
-                    <div class="row justify-content-between">
-                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 169 Views</span>
-                        <a href="shopifyplus.php">
-                            <span class="col-xl-6 blog-read1">Read blog
-                                <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
-                        </a>
+                    <div class="resource-card-body">
+                        <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
+                        <h4 class="resource-card-title">
+                            <a href="shopifyplus.php">What Are The Benefits Of Shopify Plus When You Upgrade?</a>
+                        </h4>
+                        <p class="resource-card-excerpt">
+                            Learn about global multi-store setups, wholesale B2B modules, and automated scaling on Shopify Plus.
+                        </p>
+                        <a href="shopifyplus.php" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3">
-                <div class="card-section border-0 p-3 mb-3">
-                    <img src="images/blog-img/What-is-Shopify-Collabs.jpg" alt="download7" class="download-image1" />
-                    <div class="col-12 mt-3">
-                        <span class="date1"><i class="fa fa-calendar text-primary"></i> June 12, 2024</span>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
+                <div class="resource-card">
+                    <div class="resource-card-image">
+                        <img src="images/blog-img/What-is-Shopify-Collabs.jpg" alt="Shopify Collabs" />
                     </div>
-                    <h5 class="blog-heading1 mt-3">
-                        Shopify Collabs – Everything You Need to Know About It in 2024
-                    </h5>
-                    <hr />
-                    <div class="row justify-content-between">
-                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 249 Views</span>
-                        <a href=" collabs.php">
-                            <span class="col-xl-6 blog-read1">Read blog
-                                <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
-                        </a>
+                    <div class="resource-card-body">
+                        <div class="resource-card-tagline">CodelockSolutions. <span>Growth</span></div>
+                        <h4 class="resource-card-title">
+                            <a href="collabs.php">Shopify Collabs – Everything You Need to Know About It in 2024</a>
+                        </h4>
+                        <p class="resource-card-excerpt">
+                            Discover how Shopify Collabs helps you build influencer partnerships and grow your brand reach.
+                        </p>
+                        <a href="collabs.php" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3">
-                <div class="card-section border-0 p-3 mb-3">
-                    <img src="images/blog-img/why_Shopify-Experts.webp" alt="download3" class="download-image1" />
-                    <div class="col-12 mt-3">
-                        <span class="date1"><i class="fa fa-calendar text-primary"></i> June 25, 2024</span>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
+                <div class="resource-card">
+                    <div class="resource-card-image">
+                        <img src="images/blog-img/why_Shopify-Experts.webp" alt="Hire Shopify Experts" />
                     </div>
-                    <h5 class="blog-heading1 mt-3">
-                        Why Should You Hire Shopify Experts
-                    </h5>
-                    <hr />
-                    <div class="row justify-content-between">
-                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 110 Views</span>
-                        <a href="hireexpert.php">
-                            <span class="col-xl-6 blog-read1">Read blog
-                                <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
-                        </a>
+                    <div class="resource-card-body">
+                        <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
+                        <h4 class="resource-card-title">
+                            <a href="hireexpert.php">Why Should You Hire Shopify Experts</a>
+                        </h4>
+                        <p class="resource-card-excerpt">
+                            Explore how hiring certified Shopify developers accelerates launching products and optimizes stores.
+                        </p>
+                        <a href="hireexpert.php" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

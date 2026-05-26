@@ -1,0 +1,872 @@
+/* ==========================================================================
+   Contact Page Redesign CSS stylesheet
+   ========================================================================== */
+
+.redesign-section {
+    padding: 80px 0;
+}
+/* Page Title Row styling */
+.redesign-page-title-row {
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(circle at 50% 50%, rgba(0, 242, 254, 0.06) 0%, transparent 60%),
+                linear-gradient(185deg, #070514 0%, #0c0a21 100%) !important;
+    border-bottom: 1px solid var(--border-color);
+    padding: 120px 0 80px;
+    text-align: center;
+}
+.redesign-page-title-row::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(var(--border-color) 1.2px, transparent 1.2px);
+    background-size: 24px 24px;
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: 0;
+}
+[data-theme="light"] .redesign-page-title-row {
+    background: radial-gradient(circle at 50% 50%, rgba(114, 137, 72, 0.05) 0%, transparent 60%),
+                linear-gradient(185deg, #ffffff 0%, #f4f6f9 100%) !important;
+}
+
+@keyframes titleShine {
+    0% { background-position: -200% center; }
+    100% { background-position: 200% center; }
+}
+
+.redesign-page-title-row h1.title {
+    font-size: 3.2rem;
+    font-weight: 800;
+    background: linear-gradient(
+        120deg,
+        #00f2fe 0%,
+        #10b981 35%,
+        #ffffff 50%,
+        #10b981 65%,
+        #00f2fe 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+    animation: titleShine 8s linear infinite;
+    text-shadow: 0 0 35px rgba(0, 242, 254, 0.15);
+    position: relative;
+    z-index: 1;
+}
+
+[data-theme="light"] .redesign-page-title-row h1.title {
+    background: linear-gradient(
+        120deg,
+        #728948 0%,
+        #374a16 35%,
+        #5a6e34 50%,
+        #374a16 65%,
+        #728948 100%
+    );
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+}
+
+.redesign-page-title-row .breadcrumb-wrapper {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border-color);
+    padding: 8px 24px;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(8px);
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+[data-theme="light"] .redesign-page-title-row .breadcrumb-wrapper {
+    background: rgba(0, 0, 0, 0.01);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+}
+
+.redesign-page-title-row .breadcrumb-wrapper a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.redesign-page-title-row .breadcrumb-wrapper a:hover {
+    color: var(--accent-primary);
+}
+
+.contact-body-redesign {
+    background-color: var(--bg-primary) !important;
+    background-image: var(--bg-image) !important;
+    background-attachment: fixed;
+    color: var(--text-primary) !important;
+    font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* ── 1. Ambient Background Drifting Glow Spheres ───────────────────────── */
+.contact-body-redesign::before,
+.contact-body-redesign::after {
+    content: '';
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.08;
+    filter: blur(120px);
+    transition: opacity 0.5s ease;
+}
+.contact-body-redesign::before {
+    background: radial-gradient(circle, var(--accent-primary) 0%, rgba(0, 242, 254, 0) 70%);
+    top: 10%;
+    left: -150px;
+    animation: contactDrift1 25s infinite alternate ease-in-out;
+}
+.contact-body-redesign::after {
+    background: radial-gradient(circle, var(--accent-secondary) 0%, rgba(255, 0, 127, 0) 70%);
+    bottom: 30%;
+    right: -150px;
+    animation: contactDrift2 30s infinite alternate ease-in-out;
+}
+
+@keyframes contactDrift1 {
+    0% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(100px, 60px) scale(1.15); }
+    100% { transform: translate(-30px, 120px) scale(0.9); }
+}
+@keyframes contactDrift2 {
+    0% { transform: translate(0, 0) scale(0.9); }
+    50% { transform: translate(-80px, -100px) scale(1.1); }
+    100% { transform: translate(50px, -30px) scale(1); }
+}
+
+[data-theme="light"] .contact-body-redesign::before,
+[data-theme="light"] .contact-body-redesign::after {
+    opacity: 0.04;
+    filter: blur(140px);
+}
+
+/* ── 2. Contact Main Title & Header Alignments ──────────────────────────── */
+.contact-body-redesign .section-title {
+    margin-bottom: 30px;
+}
+.contact-body-redesign h2.title {
+    font-size: 2.3rem !important;
+    font-weight: 800;
+    line-height: 1.25;
+    color: var(--text-primary) !important;
+}
+.contact-body-redesign h2.title span {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-body-redesign h5 {
+    color: var(--accent-primary);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    font-size: 0.85rem;
+}
+
+/* ── 3. Contact Grid Layout ─────────────────────────────────────────────── */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 50px;
+    align-items: start;
+    margin-top: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+/* ── 4. Glassmorphic Info Cards ─────────────────────────────────────────── */
+.contact-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact-info-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    position: relative;
+    overflow: hidden;
+    /* reveal state for scroll reveal observer */
+    opacity: 0;
+    transform: perspective(800px) rotateY(-20deg) translateY(20px);
+    will-change: opacity, transform;
+}
+.contact-info-card.visible-reveal {
+    opacity: 1;
+    transform: perspective(800px) rotateY(0deg) translateY(0);
+}
+.contact-info-card:not(.visible-reveal) {
+    transition-delay: 0s !important;
+}
+
+.contact-info-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: var(--gradient-primary);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.contact-info-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.12) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    transform: skewX(-25deg);
+    pointer-events: none;
+    z-index: 2;
+    transition: none;
+}
+.contact-info-card:hover::after {
+    left: 150%;
+    transition: left 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+}
+[data-theme="light"] .contact-info-card::after {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(114, 137, 72, 0.12) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+}
+
+.contact-info-card:hover {
+    transform: perspective(800px) rotateY(0deg) translateY(-8px) !important;
+    border-color: var(--accent-primary);
+    box-shadow: 0 20px 40px var(--shadow-color);
+}
+.contact-info-card:hover::before {
+    opacity: 1;
+}
+
+.contact-icon-box {
+    width: 54px;
+    height: 54px;
+    background: var(--badge-bg);
+    border: 1px solid var(--badge-border);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent-primary);
+    font-size: 1.4rem;
+    transition: all 0.3s;
+    flex-shrink: 0;
+}
+.contact-info-card:hover .contact-icon-box {
+    transform: scale(1.1) rotate(5deg);
+    background: var(--gradient-primary);
+    color: #ffffff;
+    border-color: transparent;
+}
+
+.contact-info-content h5 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0 0 8px 0;
+}
+.contact-info-content p {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin: 0;
+    line-height: 1.6;
+}
+.contact-info-content a {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+.contact-info-content a:hover {
+    color: var(--accent-primary);
+}
+
+/* ── 5. Project Enquiry Form Card ───────────────────────────────────────── */
+.contact-form-container {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+    /* reveal state for scroll reveal */
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+                transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: opacity, transform;
+}
+.contact-form-container.visible-reveal {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.contact-form-container .form-group {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.contact-form-container label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--accent-primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.contact-form-container .form-control {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 10px !important;
+    color: var(--text-primary) !important;
+    font-family: inherit !important;
+    font-size: 0.95rem !important;
+    padding: 14px 18px !important;
+    height: auto !important;
+    transition: all 0.3s ease !important;
+    box-shadow: none !important;
+}
+
+[data-theme="light"] .contact-form-container .form-control {
+    background: rgba(0, 0, 0, 0.01) !important;
+}
+
+.contact-form-container .form-control:focus {
+    border-color: var(--accent-primary) !important;
+    background: rgba(255, 255, 255, 0.04) !important;
+    box-shadow: 0 0 15px var(--shadow-color) !important;
+    transform: translateY(-2px);
+}
+
+.contact-form-container textarea.form-control {
+    min-height: 120px !important;
+    resize: vertical !important;
+}
+
+/* Continuous Submit Button Shimmer */
+.btn-submit-redesign {
+    background: var(--gradient-primary);
+    color: #ffffff !important;
+    font-weight: 700;
+    padding: 15px 35px;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0 10px 20px var(--shadow-color);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    border: none;
+    cursor: pointer;
+    width: auto;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-submit-redesign::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -100%;
+    width: 50%;
+    height: 200%;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.25) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    transform: rotate(30deg);
+    pointer-events: none;
+    z-index: 1;
+    animation: btnShimmerSweep 5.5s infinite linear;
+}
+
+.btn-submit-redesign:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px var(--shadow-color);
+}
+
+    /* Span Mother Hover Text Transitions */
+    .button-text-wrapper {
+        position: relative;
+        display: inline-flex;
+        overflow: hidden;
+        height: 1.4em;
+        align-items: center;
+    }
+
+    .span-mother {
+        display: flex;
+        position: relative;
+    }
+
+    .span-mother2 {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .span-mother span {
+        display: inline-block;
+        transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .span-mother2 span {
+        display: inline-block;
+        transform: translateY(-1.4em);
+        transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .cta-primary:hover .span-mother span,
+    .cta-secondary:hover .span-mother span {
+        transform: translateY(1.4em);
+    }
+
+    .cta-primary:hover .span-mother2 span,
+    .cta-secondary:hover .span-mother2 span {
+        transform: translateY(0);
+    }
+
+/* ── 6. Widescreen Floating Map Container ────────────────────────────────── */
+.contact-map-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin-top: 60px;
+    /* reveal state for scroll reveal */
+    opacity: 0;
+    transform: translateY(40px) scale(0.98);
+    transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+                transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: opacity, transform;
+}
+.contact-map-card.visible-reveal {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+.visible-reveal.contact-map-card {
+    animation: mapFloatLoop 8s ease-in-out infinite;
+}
+
+@keyframes mapFloatLoop {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-7px) rotate(0.2deg); }
+}
+
+.contact-map-card iframe {
+    border-radius: 16px;
+    display: block;
+}
+
+/* ── 7. Card Stagger Delays ─────────────────────────────────────────────── */
+.contact-cards-container .contact-info-card:nth-child(1) { transition-delay: 0s; }
+.contact-cards-container .contact-info-card:nth-child(2) { transition-delay: 0.15s; }
+.contact-cards-container .contact-info-card:nth-child(3) { transition-delay: 0.30s; }
+
+/* ── 8. Responsive Typography & Layouts ─────────────────────────────────── */
+@media (max-width: 991px) {
+    .redesign-page-title-row {
+        padding: 80px 0 40px;
+    }
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .contact-form-container {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .redesign-section {
+        padding: 40px 0;
+    }
+    .redesign-page-title-row h1.title {
+        font-size: 32px;
+    }
+    .breadcrumb-wrapper span {
+        font-size: 14px;
+    }
+    .ct-section-intro p {
+        font-size: 16px;
+    }
+    .contact-body-redesign h2.title {
+        font-size: 1.8rem !important;
+    }
+    .contact-info-card {
+        padding: 20px;
+    }
+    .contact-form-container {
+        padding: 25px 20px;
+    }
+    .contact-map-card {
+        padding: 10px;
+        border-radius: 18px;
+    }
+    .contact-map-card iframe {
+        height: 320px !important;
+        border-radius: 12px;
+    }
+    .contact-info-content h5 {
+        font-size: 16px;
+    }
+    .contact-info-content p {
+        font-size: 14px;
+    }
+}
+
+/* ==========================================================================
+   EXTENDED PREMIUM ANIMATION SYSTEM — CONTACT PAGE
+   ========================================================================== */
+
+/* ── A. Page-Title Floating Orbs ────────────────────────────────────────── */
+.ct-orb {
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0;
+    animation: orbRise 1.2s ease-out forwards;
+}
+.ct-orb-1 {
+    width: 220px; height: 220px;
+    background: radial-gradient(circle, rgba(0,242,254,0.18) 0%, transparent 70%);
+    top: -60px; left: 8%;
+    animation-name: orbRise;
+    animation-delay: 0.2s;
+    animation-duration: 1.4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    /* continuous float after reveal */
+    animation: orbRise 1.4s 0.2s ease-out forwards, orbFloat 9s 1.6s ease-in-out infinite;
+}
+.ct-orb-2 {
+    width: 160px; height: 160px;
+    background: radial-gradient(circle, rgba(255,0,127,0.14) 0%, transparent 70%);
+    bottom: -40px; right: 10%;
+    animation: orbRise 1.4s 0.5s ease-out forwards, orbFloat 11s 1.9s ease-in-out infinite alternate;
+}
+.ct-orb-3 {
+    width: 110px; height: 110px;
+    background: radial-gradient(circle, rgba(16,185,129,0.18) 0%, transparent 70%);
+    top: 30%; right: 25%;
+    animation: orbRise 1.2s 0.8s ease-out forwards, orbFloat 7s 2s ease-in-out infinite;
+}
+
+@keyframes orbRise {
+    from { opacity: 0; transform: scale(0.5) translateY(30px); }
+    to   { opacity: 1; transform: scale(1)   translateY(0px);  }
+}
+@keyframes orbFloat {
+    0%,100% { transform: translateY(0) scale(1); }
+    50%     { transform: translateY(-18px) scale(1.06); }
+}
+
+[data-theme="light"] .ct-orb-1 { background: radial-gradient(circle, rgba(114,137,72,0.10) 0%, transparent 70%); }
+[data-theme="light"] .ct-orb-2 { background: radial-gradient(circle, rgba(55,74,22,0.08)  0%, transparent 70%); }
+[data-theme="light"] .ct-orb-3 { background: radial-gradient(circle, rgba(90,110,52,0.10) 0%, transparent 70%); }
+
+/* Subtitle under page title */
+.ct-subtitle {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    max-width: 520px;
+    margin: 0 auto 15px;
+    line-height: 1.7;
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    animation: ctSubtitleReveal 0.9s 0.6s cubic-bezier(0.16,1,0.3,1) forwards;
+}
+@keyframes ctSubtitleReveal {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── B. CSS Particles Layer ─────────────────────────────────────────────── */
+.ct-particles-layer {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 0;
+}
+.ct-particle {
+    position: absolute;
+    left: var(--x);
+    top:  var(--y);
+    width:  var(--s);
+    height: var(--s);
+    border-radius: 50%;
+    background: var(--accent-primary);
+    opacity: 0.25;
+    animation: particleDrift var(--d) var(--delay) ease-in-out infinite alternate;
+    will-change: transform, opacity;
+}
+.ct-particle:nth-child(even) { background: var(--accent-secondary); }
+.ct-particle:nth-child(3n)   { background: var(--accent-tertiary);  }
+
+@keyframes particleDrift {
+    0%   { transform: translate(0,0)        scale(1);    opacity: 0.2; }
+    50%  { transform: translate(14px,-20px) scale(1.3);  opacity: 0.45; }
+    100% { transform: translate(-10px,15px) scale(0.85); opacity: 0.15; }
+}
+
+[data-theme="light"] .ct-particle { opacity: 0.12; }
+
+/* ── C. Section Intro Zoom Reveal ───────────────────────────────────────── */
+.ct-section-intro {
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 1;
+}
+.ct-section-intro h2 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-bottom: 14px;
+}
+.ct-section-intro h2 span {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ct-section-intro p {
+    font-size: 18px;
+    color: var(--text-secondary);
+    max-width: 620px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+/* Scroll-reveal for the section intro */
+.ct-section-intro {
+    opacity: 0;
+    transform: scale(0.9);
+    filter: blur(3px);
+    transition: opacity 0.8s cubic-bezier(0.34,1.56,0.64,1),
+                transform 0.8s cubic-bezier(0.34,1.56,0.64,1),
+                filter 0.8s ease;
+}
+.ct-section-intro.visible-reveal {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+}
+
+/* ── D. Animated Bottom-Line Sweep on Form Input Focus ─────────────────── */
+.ct-field-wrap {
+    position: relative;
+}
+.ct-field-wrap::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: var(--gradient-primary);
+    border-radius: 2px;
+    transition: width 0.4s cubic-bezier(0.16,1,0.3,1),
+                left 0.4s cubic-bezier(0.16,1,0.3,1);
+    pointer-events: none;
+    z-index: 3;
+}
+.ct-field-wrap:focus-within::after {
+    width: 100%;
+    left: 0;
+}
+
+/* Staggered form field reveal on scroll */
+.contact-form-container .form-group {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.16,1,0.3,1);
+}
+.contact-form-container.visible-reveal .form-group:nth-child(1) { opacity:1; transform:none; transition-delay:0.15s; }
+.contact-form-container.visible-reveal .form-group:nth-child(2) { opacity:1; transform:none; transition-delay:0.25s; }
+.contact-form-container.visible-reveal .form-group:nth-child(3) { opacity:1; transform:none; transition-delay:0.35s; }
+.contact-form-container.visible-reveal .form-group:nth-child(4) { opacity:1; transform:none; transition-delay:0.45s; }
+.contact-form-container.visible-reveal .form-group:nth-child(5) { opacity:1; transform:none; transition-delay:0.55s; }
+
+/* ── E. Pulsing Response-Time Badge ─────────────────────────────────────── */
+.ct-response-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 50px;
+    padding: 10px 22px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    position: relative;
+    overflow: visible;
+    /* scroll reveal */
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.6s 0.4s ease, transform 0.6s 0.4s cubic-bezier(0.16,1,0.3,1);
+}
+.ct-response-badge.visible-reveal {
+    opacity: 1;
+    transform: translateY(0);
+}
+.ct-response-badge strong {
+    color: var(--accent-tertiary);
+}
+.ct-response-badge i {
+    color: var(--accent-primary);
+    font-size: 1rem;
+}
+
+/* Pulse ring behind the badge */
+.ct-pulse-ring {
+    position: absolute;
+    left: -6px; top: -6px;
+    width: calc(100% + 12px);
+    height: calc(100% + 12px);
+    border-radius: 50px;
+    border: 1px solid var(--accent-primary);
+    opacity: 0;
+    animation: badgePulse 3s ease-out infinite;
+}
+@keyframes badgePulse {
+    0%   { transform: scale(1);    opacity: 0.5; }
+    100% { transform: scale(1.12); opacity: 0;   }
+}
+
+/* ── F. Map Label Slide-In ──────────────────────────────────────────────── */
+.ct-map-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--gradient-primary);
+    color: #ffffff;
+    font-size: 0.82rem;
+    font-weight: 700;
+    padding: 7px 18px;
+    border-radius: 50px;
+    margin-bottom: 14px;
+    letter-spacing: 0.5px;
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.16,1,0.3,1);
+}
+.contact-map-card.visible-reveal .ct-map-label {
+    opacity: 1;
+    transform: translateX(0);
+    transition-delay: 0.3s;
+}
+
+/* ── G. Icon-box continuous breathing glow ─────────────────────────────── */
+.contact-info-card.visible-reveal .contact-icon-box {
+    animation: iconBreath 3.5s ease-in-out infinite;
+}
+@keyframes iconBreath {
+    0%,100% { box-shadow: 0 0 0   0   var(--shadow-color); }
+    50%     { box-shadow: 0 0 14px 4px var(--shadow-color); }
+}
+
+/* ── H. Card border-color animated glow on reveal ─────────────────────── */
+.contact-info-card.visible-reveal {
+    animation: cardBorderGlow 4s ease-in-out infinite;
+}
+.contact-cards-container .contact-info-card:nth-child(2).visible-reveal { animation-delay: 0.5s; }
+.contact-cards-container .contact-info-card:nth-child(3).visible-reveal { animation-delay: 1s;   }
+
+@keyframes cardBorderGlow {
+    0%,100% { border-color: var(--border-color); }
+    50%     { border-color: rgba(0, 242, 254, 0.35); }
+}
+[data-theme="light"] .contact-info-card.visible-reveal {
+    animation: cardBorderGlowLight 4s ease-in-out infinite;
+}
+@keyframes cardBorderGlowLight {
+    0%,100% { border-color: rgba(0,0,0,0.1); }
+    50%     { border-color: rgba(114,137,72,0.45); }
+}
+
+/* ── I. Form container slow ambient border glow ─────────────────────────── */
+[data-theme="dark"] .contact-form-container.visible-reveal {
+    animation: formBorderGlowdark 5s ease-in-out infinite;
+}
+@keyframes formBorderGlowdark {
+    0%,100% { box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+    50%     { box-shadow: 0 10px 30px rgba(0,0,0,0.1), 0 0 40px rgba(0,242,254,0.08); }
+}
+
+[data-theme="light"] .contact-form-container.visible-reveal {
+    animation: formBorderGlowlight 5s ease-in-out infinite;
+}
+@keyframes formBorderGlowlight {
+    0%,100% { box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+    50%     { box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1), 0 0 40px rgb(114 137 72 / 31%); }
+}
+
+/* ── J. Submit button hover lift + ripple ───────────────────────────────── */
+.btn-submit-redesign:active {
+    transform: scale(0.97) translateY(1px);
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+/* ── K. Responsive overrides for new elements ───────────────────────────── */
+@media (max-width: 767px) {
+    .ct-section-intro h2 { font-size: 1.8rem; }
+    .ct-subtitle          { font-size: 0.95rem; }
+    .ct-orb-1 { width:130px; height:130px; }
+    .ct-orb-2 { width:100px; height:100px; }
+    .ct-orb-3 { display: none; }
+    .ct-response-badge { font-size: 0.8rem; padding: 8px 16px; }
+}
+

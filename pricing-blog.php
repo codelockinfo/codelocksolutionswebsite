@@ -1,12 +1,13 @@
 <?php include 'header.php'; ?>
 <!-- page-title -->
-<div class="ttm-page-title-row">
+<link rel="stylesheet" type="text/css" href="css/service-pages.css" />
+<div class="ttm-page-title-row redesign-page-title-row">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="title-box text-center">
                     <div class="page-title-heading">
-                        <h1 class="title">Blog</h1>
+                        <h1 class="title">Shopify Website Design Pricing</h1>
                     </div><!-- /.page-title-captions -->
                     <div class="breadcrumb-wrapper">
                         <span>
@@ -22,7 +23,7 @@
 </div>
 <!-- page-title end-->
 
-<div class="body-section ttm-row">
+<div class="service-body-redesign body-section ttm-row">
     <div class="wrap">
         <div class="row">
             <div class="col-12 col-md-6 col-xl-8 blog_contain">
@@ -191,9 +192,11 @@
 
                     <div class="container">
                         <h5 class="supportpara" id="Final">Final Thoughts</h5>
-                        <p>
-                            Investing in a well-designed Shopify store is crucial for eCommerce success in 2024-2025. While costs can vary significantly based on project scope, design complexity, required features, and ongoing maintenance, understanding these factors and budgeting wisely can set your store up for long-term success. Prioritizing user experience, focusing on consistent and compelling branding, and planning for future growth are key elements. A professional Shopify design enhances user experience, builds trust, and drives sales, making it a worthwhile investment for your eCommerce future.
-                        </p>
+                        <div class="container">
+                            <p>
+                                Investing in a well-designed Shopify store is crucial for eCommerce success in 2024-2025. While costs can vary significantly based on project scope, design complexity, required features, and ongoing maintenance, understanding these factors and budgeting wisely can set your store up for long-term success. Prioritizing user experience, focusing on consistent and compelling branding, and planning for future growth are key elements. A professional Shopify design enhances user experience, builds trust, and drives sales, making it a worthwhile investment for your eCommerce future.
+                            </p>
+                        </div>
                     </div>
                     <div class="container persondetail">
                         <div class="row">
@@ -291,73 +294,67 @@
             </div>
         </div>
     </div>
-</div>
-<div class="container-fluid mt-5">
-    <div class="section-heading">
-        <h3 class="text-center">New added</h3>
+    
+    <div class="container-fluid mt-5">
+        <div class="section-heading">
+            <h2 class="text-center related-blogs-title">Related Blogs</h2>
+        </div>
     </div>
-</div>
-<div class="container-fluid  image-grp">
-    <div class="row card1">
-        <div class="col-xl-3">
-            <div class="card-section border-0 p-3 mb-3">
-                <img src="images/blog-img/setup.webp" alt="download6" class="download-image1" />
-                <div class="col-12 mt-3">
-                    <span class="date1"><i class="fa fa-calendar text-primary"></i> June 14, 2024</span>
-                </div>
-                <h5 class="blog-heading1 mt-3">
-                    How Much Does It Cost to Start or Run a Shopify Store?
-                </h5>
-                <hr />
-                <div class="row justify-content-between">
-                    <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 217 Views</span>
-                    <a href="coststart.php">
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
-                    </a>
+    <div class="container-fluid p-5 related-blogs-section">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
+                <div class="resource-card">
+                    <div class="resource-card-image">
+                        <img src="images/blog-img/setup.webp" alt="Shopify Store Cost" />
+                    </div>
+                    <div class="resource-card-body">
+                        <div class="resource-card-tagline">CodelockSolutions. <span>Pricing</span></div>
+                        <h4 class="resource-card-title">
+                            <a href="coststart.php">How Much Does It Cost to Start or Run a Shopify Store?</a>
+                        </h4>
+                        <p class="resource-card-excerpt">
+                            Comprehensive guide on Shopify store startup costs, including platform fees, theme expenses, and development budgets.
+                        </p>
+                        <a href="coststart.php" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-xl-3">
-            <div class="card-section border-0 p-3 mb-3">
-                <img src="images/blog-img/Increase-shopify-sales.png" alt="download4" class="download-image1" />
-                <div class="col-12 mt-3">
-                    <span class="date1"><i class="fa fa-calendar text-primary"></i> June 24, 2024</span>
-                </div>
-                <h5 class="blog-heading1 mt-3">
-                    How to Increase Average Shopify Store Revenue in 2024
-                </h5>
-                <hr />
-                <div class="row justify-content-between">
-                    <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 123 Views</span>
-                    <a href="revenue24.php">
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
-                    </a>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
+                <div class="resource-card">
+                    <div class="resource-card-image">
+                        <img src="images/blog-img/Increase-shopify-sales.png" alt="Increase Store Revenue" />
+                    </div>
+                    <div class="resource-card-body">
+                        <div class="resource-card-tagline">CodelockSolutions. <span>Growth</span></div>
+                        <h4 class="resource-card-title">
+                            <a href="revenue24.php">How to Increase Average Shopify Store Revenue in 2024</a>
+                        </h4>
+                        <p class="resource-card-excerpt">
+                            Unlock new store scaling models with checkout optimization, upsells, cart triggers, and conversion audits.
+                        </p>
+                        <a href="revenue24.php" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-xl-3">
-            <div class="card-section border-0 p-3 mb-3">
-                <img src="images/blog-img/custom_web.webp" alt="download2" class="download-image1" />
-                <div class="col-12 mt-3">
-                    <span class="date1"><i class="fa fa-calendar text-primary"></i> July 2, 2024</span>
-                </div>
-                <h5 class="blog-heading1 mt-3">
-                    Shopify vs Custom Website: Which One to Invest in 2024?
-                </h5>
-                <hr />
-                <div class="row justify-content-between">
-                    <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 68 Views</span>
-                    <a href="custom_web.php">
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
-                    </a>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
+                <div class="resource-card">
+                    <div class="resource-card-image">
+                        <img src="images/blog-img/custom_web.webp" alt="Shopify vs Custom" />
+                    </div>
+                    <div class="resource-card-body">
+                        <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
+                        <h4 class="resource-card-title">
+                            <a href="custom_web.php">Shopify vs Custom Website: Which One to Invest in 2024?</a>
+                        </h4>
+                        <p class="resource-card-excerpt">
+                            Compare Shopify's convenience and app integrations against custom-built platforms for your business goals.
+                        </p>
+                        <a href="custom_web.php" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <?php include 'footer.php'; ?>

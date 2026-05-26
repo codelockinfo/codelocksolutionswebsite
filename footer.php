@@ -350,6 +350,7 @@
         <script src="js/numinate.min6959.js?ver=4.9.3"></script>
         <script src="js/lazysizes.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/theme.js"></script>
 
         <!-- Revolution Slider -->
         <script src="revolution/js/revolution.tools.min.js"></script>

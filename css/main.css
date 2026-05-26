@@ -716,7 +716,7 @@ input[type="color"]:focus,
 .ttm-blog-single-content .social-icons li>a:hover,
 .testimonial-slide.style2.owl-theme .owl-controls .owl-nav div:hover,
 textarea:focus { 
-    border-color: #728948 !important;
+    border-color: var(--accent-primary);
 }
 .ttm-search-overlay,
 .ttm-rounded-shadow-box, div.product ul.tabs li.active a:before,
@@ -724,14 +724,14 @@ textarea:focus {
 #payment .payment_box,
 .section-title.with-desc .title-header:before,
 #site-header-menu #site-navigation .menu > ul{
-    border-top-color: #728948 !important; 
+    border-top-color: var(--accent-primary); 
 }
 .ttm-search-overlay .w-search-form-row:before,
 .tooltip-bottom:before,
 .featured-imagebox-services.style1 .featured-content,
-.ttm-pf-single-detail-box { border-bottom-color: #728948 !important;background: #f4f4f4; }
+.ttm-pf-single-detail-box { border-bottom-color: var(--accent-primary);background: #f4f4f4; }
 
-.ttm-blog-single .ttm-blog-single-content blockquote{ border-left-color: #728948 !important; }
+.ttm-blog-single .ttm-blog-single-content blockquote{ border-left-color: var(--accent-primary); }
 
 
 /** 2.DarkGrey-color **/
@@ -2347,6 +2347,9 @@ a.blantershow-chat {
       box-shadow:unset;
     bottom: 50px;
     right: 16px;
+    }
+    .breadcrumb-wrapper span {
+        font-size: 14px;
     }
   }
 @media screen and (max-width: 480px) {

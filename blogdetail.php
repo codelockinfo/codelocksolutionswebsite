@@ -1,12 +1,13 @@
 <?php include 'header.php'; ?>
 <!-- page-title -->
-<div class="ttm-page-title-row">
+<link rel="stylesheet" type="text/css" href="css/service-pages.css" />
+<div class="ttm-page-title-row redesign-page-title-row">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="title-box text-center">
                     <div class="page-title-heading">
-                        <h1 class="title">Blog</h1>
+                        <h1 class="title">Blog Details</h1>
                     </div><!-- /.page-title-captions -->
                     <div class="breadcrumb-wrapper">
                         <span>
@@ -22,7 +23,7 @@
 </div>
 <!-- page-title end-->
 
-<div class="body-section ttm-row">
+<div class="service-body-redesign body-section ttm-row">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 col-xl-6">
@@ -402,59 +403,59 @@
     </div>
     <div class="container-fluid mt-5">
         <div class="section-heading">
-            <h3 class="text-center">New added</h3>
+            <h2 class="text-center related-blogs-title">Related Blogs</h2>
         </div>
     </div>
-    <div class="container-fluid p-5 image-grp">
-        <div class="row card1">
-            <div class="col-xl-3">
-                <div class="card-section border-0 p-3 mb-3">
-                    <img src="images/blog-img/download2.jpg" alt="download2" class="download-image1" />
-                    <div class="col-12 mt-3">
-                        <span class="date1"><i class="fa fa-calendar text-primary"></i> July 2, 2024</span>
+    <div class="container-fluid p-5 related-blogs-section">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
+                <div class="resource-card">
+                    <div class="resource-card-image">
+                        <img src="images/blog-img/download2.jpg" alt="download2" />
                     </div>
-                    <h5 class="blog-heading1 mt-3">
-                        How to Hide Pages From Shopify Search Using Metafields
-                    </h5>
-                    <hr />
-                    <div class="row">
-                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 68 Views</span>
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3">
-                <div class="card-section border-0 p-3 mb-3">
-                    <img src="images/blog-img/download3.png" alt="download3" class="download-image1" />
-                    <div class="col-12 mt-3">
-                        <span class="date1"><i class="fa fa-calendar text-primary"></i> June 25, 2024</span>
-                    </div>
-                    <h5 class="blog-heading1 mt-3">
-                        Shopify Online Store 2.0: Upgrade Your Ecommerce Business Needs
-                    </h5>
-                    <hr />
-                    <div class="row">
-                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 110 Views</span>
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
+                    <div class="resource-card-body">
+                        <div class="resource-card-tagline">CodelockSolutions. <span>Shopify</span></div>
+                        <h4 class="resource-card-title">
+                            <a href="#">How to Hide Pages From Shopify Search Using Metafields</a>
+                        </h4>
+                        <p class="resource-card-excerpt">
+                            Learn how to use metafields to control which pages appear in your Shopify store search results for better organization.
+                        </p>
+                        <a href="#" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3">
-                <div class="card-section border-0 p-3 mb-3">
-                    <img src="images/blog-img/download4.png" alt="download4" class="download-image1" />
-                    <div class="col-12 mt-3">
-                        <span class="date1"><i class="fa fa-calendar text-primary"></i> June 24, 2024</span>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
+                <div class="resource-card">
+                    <div class="resource-card-image">
+                        <img src="images/blog-img/download3.png" alt="download3" />
                     </div>
-                    <h5 class="blog-heading1 mt-3">
-                        A Detailed Guide for Shopify Merchants
-                    </h5>
-                    <hr />
-                    <div class="row">
-                        <span class="col-xl-6 blog-view1"><i class="fa fa-eye text-primary"></i> 123 Views</span>
-                        <span class="col-xl-6 blog-read1">Read blog
-                            <i class="fa fa-long-arrow-right text-primary mx-1"></i></span>
+                    <div class="resource-card-body">
+                        <div class="resource-card-tagline">CodelockSolutions. <span>Ecommerce</span></div>
+                        <h4 class="resource-card-title">
+                            <a href="#">Shopify Online Store 2.0: Upgrade Your Ecommerce Business Needs</a>
+                        </h4>
+                        <p class="resource-card-excerpt">
+                            Discover the benefits of upgrading to Shopify Online Store 2.0 and how it can transform your ecommerce business.
+                        </p>
+                        <a href="#" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
+                <div class="resource-card">
+                    <div class="resource-card-image">
+                        <img src="images/blog-img/download4.png" alt="download4" />
+                    </div>
+                    <div class="resource-card-body">
+                        <div class="resource-card-tagline">CodelockSolutions. <span>Guide</span></div>
+                        <h4 class="resource-card-title">
+                            <a href="#">A Detailed Guide for Shopify Merchants</a>
+                        </h4>
+                        <p class="resource-card-excerpt">
+                            Comprehensive guide for Shopify merchants covering essential strategies and best practices for store success.
+                        </p>
+                        <a href="#" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
