@@ -588,12 +588,12 @@ ul li .icon-box.icon-style-border i,
 .timing-box i,
 .widget_info .widget_icon,
 .ttm-bgcolor-grey.ttm-topbar-wrapper .social-icons li>a:hover i{
-  color: #374a16 ;
+  color: var(--accent-primary) ;
 }
 
 h1.ttm-textcolor-skincolor, h2.ttm-textcolor-skincolor, h3.ttm-textcolor-skincolor, 
 h4.ttm-textcolor-skincolor, h5.ttm-textcolor-skincolor, h6.ttm-textcolor-skincolor {
-  color: #374a16 ;
+  color: var(--accent-primary) ;
 }
 
 /** Skin-bg-color **/

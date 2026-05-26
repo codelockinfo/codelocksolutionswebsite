@@ -403,13 +403,13 @@
                                             <li class="active"><a href="index.php">Home</a></li>
                                             <li><a href="about.php">About Us</a></li>
                                             <li><a href="services.php">Services</a>
-                                                <ul>
+                                                <!-- <ul>
                                                     <li><a href="shopifyapps.php">Shopify apps</a></li>
                                                     <li><a href="websitedevlopment.php">Website devlopment</a></li>
-                                                    <li><a href="ecommercewebsite.php">E-commerce Website</a></li>
+                                                    <li><a href="ecommercewebsite.php">E-commerce Website</a></li> -->
                                                     <!--<li><a href="androiddevlopment.php">Android Devlopment</a></li>-->
                                                     <!--<li><a href="graphicdesign.php">Graphic Design</a></li>-->
-                                                </ul>
+                                                <!-- </ul> -->
                                             </li>
                                             <li><a href="career.php">Career</a></li>
                                             <li><a href="blogs.php">blogs</a></li>

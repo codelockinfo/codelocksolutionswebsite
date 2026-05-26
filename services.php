@@ -43,14 +43,30 @@
     -webkit-text-fill-color: transparent;
     letter-spacing: -1.5px;
     line-height: 1.2;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.services-hero h1.anim-in {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .services-hero p {
     color: var(--text-secondary);
     font-size: 1.25rem;
-    max-width: 700px;
+    max-width: 700px;-
     margin: 0 auto 35px;
     line-height: 1.6;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease 0.2s, transform 0.8s ease 0.2s;
+}
+
+.services-hero p.anim-in {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* Service Card Grid */
@@ -192,6 +208,14 @@
     text-align: center;
     margin-bottom: 15px;
     color: var(--text-primary);
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.process-section h2.anim-in {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .process-section p.subtitle {
@@ -200,6 +224,14 @@
     font-size: 1.15rem;
     max-width: 600px;
     margin: 0 auto 60px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease 0.15s, transform 0.8s ease 0.15s;
+}
+
+.process-section p.subtitle.anim-in {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .process-grid {
@@ -230,7 +262,20 @@
     position: relative;
     z-index: 1;
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    opacity: 0;
+    transform: translateY(40px) scale(0.9);
+    transition: opacity 0.6s ease, transform 0.6s ease;
 }
+
+.process-step.anim-in {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+.process-step:nth-child(1) { transition-delay: 0.1s; }
+.process-step:nth-child(2) { transition-delay: 0.2s; }
+.process-step:nth-child(3) { transition-delay: 0.3s; }
+.process-step:nth-child(4) { transition-delay: 0.4s; }
 
 .process-step:hover {
     border-color: var(--accent-secondary);
@@ -281,6 +326,14 @@
     text-align: center;
     margin-bottom: 15px;
     color: var(--text-primary);
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.faq-section h2.anim-in {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .faq-section p.subtitle {
@@ -289,6 +342,14 @@
     font-size: 1.15rem;
     max-width: 600px;
     margin: 0 auto 50px;
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: opacity 0.8s ease 0.15s, transform 0.8s ease 0.15s;
+}
+
+.faq-section p.subtitle.anim-in {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .faq-container {
@@ -303,7 +364,22 @@
     margin-bottom: 18px;
     padding: 24px 30px;
     transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
 }
+
+.faq-item.anim-in {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.faq-item:nth-child(1) { transition-delay: 0.1s; }
+.faq-item:nth-child(2) { transition-delay: 0.2s; }
+.faq-item:nth-child(3) { transition-delay: 0.3s; }
+.faq-item:nth-child(4) { transition-delay: 0.4s; }
+.faq-item:nth-child(5) { transition-delay: 0.5s; }
+.faq-item:nth-child(6) { transition-delay: 0.6s; }
 
 .faq-item:hover {
     border-color: var(--accent-primary);
@@ -426,6 +502,14 @@
     -webkit-text-fill-color: transparent;
     letter-spacing: -1px;
     line-height: 60px;
+    opacity: 0;
+    transform: scale(0.8) rotate(-5deg);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.cta-banner h2.anim-in {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
 }
 
 .cta-banner p {
@@ -434,6 +518,14 @@
     max-width: 650px;
     margin: 0 auto 40px;
     line-height: 1.6;
+    opacity: 0;
+    transform: scale(0.8) rotate(5deg);
+    transition: opacity 0.8s ease 0.15s, transform 0.8s ease 0.15s;
+}
+
+.cta-banner p.anim-in {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
 }
 
 .cta-buttons {
@@ -2655,6 +2747,122 @@ document.addEventListener('DOMContentLoaded', function() {
             item.classList.toggle('active');
         });
     });
+
+    // Hero Section Scroll Reveal Animation
+    const heroSection = document.querySelector('.services-hero');
+    if (heroSection) {
+        const heroH1 = heroSection.querySelector('h1');
+        const heroP = heroSection.querySelector('p');
+        
+        if ('IntersectionObserver' in window) {
+            const heroObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        if (heroH1) heroH1.classList.add('anim-in');
+                        if (heroP) heroP.classList.add('anim-in');
+                    } else {
+                        if (heroH1) heroH1.classList.remove('anim-in');
+                        if (heroP) heroP.classList.remove('anim-in');
+                    }
+                });
+            }, { threshold: 0.2 });
+            heroObserver.observe(heroSection);
+        } else {
+            if (heroH1) heroH1.classList.add('anim-in');
+            if (heroP) heroP.classList.add('anim-in');
+        }
+    }
+
+    // Process Section Scroll Reveal Animation
+    const processSection = document.querySelector('.process-section');
+    if (processSection) {
+        const processH2 = processSection.querySelector('h2');
+        const processSubtitle = processSection.querySelector('p.subtitle');
+        const processSteps = processSection.querySelectorAll('.process-step');
+        
+        if ('IntersectionObserver' in window) {
+            const processObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        if (processH2) processH2.classList.add('anim-in');
+                        if (processSubtitle) processSubtitle.classList.add('anim-in');
+                        processSteps.forEach((step, index) => {
+                            setTimeout(() => {
+                                step.classList.add('anim-in');
+                            }, index * 100);
+                        });
+                    } else {
+                        if (processH2) processH2.classList.remove('anim-in');
+                        if (processSubtitle) processSubtitle.classList.remove('anim-in');
+                        processSteps.forEach(step => step.classList.remove('anim-in'));
+                    }
+                });
+            }, { threshold: 0.15 });
+            processObserver.observe(processSection);
+        } else {
+            if (processH2) processH2.classList.add('anim-in');
+            if (processSubtitle) processSubtitle.classList.add('anim-in');
+            processSteps.forEach(step => step.classList.add('anim-in'));
+        }
+    }
+
+    // FAQ Section Scroll Reveal Animation
+    const faqSection = document.querySelector('.faq-section');
+    if (faqSection) {
+        const faqH2 = faqSection.querySelector('h2');
+        const faqSubtitle = faqSection.querySelector('p.subtitle');
+        const faqItems = faqSection.querySelectorAll('.faq-item');
+        
+        if ('IntersectionObserver' in window) {
+            const faqObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        if (faqH2) faqH2.classList.add('anim-in');
+                        if (faqSubtitle) faqSubtitle.classList.add('anim-in');
+                        faqItems.forEach((item, index) => {
+                            setTimeout(() => {
+                                item.classList.add('anim-in');
+                            }, index * 100);
+                        });
+                    } else {
+                        if (faqH2) faqH2.classList.remove('anim-in');
+                        if (faqSubtitle) faqSubtitle.classList.remove('anim-in');
+                        faqItems.forEach(item => item.classList.remove('anim-in'));
+                    }
+                });
+            }, { threshold: 0.15 });
+            faqObserver.observe(faqSection);
+        } else {
+            if (faqH2) faqH2.classList.add('anim-in');
+            if (faqSubtitle) faqSubtitle.classList.add('anim-in');
+            faqItems.forEach(item => item.classList.add('anim-in'));
+        }
+    }
+
+    // CTA Section Scroll Reveal Animation
+    const ctaSection = document.querySelector('.cta-banner');
+    if (ctaSection) {
+        const ctaH2 = ctaSection.querySelector('h2');
+        const ctaP = ctaSection.querySelector('p');
+        
+        if ('IntersectionObserver' in window) {
+            const ctaObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        if (ctaH2) ctaH2.classList.add('anim-in');
+                        if (ctaP) ctaP.classList.add('anim-in');
+                    } else {
+                        if (ctaH2) ctaH2.classList.remove('anim-in');
+                        if (ctaP) ctaP.classList.remove('anim-in');
+                    }
+                });
+            }, { threshold: 0.2 });
+            ctaObserver.observe(ctaSection);
+        } else {
+            if (ctaH2) ctaH2.classList.add('anim-in');
+            if (ctaP) ctaP.classList.add('anim-in');
+        }
+    }
 
     // Services Showcase GSAP ScrollTrigger Animation
     if (typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefined") {
