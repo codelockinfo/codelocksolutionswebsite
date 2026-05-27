@@ -11,74 +11,132 @@
             <div class="slider-container">
                 <div class="slider-track">
 
-                    <!-- Team Member 1 -->
                     <div class="team-member team-reveal">
                         <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
-                            <img src="images/team-member/team-img02.jpg" alt="John Smith" class="team-image">
+                            <img src="images/boy-profile.jpg" alt="Tushar Rathod" class="team-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="team-name">John Smith</h3>
+                            <h3 class="team-name">Tushar Rathod</h3>
                             <p class="team-role">CEO & Founder</p>
                         </div>
                     </div>
 
-                    <!-- Team Member 2 -->
                     <div class="team-member team-reveal">
                         <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
-                            <img src="images/team-member/team-img01.jpg" alt="Sarah Johnson" class="team-image">
+                            <img src="images/isha.png" alt="Isha Savani" class="team-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="team-name">Sarah Johnson</h3>
-                            <p class="team-role">Lead Designer</p>
+                            <h3 class="team-name">Isha Savani</h3>
+                            <p class="team-role">Shopify Developer</p>
                         </div>
                     </div>
 
-                    <!-- Team Member 3 -->
                     <div class="team-member team-reveal">
                         <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
-                            <img src="images/team-member/team-img04.jpg" alt="Michael Chen" class="team-image">
+                            <img src="images/krishna.png" alt="Krishna Bafalipara" class="team-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="team-name">Michael Chen</h3>
-                            <p class="team-role">Senior Developer</p>
+                            <h3 class="team-name">Krishna Bafalipara</h3>
+                            <p class="team-role">Shopify Developer</p>
                         </div>
                     </div>
 
-                    <!-- Team Member 4 -->
+                    
                     <div class="team-member team-reveal">
                         <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
-                            <img src="images/team-member/team-img03.jpg" alt="Emily Davis" class="team-image">
+                            <img src="images/chetna.png" alt="Chetna Kanak" class="team-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="team-name">Emily Davis</h3>
-                            <p class="team-role">Project Manager</p>
+                            <h3 class="team-name">Chetna Kanak</h3>
+                            <p class="team-role">Shopify Developer</p>
                         </div>
                     </div>
-
-                    <!-- Team Member 5 -->
+                    
                     <div class="team-member team-reveal">
                         <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
-                            <img src="images/team-member/team-img06.jpg" alt="David Wilson" class="team-image">
+                            <img src="images/dipak.png" alt="Dipak Kumar" class="team-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="team-name">David Wilson</h3>
-                            <p class="team-role">Marketing Specialist</p>
+                            <h3 class="team-name">Dipak Kumar</h3>
+                            <p class="team-role">Shopify Developer</p>
+                        </div>
+                    </div>
+                    <div class="team-member team-reveal">
+                        <div class="team-image-wrapper">
+                            <img src="images/janvi.png" alt="Janvi Mangukiya" class="team-image">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="team-name">Janvi Mangukiya</h3>
+                            <p class="team-role">Shopify Developer</p>
                         </div>
                     </div>
 
-                    <!-- Team Member 6 -->
                     <div class="team-member team-reveal">
                         <div class="team-image-wrapper">
-                            <img src="images/team-member/team-img05.jpg" alt="Lisa Anderson" class="team-image">
+                            <img src="images/nimisha.png" alt="Nimisha Mer" class="team-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="team-name">Lisa Anderson</h3>
-                            <p class="team-role">UX Designer</p>
+                            <h3 class="team-name">Nimisha Mer</h3>
+                            <p class="team-role">Shopify Developer</p>
+                        </div>
+                    </div>
+
+                    <div class="team-member team-reveal">
+                        <div class="team-card-door"></div>
+                        <div class="team-image-wrapper">
+                            <img src="images/Urvashi.png" alt="Urvashi Hirapara" class="team-image">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="team-name">Urvashi Hirapara</h3>
+                            <p class="team-role">Shopify Developer</p>
+                        </div>
+                    </div>
+
+                    <div class="team-member team-reveal">
+                        <div class="team-card-door"></div>
+                        <div class="team-image-wrapper">
+                            <img src="images/Payal.png" alt="Payal Nakrani" class="team-image">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="team-name">Payal Nakrani</h3>
+                            <p class="team-role">Shopify Developer</p>
+                        </div>
+                    </div>
+
+                    <div class="team-member team-reveal">
+                        <div class="team-card-door"></div>
+                        <div class="team-image-wrapper">
+                            <img src="images/Bhavin.png" alt="Bhavin Solanki" class="team-image">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="team-name">Bhavin Solanki</h3>
+                            <p class="team-role">Shopify Developer</p>
+                        </div>
+                    </div>
+
+                    <div class="team-member team-reveal">
+                        <div class="team-card-door"></div>
+                        <div class="team-image-wrapper">
+                            <img src="images/Harsh.png" alt="Harsh Kansagara" class="team-image">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="team-name">Harsh Kansagara</h3>
+                            <p class="team-role">Shopify Developer</p>
+                        </div>
+                    </div>
+
+                    <div class="team-member team-reveal">
+                        <div class="team-image-wrapper">
+                            <img src="images/Jalak.png" alt="Jalak Talaviya" class="team-image">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="team-name">Jalak Talaviya</h3>
+                            <p class="team-role">Shopify Developer</p>
                         </div>
                     </div>
 

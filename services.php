@@ -23,21 +23,37 @@
     overflow: hidden;
 }
 
-[data-theme="dark"] .services-hero {
-    background: radial-gradient(circle at top right, rgba(0, 242, 254, 0.08), transparent 45%),
-                radial-gradient(circle at bottom left, rgba(255, 0, 127, 0.06), transparent 45%);
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
 
-[data-theme="light"] .services-hero {
-    background: radial-gradient(circle at top right, rgb(114 137 72 / 7%) 0%, transparent 45%),            
-                radial-gradient(circle at bottom left, rgb(207 255 121 / 13%) 0%, transparent 45%);
+.services-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(0, 242, 254, 0.1) 0%, transparent 70%);
+    animation: rotate 20s linear infinite;
+}
+
+[data-theme="light"] .services-hero::before {
+    background: radial-gradient(circle, rgba(114, 137, 72, 0.1) 0%, transparent 70%);
+}
+
+@keyframes titleShine {
+    0% { background-position: -200% center; }
+    100% { background-position: 200% center; }
 }
 
 .services-hero h1 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     font-weight: 800;
     margin-bottom: 24px;
-    background: linear-gradient(135deg, var(--text-primary), var(--accent-primary));
+    background: linear-gradient(120deg, #00f2fe 0%, #10b981 35%, #ffffff 50%, #10b981 65%, #00f2fe 100%);
+    background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: -1.5px;
@@ -45,6 +61,16 @@
     opacity: 0;
     transform: translateY(30px);
     transition: opacity 0.8s ease, transform 0.8s ease;
+    text-shadow: 0 0 35px rgba(0, 242, 254, 0.15);
+    animation: titleShine 16s linear infinite;
+}
+
+[data-theme="light"] .services-hero h1 {
+    background: linear-gradient(120deg, #728948 0%, #374a16 35%, #5a6e34 50%, #374a16 65%, #728948 100%);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
 }
 
 .services-hero h1.anim-in {
@@ -542,7 +568,8 @@
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     border: none;
     cursor: pointer;
-    font-size: 1.05rem;
+    font-size: 15px;
+    line-height: 18px;
 }
 
 .cta-btn-primary:hover {
@@ -559,7 +586,8 @@
     text-decoration: none;
     transition: all 0.3s ease;
     border: 1px solid var(--border-color);
-    font-size: 1.05rem;
+    font-size: 15px;
+    line-height: 18px;
 }
 
 .cta-btn-secondary:hover {
@@ -2802,23 +2830,22 @@
     }
 // Expandable FAQ Accordion Logic
 document.addEventListener('DOMContentLoaded', function() {
-     const themeToggle = document.getElementById('theme-toggle');
-        const html = document.documentElement;
+        // const themeToggle = document.getElementById('theme-toggle');
+        // const html = document.documentElement;
         
-        // Check for saved theme preference or default to dark
-        const savedTheme = localStorage.getItem('theme') || 'dark';
-        html.setAttribute('data-theme', savedTheme);
+        // const savedTheme = localStorage.getItem('theme') || 'dark';
+        // html.setAttribute('data-theme', savedTheme);
         
-        // Toggle theme on button click
-        if (themeToggle) {
-            themeToggle.addEventListener('click', function() {
-                const currentTheme = html.getAttribute('data-theme');
-                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        // if (themeToggle) {
+        //     themeToggle.addEventListener('click', function() {
+        //         const currentTheme = html.getAttribute('data-theme');
+        //         const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
                 
-                html.setAttribute('data-theme', newTheme);
-                localStorage.setItem('theme', newTheme);
-            });
-    }
+        //         html.setAttribute('data-theme', newTheme);
+        //         localStorage.setItem('theme', newTheme);
+        //     });
+        // }
+
         // Dynamic Button Animations (Span Mothers)
         makeAnimatedButton('.cta-primary');
         makeAnimatedButton('.cta-secondary');

@@ -9,52 +9,34 @@
         <div class="blog-grid">
             <div class="blog-card">
                 <div class="blog-image">
-                    <div class="image-placeholder">
-                        <svg width="50" height="50" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zM7 10h2v7H7zm4-3h2v10h-2zm4 6h2v4h-2z"/>
-                        </svg>
-                    </div>
-                    <div class="blog-category">E-commerce</div>
-                    <div class="blog-date">May 15, 2024</div>
+                    <img src="images/blog-img/shopify-develoment.png" alt="Transferring Development Store" />
                 </div>
                 <div class="blog-content">
-                    <h3 class="blog-title">10 Shopify Apps to Boost Your Store Sales</h3>
-                    <p class="blog-excerpt">Discover the top Shopify apps that can help increase conversions, improve customer experience, and drive more sales for your e-commerce store.</p>
-                    <a href="blogs.php" class="blog-link">Read More →</a>
+                    <h3 class="blog-title">Transferring Shopify Development Store to Clients</h3>
+                    <p class="blog-excerpt">Step-by-step technical instructions for developers handoffs, detailing merchant ownership transition, billing updates, and API transfers.</p>
+                    <a href="tranceclient.php" class="blog-link">Read More →</a>
                 </div>
             </div>
 
             <div class="blog-card">
                 <div class="blog-image">
-                    <div class="image-placeholder">
-                        <svg width="50" height="50" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
-                        </svg>
-                    </div>
-                    <div class="blog-category">Web Development</div>
-                    <div class="blog-date">May 10, 2024</div>
+                    <img src="images/blog-img/shopify plus.webp" alt="Shopify Plus Benefits" />
                 </div>
                 <div class="blog-content">
-                    <h3 class="blog-title">The Future of Web Development in 2024</h3>
-                    <p class="blog-excerpt">Explore the latest trends and technologies shaping the future of web development, from AI integration to progressive web apps.</p>
-                    <a href="blogs.php" class="blog-link">Read More →</a>
+                    <h3 class="blog-title">What Are The Benefits Of Shopify Plus When You Upgrade?</h3>
+                    <p class="blog-excerpt">Learn about global multi-store setups, wholesale B2B modules, automated scaling scripts, and customized checkout integrations on Shopify Plus.</p>
+                    <a href="shopifyplus.php" class="blog-link">Read More →</a>
                 </div>
             </div>
 
             <div class="blog-card">
                 <div class="blog-image">
-                    <div class="image-placeholder">
-                        <svg width="50" height="50" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M20 2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-9 16H5v-2h6v2zm8 0h-6v-2h6v2zm0-4H5v-2h14v2zm0-4H5V8h14v2z"/>
-                        </svg>
-                    </div>
-                    <div class="blog-category">Digital Marketing</div>
-                    <div class="blog-date">May 5, 2024</div>
+                    <img src="images/blog-img/why_Shopify-Experts.webp" alt="Why Hire Shopify Experts" />
                 </div>
                 <div class="blog-content">
-                    <h3 class="blog-title">Digital Marketing Strategies for Small Businesses</h3>
-                    <p class="blog-excerpt">Learn effective digital marketing strategies that can help small businesses compete and grow in today's competitive online landscape.</p>
-                    <a href="blogs.php" class="blog-link">Read More →</a>
+                    <h3 class="blog-title">Why Should You Hire Shopify Experts</h3>
+                    <p class="blog-excerpt">Building a conversion-optimized store demands technical knowledge. Explore how hiring certified Shopify developers accelerates launching products.</p>
+                    <a href="hireexpert.php" class="blog-link">Read More →</a>
                 </div>
             </div>
         </div>
@@ -72,6 +54,12 @@
         background: var(--bg-primary);
         position: relative;
         overflow: hidden;
+    }
+
+    .blog-section img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .section-header {
@@ -188,16 +176,10 @@
     .blog-image {
         position: relative;
         height: 200px;
-        background: var(--gradient-primary);
         display: flex;
         align-items: center;
         justify-content: center;
         overflow: hidden;
-    }
-
-    .image-placeholder {
-        color: white;
-        opacity: 0.8;
     }
 
     .blog-category {

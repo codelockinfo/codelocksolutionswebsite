@@ -1,277 +1,573 @@
 <?php include 'header.php';?>
 
-        <!-- page-title -->
-        <div class="ttm-page-title-row">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12"> 
-                        <div class="title-box text-center">
-                            <div class="page-title-heading">
-                                <h1 class="title">About Us</h1>
-                            </div><!-- /.page-title-captions -->
-                            <div class="breadcrumb-wrapper">
-                                <span>
-                                    <a title="Homepage" href="index.php"><i class="ti ti-home"></i>&nbsp;&nbsp;Home</a>
-                                </span>
-                                <span class="ttm-bread-sep">&nbsp; : : &nbsp;</span>
-                                <span>About Us</span>
-                            </div>  
-                        </div>
-                    </div><!-- /.col-md-12 -->  
-                </div><!-- /.row -->  
-            </div><!-- /.container -->                      
-        </div><!-- page-title end-->
+<style>
+/* About Page Styles - Using Site Theme Variables */
+.about-page {
+    background: var(--bg-primary);
+    background-image: var(--bg-image);
+    background-attachment: fixed;
+    color: var(--text-primary);
+    transition: all 0.3s ease;
+    min-height: 100vh;
+}
 
-        <!--site-main start-->
-        <div class="site-main">
+.about-hero {
+    padding: 120px 0 80px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
 
-            <!-- aboutus-section -->
-            <section class="ttm-row aboutus-section clearfix">
-                <div class="container">
-                    <div class="row"><!-- row -->
-                        <div class="col-lg-6">
-                            <!-- section title -->
-                            <div class="section-title with-desc clearfix">
-                                <div class="title-header">
-                                    <h5>About us</h5>
-                                    <h2 class="title">We are here to IT Solution with many years of <span>experience</span></h2>
-                                </div>
-                                <div class="title-desc">
-                                    <p>Codelock Solutions is a leading Shopify development company offering end-to-end Shopify solutions all around the globe.</p>
-                                    <p>We harness the power of E-commerce Shopify and emerging technologies to help our merchants adapt to the digital world and make them successfull.</p>
-                                    <p>Web designing in a powerful way of just not an only professions, however, in a passion for our Company. We have to a tendency to believe the idea that smart looking of any website is the first impression on visitors. And the smart design of any website is the starting point.</p>
-                                    <P>We have a special team for website style who has been involved in designing professional websites of all categories.</P>
-                                </div>
-                            </div><!-- section title end -->
-                            <!-- row -->
-                            <div class="row no-gutters mt-35 mb-25">
-                                <div class="col-md-6 col-lg-6 col-sm-6">
-                                    <ul class="ttm-list ttm-list-style-icon">
-                                        <li><i class="fa fa-check-square-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">24/7 Hours Support Flexible Price </span></li>
-                                        <li><i class="fa fa-check-square-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">Web And Mobile Application </span></li>
-                                        <li><i class="fa fa-check-square-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">New Domain Registration</span></li>
-                                        <li><i class="fa fa-check-square-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">Shopify Apps Development</span></li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-sm-6">
-                                    <ul class="ttm-list ttm-list-style-icon">
-                                        <li><i class="fa fa-check-square-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">Quick To Respond Flexible Price </span></li>
-                                        <li><i class="fa fa-check-square-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">shopify theme devlopment</span></li>
-                                        <li><i class="fa fa-check-square-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">shopify speed optimization </span></li>
-                                       
-                                    </ul>
-                                </div>
-                            </div><!-- row END-->
-                            <p class="mb-0">High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s for web applications.</p>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="position-relative res-991-mt-30">
-                                <!-- ttm_single_image-wrapper -->
-                                <div class="ttm_single_image-wrapper text-sm-center">
-                                    <img class="img-fluid" src="images/single-img-seven.png" title="single-img-seven" alt="single-img-seven">
-                                </div><!-- ttm_single_image-wrapper end -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- row end -->
+.about-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(0, 242, 254, 0.1) 0%, transparent 70%);
+    animation: rotate 20s linear infinite;
+}
+
+[data-theme="light"] .about-hero::before {
+    background: radial-gradient(circle, rgba(114, 137, 72, 0.1) 0%, transparent 70%);
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes titleShine {
+    0% { background-position: -200% center; }
+    100% { background-position: 200% center; }
+}   
+
+.about-hero h1 {
+    font-size: 3.2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #00f2fe 0%, #10b981 35%, #ffffff 50%, #10b981 65%, #00f2fe 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 1;
+    text-shadow: 0 0 35px rgba(0, 242, 254, 0.15);
+    animation: titleShine 16s linear infinite;
+}
+
+[data-theme="light"] .about-hero h1 {
+    background: linear-gradient(120deg, #728948 0%, #374a16 35%, #5a6e34 50%, #374a16 65%, #728948 100%);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+}
+
+.about-hero p {
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.about-section {
+    padding: 80px 0;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: var(--text-primary);
+}
+
+.about-text p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.about-image {
+    position: relative;
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.6s ease;
+}
+
+.about-image.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 60px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.section-header p {
+    color: var(--text-secondary);
+    font-size: 18px;
+}
+
+.testimonials-section {
+    padding: 80px 0;
+    background: var(--bg-secondary);
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.testimonial-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 20px;
+    padding: 35px;
+    position: relative;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.4s ease;
+}
+
+.testimonial-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px var(--shadow-color);
+}
+
+.testimonial-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    border: 3px solid var(--accent-primary);
+}
+
+.testimonial-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial-quote {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    font-style: italic;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.testimonial-quote::before {
+    content: '"';
+    font-size: 4rem;
+    color: var(--accent-primary);
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    opacity: 0.3;
+}
+
+.testimonial-author {
+    text-align: center;
+}
+
+.testimonial-author h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 5px;
+}
+
+.testimonial-author span {
+    color: var(--text-tertiary);
+    font-size: 0.95rem;
+}
+
+.testimonial-rating {
+    color: #ffd700;
+    margin-bottom: 15px;
+}
+
+.cta-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px;
+    background: var(--gradient-primary);
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-content::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+    animation: rotate 15s linear infinite;
+}
+
+.cta-content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.cta-content p {
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.cta-btn {
+    background: white;
+    color: var(--accent-primary);
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.cta-btn:hover {
+    color: var(--accent-primary) !important;
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Span Mother Hover Text Transitions */
+    .button-text-wrapper {
+        position: relative;
+        display: inline-flex;
+        overflow: hidden;
+        height: 1.4em;
+        align-items: center;
+    }
+
+    .span-mother {
+        display: flex;
+        position: relative;
+    }
+
+    .span-mother2 {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .span-mother span {
+        display: inline-block;
+        transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .span-mother2 span {
+        display: inline-block;
+        transform: translateY(-1.4em);
+        transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .cta-primary:hover .span-mother span,
+    .cta-secondary:hover .span-mother span {
+        transform: translateY(1.4em);
+    }
+
+    .cta-primary:hover .span-mother2 span,
+    .cta-secondary:hover .span-mother2 span {
+        transform: translateY(0);
+    }
+
+@media (max-width: 991px) {
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-hero {
+        padding: 80px 0 40px;
+    }
+    .about-hero h1 {
+        font-size: 32px;
+    }
+
+    .about-hero p {
+        font-size: 16px;
+    }
+    
+    .about-section,
+    .testimonials-section,
+    .cta-section {
+        padding: 40px 0;
+    }
+
+    .about-text h2,
+    .section-header h2 {
+        font-size: 32px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    .section-header p {
+        font-size: 16px;
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .cta-content {
+        padding: 40px 20px;
+    }
+    
+    .cta-content h2 {
+        font-size: 1.8rem;
+    }
+}
+</style>
+
+<div class="about-page">
+    <!-- Hero Section -->
+    <section class="about-hero">
+        <div class="container">
+            <h1>About Us</h1>
+            <p>We are a leading Shopify development company offering end-to-end solutions to help businesses thrive in the digital world.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Empowering Your Digital Journey</h2>
+                <p>Codelock Solutions is a leading Shopify development company offering end-to-end Shopify solutions all around the globe. We harness the power of E-commerce Shopify and emerging technologies to help our merchants adapt to the digital world and make them successful.</p>
+                <p>Web designing is not just a profession for us, it's a passion. We believe that the smart design of any website is the first impression on visitors. And the smart design of any website is the starting point of a successful digital presence.</p>
+                <p>We have a special team for website design who has been involved in designing professional websites of all categories. High-tech industries play an important role in the modern economy, and digital solutions have transformed the world for web applications.</p>
+            </div>
+            <div class="about-image">
+                <img src="images/single-img-seven.png" alt="About Codelock Solutions" />
+            </div>
+        </div>
+    </section>
+
+    <?php include 'what-we-do.php';?>
+    <?php include 'trust-section.php';?>
+
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="section-header">
+            <h2>What Our Clients Say</h2>
+            <p>Trusted by businesses worldwide for our expertise and dedication</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-avatar">
+                    <img src="images/testimonial/boy.jpg" alt="Veerbhdrasinh Chauhan" />
                 </div>
-            </section>
-            <!-- aboutus-section end -->
-
-            <!-- first-row-title-section -->
-            <section class="ttm-row first-row-title-section ttm-bgcolor-darkgrey ttm-bg ttm-bgimage-yes bg-img4 clearfix">
-                <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
-                <div class="container">
-                    <div class="row"><!-- row -->
-                        <div class="col-lg-8 offset-lg-2">
-                            <div class="text-center">
-                                <!-- <div class="ttm-play-icon-btn mb-35">
-                                    <div class="ttm-play-icon-animation">
-                                        <a href="https://youtu.be/7e90gBu4pas" target="_self" class="ttm_prettyphoto">
-                                            <div class="ttm-icon ttm-icon_element-bgcolor-white ttm-icon_element-size-sm ttm-icon_element-style-round">
-                                                <i class="fa fa-play"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div> -->
-                                <!-- section-title -->
-                                <div class="section-title row-title clearfix">
-                                    <div class="title-header">
-                                        <h2 class="title">We Provide Outsourced IT Services For Small & <span>Mid-Sized Business</span></h2>
-                                    </div>
-                                    <div class="title-desc">Appropriate for your specific business, making it easy for<br> you to have quality IT services. What We Do</div>
-                                </div><!-- section-title end -->
-                                <div class="mt-40">
-                                    <a href="#" class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-white">More Services</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="testimonial-rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
                 </div>
-            </section>
-            <!-- first-row-title-section END-->
+                <p class="testimonial-quote">Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far. No coding skills required.</p>
+                <div class="testimonial-author">
+                    <h4>Veerbhdrasinh Chauhan</h4>
+                    <span>Web Developer</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-avatar">
+                    <img src="images/testimonial/boy.jpg" alt="Tushar Rathod" />
+                </div>
+                <div class="testimonial-rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p class="testimonial-quote">We provide fantastic collaborative working environment for our employees and good services and values for our satisfied customers.</p>
+                <div class="testimonial-author">
+                    <h4>Tushar Rathod</h4>
+                    <span>Co-founder</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-avatar">
+                    <img src="images/testimonial/girl.jpg" alt="Drashti Sankla" />
+                </div>
+                <div class="testimonial-rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p class="testimonial-quote">Great Web Designing company in Surat, friendly support, quality work. Also, great for job seekers, freshers to give boost to their career in IT field.</p>
+                <div class="testimonial-author">
+                    <h4>Drashti Sankla</h4>
+                    <span>Web Designer</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's work together to bring your vision to life. Contact us today to discuss your requirements.</p>
+                <a href="contact.php" class="cta-btn cta-primary">
+                    <span class="button-text-wrapper">Get In Touch</span>
+                </a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script>
+function makeAnimatedButton(buttonSelector) {
+        const buttons = document.querySelectorAll(buttonSelector);
+        buttons.forEach(button => {
+            const textSpan = button.querySelector('span');
+            if (!textSpan) return;
+
+            const text = textSpan.textContent.trim();
+            const iconSvg = button.querySelector('svg');
+
+            button.innerHTML = '';
+
+            const textWrapper = document.createElement('span');
+            textWrapper.className = 'button-text-wrapper';
+
+            const mother1 = document.createElement('span');
+            mother1.className = 'span-mother';
             
-            <!-- testimonial-section end -->
-            <section class="ttm-row zero-padding-section clearfix mb-35">
-                <div class="container">
-                    <div class="row no-gutters mt_100 res-991-mt-0"><!-- row -->
-                        <div class="col-md-6">
-                            <div class="ttm-bgcolor-darkgrey ttm-bg ttm-col-bgcolor-yes z-11 position-relative h-100">
-                                <div class="ttm-col-wrapper-bg-layer ttm-bg-layer">
-                                    <div class="ttm-bg-layer-inner"></div>
-                                </div>
-                                <div class="layer-content"><!-- layer-content -->
-                                    <div class="spacing-2"><!-- spacing-2 -->
-                                        <!-- section title -->
-                                        <div class="section-title with-desc clearfix">
-                                            <div class="title-header">
-                                                <h5>What We Do</h5>
-                                                <h2 class="title">We help you to grow your business <span>Exponentially</span></h2>
-                                            </div>
-                                        </div><!-- section title end -->
-                                        <!-- progress-bar -->
-                                        <div class="ttm-progress-bar" data-percent="100%">
-                                            <div class="progress-bar-title">UI/UX Design</div><!-- progress-bar-title -->
-                                            <div class="progress-bar-inner">
-                                                <div class="progress-bar progress-bar-color-bar_skincolor"></div>
-                                            </div>
-                                            <div class="progress-bar-percent" data-percent="100">100%</div><!-- progress-bar-percent -->
-                                        </div>
-                                        <!-- progress-bar END -->
-                                        <!-- progress-bar -->
-                                        <div class="ttm-progress-bar" data-percent="90%">
-                                            <div class="progress-bar-title">App Development</div><!-- progress-bar-TITLE -->
-                                            <div class="progress-bar-inner">
-                                                <div class="progress-bar progress-bar-color-bar_skincolor"></div>
-                                            </div>
-                                            <div class="progress-bar-percent" data-percent="90">90%</div><!-- progress-bar-PERCENT -->
-                                        </div>
-                                        <!-- progress-bar END -->
-                                        <!-- progress-bar -->
-                                        <div class="ttm-progress-bar" data-percent="100%">
-                                            <div class="progress-bar-title">Shopify Apps Development</div><!-- progress-bar-TITLE -->
-                                            <div class="progress-bar-inner">
-                                                <div class="progress-bar progress-bar-color-bar_skincolor"></div>
-                                            </div>
-                                            <div class="progress-bar-percent" data-percent="100">100%</div><!-- progress-bar-PERCENT -->
-                                        </div>
-                                        <!-- progress-bar END -->
-                                        <!-- progress-bar -->
-                                        <div class="ttm-progress-bar" data-percent="100%">
-                                            <div class="progress-bar-title">Android Apps Development</div><!-- progress-bar-TITLE -->
-                                            <div class="progress-bar-inner">
-                                                <div class="progress-bar progress-bar-color-bar_skincolor"></div>
-                                            </div>
-                                            <div class="progress-bar-percent" data-percent="100">100%</div><!-- progress-bar-PERCENT -->
-                                        </div>
-                                        <!-- progress-bar END -->
-                                        <!-- progress-bar -->
-                                        <div class="ttm-progress-bar" data-percent="95%">
-                                            <div class="progress-bar-title">WordPress site</div><!-- progress-bar-TITLE -->
-                                            <div class="progress-bar-inner">
-                                                <div class="progress-bar progress-bar-color-bar_skincolor"></div>
-                                            </div>
-                                            <div class="progress-bar-percent" data-percent="95">95%</div><!-- progress-bar-PERCENT -->
-                                        </div>
-                                        <!-- progress-bar END -->
-                                        <!-- progress-bar -->
-                                        <div class="ttm-progress-bar" data-percent="90%">
-                                            <div class="progress-bar-title">Digital marketing</div><!-- progress-bar-TITLE -->
-                                            <div class="progress-bar-inner">
-                                                <div class="progress-bar progress-bar-color-bar_skincolor"></div>
-                                            </div>
-                                            <div class="progress-bar-percent" data-percent="90">90%</div><!-- progress-bar-PERCENT -->
-                                        </div>
-                                        <!-- progress-bar END -->
-                                    </div><!-- spacing-2 END -->
-                                </div><!-- layer-content END -->
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="col-bg-img-two ttm-col-bgimage-yes ttm-bg ttm-col-bgcolor-yes ttm-bgcolor-skincolor">
-                                <div class="ttm-col-wrapper-bg-layer ttm-bg-layer">
-                                    <div class="ttm-bg-layer-inner"></div>
-                                </div>
-                                <div class="layer-content">
-                                    <div class="testimonial-slide style1 owl-carousel" data-item="1" data-nav="false" data-dots="true" data-auto="false">
-                                        <!-- testimonials -->
-                                        <div class="testimonials text-center"> 
-                                            <div class="testimonial-content"><!-- testimonials-content -->
-                                                <div class="testimonial-avatar">
-                                                    <div class="testimonial-img"><!-- testimonials-img -->
-                                                        <img class="img-center lazyload" data-src="images/testimonial/boy.jpg" alt="testimonial-img">
-                                                    </div>
-                                                </div>
-                                                <blockquote>Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far. No coding skills.</blockquote>
-                                                <div class="ttm-ratting-star">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                </div>
-                                                <div class="testimonial-caption"><!-- testimonials-caption -->
-                                                    <h6>Veerbhdrasinh Chauhan</h6>
-                                                    <label>Web Devloper</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- testimonials END -->
-                                        <!-- testimonials -->
-                                        <div class="testimonials text-center"> 
-                                            <div class="testimonial-content"><!-- testimonials-content -->
-                                                <div class="testimonial-avatar">
-                                                    <div class="testimonial-img"><!-- testimonials-img -->
-                                                        <img class="img-center lazyload" data-src="images/testimonial/boy.jpg" alt="testimonial-img">
-                                                    </div>
-                                                </div>
-                                                <blockquote>We provide fantastic collaborative working environment for our employee and good services and values for our satisfied customers.</blockquote>
-                                                <div class="ttm-ratting-star">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                </div>
-                                                <div class="testimonial-caption"><!-- testimonials-caption -->
-                                                    <h6>Tushar Rathod</h6>
-                                                    <label>Co-founder</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- testimonials END -->
-                                        <!-- testimonials -->
-                                        <div class="testimonials text-center"> 
-                                            <div class="testimonial-content"><!-- testimonials-content -->
-                                                <div class="testimonial-avatar">
-                                                    <div class="testimonial-img"><!-- testimonials-img -->
-                                                        <img class="img-center lazyload" data-src="images/testimonial/girl.jpg" alt="testimonial-img">
-                                                    </div>
-                                                </div>
-                                                <blockquote>Great Web Designing company in Surat, friendly support , quality work. Also, great for job seekers, freshers to give boost to their career in IT field.But if one wants to learn, it's a good company.</blockquote>
-                                                <div class="ttm-ratting-star">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                </div>
-                                                <div class="testimonial-caption"><!-- testimonials-caption -->
-                                                    <h6>Drashti Sankla</h6>
-                                                    <label>Web Designer</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- testimonials END -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- row end -->
-                </div>
-            </section>
-            <!-- testimonial-section end -->
+            const mother2 = document.createElement('span');
+            mother2.className = 'span-mother2';
 
-        </div><!--site-main end-->
+            for (let i = 0; i < text.length; i++) {
+                const char = text[i];
+                const letter1 = document.createElement('span');
+                const letter2 = document.createElement('span');
+
+                if (char === ' ') {
+                    letter1.innerHTML = '&nbsp;';
+                    letter2.innerHTML = '&nbsp;';
+                } else {
+                    letter1.textContent = char;
+                    letter2.textContent = char;
+                }
+
+                const delay = i * 0.035;
+                letter1.style.transitionDelay = `${delay}s`;
+                letter2.style.transitionDelay = `${delay}s`;
+
+                mother1.appendChild(letter1);
+                mother2.appendChild(letter2);
+            }
+
+            textWrapper.appendChild(mother1);
+            textWrapper.appendChild(mother2);
+            
+            button.appendChild(textWrapper);
+            if (iconSvg) {
+                button.appendChild(iconSvg);
+            }
+        });
+    }
+    // Initialize the animated button
+    document.addEventListener('DOMContentLoaded', function() {
+        makeAnimatedButton('.cta-primary');
+        makeAnimatedButton('.cta-secondary');
+    });
+
+// Scroll Reveal Animation
+const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        }
+    });
+}, observerOptions);
+
+// Observe all animated elements
+document.querySelectorAll('.about-image, .testimonial-card').forEach(el => {
+    observer.observe(el);
+});
+</script>
 
 <?php include 'footer.php';?>

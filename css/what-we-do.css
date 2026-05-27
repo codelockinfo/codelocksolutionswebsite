@@ -75,11 +75,25 @@
     display: inline-flex;
     align-items: center;
     gap: 8px;
+    background: var(--gradient-primary);
     color: #fff;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(var(--accent-primary), 0.25);
     font-weight: 700;
     font-size: 15px;
+    line-height: 18px;
     text-decoration: none !important;
     transition: gap 0.3s ease, color 0.3s ease;
+    padding: 16px 32px;
+    position: relative;
+    overflow: hidden;
+}
+
+.wwd-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px var(--shadow-color);
+    color: #fff;
 }
 
 .wwd-arrow-icon {

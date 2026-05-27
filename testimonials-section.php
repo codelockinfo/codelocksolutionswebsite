@@ -15,7 +15,7 @@
                                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
                             </svg>
                         </div>
-                        <p class="testimonial-text">"Codelock Solutions transformed our Shopify store completely. Their expertise in app development and optimization helped us increase our sales by 150% in just 3 months. Highly recommended!"</p>
+                        <p class="testimonial-text">"We were struggling with our Shopify store's loading speed and checkout process. Codelock Solutions not only optimized our entire store but also developed custom apps that streamlined our workflow. Our conversion rate improved by 40% within 2 months. The team's understanding of e-commerce is exceptional."</p>
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">
@@ -24,8 +24,8 @@
                             </svg>
                         </div>
                         <div class="author-info">
-                            <h4 class="author-name">Sarah Johnson</h4>
-                            <p class="author-role">E-commerce Manager, TechStore</p>
+                            <h4 class="author-name">Rajesh Patel</h4>
+                            <p class="author-role">Founder, StyleBazaar</p>
                         </div>
                         <div class="testimonial-rating">
                             <span class="star">★</span>
@@ -44,7 +44,7 @@
                                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
                             </svg>
                         </div>
-                        <p class="testimonial-text">"The team at Codelock Solutions is exceptional. They delivered our custom website on time and exceeded our expectations. Their attention to detail and customer service is outstanding."</p>
+                        <p class="testimonial-text">"After working with 3 different agencies, we finally found Codelock Solutions. They built our custom WordPress website with features we didn't even know were possible. The project was delivered on time, and their post-launch support has been phenomenal. Highly recommend for any web development needs."</p>
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">
@@ -53,8 +53,8 @@
                             </svg>
                         </div>
                         <div class="author-info">
-                            <h4 class="author-name">Michael Chen</h4>
-                            <p class="author-role">CEO, StartupHub</p>
+                            <h4 class="author-name">Priya Sharma</h4>
+                            <p class="author-role">CEO, DigiTech Solutions</p>
                         </div>
                         <div class="testimonial-rating">
                             <span class="star">★</span>
@@ -73,7 +73,7 @@
                                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
                             </svg>
                         </div>
-                        <p class="testimonial-text">"Working with Codelock Solutions was a game-changer for our business. Their Shopify apps are innovative and easy to use. The support team is always responsive and helpful."</p>
+                        <p class="testimonial-text">"We needed a custom Shopify app for inventory management across multiple warehouses. Codelock Solutions delivered exactly what we needed - a robust, user-friendly solution that saved us hours of manual work every day. Their team truly understands business needs and translates them into technical solutions perfectly."</p>
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">
@@ -82,8 +82,8 @@
                             </svg>
                         </div>
                         <div class="author-info">
-                            <h4 class="author-name">Emily Rodriguez</h4>
-                            <p class="author-role">Founder, FashionBrand</p>
+                            <h4 class="author-name">Amit Mehta</h4>
+                            <p class="author-role">Operations Head, GlobalRetail</p>
                         </div>
                         <div class="testimonial-rating">
                             <span class="star">★</span>
@@ -102,7 +102,7 @@
                                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
                             </svg>
                         </div>
-                        <p class="testimonial-text">"We've been working with Codelock Solutions for over 2 years now. Their consistent quality and innovative solutions have helped us stay ahead of the competition. Truly a partner you can rely on."</p>
+                        <p class="testimonial-text">"Our partnership with Codelock Solutions has been invaluable. They've handled everything from our website redesign to mobile app development and ongoing maintenance. What sets them apart is their proactive approach - they often suggest improvements we hadn't considered. A true technology partner."</p>
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">
@@ -111,8 +111,8 @@
                             </svg>
                         </div>
                         <div class="author-info">
-                            <h4 class="author-name">David Thompson</h4>
-                            <p class="author-role">CTO, InnovateTech</p>
+                            <h4 class="author-name">Neha Desai</h4>
+                            <p class="author-role">CTO, FinServe India</p>
                         </div>
                         <div class="testimonial-rating">
                             <span class="star">★</span>
@@ -131,7 +131,7 @@
                                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
                             </svg>
                         </div>
-                        <p class="testimonial-text">"The mobile app they developed for us has received amazing feedback from our users. The UI/UX is intuitive and the performance is flawless. Codelock Solutions truly understands modern development."</p>
+                        <p class="testimonial-text">"Our Android app had over 50,000 downloads in the first month, and the user feedback has been overwhelmingly positive. Codelock Solutions built a seamless, feature-rich app that integrates perfectly with our existing systems. Their expertise in mobile development is evident in every aspect of the product."</p>
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">
@@ -140,8 +140,8 @@
                             </svg>
                         </div>
                         <div class="author-info">
-                            <h4 class="author-name">Lisa Wang</h4>
-                            <p class="author-role">Product Manager, AppVenture</p>
+                            <h4 class="author-name">Vikram Singh</h4>
+                            <p class="author-role">Product Head, EduTech Pro</p>
                         </div>
                         <div class="testimonial-rating">
                             <span class="star">★</span>
@@ -160,7 +160,7 @@
                                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
                             </svg>
                         </div>
-                        <p class="testimonial-text">"Their digital marketing expertise helped us triple our online presence in just 6 months. The team's strategic approach and execution are top-notch. Highly recommend their services!"</p>
+                        <p class="testimonial-text">"Codelock Solutions' digital marketing team transformed our online presence. Our organic traffic increased by 300% and lead generation improved by 250% within 6 months. Their data-driven approach and regular reporting kept us informed every step of the way. Best marketing investment we've made."</p>
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">
@@ -169,8 +169,8 @@
                             </svg>
                         </div>
                         <div class="author-info">
-                            <h4 class="author-name">Robert Martinez</h4>
-                            <p class="author-role">Marketing Director, GrowthCo</p>
+                            <h4 class="author-name">Sneha Joshi</h4>
+                            <p class="author-role">Marketing Director, HealthPlus Wellness</p>
                         </div>
                         <div class="testimonial-rating">
                             <span class="star">★</span>

@@ -49,19 +49,16 @@
 
         function updateProgress() {
             if (!progressLine) return;
-            var max = maxIndex();
-            if (max === 0) {
-                progressLine.style.width = 'calc(100% - 88px)';
-            } else {
-                var pct = currentIndex / max;
-                var stepW = steps[0].offsetWidth;
-                var gap   = 40;
-                var total = totalSteps * stepW + (totalSteps - 1) * gap;
-                var visible = stepsToShow() * stepW + (stepsToShow() - 1) * gap;
-                var scrollable = total - visible;
-                var scrolled   = currentIndex * (stepW + gap);
-                progressLine.style.width = 'calc(' + ((scrolled + visible) / total * 100) + '% - 88px)';
-            }
+            var stepW = steps[0].offsetWidth;
+            var gap   = 40;
+            var targetIndex = currentIndex + stepsToShow() - 1;
+            
+            // Cap targetIndex to totalSteps - 1
+            if (targetIndex >= totalSteps) targetIndex = totalSteps - 1;
+            if (targetIndex < 0) targetIndex = 0;
+            
+            var targetWidth = targetIndex * (stepW + gap) + 2;
+            progressLine.style.width = targetWidth + 'px';
         }
 
         function updateTimeline() {

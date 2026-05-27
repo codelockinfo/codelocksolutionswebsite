@@ -4,14 +4,151 @@
 
 
 </div>
-<a class='blantershow-chat' href='https://wa.me/+917600464414' title='Show Chat'>Chat with Us
-    <svg width="40" viewBox="0 0 24 24"><defs/><path fill="#eceff1" d="M20.5 3.4A12.1 12.1 0 0012 0 12 12 0 001.7 17.8L0 24l6.3-1.7c2.8 1.5 5 1.4 5.8 1.5a12 12 0 008.4-20.3z"/><path fill="#4caf50" d="M12 21.8c-3.1 0-5.2-1.6-5.4-1.6l-3.7 1 1-3.7-.3-.4A9.9 9.9 0 012.1 12a10 10 0 0117-7 9.9 9.9 0 01-7 16.9z"/><path fill="#fafafa" d="M17.5 14.3c-.3 0-1.8-.8-2-.9-.7-.2-.5 0-1.7 1.3-.1.2-.3.2-.6.1s-1.3-.5-2.4-1.5a9 9 0 01-1.7-2c-.3-.6.4-.6 1-1.7l-.1-.5-1-2.2c-.2-.6-.4-.5-.6-.5-.6 0-1 0-1.4.3-1.6 1.8-1.2 3.6.2 5.6 2.7 3.5 4.2 4.2 6.8 5 .7.3 1.4.3 1.9.2.6 0 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"/>
-    </svg>
-</a>
-<a class='blantershow-chat mobile' href='https://wa.me/+917600464414' title='Show Chat'>
-    <svg width="40" viewBox="0 0 24 24"><defs/><path fill="#eceff1" d="M20.5 3.4A12.1 12.1 0 0012 0 12 12 0 001.7 17.8L0 24l6.3-1.7c2.8 1.5 5 1.4 5.8 1.5a12 12 0 008.4-20.3z"/><path fill="#4caf50" d="M12 21.8c-3.1 0-5.2-1.6-5.4-1.6l-3.7 1 1-3.7-.3-.4A9.9 9.9 0 012.1 12a10 10 0 0117-7 9.9 9.9 0 01-7 16.9z"/><path fill="#fafafa" d="M17.5 14.3c-.3 0-1.8-.8-2-.9-.7-.2-.5 0-1.7 1.3-.1.2-.3.2-.6.1s-1.3-.5-2.4-1.5a9 9 0 01-1.7-2c-.3-.6.4-.6 1-1.7l-.1-.5-1-2.2c-.2-.6-.4-.5-.6-.5-.6 0-1 0-1.4.3-1.6 1.8-1.2 3.6.2 5.6 2.7 3.5 4.2 4.2 6.8 5 .7.3 1.4.3 1.9.2.6 0 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"/>
-    </svg>
-</a>
+<!-- Animated WhatsApp Button -->
+<style>
+/* === Animated WhatsApp Floating Button === */
+.wa-float-wrapper {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 12px;
+}
+
+.wa-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+    box-shadow: 0 6px 24px rgba(37,211,102,0.45), 0 2px 8px rgba(0,0,0,0.18);
+    text-decoration: none;
+    animation: waBounce 2.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    flex-shrink: 0;
+}
+
+/* Pulsing sonar rings */
+.wa-btn::before,
+.wa-btn::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: rgba(37, 211, 102, 0.4);
+    animation: waPulse 2.4s ease-out infinite;
+    pointer-events: none;
+}
+.wa-btn::after {
+    animation-delay: 0.8s;
+    background: rgba(37, 211, 102, 0.25);
+}
+
+/* Icon bounce animation */
+@keyframes waBounce {
+    0%,  100% { transform: translateY(0) scale(1); }
+    30%         { transform: translateY(-8px) scale(1.06); }
+    50%         { transform: translateY(0px) scale(0.97); }
+    70%         { transform: translateY(-4px) scale(1.03); }
+    85%         { transform: translateY(0px) scale(1); }
+}
+
+/* Sonar pulse animation */
+@keyframes waPulse {
+    0%   { transform: scale(1);   opacity: 0.7; }
+    80%  { transform: scale(2.2); opacity: 0; }
+    100% { transform: scale(2.2); opacity: 0; }
+}
+
+/* SVG icon subtle animation */
+.wa-btn svg {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    z-index: 1;
+    filter: drop-shadow(0 1px 3px rgba(0,0,0,0.3));
+    transition: transform 0.3s ease;
+}
+.wa-btn:hover svg {
+    transform: rotate(15deg) scale(1.1);
+}
+
+/* Chat label tooltip */
+.wa-label {
+    background: #fff;
+    color: #075E54;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 50px;
+    white-space: nowrap;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.14);
+    letter-spacing: 0.01em;
+    opacity: 0;
+    transform: translateX(12px);
+    transition: opacity 0.35s cubic-bezier(0.4,0,0.2,1), transform 0.35s cubic-bezier(0.4,0,0.2,1);
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.wa-label::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #25D366;
+    animation: waLabelDot 1.4s ease-in-out infinite;
+}
+@keyframes waLabelDot {
+    0%,100% { opacity: 1; transform: scale(1); }
+    50%      { opacity: 0.4; transform: scale(0.7); }
+}
+
+/* Show label on wrapper hover */
+.wa-float-wrapper:hover .wa-label {
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+}
+
+/* Ripple click effect */
+.wa-btn:active::before {
+    animation: waRipple 0.5s ease-out;
+}
+@keyframes waRipple {
+    0%   { transform: scale(1);   opacity: 0.9; }
+    100% { transform: scale(3.2); opacity: 0; }
+}
+
+/* Initial entrance animation */
+.wa-float-wrapper {
+    animation: waSlideIn 0.7s 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+@keyframes waSlideIn {
+    from { transform: translateY(60px) scale(0.5); opacity: 0; }
+    to   { transform: translateY(0)    scale(1);   opacity: 1; }
+}
+</style>
+
+<div class="wa-float-wrapper">
+    <a class="wa-btn blantershow-chat" href="https://wa.me/+917600464414" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#eceff1" d="M20.5 3.4A12.1 12.1 0 0012 0 12 12 0 001.7 17.8L0 24l6.3-1.7c2.8 1.5 5 1.4 5.8 1.5a12 12 0 008.4-20.3z"/>
+            <path fill="#4caf50" d="M12 21.8c-3.1 0-5.2-1.6-5.4-1.6l-3.7 1 1-3.7-.3-.4A9.9 9.9 0 012.1 12a10 10 0 0117-7 9.9 9.9 0 01-7 16.9z"/>
+            <path fill="#fafafa" d="M17.5 14.3c-.3 0-1.8-.8-2-.9-.7-.2-.5 0-1.7 1.3-.1.2-.3.2-.6.1s-1.3-.5-2.4-1.5a9 9 0 01-1.7-2c-.3-.6.4-.6 1-1.7l-.1-.5-1-2.2c-.2-.6-.4-.5-.6-.5-.6 0-1 0-1.4.3-1.6 1.8-1.2 3.6.2 5.6 2.7 3.5 4.2 4.2 6.8 5 .7.3 1.4.3 1.9.2.6 0 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"/>
+        </svg>
+    </a>
+    <span class="wa-label">Chat with us!</span>
+</div>
 <style>
 /* Footer Theme Styles */
 .footer {
@@ -34,7 +171,7 @@
 
 .first-footer {
     background: var(--bg-secondary);
-    padding: 30px 0;
+    padding: 25px 0;
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -69,7 +206,7 @@
 
 .second-footer {
     background: var(--bg-tertiary);
-    padding: 60px 0;
+    padding: 30px 0;
     border-bottom: 1px solid var(--border-color);
 }
 

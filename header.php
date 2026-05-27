@@ -284,7 +284,10 @@
     <div class="page">
         <!-- preloader start -->
         <div id="preloader">
-            <div id="status">&nbsp;</div>
+            <div class="loader-ring">
+                <div class="loader-dot"></div>
+            </div>
+            <span class="loader-brand">Codelock</span>
         </div>
         <!-- preloader end -->
 
@@ -400,7 +403,7 @@
                                     </div>
                                     <nav id="menu" class="menu">
                                         <ul class="dropdown">
-                                            <li class="active"><a href="index.php">Home</a></li>
+                                            <li><a href="index.php">Home</a></li>
                                             <li><a href="about.php">About Us</a></li>
                                             <li><a href="services.php">Services</a>
                                                 <!-- <ul>
@@ -423,3 +426,25 @@
                 </div><!-- ttm-stickable-header-w end-->
             </div><!--ttm-header-wrap end -->
         </header><!--header end-->
+
+<script>
+// Set active navigation link based on current page
+document.addEventListener('DOMContentLoaded', function() {
+    const currentPath = window.location.pathname;
+    const navLinks = document.querySelectorAll('#menu .dropdown > li > a');
+    
+    navLinks.forEach(link => {
+        const linkPath = new URL(link.href).pathname;
+        
+        // Remove active class from all
+        link.parentElement.classList.remove('active');
+        
+        // Add active class to matching link
+        if (currentPath === linkPath || 
+            (currentPath.includes(linkPath) && linkPath !== '/index.php') ||
+            (currentPath === '/' && linkPath.includes('index.php'))) {
+            link.parentElement.classList.add('active');
+        }
+    });
+});
+</script>

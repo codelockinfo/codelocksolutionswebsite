@@ -529,6 +529,7 @@
         gap: 12px;
         padding: 16px 32px;
         font-size: 15px;
+        line-height: 18px;
         font-weight: 700;
         text-decoration: none;
         border-radius: 12px;
@@ -1106,24 +1107,21 @@
     }
 
     document.addEventListener('DOMContentLoaded', function() {
-        // Theme Toggle Functionality
-        const themeToggle = document.getElementById('theme-toggle');
-        const html = document.documentElement;
+        // const themeToggle = document.getElementById('theme-toggle');
+        // const html = document.documentElement;
         
-        // Check for saved theme preference or default to dark
-        const savedTheme = localStorage.getItem('theme') || 'dark';
-        html.setAttribute('data-theme', savedTheme);
+        // const savedTheme = localStorage.getItem('theme') || 'dark';
+        // html.setAttribute('data-theme', savedTheme);
         
-        // Toggle theme on button click
-        if (themeToggle) {
-            themeToggle.addEventListener('click', function() {
-                const currentTheme = html.getAttribute('data-theme');
-                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        // if (themeToggle) {
+        //     themeToggle.addEventListener('click', function() {
+        //         const currentTheme = html.getAttribute('data-theme');
+        //         const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
                 
-                html.setAttribute('data-theme', newTheme);
-                localStorage.setItem('theme', newTheme);
-            });
-        }
+        //         html.setAttribute('data-theme', newTheme);
+        //         localStorage.setItem('theme', newTheme);
+        //     });
+        // }
 
         // Dynamic Button Animations (Span Mothers)
         makeAnimatedButton('.cta-primary');

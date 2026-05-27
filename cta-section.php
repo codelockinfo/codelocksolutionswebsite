@@ -6,8 +6,12 @@
                 <h2 class="cta-headline">Ready to Transform Your Business?</h2>
                 <p class="cta-description">Take the first step towards digital excellence. Our team is ready to help you achieve your goals with innovative solutions.</p>
                 <div class="cta-buttons">
-                    <a href="contact.php" class="cta-btn primary">Get Started</a>
-                    <a href="services.php" class="cta-btn secondary">Our Services</a>
+                    <a href="contact.php" class="cta-btn primary cta-primary">
+                        <span class="button-text-wrapper">Get Started</span>
+                    </a>
+                    <a href="services.php" class="cta-btn secondary cta-secondary">
+                        <span class="button-text-wrapper">Our Services</span>
+                    </a>
                 </div>
             </div>
             <div class="cta-visual">
@@ -160,6 +164,7 @@
     }
 
     .cta-btn.primary:hover {
+        color: var(--accent-primary);
         transform: translateY(-3px);
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     }
