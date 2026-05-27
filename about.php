@@ -242,10 +242,17 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 60px;
-    background: var(--gradient-primary);
     border-radius: 30px;
     position: relative;
     overflow: hidden;
+}
+
+[data-theme="dark"] .cta-content {
+    background: linear-gradient(135deg, #06a8b0, #04a26d);
+}
+
+[data-theme="light"] .cta-content {
+    background: var(--gradient-primary);
 }
 
 .cta-content::before {

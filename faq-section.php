@@ -200,6 +200,7 @@
         align-items: center;
         cursor: pointer;
         text-align: left;
+        height: 80px;
     }
     .faq-question:focus {
         outline: none;

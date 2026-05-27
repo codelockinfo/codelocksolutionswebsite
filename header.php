@@ -41,12 +41,12 @@
     <link rel="stylesheet" type="text/css" href="css/shortcodes.css" />
 
     <!-- main -->
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/main1.css" />
 
     <!-- responsive -->
-    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive1.css" />
+    <link rel="stylesheet" type="text/css" href="css/style1.css" />
+    <link rel="stylesheet" type="text/css" href="css/theme1.css" />
 
     <!-- Prevent FOUC: apply saved theme before first paint -->
     <script>

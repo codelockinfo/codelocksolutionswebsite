@@ -30,8 +30,15 @@
         overflow: hidden;
     }
 
-    .cta-wrapper {
+    [data-theme="dark"] .cta-wrapper {
+        background: linear-gradient(135deg, #06a8b0, #04a26d);
+    }
+
+    [data-theme="light"] .cta-wrapper {
         background: var(--gradient-primary);
+    }
+
+    .cta-wrapper {
         border-radius: 30px;
         padding: 60px;
         position: relative;
@@ -66,6 +73,13 @@
         z-index: 2;
     }
 
+[data-theme="dark"] .cta-content {
+    background: linear-gradient(135deg, #06a8b0, #04a26d);
+}
+
+[data-theme="light"] .cta-content {
+    background: var(--gradient-primary);
+}
     .cta-badge {
         display: inline-block;
         background: rgba(255, 255, 255, 0.2);

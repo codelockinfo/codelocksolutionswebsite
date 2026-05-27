@@ -9,7 +9,7 @@
 /* === Animated WhatsApp Floating Button === */
 .wa-float-wrapper {
     position: fixed;
-    bottom: 28px;
+    bottom: 82px;
     right: 28px;
     z-index: 9999;
     display: flex;

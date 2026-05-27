@@ -14,10 +14,10 @@
                     <div class="team-member team-reveal">
                         <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
-                            <img src="images/boy-profile.jpg" alt="Tushar Rathod" class="team-image">
+                            <img src="images/TusharRathod.png" alt="Tushar Rathod" class="team-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="team-name">Tushar Rathod</h3>
+                            <h3 class="team-name">Tushar</h3>
                             <p class="team-role">CEO & Founder</p>
                         </div>
                     </div>
@@ -28,7 +28,7 @@
                             <img src="images/isha.png" alt="Isha Savani" class="team-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="team-name">Isha Savani</h3>
+                            <h3 class="team-name">Isha</h3>
                             <p class="team-role">Shopify Developer</p>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                             <img src="images/krishna.png" alt="Krishna Bafalipara" class="team-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="team-name">Krishna Bafalipara</h3>
+                            <h3 class="team-name">Krishna</h3>
                             <p class="team-role">Shopify Developer</p>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                             <img src="images/chetna.png" alt="Chetna Kanak" class="team-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="team-name">Chetna Kanak</h3>
+                            <h3 class="team-name">Chetna</h3>
                             <p class="team-role">Shopify Developer</p>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                             <img src="images/dipak.png" alt="Dipak Kumar" class="team-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="team-name">Dipak Kumar</h3>
+                            <h3 class="team-name">Dipak</h3>
                             <p class="team-role">Shopify Developer</p>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                             <img src="images/janvi.png" alt="Janvi Mangukiya" class="team-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="team-name">Janvi Mangukiya</h3>
+                            <h3 class="team-name">Janvi</h3>
                             <p class="team-role">Shopify Developer</p>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                             <img src="images/nimisha.png" alt="Nimisha Mer" class="team-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="team-name">Nimisha Mer</h3>
+                            <h3 class="team-name">Nimisha</h3>
                             <p class="team-role">Shopify Developer</p>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                             <img src="images/Urvashi.png" alt="Urvashi Hirapara" class="team-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="team-name">Urvashi Hirapara</h3>
+                            <h3 class="team-name">Urvashi</h3>
                             <p class="team-role">Shopify Developer</p>
                         </div>
                     </div>
@@ -103,18 +103,7 @@
                             <img src="images/Payal.png" alt="Payal Nakrani" class="team-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="team-name">Payal Nakrani</h3>
-                            <p class="team-role">Shopify Developer</p>
-                        </div>
-                    </div>
-
-                    <div class="team-member team-reveal">
-                        <div class="team-card-door"></div>
-                        <div class="team-image-wrapper">
-                            <img src="images/Bhavin.png" alt="Bhavin Solanki" class="team-image">
-                        </div>
-                        <div class="team-info">
-                            <h3 class="team-name">Bhavin Solanki</h3>
+                            <h3 class="team-name">Payal</h3>
                             <p class="team-role">Shopify Developer</p>
                         </div>
                     </div>
@@ -125,17 +114,7 @@
                             <img src="images/Harsh.png" alt="Harsh Kansagara" class="team-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="team-name">Harsh Kansagara</h3>
-                            <p class="team-role">Shopify Developer</p>
-                        </div>
-                    </div>
-
-                    <div class="team-member team-reveal">
-                        <div class="team-image-wrapper">
-                            <img src="images/Jalak.png" alt="Jalak Talaviya" class="team-image">
-                        </div>
-                        <div class="team-info">
-                            <h3 class="team-name">Jalak Talaviya</h3>
+                            <h3 class="team-name">Harsh</h3>
                             <p class="team-role">Shopify Developer</p>
                         </div>
                     </div>

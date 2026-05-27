@@ -24,7 +24,7 @@
             </div>
             
             <div class="metric-card trust-animate">
-                <h3 class="metric-number"><span class="counter" data-target="5">0</span>+</h3>
+                <h3 class="metric-number"><span class="counter" data-target="9">0</span>+</h3>
                 <p class="metric-label">YEARS OF EXPERIENCE</p>
             </div>
         </div>

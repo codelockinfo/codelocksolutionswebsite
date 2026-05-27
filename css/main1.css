@@ -2368,7 +2368,7 @@ a.blantershow-chat {
   font-weight: 400;
   justify-content: space-between;
   z-index: 9999;
-  bottom: 84px;
+  bottom: 60px;
 align-items: center;
 }
 @keyframes showhide {
