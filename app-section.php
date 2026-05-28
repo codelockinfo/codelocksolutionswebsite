@@ -57,7 +57,7 @@
             </a>
 
             <!-- App Card 3 -->
-            <a href="https://apps.shopify.com/rewriter-mega-description">
+            <a href="https://apps.shopify.com/rewriter-mega-description" target="_blank">
                 <div class="app-card">
                     <div class="app-screenshot">
                         <img src="images/apps/app3-icon-removebg-preview.png" alt="AI Product Description ReWriter">
