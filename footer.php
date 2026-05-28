@@ -476,7 +476,7 @@
 
         <!-- Javascript -->
 
-        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery1.min.js"></script>
         <script src="js/tether.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.easing.js"></script>    
@@ -490,8 +490,8 @@
         <script src="js/theme.js"></script>
 
         <!-- Revolution Slider -->
-        <script src="revolution/js/revolution.tools.min.js"></script>
-        <script src="revolution/js/rs6.min.js"></script>
+        <script src="revolution/js/revolution1.tools.min.js"></script>
+        <script src="revolution/js/rs7.min.js"></script>
         <script src="revolution/js/slider.js"></script>
 
         <!-- Javascript end-->
