@@ -23,8 +23,7 @@
 
         <div class="apps-cards-wrapper">
             <!-- App Card 1 -->
-            <a href="https://apps.shopify.com/easy-cookie-banner-gdpr-eu" target="_blank">
-                <div class="app-card">
+            <a href="https://apps.shopify.com/easy-cookie-banner-gdpr-eu" target="_blank" class="app-card">
                     <div class="app-screenshot">
                         <img src="images/apps/app1-icon-removebg-preview.png" alt="Easy Cookie Bar GDPR / CCPA">
                     </div>
@@ -36,12 +35,10 @@
                             <span class="app-installs">5K+ installs</span>
                         </div>
                     </div>
-                </div>
             </a>
 
             <!-- App Card 2 -->
-            <a href="https://apps.shopify.com/easy-form-builder-email" target="_blank">
-                <div class="app-card">
+            <a href="https://apps.shopify.com/easy-form-builder-email" target="_blank" class="app-card">
                     <div class="app-screenshot">
                         <img src="images/apps/app2-icon-removebg-preview.png" alt="Easy Form Builder & Contact Forms">
                     </div>
@@ -53,12 +50,10 @@
                             <span class="app-installs">8K+ installs</span>
                         </div>
                     </div>
-                </div>
             </a>
 
             <!-- App Card 3 -->
-            <a href="https://apps.shopify.com/rewriter-mega-description" target="_blank">
-                <div class="app-card">
+            <a href="https://apps.shopify.com/rewriter-mega-description" target="_blank" class="app-card">
                     <div class="app-screenshot">
                         <img src="images/apps/app3-icon-removebg-preview.png" alt="AI Product Description ReWriter">
                     </div>
@@ -70,7 +65,6 @@
                             <span class="app-installs">3K+ installs</span>
                         </div>
                     </div>
-                </div>
             </a>
         </div>
     </div>
