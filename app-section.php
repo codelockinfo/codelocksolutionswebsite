@@ -423,39 +423,54 @@
         .apps-cta {
             width: 100%;
             justify-content: center;
+        }   
     }
 </style>
 
 <!-- JavaScript for App Cards fluid 3D Tilt Effect -->
 <script>
-(function() {
+(function () {
     'use strict';
 
     function initHeaderReveal(section) {
         var contentWrapper = section.querySelector('.apps-content-wrapper');
-        var els = section.querySelectorAll('.badge-text, .apps-headline, .apps-description');
+        var els = section.querySelectorAll(
+            '.badge-text, .apps-headline, .apps-description'
+        );
         if (!els.length) return;
 
-        if (!('IntersectionObserver' in window)) {
+        function addAnim() {
             if (contentWrapper) contentWrapper.classList.add('anim-in');
-            els.forEach(function (el) { el.classList.add('anim-in'); });
-            return;
+            els.forEach(function (el) {
+                el.classList.add('anim-in');
+            });
         }
 
-        var obs = new IntersectionObserver(function (entries, o) {
-            entries.forEach(function (entry) {
-                if (entry.isIntersecting) {
-                    if (contentWrapper) contentWrapper.classList.add('anim-in');
-                    entry.target.classList.add('anim-in');
-                } else {
-                    if (contentWrapper) contentWrapper.classList.remove('anim-in');
-                    entry.target.classList.remove('anim-in');
-                }
-            });
-        }, { threshold: 0.2 });
+        function removeAnim() {
+            if (contentWrapper) contentWrapper.classList.remove('anim-in');
 
-        if (contentWrapper) obs.observe(contentWrapper);
-        els.forEach(function (el) { obs.observe(el); });
+            els.forEach(function (el) {
+                el.classList.remove('anim-in');
+            });
+        }
+
+        function checkScroll() {
+            var rect = section.getBoundingClientRect();
+            var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+            // SECTION ENTERS VIEW
+            if (rect.top < windowHeight * 0.85 && rect.bottom > 0) {
+                addAnim();
+            }
+            // SECTION FULLY PASSED (SCROLLED UP OR DOWN OUT)
+            else if (rect.bottom < 0 || rect.top > windowHeight) {
+                removeAnim();
+            }
+        }
+        
+        // Run on scroll
+        window.addEventListener('scroll', checkScroll, { passive: true });
+        // Run on load
+        checkScroll();
     }
 
     function initAppTilt() {
