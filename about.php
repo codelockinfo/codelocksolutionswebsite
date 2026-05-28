@@ -121,6 +121,11 @@
     transform: translateY(0);
 }
 
+@keyframes floatImage {
+        0%, 100% { transform: translateY(0) rotate(0deg); }
+        50% { transform: translateY(-20px) rotate(0.8deg); }
+    }
+
 .about-image {
     position: relative;
     opacity: 0;
@@ -140,6 +145,7 @@
     border-radius: 20px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
     transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    animation: floatImage 8s ease-in-out infinite;
 }
 
 .about-image:hover img {

@@ -455,21 +455,67 @@
 }
 
 @media (max-width: 768px) {
-    .process-section { padding: 40px 0; }
-    .process-wrapper { flex-direction: column-reverse; gap: 36px; }
-    .process-image-wrapper { flex: 0 0 auto; width: 100%; }
-    .process-header { margin-bottom: 0; }
-    .process-title { font-size: 30px; }
-    .process-timeline { margin-left: 46%; margin-top: -30%; }
-    .timeline-step { flex: 0 0 100%; padding-left: 30px; }
-    .timeline-marker { width: 30px; height: 30px; }
-    .timeline-number { font-size: 11px; }
-    .timeline-nav { margin-top: -18px; }
-    .timeline-arrow { width: 40px; height: 40px; }
-    .timeline-arrow svg { width: 18px; height: 18px; }
+    .process-section { padding: 60px 0 40px; }
+    .process-wrapper { flex-direction: column; gap: 40px; }
+    .process-image-wrapper { display: none; }
+    .process-header { margin-bottom: 30px; text-align: center; }
+    .process-subheading { transform: translateY(20px); }
+    .process-title { transform: translateY(20px); font-size: 28px; }
+    .process-subtitle { transform: translateY(20px); }
+    .process-timeline { margin-left: 0; margin-top: 0; }
+    .timeline-container { padding: 0; }
+    .timeline-track { flex-direction: column; gap: 0; }
+    
+    /* Hide horizontal line on mobile */
+    .timeline-track::before { display: none; }
+    .timeline-progress-line { display: none; }
+    
+    /* Vertical line for mobile */
+    .timeline-track::after {
+        content: '';
+        position: absolute;
+        top: 20px;
+        left: 35px;
+        width: 3px;
+        height: calc(100% - 40px);
+        background: rgba(255,255,255,0.05);
+        z-index: 0;
+    }
+    [data-theme="light"] .timeline-track::after {
+        background: rgba(0,0,0,0.06);
+    }
+    
+    .timeline-step { 
+        flex: 0 0 auto; 
+        width: 100%; 
+        padding: 20px 20px 20px 60px;
+        margin-bottom: 0;
+        margin-left: 15px;
+    }
+    .timeline-marker-row { position: absolute; left: 0; top: 20px; }
+    .timeline-marker { width: 40px; height: 40px; }
+    .timeline-marker::before { inset: -4px; }
+    .timeline-number { font-size: 14px; }
+    .step-bg-number { font-size: 56px; right: 0; bottom: -12px; }
+    .timeline-title { font-size: 16px; }
+    .timeline-description { font-size: 14px; }
+    
+    /* Hide nav arrows on mobile - steps are stacked vertically */
+    .timeline-nav { display: none; }
 }
 
 @media (max-width: 490px) {
-    .timeline-nav { margin-top: -60px; }
-    .process-timeline { margin-left: 38%; margin-top: -34%; }
+    .process-section { padding: 40px 0 30px; }
+    .process-title { font-size: 24px; }
+    .process-subheading { font-size: 0.7rem; }
+    .process-subtitle { font-size: 15px; }
+    .timeline-step { padding: 16px 16px 16px 52px; margin-left: 10px; }
+    .timeline-step:hover .timeline-marker { transform: scale(1.05);}
+    .timeline-marker { width: 34px; height: 34px; }
+    .timeline-marker::before {inset: -3px;}
+    .timeline-track::after {left: 25px; }
+    .timeline-number { font-size: 12px; }
+    .timeline-title { font-size: 15px; }
+    .timeline-description { font-size: 13px; }
+    .step-bg-number { font-size: 48px; }
 }
