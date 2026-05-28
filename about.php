@@ -94,6 +94,15 @@
     font-weight: 700;
     margin-bottom: 25px;
     color: var(--text-primary);
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    transition-delay: var(--sr-delay, 0s);
+}
+
+.about-text h2.sr-visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .about-text p {
@@ -101,23 +110,41 @@
     line-height: 1.8;
     margin-bottom: 20px;
     font-size: 16px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    transition-delay: var(--sr-delay, 0s);
+}
+
+.about-text p.sr-visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .about-image {
     position: relative;
     opacity: 0;
-    transform: translateX(50px);
-    transition: all 0.6s ease;
+    transform: translateX(60px) scale(0.85) rotateY(-10deg);
+    transition: all 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+    transition-delay: var(--sr-delay, 0s);
 }
 
-.about-image.visible {
+.about-image.visible,
+.about-image.sr-visible {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateX(0) scale(1) rotateY(0deg);
 }
 
 .about-image img {
     width: 100%;
     border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.about-image:hover img {
+    transform: scale(1.03) translateY(-5px);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.2);
 }
 
 .section-header {
@@ -410,13 +437,13 @@
     <section class="about-section">
         <div class="about-content">
             <div class="about-text">
-                <h2>Empowering Your Digital Journey</h2>
-                <p>Codelock Solutions is a leading Shopify development company offering end-to-end Shopify solutions all around the globe. We harness the power of E-commerce Shopify and emerging technologies to help our merchants adapt to the digital world and make them successful.</p>
-                <p>Web designing is not just a profession for us, it's a passion. We believe that the smart design of any website is the first impression on visitors. And the smart design of any website is the starting point of a successful digital presence.</p>
-                <p>We have a special team for website design who has been involved in designing professional websites of all categories. High-tech industries play an important role in the modern economy, and digital solutions have transformed the world for web applications.</p>
+                <h2 data-sr="fadeup">Empowering Your Digital Journey</h2>
+                <p data-sr="fadeup" style="--sr-delay: 0.1s">Codelock Solutions is a leading Shopify development company offering end-to-end Shopify solutions all around the globe. We harness the power of E-commerce Shopify and emerging technologies to help our merchants adapt to the digital world and make them successful.</p>
+                <p data-sr="fadeup" style="--sr-delay: 0.2s">Web designing is not just a profession for us, it's a passion. We believe that the smart design of any website is the first impression on visitors. And the smart design of any website is the starting point of a successful digital presence.</p>
+                <p data-sr="fadeup" style="--sr-delay: 0.3s">We have a special team for website design who has been involved in designing professional websites of all categories. High-tech industries play an important role in the modern economy, and digital solutions have transformed the world for web applications.</p>
             </div>
-            <div class="about-image">
-                <img src="images/single-img-seven.png" alt="About Codelock Solutions" />
+            <div class="about-image" data-sr="fadeup" style="--sr-delay: 0.4s">
+                <img src="images/about-us.png" alt="About Codelock Solutions" />
             </div>
         </div>
     </section>
@@ -567,12 +594,13 @@ const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
             entry.target.classList.add('visible');
+            entry.target.classList.add('sr-visible');
         }
     });
 }, observerOptions);
 
 // Observe all animated elements
-document.querySelectorAll('.about-image, .testimonial-card').forEach(el => {
+document.querySelectorAll('.about-image, .testimonial-card, [data-sr]').forEach(el => {
     observer.observe(el);
 });
 </script>

@@ -72,18 +72,6 @@
         </div>
     </section>
 
-    <!-- ── Filter Bar ─────────────────────────────────────── -->
-    <section class="allapps-filter-section">
-        <div class="container">
-            <div class="allapps-filter-bar" data-sr="fadedown">
-                <button class="filter-btn active" data-filter="all">All Apps</button>
-                <button class="filter-btn" data-filter="gdpr">GDPR & Compliance</button>
-                <button class="filter-btn" data-filter="forms">Forms & Popups</button>
-                <button class="filter-btn" data-filter="ai">AI & SEO</button>
-            </div>
-        </div>
-    </section>
-
     <!-- ── Apps Grid ──────────────────────────────────────── -->
     <section class="allapps-grid-section redesign-section">
         <div class="container">
@@ -507,46 +495,6 @@
     height: 50px;
     background: var(--border-color);
     flex-shrink: 0;
-}
-
-/* ── Filter Bar ─────────────────────────────────────── */
-.allapps-filter-section {
-    padding: 10px 0 30px;
-}
-
-.allapps-filter-bar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    justify-content: center;
-}
-
-.filter-btn {
-    padding: 10px 24px;
-    border-radius: 50px;
-    border: 1px solid var(--border-color);
-    background: var(--bg-secondary);
-    color: var(--text-secondary);
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-    font-family: 'Outfit', sans-serif;
-    letter-spacing: 0.3px;
-}
-
-.filter-btn:hover {
-    border-color: var(--accent-primary);
-    color: var(--accent-primary);
-    transform: translateY(-2px);
-}
-
-.filter-btn.active {
-    background: var(--gradient-primary);
-    color: #ffffff;
-    border-color: transparent;
-    box-shadow: 0 6px 20px var(--shadow-color);
-    animation: filterPulse 2.5s ease-in-out infinite;
 }
 
 @keyframes filterPulse {
@@ -1015,12 +963,19 @@
 
 /* ── CTA Banner (inherited from service-pages.css) ─── */
 .redesign-cta-banner {
-    background: var(--gradient-primary);
     border-radius: 24px;
     padding: 60px;
     text-align: center;
     position: relative;
     overflow: hidden;
+}
+
+[data-theme="dark"] .redesign-cta-banner {
+    background: linear-gradient(135deg, #06a8b0, #04a26d);
+}
+
+[data-theme="light"] .redesign-cta-banner {
+    background: linear-gradient(135deg, #728948, #abd373);
 }
 
 .redesign-cta-banner::before {

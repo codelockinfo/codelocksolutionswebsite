@@ -103,19 +103,16 @@
                 <div class="hero-image-slide active" data-slide="0">
                     <div class="image-wrapper-3d">
                         <img src="images/slides/slidernew_2.png" alt="Shopify Development" class="hero-main-image">
-                        <div class="image-shine"></div>
                     </div>
                 </div>
                 <div class="hero-image-slide" data-slide="1">
                     <div class="image-wrapper-3d">
                         <img src="images/slides/slidernew_1.png" alt="Custom Theme Design" class="hero-main-image">
-                        <div class="image-shine"></div>
                     </div>
                 </div>
                 <div class="hero-image-slide" data-slide="2">
                     <div class="image-wrapper-3d">
                         <img src="images/slides/slidernew_3.png.png" alt="Shopify Plus Scaling" class="hero-main-image">
-                        <div class="image-shine"></div>
                     </div>
                 </div>
             </div>
@@ -766,32 +763,6 @@
     /* Idle vertical float applied to active slide's image */
     .hero-image-slide.active .hero-main-image {
         animation: floatImage 8s ease-in-out infinite;
-    }
-
-    .image-shine {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(
-            135deg,
-            rgba(255, 255, 255, 0) 0%,
-            rgba(255, 255, 255, 0.05) 40%,
-            rgba(255, 255, 255, 0.2) 50%,
-            rgba(255, 255, 255, 0.05) 60%,
-            rgba(255, 255, 255, 0) 100%
-        );
-        border-radius: 20px;
-        pointer-events: none;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-        z-index: 3;
-    }
-
-    .image-wrapper-3d:hover .image-shine {
-        opacity: 1;
-        animation: shineMove 1.5s ease-in-out;
     }
 
     @keyframes shineMove {
