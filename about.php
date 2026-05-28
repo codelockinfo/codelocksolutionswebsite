@@ -162,7 +162,7 @@
     background: var(--card-bg);
     border: 1px solid var(--card-border);
     border-radius: 20px;
-    padding: 35px;
+    padding: 20px 14px;
     position: relative;
     opacity: 0;
     transform: translateY(50px);

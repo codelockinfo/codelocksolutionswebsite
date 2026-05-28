@@ -303,16 +303,25 @@
             questions.forEach(function(question) {
                 question.addEventListener('click', function() {
                     var item = this.parentElement;
+                    var answer = item.querySelector('.faq-answer');
                     var isActive = item.classList.contains('active');
                     
-                    // Close all items
+                    // Close all items with smooth animation
                     section.querySelectorAll('.faq-item').forEach(function(faqItem) {
-                        faqItem.classList.remove('active');
+                        if (faqItem !== item) {
+                            faqItem.classList.remove('active');
+                            var otherAnswer = faqItem.querySelector('.faq-answer');
+                            otherAnswer.style.maxHeight = null;
+                        }
                     });
 
-                    // Open clicked item if it wasn't active
+                    // Toggle clicked item with smooth animation
                     if (!isActive) {
                         item.classList.add('active');
+                        answer.style.maxHeight = answer.scrollHeight + 'px';
+                    } else {
+                        item.classList.remove('active');
+                        answer.style.maxHeight = null;
                     }
                 });
             });

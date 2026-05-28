@@ -13,7 +13,7 @@
                 Power up your online store with our high-performing Shopify apps. From custom GDPR cookie consent banner tools to drag-and-drop form builders and AI-powered product description generators, we develop tools trusted by thousands of e-commerce merchants worldwide.
             </p>
 
-            <a href="#" class="apps-cta cta-primary">
+            <a href="allapps.php" class="apps-cta cta-primary">
                 <span>View All Apps</span>
                 <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -23,49 +23,55 @@
 
         <div class="apps-cards-wrapper">
             <!-- App Card 1 -->
-            <div class="app-card">
-                <div class="app-screenshot">
-                    <img src="images/apps/app1-icon-removebg-preview.png" alt="Easy Cookie Bar GDPR / CCPA">
-                </div>
-                <div class="app-details">
-                    <h3 class="app-name">Easy Cookie Bar GDPR / CCPA</h3>
-                    <p class="app-desc">Compliant cookie consent banner & privacy policy alerts for EU/UK/US e-commerce markets.</p>
-                    <div class="app-stats">
-                        <span class="app-rating">★ 4.8</span>
-                        <span class="app-installs">5K+ installs</span>
+            <a href="https://apps.shopify.com/easy-cookie-banner-gdpr-eu" target="_blank">
+                <div class="app-card">
+                    <div class="app-screenshot">
+                        <img src="images/apps/app1-icon-removebg-preview.png" alt="Easy Cookie Bar GDPR / CCPA">
+                    </div>
+                    <div class="app-details">
+                        <h3 class="app-name">Easy Cookie Bar GDPR / CCPA</h3>
+                        <p class="app-desc">Compliant cookie consent banner & privacy policy alerts for EU/UK/US e-commerce markets.</p>
+                        <div class="app-stats">
+                            <span class="app-rating">★ 4.8</span>
+                            <span class="app-installs">5K+ installs</span>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
 
             <!-- App Card 2 -->
-            <div class="app-card">
-                <div class="app-screenshot">
-                    <img src="images/apps/app2-icon-removebg-preview.png" alt="Easy Form Builder & Contact Forms">
-                </div>
-                <div class="app-details">
-                    <h3 class="app-name">Easy Form Builder & Contact Forms</h3>
-                    <p class="app-desc">Create responsive custom checkout registration forms, wholesale order forms, and popups.</p>
-                    <div class="app-stats">
-                        <span class="app-rating">★ 4.9</span>
-                        <span class="app-installs">8K+ installs</span>
+            <a href="https://apps.shopify.com/easy-form-builder-email" target="_blank">
+                <div class="app-card">
+                    <div class="app-screenshot">
+                        <img src="images/apps/app2-icon-removebg-preview.png" alt="Easy Form Builder & Contact Forms">
+                    </div>
+                    <div class="app-details">
+                        <h3 class="app-name">Easy Form Builder & Contact Forms</h3>
+                        <p class="app-desc">Create responsive custom checkout registration forms, wholesale order forms, and popups.</p>
+                        <div class="app-stats">
+                            <span class="app-rating">★ 4.9</span>
+                            <span class="app-installs">8K+ installs</span>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
 
             <!-- App Card 3 -->
-            <div class="app-card">
-                <div class="app-screenshot">
-                    <img src="images/apps/app3-icon-removebg-preview.png" alt="AI Product Description ReWriter">
-                </div>
-                <div class="app-details">
-                    <h3 class="app-name">AI Product Description ReWriter</h3>
-                    <p class="app-desc">Automate product descriptions and boost Shopify SEO rankings with AI content generators.</p>
-                    <div class="app-stats">
-                        <span class="app-rating">★ 4.7</span>
-                        <span class="app-installs">3K+ installs</span>
+            <a href="https://apps.shopify.com/rewriter-mega-description">
+                <div class="app-card">
+                    <div class="app-screenshot">
+                        <img src="images/apps/app3-icon-removebg-preview.png" alt="AI Product Description ReWriter">
+                    </div>
+                    <div class="app-details">
+                        <h3 class="app-name">AI Product Description ReWriter</h3>
+                        <p class="app-desc">Automate product descriptions and boost Shopify SEO rankings with AI content generators.</p>
+                        <div class="app-stats">
+                            <span class="app-rating">★ 4.7</span>
+                            <span class="app-installs">3K+ installs</span>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 </section>

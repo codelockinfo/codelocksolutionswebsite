@@ -391,7 +391,6 @@
     min-height: 120px !important;
     resize: vertical !important;
 }
-
 /* Continuous Submit Button Shimmer */
 .btn-submit-redesign {
     background: var(--gradient-primary);

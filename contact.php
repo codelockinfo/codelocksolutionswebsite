@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<link rel="stylesheet" type="text/css" href="css/contact-page.css" />
+<link rel="stylesheet" type="text/css" href="css/contact-page1.css" />
 
 <!-- SEO Meta for Contact Page -->
 <meta name="description" content="Contact CodeLock Solutions – Shopify, Web, Android & Digital Marketing experts in Surat, Gujarat. Call, email, or visit us today.">

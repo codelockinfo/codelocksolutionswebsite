@@ -132,14 +132,17 @@
         border: 1px solid var(--card-border);
         border-radius: 20px;
         overflow: hidden;
-        transition: all 0.4s ease;
+        transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
+                    box-shadow 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                    border-color 0.5s ease;
         box-shadow: 0 0 15px var(--shadow-color);
         backdrop-filter: blur(10px);
-        animation: cardFloat 5s ease-in-out infinite, cardShimmer 3s ease-in-out infinite;
-        animation-delay: var(--card-delay, 0s), var(--shimmer-delay, 0s);
         opacity: 0;
         transform: perspective(1000px) rotateY(-30deg) translateX(-50px);
-        transition: opacity 0.8s cubic-bezier(0.34, 1.56, 0.64, 1), transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+        transition: opacity 0.8s cubic-bezier(0.34, 1.56, 0.64, 1), 
+                    transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1),
+                    box-shadow 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                    border-color 0.5s ease;
     }
 
     .blog-card.anim-in {
@@ -147,30 +150,10 @@
         transform: perspective(1000px) rotateY(0deg) translateX(0);
     }
 
-    @keyframes cardFloat {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-6px); }
-    }
-
-    @keyframes cardShimmer {
-        0%, 100% {
-            border-color: var(--card-border);
-        }
-        50% {
-            border-color: var(--accent-primary);
-            box-shadow: 0 0 15px var(--shadow-color), 0 0 20px rgba(var(--accent-primary), 0.2);
-        }
-    }
-
-    .blog-card:nth-child(1) { --card-delay: 0s; --shimmer-delay: 0s; }
-    .blog-card:nth-child(2) { --card-delay: 0.5s; --shimmer-delay: 0.5s; }
-    .blog-card:nth-child(3) { --card-delay: 1s; --shimmer-delay: 1s; }
-
     .blog-card:hover {
         border-color: var(--accent-primary);
         box-shadow: 0 20px 40px var(--shadow-color), 0 0 30px rgba(var(--accent-primary), 0.3);
         transform: translateY(-10px) scale(1.02);
-        animation: none;
     }
 
     .blog-image {
@@ -180,6 +163,14 @@
         align-items: center;
         justify-content: center;
         overflow: hidden;
+    }
+
+    .blog-image img {
+        transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+
+    .blog-card:hover .blog-image img {
+        transform: scale(1.1);
     }
 
     .blog-category {
@@ -220,6 +211,11 @@
         color: var(--text-primary);
         margin: 0 0 15px 0;
         line-height: 1.4;
+        transition: color 0.3s ease;
+    }
+
+    .blog-card:hover .blog-title {
+        color: var(--accent-primary);
     }
 
     .blog-excerpt {
@@ -227,6 +223,11 @@
         line-height: 1.7;
         color: var(--text-secondary);
         margin: 0 0 20px 0;
+        transition: color 0.3s ease;
+    }
+
+    .blog-card:hover .blog-excerpt {
+        color: var(--text-primary);
     }
 
     .blog-link {
@@ -234,12 +235,12 @@
         color: var(--accent-primary);
         font-weight: 700;
         text-decoration: none;
-        transition: all 0.3s ease;
+        transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     }
 
     .blog-link:hover {
         color: var(--text-primary);
-        transform: translateX(5px);
+        transform: translateX(8px);
     }
 
     .blog-footer {

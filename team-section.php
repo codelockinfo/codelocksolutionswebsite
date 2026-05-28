@@ -12,7 +12,6 @@
                 <div class="slider-track">
 
                     <div class="team-member team-reveal">
-                        <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
                             <img src="images/TusharRathod.png" alt="Tushar Rathod" class="team-image">
                         </div>
@@ -23,7 +22,6 @@
                     </div>
 
                     <div class="team-member team-reveal">
-                        <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
                             <img src="images/isha.png" alt="Isha Savani" class="team-image">
                         </div>
@@ -34,7 +32,6 @@
                     </div>
 
                     <div class="team-member team-reveal">
-                        <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
                             <img src="images/krishna.png" alt="Krishna Bafalipara" class="team-image">
                         </div>
@@ -46,7 +43,6 @@
 
                     
                     <div class="team-member team-reveal">
-                        <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
                             <img src="images/chetna.png" alt="Chetna Kanak" class="team-image">
                         </div>
@@ -57,7 +53,6 @@
                     </div>
                     
                     <div class="team-member team-reveal">
-                        <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
                             <img src="images/dipak.png" alt="Dipak Kumar" class="team-image">
                         </div>
@@ -87,7 +82,6 @@
                     </div>
 
                     <div class="team-member team-reveal">
-                        <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
                             <img src="images/Urvashi.png" alt="Urvashi Hirapara" class="team-image">
                         </div>
@@ -98,7 +92,6 @@
                     </div>
 
                     <div class="team-member team-reveal">
-                        <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
                             <img src="images/Payal.png" alt="Payal Nakrani" class="team-image">
                         </div>
@@ -109,7 +102,6 @@
                     </div>
 
                     <div class="team-member team-reveal">
-                        <div class="team-card-door"></div>
                         <div class="team-image-wrapper">
                             <img src="images/Harsh.png" alt="Harsh Kansagara" class="team-image">
                         </div>
@@ -142,5 +134,5 @@
     </div>
 </section>
 
-<link rel="stylesheet" type="text/css" href="css/team-section.css"/>
+<link rel="stylesheet" type="text/css" href="css/team-section1.css"/>
 <script src="js/team-slider.js"></script>

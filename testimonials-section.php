@@ -25,7 +25,7 @@
                         </div>
                         <div class="author-info">
                             <h4 class="author-name">Rajesh Patel</h4>
-                            <p class="author-role">Founder, StyleBazaar</p>
+                            <p class="author-role">Founder</p>
                         </div>
                         <div class="testimonial-rating">
                             <span class="star">★</span>
@@ -54,7 +54,7 @@
                         </div>
                         <div class="author-info">
                             <h4 class="author-name">Priya Sharma</h4>
-                            <p class="author-role">CEO, DigiTech Solutions</p>
+                            <p class="author-role">CEO</p>
                         </div>
                         <div class="testimonial-rating">
                             <span class="star">★</span>
@@ -83,7 +83,7 @@
                         </div>
                         <div class="author-info">
                             <h4 class="author-name">Amit Mehta</h4>
-                            <p class="author-role">Operations Head, GlobalRetail</p>
+                            <p class="author-role">Operations Head</p>
                         </div>
                         <div class="testimonial-rating">
                             <span class="star">★</span>
@@ -112,7 +112,7 @@
                         </div>
                         <div class="author-info">
                             <h4 class="author-name">Neha Desai</h4>
-                            <p class="author-role">CTO, FinServe India</p>
+                            <p class="author-role">CTO</p>
                         </div>
                         <div class="testimonial-rating">
                             <span class="star">★</span>
@@ -141,7 +141,7 @@
                         </div>
                         <div class="author-info">
                             <h4 class="author-name">Vikram Singh</h4>
-                            <p class="author-role">Product Head, EduTech Pro</p>
+                            <p class="author-role">Product Head</p>
                         </div>
                         <div class="testimonial-rating">
                             <span class="star">★</span>
@@ -170,7 +170,7 @@
                         </div>
                         <div class="author-info">
                             <h4 class="author-name">Sneha Joshi</h4>
-                            <p class="author-role">Marketing Director, HealthPlus Wellness</p>
+                            <p class="author-role">Marketing Director</p>
                         </div>
                         <div class="testimonial-rating">
                             <span class="star">★</span>
@@ -292,7 +292,7 @@
         background: var(--card-bg);
         border: 1px solid var(--card-border);
         border-radius: 20px;
-        padding: 35px 30px;
+        padding: 20px 14px;
         position: relative;
         overflow: hidden;
         transition: all 0.4s ease;
@@ -411,8 +411,8 @@
     }
 
     .author-avatar {
-        width: 50px;
-        height: 50px;
+        width: 44px;
+        height: 44px;
         background: var(--gradient-secondary);
         border-radius: 50%;
         display: flex;
@@ -420,6 +420,10 @@
         justify-content: center;
         color: white;
         flex-shrink: 0;
+    }
+    .author-avatar svg {
+        height: 28px;
+        width: 28px;
     }
 
     .author-info {

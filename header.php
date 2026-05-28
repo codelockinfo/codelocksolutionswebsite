@@ -439,10 +439,14 @@ document.addEventListener('DOMContentLoaded', function() {
         // Remove active class from all
         link.parentElement.classList.remove('active');
         
+        // Normalize paths (remove .php extension for comparison)
+        const normalizedCurrentPath = currentPath.replace(/\.php$/, '');
+        const normalizedLinkPath = linkPath.replace(/\.php$/, '');
+        
         // Add active class to matching link
-        if (currentPath === linkPath || 
-            (currentPath.includes(linkPath) && linkPath !== '/index.php') ||
-            (currentPath === '/' && linkPath.includes('index.php'))) {
+        if (normalizedCurrentPath === normalizedLinkPath || 
+            (normalizedCurrentPath.includes(normalizedLinkPath) && normalizedLinkPath !== '/index') ||
+            (normalizedCurrentPath === '/' && normalizedLinkPath.includes('index'))) {
             link.parentElement.classList.add('active');
         }
     });
