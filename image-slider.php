@@ -5,110 +5,66 @@ $projects = [
         'category' => 'BABY & KIDS',
         'desc' => 'Premium organic baby clothing and essentials store built on Shopify.',
         'img' => 'images/our project/shopify website1.png',
-        'link' => 'https://kiddicare.co.nz/',
+        'link' => 'project-kiddicare.php',
         'icon' => 'fa-child',
         'color' => 'purple',
         'badge_label' => 'Conversion',
         'badge_value' => '+42%'
     ],
     [
-        'title' => 'Terra Gentle',
-        'category' => 'ORGANIC & HEALTH',
-        'desc' => 'Eco-friendly, chemical-free personal care and clothing products.',
-        'img' => 'images/our project/shopify website2.png',
-        'link' => 'https://www.terragentle.in/',
-        'icon' => 'fa-leaf',
-        'color' => 'green',
-        'badge_label' => 'Uptime',
-        'badge_value' => '99.9%'
-    ],
-    [
-        'title' => 'Just Meats',
-        'category' => 'FOOD & NUTRITION',
-        'desc' => 'High-quality pre-cooked meats delivered directly to your doorstep.',
-        'img' => 'images/our project/shopify website3.png',
-        'link' => 'https://www.justmeats.com/',
-        'icon' => 'fa-utensils',
-        'color' => 'blue',
-        'badge_label' => 'Sales Growth',
-        'badge_value' => '+38%'
-    ],
-    [
         'title' => 'Millennium Jewelry',
         'category' => 'JEWELRY & LUXURY',
         'desc' => 'Exquisite custom jewelry and diamonds store with an elegant storefront.',
         'img' => 'images/our project/shopify website4.png',
-        'link' => 'https://millenniumjewelery.com/',
+        'link' => 'project-millenniumjewelery.php',
         'icon' => 'fa-gem',
         'color' => 'purple',
         'badge_label' => 'AOV Increase',
         'badge_value' => '+24%'
     ],
     [
-        'title' => 'Tistabene',
-        'category' => 'FASHION & APPAREL',
-        'desc' => 'Trendy and modern men’s designer shirts and ethnic wear platform.',
-        'img' => 'images/our project/shopify website5.png',
-        'link' => 'https://www.tistabene.com/',
-        'icon' => 'fa-tshirt',
-        'color' => 'green',
-        'badge_label' => 'Transactions',
-        'badge_value' => '12K+'
-    ],
-    [
         'title' => 'Fab Dreams Organic',
         'category' => 'HOME DECOR',
         'desc' => 'Premium 100% organic cotton bedding, sheets, and home linens.',
         'img' => 'images/our project/shopify website6.png',
-        'link' => 'https://www.fabdreamsorganic.com',
+        'link' => 'project-fabdreamsorganic.php',
         'icon' => 'fa-bed',
         'color' => 'blue',
         'badge_label' => 'Traffic Increase',
         'badge_value' => '+56%'
     ],
     [
-        'title' => 'FFAB Fabric',
-        'category' => 'TEXTILE & DESIGN',
-        'desc' => 'Bespoke high-end fashion fabrics and hand-crafted designer textiles.',
-        'img' => 'images/our project/shopify website7.png',
-        'link' => 'https://ffab.com/',
-        'icon' => 'fa-scissors',
-        'color' => 'purple',
-        'badge_label' => 'Page Load',
-        'badge_value' => '0.8s'
-    ],
-    [
         'title' => 'Florence Black',
         'category' => 'LUXURY STREETWEAR',
         'desc' => 'Premium high-fashion and structured contemporary apparel line.',
         'img' => 'images/our project/shopify website8.png',
-        'link' => 'https://www.florenceblack.co.uk/',
+        'link' => 'project-florenceblack.php',
         'icon' => 'fa-crown',
         'color' => 'green',
         'badge_label' => 'Subscribers',
         'badge_value' => '8.5K'
     ],
     [
-        'title' => 'Pazzion India',
-        'category' => 'FOOTWEAR & ACCESSORIES',
-        'desc' => 'Sophisticated, high-quality leather shoes and handbags for women.',
-        'img' => 'images/our project/shopify website9.png',
-        'link' => 'https://pazzion.in/',
-        'icon' => 'fa-shoe-prints',
-        'color' => 'blue',
-        'badge_label' => 'Repeat Customers',
-        'badge_value' => '40%'
+        'title' => 'Cosnet',
+        'category' => 'E-COMMERCE',
+        'desc' => 'A comprehensive e-commerce platform featuring a wide range of products with advanced filtering and secure checkout.',
+        'img' => 'images/projects/cosnet-desktop.png',
+        'link' => 'project-cosnet.php',
+        'icon' => 'fa-shopping-cart',
+        'color' => 'blue',  
+        'badge_label' => 'Products',
+        'badge_value' => '500+'
     ],
     [
-        'title' => 'Filler Lab Denmark',
-        'category' => 'HEALTH & CLINICS',
-        'desc' => 'Premium skincare treatment clinics and aesthetic wellness booking.',
-        'img' => 'images/our project/shopify website10.png',
-        'link' => 'https://fillerlab.dk/',
-        'icon' => 'fa-flask',
-        'color' => 'purple',
-        'badge_label' => 'Bookings',
-        'badge_value' => '+64%'
+        'title' => 'Naturanari',
+        'category' => 'ORGANIC BEAUTY',
+        'desc' => 'Premium e-commerce platform for organic and natural beauty products with sustainable brand values.',
+        'img' => 'images/projects/naturanari-desktop.png',
+        'link' => 'project-naturanari.php',
+        'icon' => 'fa-leaf',
+        'color' => 'green',
+        'badge_label' => 'Performance',
+        'badge_value' => '98%'
     ]
 ];
 ?>
@@ -152,7 +108,7 @@ $projects = [
                 <span class="sub-label">CRAFTING DIGITAL IMPACT</span>
                 <h2 class="section-headline">Our <span class="gradient-text">Projects</span></h2>
                 <p class="section-desc">We turn ideas into intelligent digital solutions that drive growth and create real impact.</p>
-                <a href="services.php" class="explore-projects-btn">
+                <a href="projects.php" class="explore-projects-btn">
                     <span>EXPLORE ALL PROJECTS</span>
                     <span class="arrow-circle">
                         <i class="fa fa-arrow-right"></i>
@@ -188,7 +144,7 @@ $projects = [
                                 <h3 class="card-title"><?= $project['title'] ?></h3>
                                 <p class="card-desc"><?= $project['desc'] ?></p>
                                 <a href="<?= $project['link'] ?>" target="_blank" class="case-study-link">
-                                    <span>VIEW LIVE SITE</span>
+                                    <span>VIEW DETAILS</span>
                                     <i class="fa fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -283,7 +239,7 @@ $projects = [
 .projects-slider-section {
     position: relative;
     background: var(--bg-primary);
-    padding: 110px 0;
+    padding: 80px 0;
     overflow: hidden;
     width: 100%;
     transition: background 0.5s ease;
@@ -574,7 +530,7 @@ $projects = [
 .project-card .card-inner {
     width: 100%;
     height: 100%;
-    padding: 36px;
+    padding: 20px 24px;
     display: grid;
     grid-template-columns: 1.15fr 0.85fr;
     gap: 24px;
@@ -622,7 +578,7 @@ $projects = [
     margin-bottom: 8px;
 }
 
-.card-title {
+.projects-slider-section .card-title {
     font-size: 26px;
     font-weight: 800;
     color: #ffffff;
@@ -758,7 +714,7 @@ $projects = [
     border-color: rgba(0, 0, 0, 0.06);
     box-shadow: 0 15px 45px rgba(0, 0, 0, 0.05);
 }
-[data-theme="light"] .card-title {
+[data-theme="light"] .projects-slider-section .card-title {
     color: #1a1a2e;
 }
 [data-theme="light"] .card-desc {
@@ -1180,47 +1136,201 @@ $projects = [
 
 @media (max-width: 767px) {
     .projects-slider-section {
-        padding: 60px 0;
+        padding: 40px 0;
+    }
+
+    /* Left column: compact on mobile */
+    .projects-slider-container {
+        gap: 40px;
+        padding: 0 16px;
+        justify-content: center;
+    }
+    .orbit-graphics-panel {
+        display: none; /* hide decorative orbit on tiny screens */
+    }
+    .projects-text-content {
+        padding: 0 40px;
+        text-align: center;
+        align-items: center;
     }
     .projects-text-content .section-headline {
-        font-size: 36px;
+        font-size: 30px;
+        margin-bottom: 14px;
     }
+    .projects-text-content .sub-label {
+        font-size: 11px;
+        letter-spacing: 1.5px;
+    }
+    .projects-text-content .section-desc {
+        font-size: 14.5px;
+        line-height: 1.65;
+        margin-bottom: 22px;
+    }
+    .explore-projects-btn {
+        font-size: 12px;
+        gap: 10px;
+        justify-content: center;
+    }
+    .explore-projects-btn .arrow-circle {
+        width: 38px;
+        height: 38px;
+    }
+
+    /* Right column: full width card */
     .projects-right-col {
-        height: 360px;
+        height: auto;
+        padding-right: 0;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
     }
+
+    /* Viewport container becomes a fixed height on mobile */
+    .slider-viewport-container {
+        width: 100%;
+        height: 320px;
+        perspective: 900px;
+    }
+
+    /* Cards wrapper stretches full width */
     .slider-cards-wrapper {
-        width: 320px;
-        height: 280px;
+        width: 100%;
+        max-width: 360px;
+        height: 300px;
+        margin: 0 auto;
     }
+
+    /* Card content: single-column, hide mockup visuals */
     .project-card .card-inner {
-        padding: 24px;
+        padding: 22px 20px;
         grid-template-columns: 1fr;
-        gap: 15px;
+        gap: 0;
+        align-items: flex-start;
     }
     .card-visual {
-        display: none; /* Hide mockups on mobile to prioritize clean typography */
+        display: none; /* visuals hidden on mobile — prioritise typography */
     }
+    .card-number {
+        font-size: 12px;
+        margin-bottom: 14px;
+    }
+    .card-icon-container {
+        width: 38px;
+        height: 38px;
+        font-size: 15px;
+        margin-bottom: 14px;
+    }
+    .card-category {
+        font-size: 9px;
+        letter-spacing: 1px;
+    }
+    .projects-slider-section .card-title {
+        font-size: 21px;
+        margin-bottom: 8px;
+    }
+    .card-desc {
+        font-size: 13px;
+        line-height: 1.55;
+        margin-bottom: 16px;
+        min-height: auto;
+    }
+    .case-study-link {
+        font-size: 10.5px;
+    }
+
+    /* Adjacent cards: tight peek on mobile */
     .project-card.next {
-        transform: translate3d(80px, 0, -180px) scale(0.8) rotateY(-10deg);
+        transform: translate3d(68px, 0, -160px) scale(0.82) rotateY(-8deg);
         opacity: 0.3;
     }
     .project-card.prev {
-        transform: translate3d(-80px, 0, -180px) scale(0.8) rotateY(10deg);
+        transform: translate3d(-68px, 0, -160px) scale(0.82) rotateY(8deg);
         opacity: 0.3;
     }
-    .card-desc {
-        margin-bottom: 15px;
+
+    /* Controls: move to bottom, horizontal layout */
+    .slider-controls-panel {
+        position: relative;
+        right: auto;
+        top: auto;
+        transform: none;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        margin-top: 20px;
+        padding: 0 16px;
+        width: 100%;
+    }
+
+    /* Vertical pagination becomes horizontal dots on mobile */
+    .slider-vertical-pagination {
+        flex-direction: row;
+        max-height: none;
+        max-width: 200px;
+        overflow-x: auto;
+        overflow-y: visible;
+        padding: 4px 0;
+        gap: 10px;
+        scrollbar-width: none;
+    }
+    .slider-vertical-pagination::-webkit-scrollbar {
+        display: none;
+    }
+    .vertical-pag-item {
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+    .vertical-pag-item .pag-num {
+        font-size: 10px;
+    }
+    /* Replace the vertical line with a horizontal dot */
+    .vertical-pag-item .pag-line-progress {
+        width: 12px;
+        height: 2px;
+        border-radius: 2px;
+    }
+    .vertical-pag-item.active .pag-line-progress {
+        width: 22px;
+        height: 2px;
+    }
+
+    /* Arrow button size on mobile */
+    .slider-next-arrow-btn {
+        width: 44px;
+        height: 44px;
+        flex-shrink: 0;
     }
 }
 
 @media (max-width: 480px) {
+    .slider-cards-wrapper {
+        max-width: 300px;
+        height: 270px;
+    }
+    .slider-viewport-container {
+        height: 290px;
+    }
+    .projects-slider-section .card-title {
+        font-size: 18px;
+    }
+    .card-desc {
+        font-size: 12.5px;
+    }
+    .project-card .card-inner {
+        padding: 18px 16px;
+    }
     .project-card.next {
-        transform: translate3d(40px, 0, -180px) scale(0.75) rotateY(-5deg);
-        opacity: 0.15;
+        transform: translate3d(35px, 0, -160px) scale(0.78) rotateY(-5deg);
+        opacity: 0.2;
     }
     .project-card.prev {
-        transform: translate3d(-40px, 0, -180px) scale(0.75) rotateY(5deg);
-        opacity: 0.15;
+        transform: translate3d(-35px, 0, -160px) scale(0.78) rotateY(5deg);
+        opacity: 0.2;
+    }
+    .projects-text-content .section-headline {
+        font-size: 26px;
     }
 }
 </style>
@@ -1267,7 +1377,7 @@ $projects = [
                 if (idx === currentIndex) {
                     item.classList.add('active');
                     // Scroll item into view in pagination list smoothly
-                    item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    // item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
                 } else {
                     item.classList.remove('active');
                 }

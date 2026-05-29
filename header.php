@@ -414,6 +414,7 @@
                                                     <!--<li><a href="graphicdesign.php">Graphic Design</a></li>-->
                                                 <!-- </ul> -->
                                             </li>
+                                            <li><a href="projects.php">Projects</a></li>
                                             <li><a href="career.php">Career</a></li>
                                             <li><a href="blogs.php">blogs</a></li>
                                             <li><a href="contact.php">Contact</a></li>
