@@ -498,3 +498,9 @@
 
 </body>
 </html>
+<?php
+// Flush and output the rewritten clean URL HTML buffer
+if (ob_get_length()) {
+    ob_end_flush();
+}
+?>

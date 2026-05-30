@@ -1,3 +1,19 @@
+<?php
+// Start dynamic URL buffer to rewrite all internal links to clean extensionless URLs
+ob_start(function($buffer) {
+    return preg_replace_callback(
+        '/href=["\'](?![a-zA-Z0-9]+:\/\/)(?![^"\']+\-mail\.php)([^"\']+\.php)([^"\']*)["\']/',
+        function($matches) {
+            $clean_url = preg_replace('/\.php$/', '', $matches[1]);
+            if ($clean_url === 'index') {
+                $clean_url = '/';
+            }
+            return 'href="' . $clean_url . $matches[2] . '"';
+        },
+        $buffer
+    );
+});
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
