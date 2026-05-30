@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <?php
+        // Dynamically construct clean canonical URL matching the sitemap.xml structure
+        $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+        $domain = $_SERVER['HTTP_HOST'];
+        $request_path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+        $clean_path = preg_replace('/\.php$/', '', $request_path);
+        
+        // Canonicalize index.php to root /
+        if ($clean_path == '/index') {
+            $clean_path = '/';
+        }
+        
+        $canonical_url = $protocol . $domain . $clean_path;
+        if ($clean_path !== '/') {
+            $canonical_url = rtrim($canonical_url, '/');
+        }
+    ?>
+    <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords"
