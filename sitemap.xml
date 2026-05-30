@@ -1,170 +1,427 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <!-- Homepage -->
     <url>
         <loc>https://www.codelocksolutions.com/</loc>
-        <lastmod>2026-02-13</lastmod>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     
     <!-- About -->
     <url>
-        <loc>https://www.codelocksolutions.com/about.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/about</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <!-- Services -->
     <url>
-        <loc>https://www.codelocksolutions.com/services.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/services</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Projects Portfolio -->
+    <url>
+        <loc>https://www.codelocksolutions.com/projects</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Shopify Apps Showcase -->
+    <url>
+        <loc>https://www.codelocksolutions.com/allapps</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     
     <!-- Website Development -->
     <url>
-        <loc>https://www.codelocksolutions.com/websitedevlopment.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/websitedevlopment</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <!-- Custom Web Development -->
     <url>
-        <loc>https://www.codelocksolutions.com/custom_web.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/custom_web</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <!-- E-commerce Website -->
     <url>
-        <loc>https://www.codelocksolutions.com/ecommercewebsite.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/ecommercewebsite</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <!-- Android Development -->
     <url>
-        <loc>https://www.codelocksolutions.com/androiddevlopment.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/androiddevlopment</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <!-- Digital Marketing -->
     <url>
-        <loc>https://www.codelocksolutions.com/digitalmarketing.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/digitalmarketing</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <!-- Graphic Design -->
     <url>
-        <loc>https://www.codelocksolutions.com/graphicdesign.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/graphicdesign</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
-    <!-- Shopify Apps -->
+    <!-- Shopify Apps Service -->
     <url>
-        <loc>https://www.codelocksolutions.com/shopifyapps.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/shopifyapps</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
-    <!-- Shopify Plus -->
+    <!-- Shopify Plus Service -->
     <url>
-        <loc>https://www.codelocksolutions.com/shopifyplus.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/shopifyplus</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <!-- Hire Expert -->
     <url>
-        <loc>https://www.codelocksolutions.com/hireexpert.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/hireexpert</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <!-- Pricing Blog -->
     <url>
-        <loc>https://www.codelocksolutions.com/pricing-blog.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/pricing-blog</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     
     <!-- Blogs -->
     <url>
-        <loc>https://www.codelocksolutions.com/blogs.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/blogs</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <!-- Blog Detail -->
     <url>
-        <loc>https://www.codelocksolutions.com/blogdetail.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/blogdetail</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     
     <!-- Career -->
     <url>
-        <loc>https://www.codelocksolutions.com/career.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/career</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <!-- Contact -->
     <url>
-        <loc>https://www.codelocksolutions.com/contact.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/contact</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <!-- Collaborations -->
     <url>
-        <loc>https://www.codelocksolutions.com/collabs.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/collabs</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     
     <!-- Cost Start -->
     <url>
-        <loc>https://www.codelocksolutions.com/coststart.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/coststart</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     
     <!-- Revenue24 -->
     <url>
-        <loc>https://www.codelocksolutions.com/revenue24.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/revenue24</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     
     <!-- Trance Client -->
     <url>
-        <loc>https://www.codelocksolutions.com/tranceclient.php</loc>
-        <lastmod>2026-02-13</lastmod>
+        <loc>https://www.codelocksolutions.com/tranceclient</loc>
+        <lastmod>2026-05-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
+    </url>
+
+    <!-- Project: Aadhunik GTECH -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-aadhunikgtech</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/aadhunikgtech-desktop.png</image:loc>
+            <image:title>Aadhunik GTECH Software Development and IT Consulting Showcase</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Ayaani -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-ayaani</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/ayaani-desktop.png</image:loc>
+            <image:title>Ayaani Ethnic Wear E-Commerce Shopify Website Design</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: BBARE -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-bbare</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/bbare-desktop.png</image:loc>
+            <image:title>BBARE Contemporary Fashion Brand Shopify Platform Showcase</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Civia Jewels -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-civiajewels</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/civiajewels-desktop.png</image:loc>
+            <image:title>Civia Jewels Premium Jewelry E-Commerce Shopify Design</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Cosnet -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-cosnet</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/cosnet-desktop.png</image:loc>
+            <image:title>Cosnet E-Commerce Platform Solution Case Study</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Fab Dreams Organic -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-fabdreamsorganic</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/fabdreamsorganic-desktop.png</image:loc>
+            <image:title>Fab Dreams Organic Premium Bedding Brand Website Design</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Filler Lab Denmark -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-fillerlabdenmark</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/fillerlabdenmark-desktop.png</image:loc>
+            <image:title>Filler Lab Denmark Aesthetic Wellness Booking Platform</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Florence Black -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-florenceblack</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/florenceblack-desktop.png</image:loc>
+            <image:title>Florence Black High-Fashion E-Commerce Brand Showcase</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Gem Royals -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-gemroyals</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/gemroyals-desktop.png</image:loc>
+            <image:title>Gem Royals Luxury Jewelry E-Commerce Platform</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Hamporio -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-hamporio</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/hamporio-desktop.png</image:loc>
+            <image:title>Hamporio Premium Home Decor Shopify Website Design</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Just Meats -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-justmeats</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/justmeats-desktop.png</image:loc>
+            <image:title>Just Meats Subscription-Based E-Commerce Shopify Showcase</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Kiddicare -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-kiddicare</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/kiddicare-desktop.png</image:loc>
+            <image:title>Kiddicare Premium Organic Baby Essentials Shopify Store</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Millennium Jewelery -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-millenniumjewelery</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/millenniumjewelery-desktop.png</image:loc>
+            <image:title>Millennium Jewelery Fine Jewelry Shopify Store Case Study</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Naturanari -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-naturanari</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/naturanari-desktop.png</image:loc>
+            <image:title>Naturanari Organic and Natural Beauty E-Commerce Shopify Store</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Pazzion India -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-pazzionindia</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/pazzionindia-desktop.png</image:loc>
+            <image:title>Pazzion India Premium Leather Footwear and Handbags Showcase</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Rakva -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-rakva</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/rakva-desktop.png</image:loc>
+            <image:title>Rakva Contemporary Fashion E-Commerce Shopify Design</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Rangya -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-rangya</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/rangya-desktop.png</image:loc>
+            <image:title>Rangya Comprehensive Business Digital Solutions Showcase</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Terra Gentle -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-terragentle</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/terragentle-desktop.png</image:loc>
+            <image:title>Terra Gentle Eco-Friendly Personal Care E-Commerce Store</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Tistabene -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-tistabene</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/tistabene-desktop.png</image:loc>
+            <image:title>Tistabene Fashion Jewelry E-Commerce Shopify Store Showcase</image:title>
+        </image:image>
+    </url>
+
+    <!-- Project: Warrior World -->
+    <url>
+        <loc>https://www.codelocksolutions.com/project-warriorworld</loc>
+        <lastmod>2026-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://www.codelocksolutions.com/images/projects/warriorworld-desktop.png</image:loc>
+            <image:title>Warrior World Fitness and Sports Equipment E-Commerce Store</image:title>
+        </image:image>
     </url>
 </urlset>
