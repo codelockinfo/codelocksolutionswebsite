@@ -285,7 +285,6 @@
 
 .desktop-mockup {
     width: 100%;
-    max-width: 1000px;
     background: var(--card-bg);
     border: 2px solid var(--border-color);
     border-radius: 12px;
@@ -346,6 +345,7 @@
     overflow: hidden;
     box-shadow: 0 20px 60px var(--shadow-color);
     position: relative;
+    margin: 0 auto;
 }
 
 .mobile-notch {
@@ -540,6 +540,141 @@
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+/* Image Slider Styles */
+.project-screenshot-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-track {
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slider-slide {
+    min-width: 100%;
+    position: relative;
+}
+
+.slider-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.slider-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.3s ease;
+    color: var(--text-primary);
+}
+
+.slider-nav:hover {
+    background: var(--accent-primary);
+    border-color: var(--accent-primary);
+    color: #ffffff;
+}
+
+.slider-nav svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+}
+
+.slider-nav.prev svg {
+    transform: rotate(180deg);
+}
+
+.slider-nav.prev {
+    left: 20px;
+}
+
+.slider-nav.next {
+    right: 20px;
+}
+
+.slider-pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.pagination-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--border-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.pagination-dot.active {
+    background: var(--accent-primary);
+    transform: scale(1.2);
+}
+
+.pagination-dot:hover {
+    background: var(--accent-secondary);
+}
+
+.desktop-screenshot .slider-nav {
+    width: 40px;
+    height: 40px;
+}
+
+.mobile-screenshot .slider-container{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.mobile-screenshot .slider-nav {
+    width: 40px;
+    height: 40px;
+}
+
+.mobile-screenshot .slider-nav.prev {
+    left: 10px;
+}
+
+.mobile-screenshot .slider-nav.next {
+    right: 10px;
+}
+
+@media (max-width: 480px) {
+    .desktop-screenshot .slider-nav {
+        width: 45px;
+        height: 45px;
+    }
+    .desktop-screenshot .slider-nav.prev {
+        left: 10px;
+    }
+    .desktop-screenshot .slider-nav.next {
+        right: 10px;
     }
 }
 

@@ -77,19 +77,59 @@
                 <p>Full desktop shopping experience with all ethnic fashion features</p>
             </div>
             <div class="screenshot-wrapper fade-in-up anim-delay-1">
-                <div class="desktop-mockup">
-                    <div class="mockup-header">
-                        <div class="mockup-dots">
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                <div class="project-screenshot-slider">
+                    <div class="slider-container">
+                        <div class="slider-track">
+                            <div class="slider-slide">
+                                <div class="desktop-mockup">
+                                    <div class="mockup-header">
+                                        <div class="mockup-dots">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                        <div class="mockup-url">ayaani.in</div>
+                                    </div>
+                                    <div class="mockup-content">
+                                        <img src="images/projects/ayaani-desktop.png" alt="Ayaani Desktop View 1" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+1'">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-slide">
+                                <div class="desktop-mockup">
+                                    <div class="mockup-header">
+                                        <div class="mockup-dots">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                        <div class="mockup-url">ayaani.in</div>
+                                    </div>
+                                    <div class="mockup-content">
+                                        <img src="images/projects/ayaani-desktop.png" alt="Ayaani Desktop View 2" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+2'">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-slide">
+                                <div class="desktop-mockup">
+                                    <div class="mockup-header">
+                                        <div class="mockup-dots">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                        <div class="mockup-url">ayaani.in</div>
+                                    </div>
+                                    <div class="mockup-content">
+                                        <img src="images/projects/ayaani-desktop.png" alt="Ayaani Desktop View 3" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+3'">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="mockup-url">ayaani.in</div>
+                        <div class="slider-nav prev"><svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none"><path d="M9.71069 18.2929C10.1012 18.6834 10.7344 18.6834 11.1249 18.2929L16.0123 13.4006C16.7927 12.6195 16.7924 11.3537 16.0117 10.5729L11.1213 5.68254C10.7308 5.29202 10.0976 5.29202 9.70708 5.68254C9.31655 6.07307 9.31655 6.70623 9.70708 7.09676L13.8927 11.2824C14.2833 11.6729 14.2833 12.3061 13.8927 12.6966L9.71069 16.8787C9.32016 17.2692 9.32016 17.9023 9.71069 18.2929Z" fill="#0F0F0F"/></svg></div>
+                        <div class="slider-nav next"><svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none"><path d="M9.71069 18.2929C10.1012 18.6834 10.7344 18.6834 11.1249 18.2929L16.0123 13.4006C16.7927 12.6195 16.7924 11.3537 16.0117 10.5729L11.1213 5.68254C10.7308 5.29202 10.0976 5.29202 9.70708 5.68254C9.31655 6.07307 9.31655 6.70623 9.70708 7.09676L13.8927 11.2824C14.2833 11.6729 14.2833 12.3061 13.8927 12.6966L9.71069 16.8787C9.32016 17.2692 9.32016 17.9023 9.71069 18.2929Z" fill="#0F0F0F"/></svg></div>
                     </div>
-                    <div class="mockup-content">
-                        <!-- Add desktop screenshot image here -->
-                        <img src="images/projects/ayaani-desktop.png" alt="Ayaani Desktop View" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot'">
-                    </div>
+                    <div class="slider-pagination"></div>
                 </div>
             </div>
         </div>
@@ -103,12 +143,38 @@
                 <p>Optimized mobile shopping with touch-friendly interface</p>
             </div>
             <div class="screenshot-wrapper fade-in-up anim-delay-1">
-                <div class="mobile-mockup">
-                    <div class="mobile-notch"></div>
-                    <div class="mobile-content">
-                        <!-- Add mobile screenshot image here -->
-                        <img src="images/projects/ayaani-mobile.png" alt="Ayaani Mobile View" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot'">
+                <div class="project-screenshot-slider">
+                    <div class="slider-container">
+                        <div class="slider-track">
+                            <div class="slider-slide">
+                                <div class="mobile-mockup">
+                                    <div class="mobile-notch"></div>
+                                    <div class="mobile-content">
+                                        <img src="images/projects/ayaani-mobile.png" alt="Ayaani Mobile View 1" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+1'">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-slide">
+                                <div class="mobile-mockup">
+                                    <div class="mobile-notch"></div>
+                                    <div class="mobile-content">
+                                        <img src="images/projects/ayaani-mobile.png" alt="Ayaani Mobile View 2" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+2'">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-slide">
+                                <div class="mobile-mockup">
+                                    <div class="mobile-notch"></div>
+                                    <div class="mobile-content">
+                                        <img src="images/projects/ayaani-mobile.png" alt="Ayaani Mobile View 3" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+3'">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-nav prev"><svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none"><path d="M9.71069 18.2929C10.1012 18.6834 10.7344 18.6834 11.1249 18.2929L16.0123 13.4006C16.7927 12.6195 16.7924 11.3537 16.0117 10.5729L11.1213 5.68254C10.7308 5.29202 10.0976 5.29202 9.70708 5.68254C9.31655 6.07307 9.31655 6.70623 9.70708 7.09676L13.8927 11.2824C14.2833 11.6729 14.2833 12.3061 13.8927 12.6966L9.71069 16.8787C9.32016 17.2692 9.32016 17.9023 9.71069 18.2929Z" fill="#0F0F0F"/></svg></div>
+                        <div class="slider-nav next"><svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none"><path d="M9.71069 18.2929C10.1012 18.6834 10.7344 18.6834 11.1249 18.2929L16.0123 13.4006C16.7927 12.6195 16.7924 11.3537 16.0117 10.5729L11.1213 5.68254C10.7308 5.29202 10.0976 5.29202 9.70708 5.68254C9.31655 6.07307 9.31655 6.70623 9.70708 7.09676L13.8927 11.2824C14.2833 11.6729 14.2833 12.3061 13.8927 12.6966L9.71069 16.8787C9.32016 17.2692 9.32016 17.9023 9.71069 18.2929Z" fill="#0F0F0F"/></svg></div>
                     </div>
+                    <div class="slider-pagination"></div>
                 </div>
             </div>
         </div>
@@ -199,7 +265,7 @@
                 </div>
                 <div class="tech-item fade-in-up anim-delay-3">
                     <div class="tech-icon">
-                        <i class="fa fa-js"></i>
+                        <i class="fa fa-code"></i>
                     </div>
                     <h4>JavaScript</h4>
                     <p>Interactive features</p>

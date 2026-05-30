@@ -30,10 +30,6 @@
                     <div class="app-details">
                         <h3 class="app-name">Easy Cookie Bar GDPR / CCPA</h3>
                         <p class="app-desc">Compliant cookie consent banner & privacy policy alerts for EU/UK/US e-commerce markets.</p>
-                        <div class="app-stats">
-                            <span class="app-rating">★ 4.8</span>
-                            <span class="app-installs">5K+ installs</span>
-                        </div>
                     </div>
             </a>
 
@@ -45,10 +41,6 @@
                     <div class="app-details">
                         <h3 class="app-name">Easy Form Builder & Contact Forms</h3>
                         <p class="app-desc">Create responsive custom checkout registration forms, wholesale order forms, and popups.</p>
-                        <div class="app-stats">
-                            <span class="app-rating">★ 4.9</span>
-                            <span class="app-installs">8K+ installs</span>
-                        </div>
                     </div>
             </a>
 
@@ -60,10 +52,6 @@
                     <div class="app-details">
                         <h3 class="app-name">AI Product Description ReWriter</h3>
                         <p class="app-desc">Automate product descriptions and boost Shopify SEO rankings with AI content generators.</p>
-                        <div class="app-stats">
-                            <span class="app-rating">★ 4.7</span>
-                            <span class="app-installs">3K+ installs</span>
-                        </div>
                     </div>
             </a>
         </div>
@@ -343,11 +331,6 @@
         line-height: 1.4;
     }
 
-    .app-stats {
-        display: flex;
-        gap: 15px;
-    }
-
     .app-rating {
         font-size: 12px;
         color: var(--accent-primary);
@@ -408,10 +391,6 @@
             flex-direction: column;
             text-align: center;
             gap: 15px;
-        }
-
-        .app-stats {
-            justify-content: center;
         }
     }
 
