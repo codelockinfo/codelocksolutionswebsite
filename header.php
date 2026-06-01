@@ -77,7 +77,7 @@ ob_start(function($buffer) {
     <link rel="stylesheet" type="text/css" href="css/shortcodes.css" />
 
     <!-- main -->
-    <link rel="stylesheet" type="text/css" href="css/main1.css" />
+    <link rel="stylesheet" type="text/css" href="css/main2.css" />
 
     <!-- responsive -->
     <link rel="stylesheet" type="text/css" href="css/responsive1.css" />

@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<link rel="stylesheet" type="text/css" href="css/projects.css" />
+<link rel="stylesheet" type="text/css" href="css/projects1.css" />
 
 <!-- ======================================================
      PREMIUM ANIMATED PROJECTS SHOWCASE PAGE
