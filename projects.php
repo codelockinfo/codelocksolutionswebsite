@@ -364,7 +364,7 @@
                 </div>
 
                 <!-- Project 13: Rakva -->
-                <div class="project-card capability-card" data-category="web">
+                <!-- <div class="project-card capability-card" data-category="web">
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-accent"></div>
                         <div class="project-image-wrap">                            
@@ -386,7 +386,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Project 14: Ayaani -->
                 <div class="project-card capability-card" data-category="web" style="transition-delay: 0.1s;">

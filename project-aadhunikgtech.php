@@ -106,7 +106,7 @@
                                         <div class="mockup-url">aadhunikgtech.com</div>
                                     </div>
                                     <div class="mockup-content">
-                                        <img src="images/projects/aadhunikgtech-desktop.png" alt="Aadhunik GTECH Desktop View 2" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+2'">
+                                        <img src="images/projects/aadhunikgtech2-desktop.png" alt="Aadhunik GTECH Desktop View 2" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+2'">
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@
                                         <div class="mockup-url">aadhunikgtech.com</div>
                                     </div>
                                     <div class="mockup-content">
-                                        <img src="images/projects/aadhunikgtech-desktop.png" alt="Aadhunik GTECH Desktop View 3" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+3'">
+                                        <img src="images/projects/aadhunikgtech3-desktop.png" alt="Aadhunik GTECH Desktop View 3" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+3'">
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +158,7 @@
                                 <div class="mobile-mockup">
                                     <div class="mobile-notch"></div>
                                     <div class="mobile-content">
-                                        <img src="images/projects/aadhunikgtech-mobile.png" alt="Aadhunik GTECH Mobile View 2" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+2'">
+                                        <img src="images/projects/aadhunikgtech2-mobile.png" alt="Aadhunik GTECH Mobile View 2" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+2'">
                                     </div>
                                 </div>
                             </div>
@@ -166,7 +166,7 @@
                                 <div class="mobile-mockup">
                                     <div class="mobile-notch"></div>
                                     <div class="mobile-content">
-                                        <img src="images/projects/aadhunikgtech-mobile.png" alt="Aadhunik GTECH Mobile View 3" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+3'">
+                                        <img src="images/projects/aadhunikgtech3-mobile.png" alt="Aadhunik GTECH Mobile View 3" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+3'">
                                     </div>
                                 </div>
                             </div>

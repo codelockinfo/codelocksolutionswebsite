@@ -106,7 +106,7 @@
                                         <div class="mockup-url">terragentle.in</div>
                                     </div>
                                     <div class="mockup-content">
-                                        <img src="images/projects/terragentle-desktop.png" alt="Terra Gentle Desktop View 2" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+2'">
+                                        <img src="images/projects/terragentle2-desktop.png" alt="Terra Gentle Desktop View 2" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+2'">
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@
                                         <div class="mockup-url">terragentle.in</div>
                                     </div>
                                     <div class="mockup-content">
-                                        <img src="images/projects/terragentle-desktop.png" alt="Terra Gentle Desktop View 3" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+3'">
+                                        <img src="images/projects/terragentle3-desktop.png" alt="Terra Gentle Desktop View 3" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+3'">
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +158,7 @@
                                 <div class="mobile-mockup">
                                     <div class="mobile-notch"></div>
                                     <div class="mobile-content">
-                                        <img src="images/projects/terragentle-mobile.png" alt="Terra Gentle Mobile View 2" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+2'">
+                                        <img src="images/projects/terragentle2-mobile.png" alt="Terra Gentle Mobile View 2" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+2'">
                                     </div>
                                 </div>
                             </div>
@@ -166,7 +166,7 @@
                                 <div class="mobile-mockup">
                                     <div class="mobile-notch"></div>
                                     <div class="mobile-content">
-                                        <img src="images/projects/terragentle-mobile.png" alt="Terra Gentle Mobile View 3" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+3'">
+                                        <img src="images/projects/terragentle3-mobile.png" alt="Terra Gentle Mobile View 3" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+3'">
                                     </div>
                                 </div>
                             </div>

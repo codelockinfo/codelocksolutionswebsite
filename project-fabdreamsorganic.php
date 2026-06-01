@@ -106,7 +106,7 @@
                                         <div class="mockup-url">fabdreamsorganic.com</div>
                                     </div>
                                     <div class="mockup-content">
-                                        <img src="images/projects/fabdreamsorganic-desktop.png" alt="Fab Dreams Organic Desktop View 2" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+2'">
+                                        <img src="images/projects/fabdreamsorganic2-desktop.png" alt="Fab Dreams Organic Desktop View 2" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+2'">
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@
                                         <div class="mockup-url">fabdreamsorganic.com</div>
                                     </div>
                                     <div class="mockup-content">
-                                        <img src="images/projects/fabdreamsorganic-desktop.png" alt="Fab Dreams Organic Desktop View 3" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+3'">
+                                        <img src="images/projects/fabdreamsorganic3-desktop.png" alt="Fab Dreams Organic Desktop View 3" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+3'">
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +158,7 @@
                                 <div class="mobile-mockup">
                                     <div class="mobile-notch"></div>
                                     <div class="mobile-content">
-                                        <img src="images/projects/fabdreamsorganic-mobile.png" alt="Fab Dreams Organic Mobile View 2" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+2'">
+                                        <img src="images/projects/fabdreamsorganic2-mobile.png" alt="Fab Dreams Organic Mobile View 2" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+2'">
                                     </div>
                                 </div>
                             </div>
@@ -166,7 +166,7 @@
                                 <div class="mobile-mockup">
                                     <div class="mobile-notch"></div>
                                     <div class="mobile-content">
-                                        <img src="images/projects/fabdreamsorganic-mobile.png" alt="Fab Dreams Organic Mobile View 3" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+3'">
+                                        <img src="images/projects/fabdreamsorganic3-mobile.png" alt="Fab Dreams Organic Mobile View 3" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+3'">
                                     </div>
                                 </div>
                             </div>
