@@ -18,9 +18,6 @@ ob_start(function($buffer) {
 <html lang="en">
 <head>
     <?php
-        // Dynamically construct clean canonical URL matching the sitemap.xml structure
-        $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
-        $domain = $_SERVER['HTTP_HOST'];
         $request_path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         $clean_path = preg_replace('/\.php$/', '', $request_path);
         
@@ -29,7 +26,12 @@ ob_start(function($buffer) {
             $clean_path = '/';
         }
         
-        $canonical_url = $protocol . $domain . $clean_path;
+        // Parse the current active domain and dynamically strip 'www.' if present
+        $raw_host = $_SERVER['HTTP_HOST'];
+        $clean_host = preg_replace('/^www\./i', '', $raw_host);
+        
+        // Construct canonical URL using HTTPS and clean dynamic host
+        $canonical_url = "https://" . $clean_host . $clean_path;
         if ($clean_path !== '/') {
             $canonical_url = rtrim($canonical_url, '/');
         }
