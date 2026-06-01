@@ -406,7 +406,7 @@
             <h2 class="text-center related-blogs-title">Related Blogs</h2>
         </div>
     </div>
-    <div class="container-fluid p-5 related-blogs-section">
+    <div class="container-fluid p-5 related-blogs-section container">
         <div class="row">
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
                 <div class="resource-card">

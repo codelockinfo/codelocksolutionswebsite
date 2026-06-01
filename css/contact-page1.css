@@ -715,24 +715,6 @@
 .ct-field-wrap {
     position: relative;
 }
-.ct-field-wrap::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 2px;
-    background: var(--gradient-primary);
-    border-radius: 2px;
-    transition: width 0.4s cubic-bezier(0.16,1,0.3,1),
-                left 0.4s cubic-bezier(0.16,1,0.3,1);
-    pointer-events: none;
-    z-index: 3;
-}
-.ct-field-wrap:focus-within::after {
-    width: 100%;
-    left: 0;
-}
 
 /* Staggered form field reveal on scroll */
 .contact-form-container .form-group {

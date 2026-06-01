@@ -449,7 +449,7 @@
                 <p data-sr="fadeup" style="--sr-delay: 0.3s">We have a special team for website design who has been involved in designing professional websites of all categories. High-tech industries play an important role in the modern economy, and digital solutions have transformed the world for web applications.</p>
             </div>
             <div class="about-image" data-sr="fadeup" style="--sr-delay: 0.4s">
-                <img src="images/about-us.png" alt="About Codelock Solutions" />
+                <img src="images/about.png" alt="About Codelock Solutions" />
             </div>
         </div>
     </section>
@@ -484,7 +484,7 @@
             </div>
             <div class="testimonial-card">
                 <div class="testimonial-avatar">
-                    <img src="images/testimonial/boy.jpg" alt="Tushar Rathod" />
+                    <img src="images/testimonial/boy.jpg" alt="Rahul Sharma" />
                 </div>
                 <div class="testimonial-rating">
                     <i class="fa fa-star"></i>
@@ -493,10 +493,10 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                 </div>
-                <p class="testimonial-quote">We provide fantastic collaborative working environment for our employees and good services and values for our satisfied customers.</p>
+                <p class="testimonial-quote">Codelock Solutions delivered an exceptional e-commerce platform that exceeded our expectations. Their team's expertise in Shopify development and attention to detail helped us increase our online sales by 40% within the first quarter.</p>
                 <div class="testimonial-author">
-                    <h4>Tushar Rathod</h4>
-                    <span>Co-founder</span>
+                    <h4>Rahul Sharma</h4>
+                    <span>CEO, FashionHub</span>
                 </div>
             </div>
             <div class="testimonial-card">

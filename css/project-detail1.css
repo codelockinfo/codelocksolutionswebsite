@@ -343,7 +343,6 @@
     border: 12px solid #1c1b22;
     border-radius: 40px;
     overflow: hidden;
-    box-shadow: 0 20px 60px var(--shadow-color);
     position: relative;
     margin: 0 auto;
 }
@@ -779,6 +778,14 @@
     }
     .tech-icon {
         margin: 0 auto;
+    }
+    .mobile-screenshot .slider-container {
+        width: 100%;
+    }
+
+    .mobile-mockup {
+        width: 260px;
+        height: 500px;
     }
 }
 

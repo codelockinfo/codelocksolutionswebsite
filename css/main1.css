@@ -1582,14 +1582,27 @@ div.product ul.tabs li a{
     padding: 17px 15px;
     margin: 22px 0 0px;
     position: relative;
+    background: var(--gradient-primary);
+    border-radius: 15px;
+    animation: quicklinkBoxPulse 3s ease-in-out infinite;
+}
+
+@keyframes quicklinkBoxPulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
 }
 .quicklink-box .featured-icon-box .ttm-icon.ttm-icon_element-size-md{
     height: 50px;
     width: 50px;
     line-height: 51px;
 }
-.quicklink-box .featured-icon-box .ttm-icon span{font-size: 23px;}
-.quicklink-box .featured-title h5{font-size: 17px;line-height: 24px;margin-bottom: 0; color: var(--text-primary);}
+.quicklink-box .featured-icon-box .ttm-icon span{font-size: 23px; color: #fff;}
+.quicklink-box .featured-title h5{font-size: 17px;line-height: 24px;margin-bottom: 0; color: #fff;}
+.quicklink-box .featured-desc p{color: #fff;}
 .quicklink-box .featured-content{padding-left: 15px !important;}
 /** bottom-footer **/
 .bottom-footer-text{

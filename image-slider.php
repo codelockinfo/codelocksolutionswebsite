@@ -4,7 +4,7 @@ $projects = [
         'title' => 'Kiddicare',
         'category' => 'BABY & KIDS',
         'desc' => 'Premium organic baby clothing and essentials store built on Shopify.',
-        'img' => 'images/our project/shopify website1.png',
+        'img' => 'images/project/kiddicare.png',
         'link' => 'project-kiddicare.php',
         'icon' => 'fa-child',
         'color' => 'purple',
@@ -15,7 +15,7 @@ $projects = [
         'title' => 'Millennium Jewelry',
         'category' => 'JEWELRY & LUXURY',
         'desc' => 'Exquisite custom jewelry and diamonds store with an elegant storefront.',
-        'img' => 'images/our project/shopify website4.png',
+        'img' => 'images/project/millenniumjewelery.png',
         'link' => 'project-millenniumjewelery.php',
         'icon' => 'fa-gem',
         'color' => 'purple',
@@ -26,7 +26,7 @@ $projects = [
         'title' => 'Fab Dreams Organic',
         'category' => 'HOME DECOR',
         'desc' => 'Premium 100% organic cotton bedding, sheets, and home linens.',
-        'img' => 'images/our project/shopify website6.png',
+        'img' => 'images/project/fabdreamsorganic.png',
         'link' => 'project-fabdreamsorganic.php',
         'icon' => 'fa-bed',
         'color' => 'blue',
@@ -37,7 +37,7 @@ $projects = [
         'title' => 'Florence Black',
         'category' => 'LUXURY STREETWEAR',
         'desc' => 'Premium high-fashion and structured contemporary apparel line.',
-        'img' => 'images/our project/shopify website8.png',
+        'img' => 'images/project/florenceblack.png',
         'link' => 'project-florenceblack.php',
         'icon' => 'fa-crown',
         'color' => 'green',
@@ -48,7 +48,7 @@ $projects = [
         'title' => 'Cosnet',
         'category' => 'E-COMMERCE',
         'desc' => 'A comprehensive e-commerce platform featuring a wide range of products with advanced filtering and secure checkout.',
-        'img' => 'images/projects/cosnet-desktop.png',
+        'img' => 'images/projects/cosnet.png',
         'link' => 'project-cosnet.php',
         'icon' => 'fa-shopping-cart',
         'color' => 'blue',  
@@ -59,7 +59,7 @@ $projects = [
         'title' => 'Naturanari',
         'category' => 'ORGANIC BEAUTY',
         'desc' => 'Premium e-commerce platform for organic and natural beauty products with sustainable brand values.',
-        'img' => 'images/projects/naturanari-desktop.png',
+        'img' => 'images/projects/naturanari.png',
         'link' => 'project-naturanari.php',
         'icon' => 'fa-leaf',
         'color' => 'green',
@@ -150,49 +150,9 @@ $projects = [
                             </div>
                             
                             <div class="card-visual">
-                                <?php if ($mockupType === 'browser'): ?>
-                                <!-- Browser Screen Mockup -->
-                                <div class="mockup-panel browser-mockup">
-                                    <div class="mockup-header">
-                                        <div class="header-dots">
-                                            <span></span><span></span><span></span>
-                                        </div>
-                                        <div class="mockup-address-bar"><?= parse_url($project['link'], PHP_URL_HOST) ?></div>
-                                    </div>
-                                    <div class="mockup-browser-body">
-                                        <img src="<?= $project['img'] ?>" alt="<?= $project['title'] ?> Storefront" class="project-screenshot-img">
-                                    </div>
+                                <div class="mockup-panel">
+                                    <img src="<?= $project['img'] ?>" alt="<?= $project['title'] ?> Storefront" class="project-screenshot-img">
                                 </div>
-                                
-                                <?php elseif ($mockupType === 'phone'): ?>
-                                <!-- Phone Mockup Frame -->
-                                <div class="mockup-panel phone-mockup">
-                                    <div class="phone-notch"></div>
-                                    <div class="phone-screen">
-                                        <div class="phone-header">
-                                            <span class="phone-logo"><?= $project['title'] ?></span>
-                                            <i class="fa fa-shopping-cart font-xs"></i>
-                                        </div>
-                                        <div class="phone-screen-body">
-                                            <img src="<?= $project['img'] ?>" alt="<?= $project['title'] ?> Mobile" class="project-screenshot-img">
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <?php elseif ($mockupType === 'tablet'): ?>
-                                <!-- Tablet Mockup Frame -->
-                                <div class="mockup-panel tablet-mockup">
-                                    <div class="mockup-header">
-                                        <div class="header-dots">
-                                            <span></span><span></span><span></span>
-                                        </div>
-                                        <span class="tablet-nav-title"><?= parse_url($project['link'], PHP_URL_HOST) ?></span>
-                                    </div>
-                                    <div class="mockup-tablet-body">
-                                        <img src="<?= $project['img'] ?>" alt="<?= $project['title'] ?> Tablet" class="project-screenshot-img">
-                                    </div>
-                                </div>
-                                <?php endif; ?>
 
                                 <!-- 3D Layered Floating Glassmorphic Badge -->
                                 <div class="floating-mockup-badge">
@@ -632,6 +592,8 @@ $projects = [
     transform: rotateY(-14deg) rotateX(6deg) translateZ(0);
     transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
     transform-style: preserve-3d;
+    width: 200px;
+    height: auto;
 }
 
 /* Web Screenshot scroll-on-hover effect */

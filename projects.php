@@ -49,7 +49,7 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob"></div>
                         <div class="project-image-wrap">
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(0, 242, 254, 0.15) 0%, rgba(16, 185, 129, 0.15) 100%);">
+                            <div class="project-mockup-graphics">
                                 <svg width="120" height="120" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect x="15" y="25" width="70" height="50" rx="6" stroke="var(--accent-primary)" stroke-width="2" fill="rgba(7,5,20,0.4)" />
                                     <line x1="15" y1="37" x2="85" y2="37" stroke="var(--accent-primary)" stroke-width="1.5" />
@@ -83,8 +83,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-accent"></div>
                         <div class="project-image-wrap">
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(255, 0, 127, 0.15) 0%, rgba(0, 242, 254, 0.15) 100%);">
-                                <img src="images/projects/kiddicare-desktop.png" alt="kiddicare" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/kiddicare.png" alt="kiddicare" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -108,8 +108,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-tertiary"></div>
                         <div class="project-image-wrap">
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(255, 0, 127, 0.15) 100%);">
-                                <img src="images/projects/fabdreamsorganic-desktop.png" alt="fab dreams organic" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/fabdreamsorganic.png" alt="fab dreams organic" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -133,7 +133,7 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-tertiary"></div>
                         <div class="project-image-wrap">
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(0, 242, 254, 0.15) 100%);">
+                            <div class="project-mockup-graphics">
                                 <svg width="120" height="120" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect x="20" y="20" width="60" height="60" rx="4" stroke="var(--accent-tertiary)" stroke-width="2" fill="rgba(7,5,20,0.4)" />
                                     <rect x="30" y="30" width="40" height="10" rx="2" fill="rgba(0, 242, 254, 0.15)" stroke="var(--accent-primary)" stroke-width="1" />
@@ -164,7 +164,7 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-accent"></div>
                         <div class="project-image-wrap">
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(255, 0, 127, 0.15) 0%, rgba(16, 185, 129, 0.15) 100%);">
+                            <div class="project-mockup-graphics">
                                 <svg width="120" height="120" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect x="20" y="20" width="60" height="60" rx="4" stroke="var(--accent-secondary)" stroke-width="2" fill="rgba(7,5,20,0.4)" />
                                     <circle cx="50" cy="50" r="14" fill="rgba(255, 0, 127, 0.2)" stroke="var(--accent-secondary)" stroke-width="1.5" />
@@ -193,8 +193,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob"></div>
                         <div class="project-image-wrap">
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(0, 242, 254, 0.15) 0%, rgba(255, 0, 127, 0.15) 100%);">
-                                <img src="images/projects/cosnet-desktop.png" alt="cosnet" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/cosnet.png" alt="cosnet" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -218,8 +218,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-accent"></div>
                         <div class="project-image-wrap">                         
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(255, 0, 127, 0.15) 0%, rgba(16, 185, 129, 0.15) 100%);">
-                                <img src="images/projects/naturanari-desktop.png" alt="naturanari" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/naturanari.png" alt="naturanari" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -243,8 +243,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-tertiary"></div>
                         <div class="project-image-wrap">
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(0, 242, 254, 0.15) 100%);">
-                                <img src="images/projects/rangya-desktop.png" alt="rangya" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/rangya.png" alt="rangya" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -268,8 +268,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob"></div>
                         <div class="project-image-wrap">
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(0, 242, 254, 0.15) 0%, rgba(255, 0, 127, 0.15) 100%);">
-                                <img src="images/projects/aadhunikgtech-desktop.png" alt="aadhunikgtech" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/aadhunik.png" alt="aadhunikgtech" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -293,8 +293,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-accent"></div>
                         <div class="project-image-wrap">                           
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(255, 0, 127, 0.15) 0%, rgba(16, 185, 129, 0.15) 100%);">
-                                <img src="images/projects/civiajewels-desktop.png" alt="civia jewels" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/civiajewels.png" alt="civia jewels" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -318,8 +318,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-tertiary"></div>
                         <div class="project-image-wrap">                           
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(0, 242, 254, 0.15) 100%);">
-                                <img src="images/projects/bbare-desktop.png" alt="bbare" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/bbare.png" alt="bbare" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -343,8 +343,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob"></div>
                         <div class="project-image-wrap">                            
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(0, 242, 254, 0.15) 0%, rgba(255, 0, 127, 0.15) 100%);">
-                                <img src="images/projects/hamporio-desktop.png" alt="hamporio" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/hamporio.png" alt="hamporio" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -368,7 +368,7 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-accent"></div>
                         <div class="project-image-wrap">                            
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(255, 0, 127, 0.15) 0%, rgba(16, 185, 129, 0.15) 100%);">
+                            <div class="project-mockup-graphics">
                                 <img src="images/projects/rakva-desktop.png" alt="rakva" class="project-img">
                             </div>
                         </div>
@@ -393,8 +393,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-tertiary"></div>
                         <div class="project-image-wrap">
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(0, 242, 254, 0.15) 100%);">
-                                <img src="images/projects/ayaani-desktop.png" alt="ayaani" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/ayaani.png" alt="ayaani" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -418,8 +418,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob"></div>
                         <div class="project-image-wrap">                           
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(0, 242, 254, 0.15) 0%, rgba(255, 0, 127, 0.15) 100%);">
-                                <img src="images/projects/warriorworld-desktop.png" alt="warrior world" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/warriorworld.png" alt="warrior world" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -443,8 +443,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-accent"></div>
                         <div class="project-image-wrap">                            
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(255, 0, 127, 0.15) 0%, rgba(16, 185, 129, 0.15) 100%);">
-                                <img src="images/projects/millenniumjewelery-desktop.png" alt="millennium jewelery" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/millenniumjewelery.png" alt="millennium jewelery" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -468,8 +468,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-tertiary"></div>
                         <div class="project-image-wrap">                           
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(0, 242, 254, 0.15) 100%);">
-                                <img src="images/projects/gemroyals-desktop.png" alt="gem royals" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/gemroyals.png" alt="gem royals" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -493,8 +493,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob"></div>
                         <div class="project-image-wrap">                           
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(0, 242, 254, 0.15) 0%, rgba(255, 0, 127, 0.15) 100%);">
-                                <img src="images/projects/fillerlabdenmark-desktop.png" alt="filler lab denmark" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/fillerlabdenmark.png" alt="filler lab denmark" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -518,8 +518,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-accent"></div>
                         <div class="project-image-wrap">                            
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(255, 0, 127, 0.15) 0%, rgba(16, 185, 129, 0.15) 100%);">
-                                <img src="images/projects/florenceblack-desktop.png" alt="florence black" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/florenceblack.png" alt="florence black" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -543,8 +543,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-tertiary"></div>
                         <div class="project-image-wrap">
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(0, 242, 254, 0.15) 100%);">
-                                <img src="images/projects/justmeats-desktop.png" alt="just meats" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/justmeats.png" alt="just meats" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -568,8 +568,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob"></div>
                         <div class="project-image-wrap">                           
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(0, 242, 254, 0.15) 0%, rgba(255, 0, 127, 0.15) 100%);">
-                                <img src="images/projects/pazzionindia-desktop.png" alt="pazzion india" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/pazzionindia.png" alt="pazzion india" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -593,8 +593,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-accent"></div>
                         <div class="project-image-wrap">                           
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(255, 0, 127, 0.15) 0%, rgba(16, 185, 129, 0.15) 100%);">
-                                <img src="images/projects/terragentle-desktop.png" alt="terra gentle" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/terragentle.png" alt="terra gentle" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -618,8 +618,8 @@
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-tertiary"></div>
                         <div class="project-image-wrap">                           
-                            <div class="project-mockup-graphics" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(0, 242, 254, 0.15) 100%);">
-                                <img src="images/projects/tistabene-desktop.png" alt="tistabene" class="project-img">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/tistabene.png" alt="tistabene" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
