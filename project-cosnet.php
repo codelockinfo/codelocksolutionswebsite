@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 <link rel="stylesheet" type="text/css" href="css/projects.css" />
-<link rel="stylesheet" type="text/css" href="css/project-detail.css" />
+<link rel="stylesheet" type="text/css" href="css/project-detail1.css" />
 
 <!-- ======================================================
      PROJECT DETAIL PAGE - COSNET
@@ -308,6 +308,6 @@
 
 </div>
 
-<script src="js/project-detail.js"></script>
+<script src="js/project-detail1.js"></script>
 
 <?php include 'footer.php';?>
