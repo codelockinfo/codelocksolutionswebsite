@@ -64,13 +64,13 @@
             </div>
 
             <div class="hero-cta-group">
-                <a href="contact.php" id="hero-start-project" class="cta-primary">
+                <a href="contact.php" class="cta-primary gtm-hero-link" data-hero-name="Start Your Project">
                     <span>Start Your Project</span>
                     <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M5 12h14M12 5l7 7-7 7"/>
                     </svg>
                 </a>
-                <a href="services.php" id="hero-view-services" class="cta-secondary">
+                <a href="services.php" class="cta-secondary gtm-hero-link" data-hero-name="View Services">
                     <span>View Services</span>
                     <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <circle cx="12" cy="12" r="10"/>
