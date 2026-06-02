@@ -199,7 +199,7 @@ $projects = [
 .projects-slider-section {
     position: relative;
     background: var(--bg-primary);
-    padding: 80px 0;
+    padding: 40px 0;
     overflow: hidden;
     width: 100%;
     transition: background 0.5s ease;
@@ -535,7 +535,7 @@ $projects = [
     font-weight: 700;
     letter-spacing: 1.5px;
     color: var(--card-accent);
-    margin-bottom: 8px;
+    margin-bottom: 0px;
 }
 
 .projects-slider-section .card-title {
@@ -966,7 +966,7 @@ $projects = [
    ========================================================================== */
 .slider-controls-panel {
     position: absolute;
-    right: 0;
+    right: -40px;
     top: 50%;
     transform: translateY(-50%);
     display: flex;
@@ -1098,7 +1098,7 @@ $projects = [
 
 @media (max-width: 767px) {
     .projects-slider-section {
-        padding: 40px 0;
+        padding: 30px 0;
     }
 
     /* Left column: compact on mobile */
@@ -1180,7 +1180,7 @@ $projects = [
         width: 38px;
         height: 38px;
         font-size: 15px;
-        margin-bottom: 14px;
+        margin-bottom: 5px;
     }
     .card-category {
         font-size: 9px;
@@ -1193,7 +1193,7 @@ $projects = [
     .card-desc {
         font-size: 13px;
         line-height: 1.55;
-        margin-bottom: 16px;
+        margin-bottom: 10px;
         min-height: auto;
     }
     .case-study-link {

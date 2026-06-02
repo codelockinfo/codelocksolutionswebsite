@@ -75,7 +75,7 @@
 
     <style>
     .faq-section {
-        padding: 80px 0;
+        padding: 40px 0;
         background: var(--bg-primary);
         position: relative;
         overflow: hidden;
@@ -265,7 +265,7 @@
             font-size: 16px;
         }
         .faq-section {
-            padding: 40px 0;
+            padding: 30px 0;
         }
     }
     </style>

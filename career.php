@@ -75,7 +75,7 @@
 }
 
 .career-jobs-section {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .career-jobs-grid {
@@ -517,6 +517,9 @@ input[type="number"] {
 }
 
 @media (max-width: 768px) {
+    .career-jobs-section {
+        padding: 30px 0;
+    }
     .career-hero h1 {
         font-size: 2.5rem;
     }

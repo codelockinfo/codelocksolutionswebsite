@@ -223,7 +223,7 @@
 
 /* Chronological Timeline */
 .process-section {
-    padding: 80px 0;
+    padding: 40px 0;
     position: relative;
 }
 
@@ -339,7 +339,7 @@
 
 /* Accordion FAQs */
 .faq-section {
-    padding: 80px 0;
+    padding: 40px 0;
     background: var(--bg-secondary);
     border-top: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
@@ -494,7 +494,7 @@
     text-align: center;
     position: relative;
     overflow: hidden;
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .banner-container {
@@ -658,7 +658,7 @@
     .process-section,
     .faq-section,
     .cta-banner {
-        padding: 40px 0;
+        padding: 30px 0;
     }
     .services-hero h1 {
         font-size: 30px;
@@ -718,7 +718,7 @@
 .services-showcase-section {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1909,7 +1909,7 @@
 /* Responsive styles for Services Showcase Section */
 @media (max-width: 991px) {
     .services-showcase-section {
-        padding: 60px 0;
+        padding: 40px 0;
         min-height: 100vh;
         overflow: visible;
     }

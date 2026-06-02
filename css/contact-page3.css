@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .redesign-section {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 @keyframes rotate {
@@ -537,7 +537,7 @@
 
 @media (max-width: 767px) {
     .redesign-section {
-        padding: 40px 0;
+        padding: 30px 0;
     }
     .redesign-page-title-row h1.title {
         font-size: 32px;

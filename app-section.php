@@ -62,7 +62,7 @@
     /* Shopify Apps Section Styles */
     .shopify-apps-section {
         position: relative;
-        padding: 80px 40px;
+        padding: 40px 40px;
         background: var(--bg-primary);
         color: var(--text-primary);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -371,7 +371,7 @@
 
     @media (max-width: 768px) {
         .shopify-apps-section {
-            padding: 40px 20px;
+            padding: 30px 20px;
         }
 
         .apps-headline {

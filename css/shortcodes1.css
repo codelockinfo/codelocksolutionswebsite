@@ -53,7 +53,7 @@
     1.ttm-row
 ------------------------*/
 
-.ttm-row{ padding: 90px 0;}
+.ttm-row{ padding: 40px 0;}
 .ttm-row.zero-padding-section,
 .ttm-row.map-section{padding: 0 0;}
 .ttm-row.topzero-padding-section{padding: 0 0 90px;}

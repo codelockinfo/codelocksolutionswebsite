@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
-<link rel="stylesheet" type="text/css" href="css/projects1.css" />
-<link rel="stylesheet" type="text/css" href="css/project-detail2.css" />
+<link rel="stylesheet" type="text/css" href="css/projects2.css" />
+<link rel="stylesheet" type="text/css" href="css/project-detail3.css" />
 
 <!-- ======================================================
      PROJECT DETAIL PAGE - BBARE

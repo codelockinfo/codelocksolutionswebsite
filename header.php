@@ -74,7 +74,7 @@ ob_start(function($buffer) {
     <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
 
     <!-- shortcodes -->
-    <link rel="stylesheet" type="text/css" href="css/shortcodes.css" />
+    <link rel="stylesheet" type="text/css" href="css/shortcodes1.css" />
 
     <!-- main -->
     <link rel="stylesheet" type="text/css" href="css/main2.css" />

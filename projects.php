@@ -1,6 +1,64 @@
 <?php include 'header.php';?>
-<link rel="stylesheet" type="text/css" href="css/projects1.css" />
+<link rel="stylesheet" type="text/css" href="css/projects2.css" />
+<style>
+    .redesign-cta-btn {
+            flex: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 11px 20px;
+    background: var(--gradient-primary);
+    color: #ffffff !important;
+    font-size: 13.5px;
+    font-weight: 700;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px var(--shadow-color);
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    /* Span Mother Hover Text Transitions */
+    .button-text-wrapper {
+        position: relative;
+        display: inline-flex;
+        overflow: hidden;
+        height: 1.4em;
+        align-items: center;
+    }
 
+    .span-mother {
+        display: flex;
+        position: relative;
+    }
+
+    .span-mother2 {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .span-mother span {
+        display: inline-block;
+        transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .span-mother2 span {
+        display: inline-block;
+        transform: translateY(-1.4em);
+        transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .cta-primary:hover .span-mother span,
+    .cta-secondary:hover .span-mother span {
+        transform: translateY(1.4em);
+    }
+
+    .cta-primary:hover .span-mother2 span,
+    .cta-secondary:hover .span-mother2 span {
+        transform: translateY(0);
+    }
+</style>
 <!-- ======================================================
      PREMIUM ANIMATED PROJECTS SHOWCASE PAGE
      ====================================================== -->
@@ -720,7 +778,7 @@
                     <h2>Have a Custom Project in Mind?</h2>
                     <p>Unlock premium designs and rapid conversion metrics for your digital business. Let our certified engineers formulate a custom-scoped quote tailored to your exact timelines.</p>
                     <a href="contact.php" class="redesign-cta-btn cta-primary">
-                        <span>Get Started Today <i class="fa fa-paper-plane" style="margin-left: 8px;"></i></span>
+                        <span class="button-text-wrapper">Get Started Today <i class="fa fa-paper-plane" style="margin-left: 8px;"></i></span>
                     </a>
                 </div>
             </div>

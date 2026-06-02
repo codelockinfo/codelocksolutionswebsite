@@ -203,7 +203,7 @@
 
 /* Overview Section */
 .project-overview-section {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .project-overview-grid {
@@ -257,7 +257,7 @@
 
 /* Screenshot Section */
 .project-screenshot-section {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .screenshot-header {
@@ -373,7 +373,7 @@
 
 /* Features Section */
 .project-features-section {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .section-header {
@@ -443,7 +443,7 @@
 
 /* Tech Section */
 .project-tech-section {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .tech-grid {
@@ -494,7 +494,7 @@
 
 /* CTA Section */
 .project-cta-section {
-    padding: 80px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -727,7 +727,7 @@
     .project-screenshot-section,
     .project-features-section,
     .project-tech-section {
-        padding: 40px 0;
+        padding: 30px 0;
     }
     
     .overview-stats {
@@ -743,7 +743,7 @@
     }
     
     .project-cta-section {
-        padding: 40px 0;
+        padding: 30px 0;
     }
 
     .project-cta-inner {

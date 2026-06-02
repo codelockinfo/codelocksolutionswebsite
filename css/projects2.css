@@ -187,9 +187,7 @@
 
 /* ── Projects Grid ────────────────────────────────────── */
 .projects-grid-section {
-    padding-bottom: 80px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 40px 15px;
 }
 
 .projects-grid {
@@ -497,7 +495,7 @@
 
 /* ── Delivery process timeline ─────────────────────────── */
 .timeline-section {
-    padding: 80px 15px;
+    padding: 40px 15px;
 }
 
 .timeline-timeline {
@@ -661,7 +659,7 @@
 }
 
 .redesign-section {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 /* ── Responsive Media Queries ────────────────────────── */
@@ -689,7 +687,7 @@
         right: auto !important;
     }
     .timeline-section {
-        padding: 60px 15px;
+        padding: 50px 15px;
     }
 }
 
@@ -740,9 +738,7 @@
 
     /* Projects grid: single column */
     .projects-grid-section {
-        padding-bottom: 35px;
-        padding-left: 12px;
-        padding-right: 12px;
+        padding: 30px 12px;
     }
     .projects-grid {
         grid-template-columns: 1fr;
@@ -794,7 +790,7 @@
 
     /* Timeline */
     .timeline-section {
-        padding: 45px 12px;
+        padding: 30px 12px;
     }
     .timeline-timeline {
         margin-top: 30px;
@@ -811,7 +807,7 @@
 
     /* CTA */
     .redesign-section {
-        padding: 40px 0 50px;
+        padding: 30px 0 40px;
     }
     .redesign-cta-banner {
         padding: 40px 20px;
@@ -821,6 +817,48 @@
     }
     .redesign-cta-banner p {
         font-size: 15px;
+    }
+
+    /* Span Mother Hover Text Transitions */
+    .button-text-wrapper {
+        position: relative;
+        display: inline-flex;
+        overflow: hidden;
+        height: 1.4em;
+        align-items: center;
+    }
+
+    .span-mother {
+        display: flex;
+        position: relative;
+    }
+
+    .span-mother2 {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .span-mother span {
+        display: inline-block;
+        transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .span-mother2 span {
+        display: inline-block;
+        transform: translateY(-1.4em);
+        transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .cta-primary:hover .span-mother span,
+    .cta-secondary:hover .span-mother span {
+        transform: translateY(1.4em);
+    }
+
+    .cta-primary:hover .span-mother2 span,
+    .cta-secondary:hover .span-mother2 span {
+        transform: translateY(0);
     }
 }
 

@@ -76,7 +76,7 @@
 }
 
 .about-section {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .about-content {
@@ -178,7 +178,7 @@
 }
 
 .testimonials-section {
-    padding: 80px 0;
+    padding: 40px 0;
     background: var(--bg-secondary);
 }
 
@@ -267,7 +267,7 @@
 }
 
 .cta-section {
-    padding: 80px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -400,7 +400,7 @@
     .about-section,
     .testimonials-section,
     .cta-section {
-        padding: 40px 0;
+        padding: 30px 0;
     }
 
     .about-text h2,

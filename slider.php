@@ -1009,12 +1009,18 @@
     }
 
     @media (max-width: 480px) {
+        .hero-container {
+            padding: 80px 12px 30px;
+        }
         .hero-headline {
             font-size: 26px;
         }
-
+        
         .hero-subheadline {
             font-size: 13.5px;
+        }
+        .hero-badge .badge-text {
+            font-size: 11px;
         }
         
         .slider-pagination {
