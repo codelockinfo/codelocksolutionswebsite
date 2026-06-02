@@ -185,6 +185,208 @@
         <priority>0.6</priority>
     </url>
 
+    <!-- New Blogs (2026) -->
+    <url>
+        <loc>https://codelocksolutions.com/why-shopify-best-ecommerce-platform-2026</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/blog1.webp</image:loc>
+            <image:title>Why Shopify is the Best eCommerce Platform for Growing Businesses in 2026</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/shopify-vs-woocommerce-magento</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/why_Shopify-Experts.webp</image:loc>
+            <image:title>Top 10 Reasons Entrepreneurs Choose Shopify Over WooCommerce and Magento</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/best-shopify-agency-surat</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/shopify-develoment.png</image:loc>
+            <image:title>Best Shopify Development Agency in Surat: How to Choose the Right Partner</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/shopify-apps-increase-sales-conversions-2026</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/blog2.webp</image:loc>
+            <image:title>15 Must-Have Shopify Apps to Increase Sales and Conversions in 2026</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/shopify-vs-wordpress-ecommerce</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/custom_web.webp</image:loc>
+            <image:title>Shopify vs WordPress: Which Platform is Better for Your Online Store?</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/how-shopify-helps-small-businesses-scale</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/blog3.webp</image:loc>
+            <image:title>How Shopify Websites Help Small Businesses Scale Faster</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/shopify-website-development-beginners-guide</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/blogimg7.png</image:loc>
+            <image:title>The Complete Guide to Shopify Website Development for Beginners</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/best-shopify-themes-high-converting-2026</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/blog4.webp</image:loc>
+            <image:title>Best Shopify Themes for High-Converting eCommerce Stores in 2026</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/professional-shopify-agency-boost-sales</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/blog5.webp</image:loc>
+            <image:title>How a Professional Shopify Agency Can Boost Your Online Sales</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/shopify-seo-best-practices</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/blogimg8.png</image:loc>
+            <image:title>Shopify SEO Best Practices: Rank Higher and Drive More Organic Traffic</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/surat-businesses-switching-to-shopify</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/blog6.webp</image:loc>
+            <image:title>Why Businesses in Surat Are Switching to Shopify for eCommerce Success</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/shopify-website-development-services-surat</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/blog7.webp</image:loc>
+            <image:title>Top Shopify Website Development Services in Surat for Modern Brands</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/how-to-hire-shopify-experts-surat</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/hire-shopify-developer-e-commerce.png</image:loc>
+            <image:title>How to Hire the Best Shopify Experts in Surat</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/shopify-website-cost-india-2026</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/pricing.png</image:loc>
+            <image:title>Shopify Website Cost in India: Complete Pricing Guide for 2026</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/best-shopify-agency-surat-fashion-jewelry-d2c</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/blog8.webp</image:loc>
+            <image:title>Best Shopify Agency in Surat for Fashion, Jewelry, and D2C Brands</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/top-shopify-ai-apps-2026</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/blog9.webp</image:loc>
+            <image:title>Top Shopify AI Apps That Are Transforming eCommerce in 2026</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/build-high-converting-shopify-store</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/blog10.webp</image:loc>
+            <image:title>How to Build a Shopify Store That Converts Visitors into Customers</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/shopify-plus-vs-shopify-advanced</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/shopify plus.webp</image:loc>
+            <image:title>Shopify Plus vs Shopify Advanced: Which Plan Should You Choose?</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/common-shopify-mistakes-costing-money</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/blog11.webp</image:loc>
+            <image:title>Common Shopify Mistakes That Are Costing Store Owners Thousands</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://codelocksolutions.com/shopify-case-study-300-revenue-increase</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://codelocksolutions.com/images/blog-img/blog12.webp</image:loc>
+            <image:title>Case Study: How a Shopify Store Increased Revenue by 300% in 6 Months</image:title>
+        </image:image>
+    </url>
+    
     <!-- Project: Aadhunik GTECH -->
     <url>
         <loc>https://codelocksolutions.com/project-aadhunikgtech</loc>

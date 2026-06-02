@@ -264,6 +264,7 @@
 .testimonial-rating {
     color: #ffd700;
     margin-bottom: 15px;
+    justify-self: center;
 }
 
 .cta-section {
@@ -469,51 +470,51 @@
                 <div class="testimonial-avatar">
                     <img src="images/testimonial/boy.jpg" alt="Veerbhdrasinh Chauhan" />
                 </div>
+                <p class="testimonial-quote">Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far. No coding skills required.</p>
+                <div class="testimonial-author">
+                    <h4>Veerbhdrasinh Chauhan</h4>
+                    <span>Web Developer</span>
+                </div>
                 <div class="testimonial-rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                </div>
-                <p class="testimonial-quote">Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far. No coding skills required.</p>
-                <div class="testimonial-author">
-                    <h4>Veerbhdrasinh Chauhan</h4>
-                    <span>Web Developer</span>
                 </div>
             </div>
             <div class="testimonial-card">
                 <div class="testimonial-avatar">
                     <img src="images/testimonial/boy.jpg" alt="Rahul Sharma" />
                 </div>
+                <p class="testimonial-quote">Codelock Solutions delivered an exceptional e-commerce platform that exceeded our expectations. Their team's expertise in Shopify development and attention to detail helped us increase our online sales by 40% within the first quarter.</p>
+                <div class="testimonial-author">
+                    <h4>Rahul Sharma</h4>
+                    <span>CEO, FashionHub</span>
+                </div>
                 <div class="testimonial-rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                </div>
-                <p class="testimonial-quote">Codelock Solutions delivered an exceptional e-commerce platform that exceeded our expectations. Their team's expertise in Shopify development and attention to detail helped us increase our online sales by 40% within the first quarter.</p>
-                <div class="testimonial-author">
-                    <h4>Rahul Sharma</h4>
-                    <span>CEO, FashionHub</span>
                 </div>
             </div>
             <div class="testimonial-card">
                 <div class="testimonial-avatar">
                     <img src="images/testimonial/girl.jpg" alt="Drashti Sankla" />
                 </div>
+                <p class="testimonial-quote">Great Web Designing company in Surat, friendly support, quality work. Also, great for job seekers, freshers to give boost to their career in IT field.</p>
+                <div class="testimonial-author">
+                    <h4>Drashti Sankla</h4>
+                    <span>Web Designer</span>
+                </div>
                 <div class="testimonial-rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                </div>
-                <p class="testimonial-quote">Great Web Designing company in Surat, friendly support, quality work. Also, great for job seekers, freshers to give boost to their career in IT field.</p>
-                <div class="testimonial-author">
-                    <h4>Drashti Sankla</h4>
-                    <span>Web Designer</span>
                 </div>
             </div>
         </div>
