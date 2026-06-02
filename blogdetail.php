@@ -300,7 +300,7 @@
                         </div>
                     </div>
                     <div class="container mt-3">
-                        <form action="" class="form card2">
+                        <form action="" id="blog-comment-form" class="form card2">
                             <h4 class="leave">Leave a Reply</h4>
                             <p class="leave1">
                                 Your email address will not be published. Required fields are
@@ -416,12 +416,12 @@
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Shopify</span></div>
                         <h4 class="resource-card-title">
-                            <a href="#">How to Hide Pages From Shopify Search Using Metafields</a>
+                            <a href="#" class="gtm-blog-link" data-blog-title="How to Hide Pages From Shopify Search Using Metafields">How to Hide Pages From Shopify Search Using Metafields</a>
                         </h4>
                         <p class="resource-card-excerpt">
                             Learn how to use metafields to control which pages appear in your Shopify store search results for better organization.
                         </p>
-                        <a href="#" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        <a href="#" class="resource-card-link gtm-blog-link" data-blog-title="How to Hide Pages From Shopify Search Using Metafields">Read More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -433,12 +433,12 @@
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Ecommerce</span></div>
                         <h4 class="resource-card-title">
-                            <a href="#">Shopify Online Store 2.0: Upgrade Your Ecommerce Business Needs</a>
+                            <a href="#" class="gtm-blog-link" data-blog-title="Shopify Online Store 2.0: Upgrade Your Ecommerce Business Needs">Shopify Online Store 2.0: Upgrade Your Ecommerce Business Needs</a>
                         </h4>
                         <p class="resource-card-excerpt">
                             Discover the benefits of upgrading to Shopify Online Store 2.0 and how it can transform your ecommerce business.
                         </p>
-                        <a href="#" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        <a href="#" class="resource-card-link gtm-blog-link" data-blog-title="Shopify Online Store 2.0: Upgrade Your Ecommerce Business Needs">Read More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -450,12 +450,12 @@
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Guide</span></div>
                         <h4 class="resource-card-title">
-                            <a href="#">A Detailed Guide for Shopify Merchants</a>
+                            <a href="#" class="gtm-blog-link" data-blog-title="A Detailed Guide for Shopify Merchants">A Detailed Guide for Shopify Merchants</a>
                         </h4>
                         <p class="resource-card-excerpt">
                             Comprehensive guide for Shopify merchants covering essential strategies and best practices for store success.
                         </p>
-                        <a href="#" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        <a href="#" class="resource-card-link gtm-blog-link" data-blog-title="A Detailed Guide for Shopify Merchants">Read More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

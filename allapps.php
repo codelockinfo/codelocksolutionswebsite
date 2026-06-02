@@ -126,7 +126,7 @@
                         </div>
 
                         <div class="app-full-actions">
-                            <a href="https://apps.shopify.com/easy-cookie-banner-gdpr-eu" target="_blank" class="app-cta-primary cta-primary">
+                            <a href="https://apps.shopify.com/easy-cookie-banner-gdpr-eu" target="_blank" class="app-cta-primary cta-primary gtm-app-link" data-app-name="Easy Cookie GDPR">
                                 <span class="button-text-wrapper">View on Shopify <i class="fa fa-external-link"></i></span>
                             </a>
                             <a href="contact.php" class="app-cta-secondary">
@@ -184,7 +184,7 @@
                         </div>
 
                         <div class="app-full-actions">
-                            <a href="https://apps.shopify.com/easy-form-builder-email" target="_blank" class="app-cta-primary cta-primary">
+                            <a href="https://apps.shopify.com/easy-form-builder-email" target="_blank" class="app-cta-primary cta-primary gtm-app-link" data-app-name="Easy Form Builder">
                                 <span class="button-text-wrapper">View on Shopify <i class="fa fa-external-link"></i></span>
                             </a>
                             <a href="contact.php" class="app-cta-secondary">
@@ -242,7 +242,7 @@
                         </div>
 
                         <div class="app-full-actions">
-                            <a href="https://apps.shopify.com/rewriter-mega-description" target="_blank" class="app-cta-primary cta-primary">
+                            <a href="https://apps.shopify.com/rewriter-mega-description" target="_blank" class="app-cta-primary cta-primary gtm-app-link" data-app-name="AI ReWriter">
                                 <span class="button-text-wrapper">View on Shopify <i class="fa fa-external-link"></i></span>
                             </a>
                             <a href="contact.php" class="app-cta-secondary">
@@ -356,7 +356,7 @@
                 <div class="redesign-cta-content">
                     <h2>Need a Custom Shopify App?</h2>
                     <p>Don't see what you're looking for? Our certified developers build tailor-made Shopify apps to solve any unique business challenge.</p>
-                    <a href="contact.php" class="redesign-cta-btn cta-primary">
+                    <a href="contact.php" class="redesign-cta-btn cta-primary gtm-app-link" data-app-name="Custom App Project">
                         <span class="button-text-wrapper">Start a Project <i class="fa fa-chevron-right"></i></span>
                     </a>
                 </div>

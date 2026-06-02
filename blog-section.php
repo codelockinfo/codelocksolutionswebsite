@@ -42,7 +42,7 @@
         </div>
 
         <div class="blog-footer">
-            <a href="blogs.php" class="view-all-btn cta-primary">
+            <a href="blogs.php" class="view-all-btn cta-primary gtm-blog-link" data-blog-title="View All Articles">
                 <span>View All Articles</span>
             </a>
         </div>

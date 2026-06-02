@@ -53,10 +53,10 @@
             <!-- Sliding descriptions container -->
             <div class="hero-subheadline-container">
                 <p class="hero-subheadline slide-desc active" data-slide="0">
-                    We build more than stores. We build revenue. Transform your business with a leading Shopify development agency and get a custom-designed storefront built to rank and convert.
+                    We build more than stores. We build revenue. Transform your business with a leading Shopify development agency and get a custom-designed, bold, smart, fast, and scalable storefront built to rank and convert.
                 </p>
                 <p class="hero-subheadline slide-desc" data-slide="1">
-                    Get custom Shopify theme customization and bespoke app development engineered for Core Web Vitals, page speed optimization, and mobile responsive performance.
+                    Get custom Shopify theme customization and bespoke app development engineered for Core Web Vitals, page speed optimization, and mobile responsive performance. We make your store bold, smart, fast, and scalable.
                 </p>
                 <p class="hero-subheadline slide-desc" data-slide="2">
                     Scale your enterprise with Shopify Plus development company services. Benefit from custom checkout workflows, secure Shopify Plus migrations, and B2B wholesale channels.
@@ -64,13 +64,13 @@
             </div>
 
             <div class="hero-cta-group">
-                <a href="contact.php" class="cta-primary">
+                <a href="contact.php" class="cta-primary gtm-hero-link" data-hero-name="Start Your Project">
                     <span>Start Your Project</span>
                     <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M5 12h14M12 5l7 7-7 7"/>
                     </svg>
                 </a>
-                <a href="services.php" class="cta-secondary">
+                <a href="services.php" class="cta-secondary gtm-hero-link" data-hero-name="View Services">
                     <span>View Services</span>
                     <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <circle cx="12" cy="12" r="10"/>

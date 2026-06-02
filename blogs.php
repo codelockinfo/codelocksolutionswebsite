@@ -501,12 +501,12 @@
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Pricing</span></div>
                         <h4 class="resource-card-title">
-                            <a href="pricing-blog.php">Shopify Website Design Pricing in 2024-2025</a>
+                            <a href="pricing-blog.php" class="gtm-blog-link" data-blog-title="Shopify Website Design Pricing in 2024-2025">Shopify Website Design Pricing in 2024-2025</a>
                         </h4>
                         <p class="resource-card-excerpt">
                             Planning to build or revamp your Shopify store? Get a clear, comprehensive breakdown of website design costs, theme selections, and customization budgets.
                         </p>
-                        <a href="pricing-blog.php" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        <a href="pricing-blog.php" class="resource-card-link gtm-blog-link" data-blog-title="Shopify Website Design Pricing in 2024-2025">Read More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -520,12 +520,12 @@
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
                         <h4 class="resource-card-title">
-                            <a href="custom_web.php">Shopify vs Custom Website: Which One to Invest in 2024?</a>
+                            <a href="custom_web.php" class="gtm-blog-link" data-blog-title="Shopify vs Custom Website: Which One to Invest in 2024?">Shopify vs Custom Website: Which One to Invest in 2024?</a>
                         </h4>
                         <p class="resource-card-excerpt">
                             Compare Shopify's convenience and app integrations against custom-built platforms. Discover which infrastructure matches your business goals.
                         </p>
-                        <a href="custom_web.php" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        <a href="custom_web.php" class="resource-card-link gtm-blog-link" data-blog-title="Shopify vs Custom Website: Which One to Invest in 2024?">Read More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -539,12 +539,12 @@
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
                         <h4 class="resource-card-title">
-                            <a href="hireexpert.php">Why Should You Hire Shopify Experts</a>
+                            <a href="hireexpert.php" class="gtm-blog-link" data-blog-title="Why Should You Hire Shopify Experts">Why Should You Hire Shopify Experts</a>
                         </h4>
                         <p class="resource-card-excerpt">
                             Building a conversion-optimized store demands technical knowledge. Explore how hiring certified Shopify developers accelerates launching products.
                         </p>
-                        <a href="hireexpert.php" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        <a href="hireexpert.php" class="resource-card-link gtm-blog-link" data-blog-title="Why Should You Hire Shopify Experts">Read More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -558,12 +558,12 @@
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>
                         <h4 class="resource-card-title">
-                            <a href="revenue24.php">How to Increase Average Shopify Store Revenue in 2024</a>
+                            <a href="revenue24.php" class="gtm-blog-link" data-blog-title="How to Increase Average Shopify Store Revenue in 2024">How to Increase Average Shopify Store Revenue in 2024</a>
                         </h4>
                         <p class="resource-card-excerpt">
                             Unlock new store scaling models. Review checkout optimization rules, upsells, cart triggers, and conversion audits to increase transaction metrics.
                         </p>
-                        <a href="revenue24.php" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        <a href="revenue24.php" class="resource-card-link gtm-blog-link" data-blog-title="How to Increase Average Shopify Store Revenue in 2024">Read More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -577,12 +577,12 @@
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
                         <h4 class="resource-card-title">
-                            <a href="shopifyplus.php">What Are The Benefits Of Shopify Plus When You Upgrade?</a>
+                            <a href="shopifyplus.php" class="gtm-blog-link" data-blog-title="What Are The Benefits Of Shopify Plus When You Upgrade?">What Are The Benefits Of Shopify Plus When You Upgrade?</a>
                         </h4>
                         <p class="resource-card-excerpt">
                             Learn about global multi-store setups, wholesale B2B modules, automated scaling scripts, and customized checkout integrations on Shopify Plus.
                         </p>
-                        <a href="shopifyplus.php" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        <a href="shopifyplus.php" class="resource-card-link gtm-blog-link" data-blog-title="What Are The Benefits Of Shopify Plus When You Upgrade?">Read More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -596,12 +596,12 @@
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Pricing</span></div>
                         <h4 class="resource-card-title">
-                            <a href="coststart.php">How Much Does It Cost to Start or Run a Shopify Store?</a>
+                            <a href="coststart.php" class="gtm-blog-link" data-blog-title="How Much Does It Cost to Start or Run a Shopify Store?">How Much Does It Cost to Start or Run a Shopify Store?</a>
                         </h4>
                         <p class="resource-card-excerpt">
                             Calculate subscription plans, domain names, transaction fees, theme pricing, and application add-ons to forecast launching budgets accurately.
                         </p>
-                        <a href="coststart.php" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        <a href="coststart.php" class="resource-card-link gtm-blog-link" data-blog-title="How Much Does It Cost to Start or Run a Shopify Store?">Read More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -615,12 +615,12 @@
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>
                         <h4 class="resource-card-title">
-                            <a href="collabs.php">Shopify Collabs – Everything You Need to Know in 2024</a>
+                            <a href="collabs.php" class="gtm-blog-link" data-blog-title="Shopify Collabs – Everything You Need to Know in 2024">Shopify Collabs – Everything You Need to Know in 2024</a>
                         </h4>
                         <p class="resource-card-excerpt">
                             Harness influencer networks inside Shopify. Learn how Shopify Collabs tracks affiliate links, manages creators, and handles automated commissions.
                         </p>
-                        <a href="collabs.php" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        <a href="collabs.php" class="resource-card-link gtm-blog-link" data-blog-title="Shopify Collabs – Everything You Need to Know in 2024">Read More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -634,12 +634,12 @@
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Technical</span></div>
                         <h4 class="resource-card-title">
-                            <a href="tranceclient.php">Transferring Shopify Development Store to Clients</a>
+                            <a href="tranceclient.php" class="gtm-blog-link" data-blog-title="Transferring Shopify Development Store to Clients">Transferring Shopify Development Store to Clients</a>
                         </h4>
                         <p class="resource-card-excerpt">
                             Step-by-step technical instructions for developers handoffs, detailing merchant ownership transition, billing updates, and API transfers.
                         </p>
-                        <a href="tranceclient.php" class="resource-card-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        <a href="tranceclient.php" class="resource-card-link gtm-blog-link" data-blog-title="Transferring Shopify Development Store to Clients">Read More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
