@@ -46,7 +46,6 @@ ob_start(function($buffer) {
             $gtm_id = 'GTM-WK4NRFPV';
         }
     ?>
-    <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>" />
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $ga_id; ?>"></script>
