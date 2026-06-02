@@ -36,6 +36,36 @@ ob_start(function($buffer) {
             $canonical_url = rtrim($canonical_url, '/');
         }
 
+        // Determine Google Tracking tags dynamically based on domain
+        if (strpos($clean_host, 'codelocksolutions.in') !== false) {
+            $ga_id = 'G-3FS97C85C3';
+            $gtm_id = 'GTM-5HTV7K3K';
+        } else {
+            // Default to .com tags (handles local development and codelocksolutions.com)
+            $ga_id = 'G-W43RFKKGCK';
+            $gtm_id = 'GTM-WK4NRFPV';
+        }
+    ?>
+    <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $ga_id; ?>"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '<?php echo $ga_id; ?>');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','<?php echo $gtm_id; ?>');</script>
+    <!-- End Google Tag Manager -->
+    <?php
         // Dynamic SEO Configuration
         $current_page = basename($_SERVER['SCRIPT_NAME']);
 
@@ -449,6 +479,10 @@ ob_start(function($buffer) {
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=<?php echo $gtm_id; ?>"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!--page start-->
     <div class="page">
         <!-- preloader start -->
