@@ -6,10 +6,10 @@
                 <h2 class="cta-headline">Ready to Transform Your Business?</h2>
                 <p class="cta-description">Take the first step towards digital excellence. Our team is ready to help you achieve your goals with innovative solutions.</p>
                 <div class="cta-buttons">
-                    <a href="contact.php" class="cta-btn primary cta-primary">
+                    <a href="contact.php" id="cta-get-started" class="cta-btn primary cta-primary">
                         <span class="button-text-wrapper">Get Started</span>
                     </a>
-                    <a href="services.php" class="cta-btn secondary cta-secondary">
+                    <a href="services.php" id="cta-our-services" class="cta-btn secondary cta-secondary">
                         <span class="button-text-wrapper">Our Services</span>
                     </a>
                 </div>

@@ -300,7 +300,7 @@
                         </div>
                     </div>
                     <div class="container mt-3">
-                        <form action="" class="form card2">
+                        <form action="" id="blog-comment-form" class="form card2">
                             <h4 class="leave">Leave a Reply</h4>
                             <p class="leave1">
                                 Your email address will not be published. Required fields are

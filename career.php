@@ -594,10 +594,10 @@ input[type="number"] {
                     You will be responsible for developing/maintaining and innovating high octane portal using SHOPIFY. Also API integration for different Payment gateways, shipping methods like Fedex, USPS, UPS, social media, Google Map, Google Analytics, warehouse management, commission junction and other function specific APIs.
                 </p>
                 <div class="job-card-footer">
-                    <a href="#" class="know-more-btn cta-secondary" data-toggle="modal" data-target="#jobDetailsModal">
+                    <a href="#" id="career-shopify-know-more" class="know-more-btn cta-secondary" data-toggle="modal" data-target="#jobDetailsModal">
                         <span class="button-text-wrapper">Know More</span>
                     </a>
-                    <a href="#" class="apply-btn cta-primary" data-toggle="modal" data-target="#largeModal" data-position="Shopify Developer">
+                    <a href="#" id="career-shopify-apply" class="apply-btn cta-primary" data-toggle="modal" data-target="#largeModal" data-position="Shopify Developer">
                         <span class="button-text-wrapper">Apply Now</span>
                     </a>
                 </div>
@@ -676,10 +676,10 @@ input[type="number"] {
                     We have always appreciated new talent and groomed. Join our team to create stunning user interfaces and exceptional web experiences.
                 </p>
                 <div class="job-card-footer">
-                    <a href="#" class="know-more-btn cta-primary" data-toggle="modal" data-target="#jobDetailsModal">
+                    <a href="#" id="career-frontend-know-more" class="know-more-btn cta-primary" data-toggle="modal" data-target="#jobDetailsModal">
                         <span class="button-text-wrapper">Know More</span>
                     </a>
-                    <a href="#" class="apply-btn cta-secondary" data-toggle="modal" data-target="#largeModal" data-position="Front End Developer">
+                    <a href="#" id="career-frontend-apply" class="apply-btn cta-secondary" data-toggle="modal" data-target="#largeModal" data-position="Front End Developer">
                         <span class="button-text-wrapper">Apply Now</span>
                     </a>
                 </div>
@@ -734,10 +734,10 @@ input[type="number"] {
                     We have always appreciated new talent and groomed. Join our team to build robust backend solutions and powerful web applications.
                 </p>
                 <div class="job-card-footer">
-                    <a href="#" class="know-more-btn cta-primary" data-toggle="modal" data-target="#jobDetailsModal">
+                    <a href="#" id="career-php-know-more" class="know-more-btn cta-primary" data-toggle="modal" data-target="#jobDetailsModal">
                        <span class="button-text-wrapper">Know More</span>
                     </a>
-                    <a href="#" class="apply-btn cta-secondary" data-toggle="modal" data-target="#largeModal" data-position="PHP Developer">
+                    <a href="#" id="career-php-apply" class="apply-btn cta-secondary" data-toggle="modal" data-target="#largeModal" data-position="PHP Developer">
                         <span class="button-text-wrapper">Apply Now</span>
                     </a>
                 </div>
@@ -785,7 +785,7 @@ input[type="number"] {
             </div>
             <div class="modal-footer" style="border-top: 1px solid var(--border-color); padding: 20px 30px; display: flex; justify-content: flex-end; gap: 15px;">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal" style="border-radius: 30px; padding: 12px 30px; font-weight: 600; background: transparent; border: 1px solid var(--border-color); color: var(--text-secondary); transition: all 0.3s ease;">Close</button>
-                <a href="#" class="apply-btn modal-apply-btn cta-primary">
+                <a href="#" id="career-modal-apply-btn" class="apply-btn modal-apply-btn cta-primary">
                     <span class="button-text-wrapper">Apply Now</span>
                 </a>
             </div>

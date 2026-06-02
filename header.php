@@ -606,9 +606,9 @@ ob_start(function($buffer) {
                                     </div>
                                     <nav id="menu" class="menu">
                                         <ul class="dropdown">
-                                            <li><a href="index.php">Home</a></li>
-                                            <li><a href="about.php">About Us</a></li>
-                                            <li><a href="services.php">Services</a>
+                                            <li><a href="index.php" class="gtm-nav-link" data-nav-name="Home">Home</a></li>
+                                            <li><a href="about.php" class="gtm-nav-link" data-nav-name="About Us">About Us</a></li>
+                                            <li><a href="services.php" class="gtm-nav-link" data-nav-name="Services">Services</a>
                                                 <!-- <ul>
                                                     <li><a href="shopifyapps.php">Shopify apps</a></li>
                                                     <li><a href="websitedevlopment.php">Website devlopment</a></li>
@@ -617,10 +617,10 @@ ob_start(function($buffer) {
                                                     <!--<li><a href="graphicdesign.php">Graphic Design</a></li>-->
                                                 <!-- </ul> -->
                                             </li>
-                                            <li><a href="projects.php">Projects</a></li>
-                                            <li><a href="career.php">Career</a></li>
-                                            <li><a href="blogs.php">blogs</a></li>
-                                            <li><a href="contact.php">Contact</a></li>
+                                            <li><a href="projects.php" class="gtm-nav-link" data-nav-name="Projects">Projects</a></li>
+                                            <li><a href="career.php" class="gtm-nav-link" data-nav-name="Career">Career</a></li>
+                                            <li><a href="blogs.php" class="gtm-nav-link" data-nav-name="Blogs">blogs</a></li>
+                                            <li><a href="contact.php" class="gtm-nav-link" data-nav-name="Contact">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div><!-- site-navigation end-->
