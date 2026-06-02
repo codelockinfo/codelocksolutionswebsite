@@ -9,22 +9,22 @@
         
         <div class="metrics-grid">
             <div class="metric-card trust-animate">
-                <h3 class="metric-number"><span class="counter" data-target="550">0</span>+</h3>
+                <div class="metric-number"><span class="counter" data-target="550">0</span>+</div>
                 <p class="metric-label">PROJECTS DELIVERED</p>
             </div>
             
             <div class="metric-card trust-animate">
-                <h3 class="metric-number"><span class="counter" data-target="21">0</span>+</h3>
+                <div class="metric-number"><span class="counter" data-target="21">0</span>+</div>
                 <p class="metric-label">INDUSTRIES SERVED</p>
             </div>
             
             <div class="metric-card trust-animate">
-                <h3 class="metric-number"><span class="counter" data-target="25">0</span>+</h3>
+                <div class="metric-number"><span class="counter" data-target="25">0</span>+</div>
                 <p class="metric-label">COUNTRIES COVERED</p>
             </div>
             
             <div class="metric-card trust-animate">
-                <h3 class="metric-number"><span class="counter" data-target="9">0</span>+</h3>
+                <div class="metric-number"><span class="counter" data-target="9">0</span>+</div>
                 <p class="metric-label">YEARS OF EXPERIENCE</p>
             </div>
         </div>

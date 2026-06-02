@@ -46,7 +46,6 @@ ob_start(function($buffer) {
             $gtm_id = 'GTM-WK4NRFPV';
         }
     ?>
-    <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>" />
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $ga_id; ?>"></script>
@@ -72,23 +71,23 @@ ob_start(function($buffer) {
         // Fallback SEO mapping
         $seo_defaults = [
             'index.php' => [
-                'title' => 'Shopify Experts & E-commerce Website Development | Codelock Solutions',
+                'title' => 'Shopify Experts & E-Commerce Agency | Codelock Solutions',
                 'desc' => 'Codelock Solutions is a leading Shopify development agency providing custom Shopify theme design, Shopify app development, and expert consulting services.'
             ],
             'about.php' => [
-                'title' => 'About Us | Leading Shopify Development Company | Codelock Solutions',
+                'title' => 'About Us | Shopify Development Company | Codelock Solutions',
                 'desc' => 'Learn about Codelock Solutions. We are a professional team of Shopify experts and e-commerce developers delivering high-quality web solutions worldwide.'
             ],
             'services.php' => [
-                'title' => 'Shopify Development & E-commerce Web Services | Codelock Solutions',
+                'title' => 'Shopify & E-commerce Web Services | Codelock Solutions',
                 'desc' => 'Explore our e-commerce web development, custom Shopify theme design, Shopify app development, mobile apps, and digital marketing services.'
             ],
             'projects.php' => [
-                'title' => 'Our Work & Portfolio | Shopify Stores Developed | Codelock Solutions',
+                'title' => 'Shopify Portfolio & E-commerce Projects | Codelock Solutions',
                 'desc' => 'Browse our portfolio of custom Shopify stores, theme customizations, and successful e-commerce projects delivered by Codelock Solutions.'
             ],
             'career.php' => [
-                'title' => 'Careers | Join Our Team of Shopify Developers | Codelock Solutions',
+                'title' => 'Careers | Join Our Shopify Developer Team | Codelock Solutions',
                 'desc' => 'Looking to grow your career in IT and web development? Join Codelock Solutions as a Shopify developer, designer, or digital marketer. Apply today!'
             ],
             'blogs.php' => [
@@ -96,11 +95,11 @@ ob_start(function($buffer) {
                 'desc' => 'Read our latest articles, guides, and tips on Shopify development, e-commerce strategies, store speed optimization, and digital marketing.'
             ],
             'contact.php' => [
-                'title' => 'Contact Us | Get a Quote for Shopify Development | Codelock Solutions',
+                'title' => 'Contact Us | Shopify Development Quote | Codelock Solutions',
                 'desc' => 'Get in touch with Codelock Solutions today. Contact our expert team for custom Shopify web design, app development, and e-commerce consulting.'
             ],
             'allapps.php' => [
-                'title' => 'Our Custom Shopify Apps | E-commerce Store Utilities | Codelock Solutions',
+                'title' => 'Custom Shopify Apps & Store Utilities | Codelock Solutions',
                 'desc' => 'Discover powerful custom Shopify apps developed by Codelock Solutions to boost your store\'s sales, increase conversion rates, and optimize workflows.'
             ],
             'androiddevlopment.php' => [
@@ -108,27 +107,27 @@ ob_start(function($buffer) {
                 'desc' => 'Build high-performing, custom Android mobile applications for your e-commerce business. Reach mobile users with Codelock Solutions.'
             ],
             'custom_web.php' => [
-                'title' => 'Shopify vs Custom Website: Which is Better? | Codelock Solutions',
+                'title' => 'Shopify vs Custom Website Comparison | Codelock Solutions',
                 'desc' => 'An in-depth comparison between Shopify and custom web development. Find out which platform fits your e-commerce business goals best.'
             ],
             'digitalmarketing.php' => [
-                'title' => 'Digital Marketing & E-commerce SEO Services | Codelock Solutions',
+                'title' => 'Digital Marketing & E-commerce SEO | Codelock Solutions',
                 'desc' => 'Boost your store\'s visibility, drive high-quality organic traffic, and increase conversion rates with our expert e-commerce SEO services.'
             ],
             'ecommercewebsite.php' => [
-                'title' => 'E-commerce Website Development & Shopify Setup | Codelock Solutions',
+                'title' => 'E-commerce & Shopify Store Setup | Codelock Solutions',
                 'desc' => 'Get full-service e-commerce website development. We build secure, responsive, and fast online stores tailored to your business needs.'
             ],
             'graphicdesign.php' => [
-                'title' => 'Professional UI/UX & Graphic Design Services | Codelock Solutions',
+                'title' => 'UI/UX & Graphic Design Services | Codelock Solutions',
                 'desc' => 'Stunning, modern UI/UX design for web and mobile apps. Enhance your brand identity with custom graphic design by Codelock Solutions.'
             ],
             'hireexpert.php' => [
-                'title' => 'Why Hire Shopify Experts for Your Store? | Codelock Solutions',
+                'title' => 'Why Hire Shopify Experts for Your Store? | Codelock',
                 'desc' => 'Learn the benefits of hiring certified Shopify experts to build, customize, and optimize your e-commerce store for maximum growth.'
             ],
             'pricing-blog.php' => [
-                'title' => 'Shopify Website Design & Customization Pricing | Codelock Solutions',
+                'title' => 'Shopify Design & Customization Pricing | Codelock Solutions',
                 'desc' => 'Compare pricing models for Shopify store design, theme customization, and development services to plan your e-commerce budget.'
             ],
             'shopifyapps.php' => [
@@ -136,7 +135,7 @@ ob_start(function($buffer) {
                 'desc' => 'Extend your store\'s functionality with custom-built Shopify apps. Tailored integration, secure code, and dedicated support.'
             ],
             'shopifyplus.php' => [
-                'title' => 'Shopify Plus Development & Enterprise Solutions | Codelock Solutions',
+                'title' => 'Shopify Plus Enterprise Solutions | Codelock Solutions',
                 'desc' => 'Scale your high-volume e-commerce brand with Shopify Plus enterprise solutions. Specialized migration, checkout customizer, and automation.'
             ],
             'coststart.php' => [
@@ -144,19 +143,19 @@ ob_start(function($buffer) {
                 'desc' => 'A comprehensive guide to starting costs for a Shopify store, including plans, transaction fees, themes, and app subscriptions.'
             ],
             'revenue24.php' => [
-                'title' => 'Proven Strategies to Increase Shopify Store Revenue | Codelock Solutions',
+                'title' => 'Increase Shopify Store Revenue | Codelock Solutions',
                 'desc' => 'Discover optimization tips, upsell methods, page speed improvements, and design hacks to double your e-commerce sales in 2024.'
             ],
             'tranceclient.php' => [
-                'title' => 'Our Clients & E-commerce Success Stories | Codelock Solutions',
+                'title' => 'Client Reviews & E-commerce Stories | Codelock Solutions',
                 'desc' => 'See how we help global e-commerce merchants succeed. Client reviews, testimonials, and case studies for Codelock Solutions.'
             ],
             'websitedevlopment.php' => [
-                'title' => 'Custom Web & E-commerce Development Services | Codelock Solutions',
+                'title' => 'Custom Web & E-commerce Development | Codelock Solutions',
                 'desc' => 'Professional PHP, WordPress, and Shopify website development services. Fast, secure, and modern designs that convert visitors.'
             ],
             'blogdetail.php' => [
-                'title' => 'E-commerce Blog & Shopify Development Guides | Codelock Solutions',
+                'title' => 'E-commerce Blog & Shopify Guides | Codelock Solutions',
                 'desc' => 'Read our comprehensive guides on Shopify theme design, custom app integrations, e-commerce scaling, and store launch checklists.'
             ],
         ];
@@ -188,10 +187,10 @@ ob_start(function($buffer) {
             ];
             $project_name = isset($project_names[$project_raw]) ? $project_names[$project_raw] : ucwords(str_replace('-', ' ', $project_raw));
             
-            $default_title = "Shopify Store Case Study: " . $project_name . " | Codelock Solutions";
+            $default_title = $project_name . " Case Study | Codelock Solutions";
             $default_desc = "Explore the custom Shopify store design, theme customization, and e-commerce integrations developed by Codelock Solutions for " . $project_name . ".";
         } else {
-            $default_title = $seo_defaults[$current_page]['title'] ?? 'Shopify Experts & E-commerce Website Development | Codelock Solutions';
+            $default_title = $seo_defaults[$current_page]['title'] ?? 'Shopify Experts & E-Commerce Agency | Codelock Solutions';
             $default_desc = $seo_defaults[$current_page]['desc'] ?? 'Codelock Solutions is a leading Shopify development agency providing custom Shopify theme design, Shopify app development, and expert consulting services.';
         }
 
