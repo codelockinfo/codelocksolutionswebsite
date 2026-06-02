@@ -53,10 +53,10 @@
             <!-- Sliding descriptions container -->
             <div class="hero-subheadline-container">
                 <p class="hero-subheadline slide-desc active" data-slide="0">
-                    We build more than stores. We build revenue. Transform your business with a leading Shopify development agency and get a custom-designed storefront built to rank and convert.
+                    We build more than stores. We build revenue. Transform your business with a leading Shopify development agency and get a custom-designed, bold, smart, fast, and scalable storefront built to rank and convert.
                 </p>
                 <p class="hero-subheadline slide-desc" data-slide="1">
-                    Get custom Shopify theme customization and bespoke app development engineered for Core Web Vitals, page speed optimization, and mobile responsive performance.
+                    Get custom Shopify theme customization and bespoke app development engineered for Core Web Vitals, page speed optimization, and mobile responsive performance. We make your store bold, smart, fast, and scalable.
                 </p>
                 <p class="hero-subheadline slide-desc" data-slide="2">
                     Scale your enterprise with Shopify Plus development company services. Benefit from custom checkout workflows, secure Shopify Plus migrations, and B2B wholesale channels.
