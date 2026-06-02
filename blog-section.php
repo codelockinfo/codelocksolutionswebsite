@@ -14,7 +14,7 @@
                 <div class="blog-content">
                     <h3 class="blog-title">Transferring Shopify Development Store to Clients</h3>
                     <p class="blog-excerpt">Step-by-step technical instructions for developers handoffs, detailing merchant ownership transition, billing updates, and API transfers.</p>
-                    <a href="tranceclient.php" class="blog-link">Read More →</a>
+                    <a href="tranceclient.php" class="blog-link gtm-blog-link" data-blog-title="Transferring Shopify Development Store to Clients">Read More →</a>
                 </div>
             </div>
 
@@ -25,7 +25,7 @@
                 <div class="blog-content">
                     <h3 class="blog-title">What Are The Benefits Of Shopify Plus When You Upgrade?</h3>
                     <p class="blog-excerpt">Learn about global multi-store setups, wholesale B2B modules, automated scaling scripts, and customized checkout integrations on Shopify Plus.</p>
-                    <a href="shopifyplus.php" class="blog-link">Read More →</a>
+                    <a href="shopifyplus.php" class="blog-link gtm-blog-link" data-blog-title="What Are The Benefits Of Shopify Plus When You Upgrade?">Read More →</a>
                 </div>
             </div>
 
@@ -36,13 +36,13 @@
                 <div class="blog-content">
                     <h3 class="blog-title">Why Should You Hire Shopify Experts</h3>
                     <p class="blog-excerpt">Building a conversion-optimized store demands technical knowledge. Explore how hiring certified Shopify developers accelerates launching products.</p>
-                    <a href="hireexpert.php" class="blog-link">Read More →</a>
+                    <a href="hireexpert.php" class="blog-link gtm-blog-link" data-blog-title="Why Should You Hire Shopify Experts">Read More →</a>
                 </div>
             </div>
         </div>
 
         <div class="blog-footer">
-            <a href="blogs.php" class="view-all-btn cta-primary">
+            <a href="blogs.php" class="view-all-btn cta-primary gtm-blog-link" data-blog-title="View All Articles">
                 <span>View All Articles</span>
             </a>
         </div>
