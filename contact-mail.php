@@ -7,7 +7,7 @@ $email = $_REQUEST['email'];
 $contactno = $_REQUEST['mobilenumber'];
 $companyname = $_REQUEST['companyname'];
 $aboutcompany=$_REQUEST['aboutcompany'];
-$to = "dipak.codelock99@gmail.com";				
+$to = "codelockinfo@gmail.com";				
 $subject="Inquiry";      
 
 $fields = [

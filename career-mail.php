@@ -35,7 +35,7 @@
         $dir_path = dirname($request_uri);
         $dir_path = ($dir_path == '/' || $dir_path == '\\') ? '' : $dir_path;
 		$resume = $protocol . $host . $dir_path . "/resume/". $filename;
-        $to = "dipak.codelock99@gmail.com";
+        $to = "codelockinfo@gmail.com";
         $subject="Career Inquiry";      
         $fields = [
             'First Name' => $firstname,
