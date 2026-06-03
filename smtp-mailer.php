@@ -50,17 +50,17 @@ function send_smtp_mail($to, $subject, $message, $reply_to_email = null, $reply_
     try {
         // Server settings
         $mail->isSMTP();
-        $mail->Host       = getenv('SMTP_HOST') ?: 'smtp.hostinger.com';
+        $mail->Host       = getenv('SMTP_HOST');
         $mail->SMTPAuth   = true;
-        $mail->Username   = getenv('SMTP_USER') ?: 'info@codelocksolutions.com';
-        $mail->Password   = getenv('SMTP_PASS') ?: 'Codelock@82';
+        $mail->Username   = getenv('SMTP_USER');
+        $mail->Password   = getenv('SMTP_PASS');
         
         $encryption       = getenv('SMTP_ENCRYPTION') ?: 'tls';
         $mail->SMTPSecure = (strtolower($encryption) == 'ssl') ? PHPMailer::ENCRYPTION_SMTPS : PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = getenv('SMTP_PORT') ?: 587;
 
         // Sender & Recipient
-        $from_email       = getenv('SMTP_FROM_EMAIL') ?: 'info@codelocksolutions.com';
+        $from_email       = getenv('SMTP_FROM_EMAIL');
         $from_name        = getenv('SMTP_FROM_NAME') ?: 'Codelock Solutions';
         $mail->setFrom($from_email, $from_name);
         $mail->addAddress($to);
