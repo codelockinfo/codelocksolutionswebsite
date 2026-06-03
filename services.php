@@ -2762,10 +2762,10 @@
                     <h2>Let's build something exceptional together</h2>
                     <p>Partner with an expert development team to configure robust, lightning-fast digital solutions that scale your operations.</p>
                     <div class="cta-buttons">
-                        <a href="contact.php" class="cta-btn-primary cta-primary">
+                        <a href="contact.php" class="cta-btn-primary cta-primary schedule-btn">
                             <span class="button-text-wrapper">Schedule Consultation</span>
                         </a>
-                        <a href="hireexpert.php" class="cta-btn-secondary cta-secondary">
+                        <a href="hireexpert.php" class="cta-btn-secondary cta-secondary hire-btn">
                             <span class="button-text-wrapper">Hire Shopify Expert</span>
                         </a>
                     </div>

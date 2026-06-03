@@ -777,7 +777,7 @@
                 <div class="redesign-cta-content">
                     <h2>Have a Custom Project in Mind?</h2>
                     <p>Unlock premium designs and rapid conversion metrics for your digital business. Let our certified engineers formulate a custom-scoped quote tailored to your exact timelines.</p>
-                    <a href="contact.php" class="redesign-cta-btn cta-primary">
+                    <a href="contact.php" class="redesign-cta-btn cta-primary get-started-btn">
                         <span class="button-text-wrapper">Get Started Today <i class="fa fa-paper-plane" style="margin-left: 8px;"></i></span>
                     </a>
                 </div>
@@ -956,6 +956,33 @@ document.addEventListener('DOMContentLoaded', function() {
     // Observe custom timeline items and elements
     document.querySelectorAll('.timeline-item, .projects-hero .fade-in-up, .filter-container').forEach(el => {
         pageRevealObserver.observe(el);
+    });
+
+    /* ── 5. GTM Dynamic Attribute Injection ── */
+    document.querySelectorAll('.project-card').forEach(card => {
+        const titleEl = card.querySelector('.project-info h3');
+        if (!titleEl) return;
+        const projectName = titleEl.textContent.trim();
+        
+        // Add class and data-project-name to the card itself
+        card.classList.add('gtm-project-card');
+        card.setAttribute('data-project-name', projectName);
+        
+        // Add class and data attributes to project primary link (View Details)
+        const primaryLink = card.querySelector('.proj-btn-primary');
+        if (primaryLink) {
+            primaryLink.classList.add('gtm-project-link');
+            primaryLink.setAttribute('data-project-name', projectName);
+            primaryLink.setAttribute('data-project-action', 'View Details');
+        }
+        
+        // Add class and data attributes to project secondary link (Live Website)
+        const secondaryLink = card.querySelector('.proj-btn-secondary');
+        if (secondaryLink) {
+            secondaryLink.classList.add('gtm-project-link');
+            secondaryLink.setAttribute('data-project-name', projectName);
+            secondaryLink.setAttribute('data-project-action', 'Live Website');
+        }
     });
 
 });
