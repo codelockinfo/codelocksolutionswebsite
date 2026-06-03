@@ -5,6 +5,35 @@ use PHPMailer\PHPMailer\Exception;
 require_once __DIR__ . '/vendor/autoload.php';
 
 /**
+ * Parses and loads configuration variables from a local .env file.
+ */
+function load_env() {
+    $path = __DIR__ . '/.env';
+    if (!file_exists($path)) {
+        return;
+    }
+    $lines = file($path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    foreach ($lines as $line) {
+        $line = trim($line);
+        if (strpos($line, '#') === 0 || strpos($line, ';') === 0) {
+            continue;
+        }
+        if (strpos($line, '=') !== false) {
+            list($name, $value) = explode('=', $line, 2);
+            $name = trim($name);
+            $value = trim($value);
+            $value = trim($value, '"\'');
+            if (!array_key_exists($name, $_SERVER) && !array_key_exists($name, $_ENV)) {
+                putenv("{$name}={$value}");
+                $_ENV[$name] = $value;
+                $_SERVER[$name] = $value;
+            }
+        }
+    }
+}
+load_env();
+
+/**
  * Sends an email using SMTP (Hostinger) and PHPMailer.
  *
  * @param string $to Recipient email address
@@ -21,15 +50,19 @@ function send_smtp_mail($to, $subject, $message, $reply_to_email = null, $reply_
     try {
         // Server settings
         $mail->isSMTP();
-        $mail->Host       = 'smtp.hostinger.com';
+        $mail->Host       = getenv('SMTP_HOST') ?: 'smtp.hostinger.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'info@codelocksolutions.com';
-        $mail->Password   = 'Codelock@82';
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Use TLS on port 587
-        $mail->Port       = 587;
+        $mail->Username   = getenv('SMTP_USER') ?: 'info@codelocksolutions.com';
+        $mail->Password   = getenv('SMTP_PASS') ?: 'Codelock@82';
+        
+        $encryption       = getenv('SMTP_ENCRYPTION') ?: 'tls';
+        $mail->SMTPSecure = (strtolower($encryption) == 'ssl') ? PHPMailer::ENCRYPTION_SMTPS : PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port       = getenv('SMTP_PORT') ?: 587;
 
         // Sender & Recipient
-        $mail->setFrom('info@codelocksolutions.com', 'Codelock Solutions');
+        $from_email       = getenv('SMTP_FROM_EMAIL') ?: 'info@codelocksolutions.com';
+        $from_name        = getenv('SMTP_FROM_NAME') ?: 'Codelock Solutions';
+        $mail->setFrom($from_email, $from_name);
         $mail->addAddress($to);
 
         // Reply-To header so clicking Reply goes directly to the submitter
