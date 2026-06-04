@@ -28,7 +28,7 @@
         <div class="row">
             <div class=" col-12 col-md-6 col-xl-8 blog_contain">
                 <div class="container">
-                    <img src="images/blog-img/blog2.webp" alt="15 Must-Have Shopify Apps" class="w-100 mt-3 mb-3" />
+                    <img src="images/blog-img/blog2.png" alt="15 Must-Have Shopify Apps" class="w-100 mt-3 mb-3" />
                 </div>
                 <div class="row">
                     <div class="container">
@@ -152,7 +152,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/blog3.webp" alt="How Shopify Scales Small Businesses" />
+                        <img src="images/blog-img/blog3.png" alt="How Shopify Scales Small Businesses" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>
@@ -169,7 +169,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/blog4.webp" alt="Best Shopify Themes in 2026" />
+                        <img src="images/blog-img/blog4.png" alt="Best Shopify Themes in 2026" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>
@@ -186,7 +186,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/blog5.webp" alt="Agency Boosts Shopify Sales" />
+                        <img src="images/blog-img/blog5.png" alt="Agency Boosts Shopify Sales" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>

@@ -49,7 +49,7 @@
             <!-- Left Large Card (Featured Blog) -->
             <a href="why-shopify-best-ecommerce-platform-2026.php" class="hero-large-card blog-item-card" data-category="strategy">
                 <div class="hero-large-image">
-                    <img src="images/blog-img/blog1.webp" alt="Why Shopify is Best in 2026" />
+                    <img src="images/blog-img/blog1.png" alt="Why Shopify is Best in 2026" />
                 </div>
                 <h2 class="hero-large-title">
                     Why Shopify is the Best eCommerce Platform for Growing Businesses in 2026
@@ -91,7 +91,7 @@
                         <span class="sidebar-item-date">May 20, 2026</span>
                     </div>
                     <div class="sidebar-item-thumb">
-                        <img src="images/blog-img/blog2.webp" alt="15 Must-Have Shopify Apps" />
+                        <img src="images/blog-img/blog2.png" alt="15 Must-Have Shopify Apps" />
                     </div>
                 </a>
 
@@ -114,7 +114,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="strategy">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/blog1.webp" alt="Why Shopify is Best in 2026" />
+                        <img src="images/blog-img/blog1.png" alt="Why Shopify is Best in 2026" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -171,7 +171,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="growth">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/blog2.webp" alt="15 Must-Have Shopify Apps" />
+                        <img src="images/blog-img/blog2.png" alt="15 Must-Have Shopify Apps" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>
@@ -209,7 +209,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="growth">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/blog3.webp" alt="How Shopify Scales Small Businesses" />
+                        <img src="images/blog-img/blog3.png" alt="How Shopify Scales Small Businesses" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>
@@ -247,7 +247,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="growth">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/blog4.webp" alt="Best Shopify Themes in 2026" />
+                        <img src="images/blog-img/blog4.png" alt="Best Shopify Themes in 2026" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>
@@ -266,7 +266,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="growth">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/blog5.webp" alt="Agency Boosts Shopify Sales" />
+                        <img src="images/blog-img/blog5.png" alt="Agency Boosts Shopify Sales" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>
@@ -304,7 +304,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="strategy">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/blog6.webp" alt="Surat Switching to Shopify" />
+                        <img src="images/blog-img/blog6.png" alt="Surat Switching to Shopify" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -323,7 +323,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="strategy">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/blog7.webp" alt="Shopify Development Services Surat" />
+                        <img src="images/blog-img/blog7.png" alt="Shopify Development Services Surat" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -380,7 +380,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="strategy">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/blog8.webp" alt="Surat Fashion & Jewelry Agency" />
+                        <img src="images/blog-img/blog8.png" alt="Surat Fashion & Jewelry Agency" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -399,7 +399,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="tech">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/blog9.webp" alt="Top Shopify AI Apps" />
+                        <img src="images/blog-img/blog9.png" alt="Top Shopify AI Apps" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Technical</span></div>
@@ -418,7 +418,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="growth">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/blog10.webp" alt="Build High-Converting Store" />
+                        <img src="images/blog-img/blog10.png" alt="Build High-Converting Store" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>
@@ -456,7 +456,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="strategy">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/blog11.webp" alt="Common Shopify Mistakes" />
+                        <img src="images/blog-img/blog11.png" alt="Common Shopify Mistakes" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -475,7 +475,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="growth">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/blog12.webp" alt="Shopify 300% Case Study" />
+                        <img src="images/blog-img/blog12.png" alt="Shopify 300% Case Study" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>

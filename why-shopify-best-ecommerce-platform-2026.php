@@ -28,7 +28,7 @@
         <div class="row">
             <div class=" col-12 col-md-6 col-xl-8 blog_contain">
                 <div class="container">
-                    <img src="images/blog-img/blog1.webp" alt="Why Shopify is Best in 2026" class="w-100 mt-3 mb-3" />
+                    <img src="images/blog-img/blog1.png" alt="Why Shopify is Best in 2026" class="w-100 mt-3 mb-3" />
                 </div>
                 <div class="row">
                     <div class="container">

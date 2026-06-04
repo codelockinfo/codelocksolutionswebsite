@@ -9,7 +9,7 @@
         <div class="blog-grid">
             <div class="blog-card">
                 <div class="blog-image">
-                    <img src="images/blog-img/blog1.webp" alt="Why Shopify is Best in 2026" />
+                    <img src="images/blog-img/blog1.png" alt="Why Shopify is Best in 2026" />
                 </div>
                 <div class="blog-content">
                     <h3 class="blog-title">Why Shopify is the Best eCommerce Platform for Growing Businesses in 2026</h3>

@@ -175,7 +175,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/blog9.webp" alt="Top Shopify AI Apps" />
+                        <img src="images/blog-img/blog9.png" alt="Top Shopify AI Apps" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Technical</span></div>
@@ -192,7 +192,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/blog1.webp" alt="Why Shopify is Best in 2026" />
+                        <img src="images/blog-img/blog1.png" alt="Why Shopify is Best in 2026" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>

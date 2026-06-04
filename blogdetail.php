@@ -28,7 +28,7 @@
         <div class="row">
             <div class="col-md-12 col-xl-6">
                 <div class="container">
-                    <img src="images/blog-img/blog1.webp" alt="image2-1-1" class="w-100 mt-3" />
+                    <img src="images/blog-img/blog1.png" alt="image2-1-1" class="w-100 mt-3" />
                 </div>
                 <div class="row">
                     <div class="container contents-section">
