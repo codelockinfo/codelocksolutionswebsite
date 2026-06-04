@@ -554,6 +554,223 @@ input[type="number"] {
         margin-bottom: 15px;
     }
 }
+
+/* Premium File Upload Box */
+.upload-box {
+    border: 2px dashed rgba(124, 58, 237, 0.4);
+    background: rgba(124, 58, 237, 0.03);
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+[data-theme="light"] .upload-box {
+    border: 2px dashed rgba(0, 102, 204, 0.3);
+    background: rgba(0, 102, 204, 0.01);
+}
+
+.upload-box:hover {
+    border-color: var(--accent-primary);
+    background: rgba(124, 58, 237, 0.08);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="light"] .upload-box:hover {
+    background: rgba(0, 102, 204, 0.05);
+}
+
+.upload-box.drag-over {
+    border-color: #10B981;
+    background: rgba(16, 185, 129, 0.08);
+}
+
+.upload-icon {
+    font-size: 38px;
+    color: var(--accent-primary);
+    margin-bottom: 12px;
+    transition: transform 0.3s ease;
+}
+
+.upload-box:hover .upload-icon {
+    transform: translateY(-4px);
+}
+
+.upload-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-primary);
+    display: block;
+    margin-bottom: 4px;
+}
+
+.upload-subtext {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: var(--text-secondary);
+    display: block;
+}
+
+/* File Preview Container */
+.file-preview-container {
+    margin-top: 15px;
+    animation: fadeInSlide 0.4s ease;
+}
+
+@keyframes fadeInSlide {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.file-preview-card {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 12px 16px;
+    gap: 15px;
+}
+
+[data-theme="light"] .file-preview-card {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.file-preview-icon {
+    font-size: 26px;
+    color: var(--accent-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.file-preview-details {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.file-preview-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.file-preview-size {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+.file-preview-remove {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.file-preview-remove:hover {
+    color: #EF4444;
+    transform: scale(1.1);
+}
+
+/* Premium Toast Notification */
+.ajax-toast {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    z-index: 10500;
+    background: rgba(15, 12, 35, 0.85);
+    border: 1px solid rgba(124, 58, 237, 0.3);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: #ffffff;
+    padding: 16px 24px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transform: translateX(120%);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.4s ease;
+    opacity: 0;
+    max-width: 400px;
+    min-width: 280px;
+}
+
+[data-theme="light"] .ajax-toast {
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #333333;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.ajax-toast.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.ajax-toast .toast-icon {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.ajax-toast.success .toast-icon {
+    color: #10B981;
+}
+
+.ajax-toast.error .toast-icon {
+    color: #EF4444;
+}
+
+.ajax-toast .toast-content {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    flex-grow: 1;
+}
+
+.ajax-toast .toast-close {
+    cursor: pointer;
+    color: var(--text-secondary);
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    font-size: 16px;
+    flex-shrink: 0;
+}
+
+.ajax-toast .toast-close:hover {
+    opacity: 1;
+}
 </style>
 
 <div class="career-page">
@@ -804,7 +1021,7 @@ input[type="number"] {
                 </button>
             </div>
             <div class="modal-body">
-                <form id="applyJobForm" class="row ttm-quote-form clearfix" method="post" action="career-mail.php" enctype="multipart/form-data">
+                <form id="applyJobForm" class="row ttm-quote-form clearfix" method="post" action="career-mail" enctype="multipart/form-data">
                     <div class="col-sm-6 col-md-6">
                         <div class="form-group">
                             <label>First Name</label>
@@ -838,13 +1055,40 @@ input[type="number"] {
                     <div class="col-sm-6 col-md-6">
                         <div class="form-group">
                             <label>Location</label>
-                            <input name="location" type="text" required="required" readonly="" value="Surat" class="form-control" disabled>
+                            <input name="location" type="text" required="required" readonly="" value="Surat" class="form-control">
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-12">
                         <label>Have a resume ready? Upload it now</label><br>
-                        <input type="file" name="resumefile" id="file-upload" class="form-control">
-                        <p class="light-gray" style="margin-top: 5px; font-size: 0.85rem;">Supported Formats: DOC, DOCX, TXT, PDF, RTF.</p>
+                        <!-- Hidden default file input -->
+                        <input type="file" name="resumefile" id="file-upload" class="d-none" accept=".doc,.docx,.txt,.pdf,.rtf">
+                        
+                        <!-- Custom styled upload box -->
+                        <div class="upload-box" id="upload-box">
+                            <div class="upload-content">
+                                <i class="fa fa-cloud-upload upload-icon"></i>
+                                <span class="upload-text">Upload CV/Resume</span>
+                                <span class="upload-subtext">or drag and drop here</span>
+                            </div>
+                        </div>
+
+                        <!-- Uploaded file preview container -->
+                        <div class="file-preview-container" id="file-preview-container" style="display: none;">
+                            <div class="file-preview-card">
+                                <div class="file-preview-icon">
+                                    <i class="fa fa-file-pdf-o" id="preview-file-icon"></i>
+                                </div>
+                                <div class="file-preview-details">
+                                    <span class="file-preview-name" id="preview-file-name">filename.pdf</span>
+                                    <span class="file-preview-size" id="preview-file-size">1.2 MB</span>
+                                </div>
+                                <button type="button" class="file-preview-remove" id="btn-remove-file" title="Remove file">
+                                    <i class="fa fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <p class="light-gray" style="margin-top: 10px; font-size: 0.85rem;">Supported Formats: DOC, DOCX, TXT, PDF, RTF.</p>
                     </div>
                     <div class="col-sm-12 col-md-12">
                         <div class="form-group">
@@ -975,6 +1219,207 @@ window.addEventListener('load', () => {
             // If closed via close button, backdrop, or escape, stay on career page (do NOT return to details)
             cameFromDetails = false;
         }
+    });
+
+    // Toast notification function
+    function showToast(status, message) {
+        $('.ajax-toast').remove();
+        const iconClass = status === 'success' ? 'fa-check-circle' : 'fa-times-circle';
+        const toastHtml = `
+            <div class="ajax-toast ${status}">
+                <div class="toast-icon">
+                    <i class="fa ${iconClass}"></i>
+                </div>
+                <div class="toast-content">${message}</div>
+                <div class="toast-close">
+                    <i class="fa fa-times"></i>
+                </div>
+            </div>
+        `;
+        $('body').append(toastHtml);
+        const toast = $('.ajax-toast');
+        toast.each(function() { this.offsetHeight; }); // Force reflow
+        toast.addClass('show');
+
+        toast.find('.toast-close').on('click', function() {
+            toast.removeClass('show');
+            setTimeout(() => toast.remove(), 400);
+        });
+
+        // Auto hide after 5 seconds
+        setTimeout(() => {
+            if (toast.hasClass('show')) {
+                toast.removeClass('show');
+                setTimeout(() => toast.remove(), 400);
+            }
+        }, 5000);
+    }
+
+    // Helper to format bytes
+    function formatBytes(bytes, decimals = 2) {
+        if (bytes === 0) return '0 Bytes';
+        const k = 1024;
+        const dm = decimals < 0 ? 0 : decimals;
+        const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+        const i = Math.floor(Math.log(bytes) / Math.log(k));
+        return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+    }
+
+    // Helper to get file icon class
+    function getFileIconClass(filename) {
+        const ext = filename.split('.').pop().toLowerCase();
+        switch (ext) {
+            case 'pdf':
+                return 'fa-file-pdf-o';
+            case 'doc':
+            case 'docx':
+                return 'fa-file-word-o';
+            case 'txt':
+            case 'rtf':
+                return 'fa-file-text-o';
+            default:
+                return 'fa-file-o';
+        }
+    }
+
+    const fileInput = $('#file-upload');
+    const uploadBox = $('#upload-box');
+    const previewContainer = $('#file-preview-container');
+    const previewIcon = $('#preview-file-icon');
+    const previewName = $('#preview-file-name');
+    const previewSize = $('#preview-file-size');
+    const removeFileBtn = $('#btn-remove-file');
+
+    // Click upload box to trigger file input click
+    uploadBox.on('click', function() {
+        fileInput.trigger('click');
+    });
+
+    // Handle file input changes
+    fileInput.on('change', function() {
+        handleFileSelect(this.files);
+    });
+
+    // Drag and drop handlers
+    uploadBox.on('dragover dragenter', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        uploadBox.addClass('drag-over');
+    });
+
+    uploadBox.on('dragleave dragend drop', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        uploadBox.removeClass('drag-over');
+    });
+
+    uploadBox.on('drop', function(e) {
+        const files = e.originalEvent.dataTransfer.files;
+        if (files.length > 0) {
+            fileInput[0].files = files;
+            handleFileSelect(files);
+        }
+    });
+
+    // Handle the selected file
+    function handleFileSelect(files) {
+        if (files.length === 0) return;
+
+        const file = files[0];
+        const allowedExtensions = /(\.doc|\.docx|\.txt|\.pdf|\.rtf)$/i;
+
+        if (!allowedExtensions.exec(file.name)) {
+            showToast('error', 'Invalid file format. Supported formats: DOC, DOCX, TXT, PDF, RTF.');
+            clearFileSelection();
+            return;
+        }
+
+        // Set details and display preview
+        previewName.text(file.name);
+        previewSize.text(formatBytes(file.size));
+        
+        // Dynamic file icon
+        previewIcon.removeClass().addClass('fa ' + getFileIconClass(file.name));
+
+        uploadBox.hide();
+        previewContainer.fadeIn(300);
+    }
+
+    // Remove file handler
+    removeFileBtn.on('click', function(e) {
+        e.stopPropagation();
+        clearFileSelection();
+    });
+
+    function clearFileSelection() {
+        fileInput.val('');
+        previewContainer.hide();
+        uploadBox.fadeIn(300);
+    }
+
+    // AJAX Form Submit
+    $('#applyJobForm').on('submit', function(e) {
+        e.preventDefault();
+        
+        const form = $(this);
+        const submitBtn = $('#submit');
+        const originalBtnHtml = submitBtn.html();
+        
+        // Front-end File Validation
+        const fileInputEl = $('#file-upload')[0];
+        if (fileInputEl.files.length === 0) {
+            showToast('error', 'Please upload your resume.');
+            return;
+        }
+
+        const fileName = fileInputEl.files[0].name;
+        const allowedExtensions = /(\.doc|\.docx|\.txt|\.pdf|\.rtf)$/i;
+        if (!allowedExtensions.exec(fileName)) {
+            showToast('error', 'Invalid file format. Supported formats: DOC, DOCX, TXT, PDF, RTF.');
+            return;
+        }
+
+        // Show loading spinner state on the submit button
+        submitBtn.prop('disabled', true).html('<i class="fa fa-spinner fa-spin"></i> Submitting...');
+
+        const formData = new FormData(this);
+        formData.append('submit', 'submit');
+        formData.append('ajax', '1');
+
+        $.ajax({
+            url: form.attr('action') || 'career-mail',
+            type: 'POST',
+            data: formData,
+            processData: false,
+            contentType: false,
+            dataType: 'json',
+            success: function(response) {
+                if (response.status === 'success') {
+                    showToast('success', response.message);
+                    form[0].reset();
+                    clearFileSelection();
+                    
+                    // Close the modal after a short delay
+                    setTimeout(() => {
+                        $('#largeModal').modal('hide');
+                    }, 2000);
+                } else {
+                    showToast('error', response.message);
+                }
+            },
+            error: function(xhr, status, error) {
+                console.error('AJAX Error Detail:', {
+                    status: status,
+                    error: error,
+                    responseText: xhr.responseText
+                });
+                showToast('error', 'An error occurred. Please try again.');
+            },
+            complete: function() {
+                // Restore button state
+                submitBtn.prop('disabled', false).html(originalBtnHtml);
+            }
+        });
     });
 });
 

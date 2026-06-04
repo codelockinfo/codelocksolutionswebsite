@@ -1,5 +1,79 @@
 <?php include 'header.php';?>
 <link rel="stylesheet" type="text/css" href="css/contact-page3.css" />
+<style>
+/* Premium Toast Notification */
+.ajax-toast {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    z-index: 10500;
+    background: rgba(15, 12, 35, 0.85);
+    border: 1px solid rgba(124, 58, 237, 0.3);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: #ffffff;
+    padding: 16px 24px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transform: translateX(120%);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.4s ease;
+    opacity: 0;
+    max-width: 400px;
+    min-width: 280px;
+}
+
+[data-theme="light"] .ajax-toast {
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #333333;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.ajax-toast.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.ajax-toast .toast-icon {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.ajax-toast.success .toast-icon {
+    color: #10B981;
+}
+
+.ajax-toast.error .toast-icon {
+    color: #EF4444;
+}
+
+.ajax-toast .toast-content {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    flex-grow: 1;
+}
+
+.ajax-toast .toast-close {
+    cursor: pointer;
+    color: var(--text-secondary);
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    font-size: 16px;
+    flex-shrink: 0;
+}
+
+.ajax-toast .toast-close:hover {
+    opacity: 1;
+}
+</style>
 
 <!-- SEO Meta for Contact Page -->
 <meta name="description" content="Contact CodeLock Solutions – Shopify, Web, Android & Digital Marketing experts in Surat, Gujarat. Call, email, or visit us today.">
@@ -112,7 +186,7 @@
                         <h2 class="title">Tell Us About <span>Your Project</span></h2>
                     </div>
 
-                    <form id="ttm-quote-form" class="ttm-quote-form" method="post" action="contact-mail.php">
+                    <form id="ttm-quote-form" class="ttm-quote-form" method="post" action="contact-mail">
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group ct-field-wrap">
@@ -224,6 +298,86 @@
     // Initialize the animated button
     document.addEventListener('DOMContentLoaded', function() {
         makeAnimatedButton('.cta-primary');
+    });
+
+    window.addEventListener('load', () => {
+        // Toast notification function
+        function showToast(status, message) {
+            $('.ajax-toast').remove();
+            const iconClass = status === 'success' ? 'fa-check-circle' : 'fa-times-circle';
+            const toastHtml = `
+                <div class="ajax-toast ${status}">
+                    <div class="toast-icon">
+                        <i class="fa ${iconClass}"></i>
+                    </div>
+                    <div class="toast-content">${message}</div>
+                    <div class="toast-close">
+                        <i class="fa fa-times"></i>
+                    </div>
+                </div>
+            `;
+            $('body').append(toastHtml);
+            const toast = $('.ajax-toast');
+            toast.each(function() { this.offsetHeight; }); // Force reflow
+            toast.addClass('show');
+
+            toast.find('.toast-close').on('click', function() {
+                toast.removeClass('show');
+                setTimeout(() => toast.remove(), 400);
+            });
+
+            // Auto hide after 5 seconds
+            setTimeout(() => {
+                if (toast.hasClass('show')) {
+                    toast.removeClass('show');
+                    setTimeout(() => toast.remove(), 400);
+                }
+            }, 5000);
+        }
+
+        // AJAX Form Submit
+        $('#ttm-quote-form').on('submit', function(e) {
+            e.preventDefault();
+            
+            const form = $(this);
+            const submitBtn = form.find('.btn-submit-redesign');
+            const originalBtnHtml = submitBtn.html();
+            
+            // Show loading spinner state on the submit button
+            submitBtn.prop('disabled', true).html('<i class="fa fa-spinner fa-spin"></i> Submitting...');
+
+            const formData = new FormData(this);
+            formData.append('ajax', '1');
+
+            $.ajax({
+                url: form.attr('action') || 'contact-mail',
+                type: 'POST',
+                data: formData,
+                processData: false,
+                contentType: false,
+                dataType: 'json',
+                success: function(response) {
+                    if (response.status === 'success') {
+                        showToast('success', response.message);
+                        form[0].reset();
+                    } else {
+                        showToast('error', response.message);
+                    }
+                },
+                error: function(xhr, status, error) {
+                    console.error('AJAX Error Detail:', {
+                        status: status,
+                        error: error,
+                        responseText: xhr.responseText
+                    });
+                    showToast('error', 'An error occurred. Please try again.');
+                },
+                complete: function() {
+                    // Restore button state
+                    submitBtn.prop('disabled', false).html(originalBtnHtml);
+                }
+            });
+        });
     });
 </script>
 

@@ -1,4 +1,7 @@
 <?php
+require_once __DIR__ . '/smtp-mailer.php';
+$is_ajax = isset($_REQUEST['ajax']) && $_REQUEST['ajax'] == '1';
+
 $name = $_REQUEST['name'];
 $email = $_REQUEST['email'];
 $contactno = $_REQUEST['mobilenumber'];
@@ -7,37 +10,45 @@ $aboutcompany=$_REQUEST['aboutcompany'];
 $to = "codelockinfo@gmail.com";				
 $subject="Inquiry";      
 
-$headers ="From:". $email ." \r\n";
+$fields = [
+    'Client Name' => $name,
+    'Email Address' => $email,
+    'Mobile Number' => $contactno,
+    'Company Name' => $companyname,
+    'About the Company' => $aboutcompany
+];
 
-$headers .= "MIME-Version: 1.0\r\n";
-$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-		
-$message = '<html><body>';
-$message .= '<table rules="all" style="border:solid 1px #666;" cellpadding="10">';
-$message .= "<tr><td><strong>Name</strong> </td><td>" .  $name . "</td></tr>";
-$message .= "<tr><td><strong>Email ID</strong> </td><td>" .  $email . "</td></tr>";
-$message .= "<tr><td><strong>Mobile No</strong> </td><td>" .  $contactno . "</td></tr>";
-$message .= "<tr><td><strong>Company Name</strong> </td><td>" .  $companyname . "</td></tr>";
-$message .= "<tr><td><strong>Tell About Your Company</strong> </td><td>" .  $aboutcompany . "</td></tr>";
-$message .= "</table>";
-$message .= "</body></html>";
+$message = build_email_html("Project Inquiry", "A prospective client has sent a new project inquiry from the contact page.", $fields);
 
 
-$flgchk = mail ($to, $subject, $message, $headers);	
+$flgchk = send_smtp_mail($to, $subject, $message, $email, $name);
+
 if($flgchk)	{
+    if ($is_ajax) {
+        if (ob_get_length()) ob_clean();
+        header('Content-Type: application/json');
+        echo json_encode(['status' => 'success', 'message' => 'Your message has been sent successfully!']);
+        exit;
+    }
 ?>
 		<script language="javascript" type="text/javascript"> 
 				alert('Your Message Sent Successfully');
 				window.location = 'index.php'; 
 		</script>
 <?php
-		}
-		else{
+}
+else{
+    if ($is_ajax) {
+        if (ob_get_length()) ob_clean();
+        header('Content-Type: application/json');
+        echo json_encode(['status' => 'error', 'message' => 'Failed to send your message. Please try again.']);
+        exit;
+    }
 ?>
 		<script language="javascript" type="text/javascript"> 
 			alert('Your Message Not Sent Successfully');
 			window.location = 'contact.php'; 
 		</script>
 <?php		
-		} //End Of inner If
+} //End Of inner If
 ?>
