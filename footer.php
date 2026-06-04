@@ -178,6 +178,14 @@
 .footer-logo img {
     max-width: 180px;
     height: auto;
+    filter: brightness(0) invert(1);
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+[data-theme="light"] .footer-logo img {
+    filter: none;
+    opacity: 1;
 }
 
 .featured-icon-box .ttm-icon {
@@ -323,7 +331,7 @@
                     <div class="row align-items-md-center">
                         <div class="col-lg-4 col-md-4 col-sm-12 order-md-2">
                             <div class="footer-logo text-sm-center">
-                                <img data-src="images/footer-logo.png" class="lazyload" alt="footer-logo">
+                                <img data-src="images/logo.png" class="lazyload" alt="footer-logo">
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 order-md-1">

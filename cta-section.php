@@ -163,14 +163,17 @@
         align-items: center;
         justify-content: center;
     }
+    [data-theme="dark"] .cta-btn.primary {
+    background: white;
+    color: #04a26d;
+}
 
-    .cta-btn.primary {
+    [data-theme="light"] .cta-btn.primary {
         background: white;
         color: var(--accent-primary);
     }
 
     .cta-btn.primary:hover {
-        color: var(--accent-primary);
         transform: translateY(-3px);
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     }

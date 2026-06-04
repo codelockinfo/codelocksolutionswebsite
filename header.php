@@ -174,7 +174,7 @@ ob_start(function($buffer) {
                 'florenceblack' => 'Florence Black',
                 'gemroyals' => 'Gem Royals',
                 'hamporio' => 'Hamporio',
-                'justmeats' => 'Just Meats',
+                'justmeats' => 'True Nature Meats',
                 'kiddicare' => 'Kiddicare',
                 'millenniumjewelery' => 'Millennium Jewelery',
                 'naturanari' => 'Natura Nari',

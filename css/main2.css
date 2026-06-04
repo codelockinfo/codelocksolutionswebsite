@@ -1697,8 +1697,8 @@ div.product ul.tabs li a{
 
 /** Footer-nav-menu **/
 .copyright{
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 /** Footer-nav-menu **/

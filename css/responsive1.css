@@ -967,7 +967,7 @@
 
 	/* footer */
 	.footer-logo { margin-bottom: 25px;}
-	.copyright { padding-top: 25px; padding-bottom: 25px;}
+	.copyright { padding-top: 0; padding-bottom: 0;}
 	.footer-nav-menu{margin-bottom: 7px;}
 
 	/* featured-icon-box */
@@ -1078,7 +1078,7 @@
 	.ttm-post-prev-next-buttons a.float-right{ float: none !important; }
 
 	/* footer */
-	.first-footer .featured-icon-box.left-icon{margin-bottom: 30px;}
+	.first-footer .featured-icon-box.left-icon{margin-bottom: 16px;}
 	.footer-logo img { max-height: 44px;}
 	
 	/* featured-icon-box */

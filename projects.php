@@ -596,26 +596,26 @@
                     </div>
                 </div>
 
-                <!-- Project 20: Just Meats -->
+                <!-- Project 20: True Nature Meats -->
                 <div class="project-card capability-card" data-category="web" style="transition-delay: 0.2s;">
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-tertiary"></div>
                         <div class="project-image-wrap">
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/justmeats.png" alt="just meats" class="project-img">
+                                <img src="images/projects/truenaturemeats.png" alt="true nature meats" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
-                            <h3>Just Meats</h3>
-                            <p class="project-desc">High-quality pre-cooked meats delivered directly to your doorstep with convenient subscription options.</p>
+                            <h3>True Nature Meats</h3>
+                            <p class="project-desc">Chef-seasoned, fully cooked premium meats ready in minutes — just heat and eat, delivered straight to your door.</p>
                             <div class="project-tech">
                                 <span class="tech-pill">Shopify</span>
-                                <span class="tech-pill">Liquid</span>
-                                <span class="tech-pill">SCSS</span>
+                                <span class="tech-pill">Hydrogen</span>
+                                <span class="tech-pill">React</span>
                             </div>
                             <div class="project-actions">
-                                <a href="project-justmeats.php" class="proj-btn-primary">View Details <i class="fa fa-chevron-right"></i></a>
-                                <a href="https://www.justmeats.com/" target="_blank" class="proj-btn-secondary"><i class="fa fa-external-link"></i></a>
+                                <a href="project-truenaturemeats.php" class="proj-btn-primary">View Details <i class="fa fa-chevron-right"></i></a>
+                                <a href="https://truenaturemeats.com/" target="_blank" class="proj-btn-secondary"><i class="fa fa-external-link"></i></a>
                             </div>
                         </div>
                     </div>

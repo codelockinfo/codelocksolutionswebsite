@@ -190,7 +190,7 @@
             <div class="features-grid">
                 <div class="feature-card fade-in-up">
                     <div class="feature-icon">
-                        <i class="fa fa-laptop-code"></i>
+                        <i class="fa fa-laptop"></i>
                     </div>
                     <h3>Service Showcase</h3>
                     <p>Detailed service listings with descriptions, technologies, and case studies.</p>
@@ -218,7 +218,7 @@
                 </div>
                 <div class="feature-card fade-in-up anim-delay-4">
                     <div class="feature-icon">
-                        <i class="fa fa-chart-bar"></i>
+                        <i class="fa fa-bar-chart"></i>
                     </div>
                     <h3>Testimonials</h3>
                     <p>Client testimonials and reviews to build trust and credibility.</p>

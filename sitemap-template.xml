@@ -507,15 +507,15 @@
         </image:image>
     </url>
 
-    <!-- Project: Just Meats -->
+    <!-- Project: True Nature Meats -->
     <url>
         <loc>https://codelocksolutions.com/project-justmeats</loc>
-        <lastmod>2026-05-30</lastmod>
+        <lastmod>2026-06-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
-            <image:loc>https://codelocksolutions.com/images/projects/justmeats-desktop.png</image:loc>
-            <image:title>Just Meats Subscription-Based E-Commerce Shopify Showcase</image:title>
+            <image:loc>https://codelocksolutions.com/images/projects/truenaturemeats-desktop.png</image:loc>
+            <image:title>True Nature Meats Chef-Seasoned Premium Meat Delivery Shopify Showcase</image:title>
         </image:image>
     </url>
 

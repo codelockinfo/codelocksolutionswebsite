@@ -169,6 +169,7 @@
     -webkit-text-fill-color: transparent;
     line-height: 1;
     transition: transform 0.4s ease;
+    text-align: center;
 }
 
 .metric-card:hover .metric-number {
@@ -182,6 +183,7 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
     margin: 0;
+    text-align: center;
 }
 
 /* Animations */

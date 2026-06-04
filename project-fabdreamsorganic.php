@@ -190,7 +190,7 @@
             <div class="features-grid">
                 <div class="feature-card fade-in-up">
                     <div class="feature-icon">
-                        <i class="fa fa-bed"></i>
+                        <i class="fa fa-th-large"></i>
                     </div>
                     <h3>Product Collections</h3>
                     <p>Organized categories for bedding, sheets, towels, and home linens.</p>

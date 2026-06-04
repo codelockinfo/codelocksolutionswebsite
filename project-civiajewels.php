@@ -191,7 +191,7 @@
             <div class="features-grid">
                 <div class="feature-card fade-in-up">
                     <div class="feature-icon">
-                        <i class="fa fa-gem"></i>
+                        <i class="fa fa-diamond"></i>
                     </div>
                     <h3>Product Catalog</h3>
                     <p>Extensive jewelry catalog with categories like rings, necklaces, earrings, and bracelets.</p>
@@ -212,7 +212,7 @@
                 </div>
                 <div class="feature-card fade-in-up anim-delay-3">
                     <div class="feature-icon">
-                        <i class="fa fa-ruler"></i>
+                        <i class="fa fa-arrows-h"></i>
                     </div>
                     <h3>Size Guide</h3>
                     <p>Interactive size guide for rings and bracelets to help customers choose the right fit.</p>

@@ -211,7 +211,7 @@
                 </div>
                 <div class="feature-card fade-in-up anim-delay-3">
                     <div class="feature-icon">
-                        <i class="fa fa-chart-line"></i>
+                        <i class="fa fa-line-chart"></i>
                     </div>
                     <h3>Analytics Dashboard</h3>
                     <p>Built-in analytics to track visitor engagement and business performance metrics.</p>

@@ -190,7 +190,7 @@
             <div class="features-grid">
                 <div class="feature-card fade-in-up">
                     <div class="feature-icon">
-                        <i class="fa fa-gem"></i>
+                        <i class="fa fa-diamond"></i>
                     </div>
                     <h3>Product Catalog</h3>
                     <p>Extensive jewelry catalog with categories like rings, necklaces, earrings, and bracelets.</p>

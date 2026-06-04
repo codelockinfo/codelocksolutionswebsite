@@ -190,7 +190,7 @@
             <div class="features-grid">
                 <div class="feature-card fade-in-up">
                     <div class="feature-icon">
-                        <i class="fa fa-shoe-prints"></i>
+                        <i class="fa fa-th-large"></i>
                     </div>
                     <h3>Product Collections</h3>
                     <p>Organized categories for shoes, handbags, and accessories.</p>
@@ -211,7 +211,7 @@
                 </div>
                 <div class="feature-card fade-in-up anim-delay-3">
                     <div class="feature-icon">
-                        <i class="fa fa-ruler"></i>
+                        <i class="fa fa-arrows-h"></i>
                     </div>
                     <h3>Size Guide</h3>
                     <p>Interactive size guide to help customers choose the perfect fit.</p>

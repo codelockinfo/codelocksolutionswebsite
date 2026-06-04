@@ -318,9 +318,8 @@
     z-index: 1;
 }
 
+
 .cta-btn {
-    background: white;
-    color: var(--accent-primary);
     padding: 15px 40px;
     border-radius: 30px;
     font-weight: 700;
@@ -329,6 +328,16 @@
     transition: all 0.3s ease;
     position: relative;
     z-index: 1;
+}
+
+[data-theme="dark"] .cta-btn {
+    background: white;
+    color: #04a26d;
+}
+
+[data-theme="light"] .cta-btn {
+    background: white;
+    color: var(--accent-primary);
 }
 
 .cta-btn:hover {

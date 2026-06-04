@@ -190,7 +190,7 @@
             <div class="features-grid">
                 <div class="feature-card fade-in-up">
                     <div class="feature-icon">
-                        <i class="fa fa-crown"></i>
+                        <i class="fa fa-th-large"></i>
                     </div>
                     <h3>Product Collections</h3>
                     <p>Organized categories for jackets, tops, bottoms, and accessories.</p>
