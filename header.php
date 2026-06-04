@@ -237,13 +237,13 @@ ob_start(function($buffer) {
     <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
 
     <!-- shortcodes -->
-    <link rel="stylesheet" type="text/css" href="css/shortcodes1.css" />
+    <link rel="stylesheet" type="text/css" href="css/shortcodes2.css" />
 
     <!-- main -->
-    <link rel="stylesheet" type="text/css" href="css/main3.css" />
+    <link rel="stylesheet" type="text/css" href="css/main4.css" />
 
     <!-- responsive -->
-    <link rel="stylesheet" type="text/css" href="css/responsive2.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive3.css" />
     <link rel="stylesheet" type="text/css" href="css/style1.css" />
     <link rel="stylesheet" type="text/css" href="css/theme1.css" />
 

@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
-<link rel="stylesheet" type="text/css" href="css/projects2.css" />
-<link rel="stylesheet" type="text/css" href="css/project-detail4.css" />
+<link rel="stylesheet" type="text/css" href="css/projects3.css" />
+<link rel="stylesheet" type="text/css" href="css/project-detail5.css" />
 
 <!-- ======================================================
      PROJECT DETAIL PAGE - TERRA GENTLE
