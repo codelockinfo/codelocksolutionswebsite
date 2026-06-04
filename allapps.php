@@ -382,7 +382,7 @@
 }
 
 /* ── Hero Intro ─────────────────────────────────────── */
-.allapps-hero { overflow: hidden; }
+.allapps-hero { overflow: hidden; max-width: 1400px; margin: 0 auto; }
 
 .allapps-hero-inner {
     max-width: 860px;

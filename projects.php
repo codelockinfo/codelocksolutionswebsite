@@ -396,7 +396,32 @@
                     </div>
                 </div>
 
-                <!-- Project 12: Hamporio -->
+                <!-- Project 12: Hero Sunglasses -->
+                <div class="project-card capability-card" data-category="web">
+                    <div class="project-card-inner">
+                        <div class="card-glow-blob blob-accent"></div>
+                        <div class="project-image-wrap">                           
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/herosunglasses.png" alt="hero sunglasses" class="project-img">
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Hero Sunglasses</h3>
+                            <p class="project-desc">Premium designer sunglasses e-commerce store featuring top brands with sport, polarized, and luxury styles.</p>
+                            <div class="project-tech">
+                                <span class="tech-pill">Shopify</span>
+                                <span class="tech-pill">Liquid</span>
+                                <span class="tech-pill">SCSS</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="project-herosunglasses.php" class="proj-btn-primary">View Details <i class="fa fa-chevron-right"></i></a>
+                                <a href="https://www.herosunglasses.com/" target="_blank" class="proj-btn-secondary"><i class="fa fa-external-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 13: Hamporio -->
                 <div class="project-card capability-card" data-category="web" style="transition-delay: 0.2s;">
                     <div class="project-card-inner">
                         <div class="card-glow-blob"></div>
@@ -421,7 +446,7 @@
                     </div>
                 </div>
 
-                <!-- Project 13: Rakva -->
+                <!-- Project 14: Rakva -->
                 <!-- <div class="project-card capability-card" data-category="web">
                     <div class="project-card-inner">
                         <div class="card-glow-blob blob-accent"></div>
@@ -471,7 +496,7 @@
                     </div>
                 </div>
 
-                <!-- Project 15: Warrior World -->
+                <!-- Project 16: Warrior World -->
                 <div class="project-card capability-card" data-category="web" style="transition-delay: 0.2s;">
                     <div class="project-card-inner">
                         <div class="card-glow-blob"></div>
@@ -691,6 +716,106 @@
                             <div class="project-actions">
                                 <a href="project-tistabene.php" class="proj-btn-primary">View Details <i class="fa fa-chevron-right"></i></a>
                                 <a href="https://www.tistabene.com/" target="_blank" class="proj-btn-secondary"><i class="fa fa-external-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project: IBEX -->
+                <div class="project-card capability-card" data-category="web" style="transition-delay: 0.05s;">
+                    <div class="project-card-inner">
+                        <div class="card-glow-blob"></div>
+                        <div class="project-image-wrap">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/ibex.png" alt="IBEX merino wool outdoor clothing store" class="project-img">
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>IBEX</h3>
+                            <p class="project-desc">Premium merino wool outdoor apparel storefront with category-led shopping, performance layering, rich product merchandising, and editorial brand storytelling.</p>
+                            <div class="project-tech">
+                                <span class="tech-pill">Shopify</span>
+                                <span class="tech-pill">Liquid</span>
+                                <span class="tech-pill">UX</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="project-ibex.php" class="proj-btn-primary">View Details <i class="fa fa-chevron-right"></i></a>
+                                <a href="https://ibex.com/" target="_blank" class="proj-btn-secondary"><i class="fa fa-external-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project: vanijewels -->
+                <div class="project-card capability-card" data-category="web" style="transition-delay: 0.05s;">
+                    <div class="project-card-inner">
+                        <div class="card-glow-blob"></div>
+                        <div class="project-image-wrap">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/vanijewels.png" alt="vanijewels Jewelary store" class="project-img">
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Vani Jewels</h3>
+                            <p class="project-desc">A luxury Shopify jewelry storefront designed for ethnic, bridal, and contemporary jewelry shopping with rich collections, product discovery, and elegant visual merchandising.</p>
+                            <div class="project-tech">
+                                <span class="tech-pill">Shopify</span>
+                                <span class="tech-pill">Liquid</span>
+                                <span class="tech-pill">SCSS</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="project-vanijewel.php" class="proj-btn-primary">View Details <i class="fa fa-chevron-right"></i></a>
+                                <a href="https://vanijewels.co.in/" target="_blank" class="proj-btn-secondary"><i class="fa fa-external-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project: suppdog -->
+                <div class="project-card capability-card" data-category="web" style="transition-delay: 0.05s;">
+                    <div class="project-card-inner">
+                        <div class="card-glow-blob"></div>
+                        <div class="project-image-wrap">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/suppdog.png" alt="suppdog Dog Supplements store" class="project-img">
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Suppdog</h3>
+                            <p class="project-desc">A conversion-focused pet wellness storefront for dog supplements, designed around product education, health benefits, subscriptions, reviews, and mobile-first shopping.</p>
+                            <div class="project-tech">
+                                <span class="tech-pill">Shopify</span>
+                                <span class="tech-pill">Liquid</span>
+                                <span class="tech-pill">SCSS</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="project-suppdog.php" class="proj-btn-primary">View Details <i class="fa fa-chevron-right"></i></a>
+                                <a href="https://suppdog.nl/" target="_blank" class="proj-btn-secondary"><i class="fa fa-external-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project: suppdog -->
+                <div class="project-card capability-card" data-category="web" style="transition-delay: 0.05s;">
+                    <div class="project-card-inner">
+                        <div class="card-glow-blob"></div>
+                        <div class="project-image-wrap">
+                            <div class="project-mockup-graphics">
+                                <img src="images/projects/dr-ruth-roberts.png" alt="Pet Wellness & Supplement store" class="project-img">
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Suppdog</h3>
+                            <p class="project-desc">A conversion-focused pet wellness storefront for dog supplements, designed around product education, health benefits, subscriptions, reviews, and mobile-first shopping.</p>
+                            <div class="project-tech">
+                                <span class="tech-pill">Shopify</span>
+                                <span class="tech-pill">Liquid</span>
+                                <span class="tech-pill">SCSS</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="project-doctorruth.php" class="proj-btn-primary">View Details <i class="fa fa-chevron-right"></i></a>
+                                <a href="https://drruthroberts.com/" target="_blank" class="proj-btn-secondary"><i class="fa fa-external-link"></i></a>
                             </div>
                         </div>
                     </div>

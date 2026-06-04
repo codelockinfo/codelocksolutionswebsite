@@ -17,7 +17,7 @@
 
 /* Hero Section */
 .services-hero {
-    padding: 120px 0 80px;
+    padding: 120px 40px 80px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -223,7 +223,7 @@
 
 /* Chronological Timeline */
 .process-section {
-    padding: 40px 0;
+    padding: 40px;
     position: relative;
 }
 
@@ -339,7 +339,7 @@
 
 /* Accordion FAQs */
 .faq-section {
-    padding: 40px 0;
+    padding: 40px;
     background: var(--bg-secondary);
     border-top: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
@@ -375,11 +375,6 @@
 .faq-section p.subtitle.anim-in {
     opacity: 1;
     transform: translateX(0);
-}
-
-.faq-container {
-    max-width: 850px;
-    margin: 0 auto;
 }
 
 .faq-item {
@@ -495,7 +490,7 @@
     text-align: center;
     position: relative;
     overflow: hidden;
-    padding: 40px 0;
+    padding: 40px;
 }
 
 .banner-container {
@@ -653,13 +648,13 @@
 
 @media (max-width: 768px) {
     .services-hero {
-        padding: 60px 0 40px;
+        padding: 60px 20px 40px;
     }
     .services-showcase-section,
     .process-section,
     .faq-section,
     .cta-banner {
-        padding: 30px 0;
+        padding: 30px 20px;
     }
     .services-hero h1 {
         font-size: 30px;
@@ -719,8 +714,8 @@
 .services-showcase-section {
     position: relative;
     width: 100%;
-    height: 100vh;
-    min-height: 750px;
+    height: 750px !important;
+    min-height: 700px !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -731,7 +726,7 @@
 .cards-container {
     position: relative;
     width: 90%;
-    max-width: 1200px;
+    max-width: 1400px;
     height: 70vh;
     min-height: 600px;
     max-height: 720px;
@@ -1915,8 +1910,8 @@
 /* Responsive styles for Services Showcase Section */
 @media (max-width: 991px) {
     .services-showcase-section {
-        padding: 60px 0;
-        height: 100vh;
+        padding: 40px 0 !important;
+        height: 700px !important;
         min-height: 650px;
         overflow: hidden;
     }
@@ -2851,22 +2846,6 @@
     }
 // Expandable FAQ Accordion Logic
 document.addEventListener('DOMContentLoaded', function() {
-        // const themeToggle = document.getElementById('theme-toggle');
-        // const html = document.documentElement;
-        
-        // const savedTheme = localStorage.getItem('theme') || 'dark';
-        // html.setAttribute('data-theme', savedTheme);
-        
-        // if (themeToggle) {
-        //     themeToggle.addEventListener('click', function() {
-        //         const currentTheme = html.getAttribute('data-theme');
-        //         const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-                
-        //         html.setAttribute('data-theme', newTheme);
-        //         localStorage.setItem('theme', newTheme);
-        //     });
-        // }
-
         // Dynamic Button Animations (Span Mothers)
         makeAnimatedButton('.cta-primary');
         makeAnimatedButton('.cta-secondary');

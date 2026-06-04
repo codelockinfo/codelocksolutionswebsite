@@ -8,11 +8,10 @@
     background-attachment: fixed;
     color: var(--text-primary);
     transition: all 0.3s ease;
-    min-height: 100vh;
 }
 
 .career-hero {
-    padding: 120px 0 80px;
+    padding: 120px 40px 80px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -75,16 +74,13 @@
 }
 
 .career-jobs-section {
-    padding: 40px 0;
+    padding: 40px;
 }
 
 .career-jobs-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
 }
 
 .job-card {
@@ -517,8 +513,11 @@ input[type="number"] {
 }
 
 @media (max-width: 768px) {
+    .career-hero {
+        padding: 80px 20px 40px;
+    }
     .career-jobs-section {
-        padding: 30px 0;
+        padding: 30px 20px;
     }
     .career-hero h1 {
         font-size: 2.5rem;
@@ -784,201 +783,203 @@ input[type="number"] {
 
     <!-- Jobs Section -->
     <section class="career-jobs-section">
-        <div class="career-jobs-grid">
-            <!-- Shopify Developer Card -->
-            <div class="job-card" data-job="shopify-developer">
-                <div class="job-card-header">
-                    <div class="job-icon">
-                        <i class="fa fa-shopping-bag"></i>
+        <div class="container">
+            <div class="career-jobs-grid">
+                <!-- Shopify Developer Card -->
+                <div class="job-card" data-job="shopify-developer">
+                    <div class="job-card-header">
+                        <div class="job-icon">
+                            <i class="fa fa-shopping-bag"></i>
+                        </div>
+                    </div>
+                    <h3 class="job-title">Shopify Developer</h3>
+                    <div class="job-meta">
+                        <div class="job-meta-item">
+                            <i class="fa fa-briefcase"></i>
+                            <span>Full Time</span>
+                        </div>
+                        <div class="job-meta-item">
+                            <i class="fa fa-clock-o"></i>
+                            <span>1-3+ Years</span>
+                        </div>
+                        <div class="job-meta-item">
+                            <i class="fa fa-map-marker"></i>
+                            <span>Surat</span>
+                        </div>
+                    </div>
+                    <p class="job-description">
+                        You will be responsible for developing/maintaining and innovating high octane portal using SHOPIFY. Also API integration for different Payment gateways, shipping methods like Fedex, USPS, UPS, social media, Google Map, Google Analytics, warehouse management, commission junction and other function specific APIs.
+                    </p>
+                    <div class="job-card-footer">
+                        <a href="#" class="know-more-btn cta-secondary gtm-career-link" data-career-name="Shopify Developer - Know More" data-toggle="modal" data-target="#jobDetailsModal">
+                            <span class="button-text-wrapper">Know More</span>
+                        </a>
+                        <a href="#" class="apply-btn cta-primary gtm-career-link" data-career-name="Shopify Developer - Apply" data-toggle="modal" data-target="#largeModal" data-position="Shopify Developer">
+                            <span class="button-text-wrapper">Apply Now</span>
+                        </a>
+                    </div>
+                    <div class="job-details">
+                        <div class="job-details-content">
+                            <h4>Skills Required:</h4>
+                            <ul>
+                                <li>Expert Knowledge of Shopify and all its features</li>
+                                <li>Can write some Javascript code</li>
+                                <li>Html5, CSS3, CSS Frameworks are a must</li>
+                                <li>Advanced understanding of IT processes and Software Development Life Cycle</li>
+                                <li>Ability to create advance layout using HTML and CSS</li>
+                                <li>Very good knowledge of Liquid - Shopify's proprietary scripting language</li>
+                                <li>Knowledge of Speed optimization, App Development</li>
+                                <li>Knowledge of cross browser quirks</li>
+                                <li>Understanding of various design patterns & Custom Shopify theme development</li>
+                                <li>You Show understanding of design and usability principles</li>
+                                <li>You have worked on customized themes and understand what a hamburger menu is</li>
+                                <li>Should have done at least 10-20 or more Shopify projects on their own</li>
+                                <li>Minimum work experience: 2 to 4 years</li>
+                            </ul>
+                            <h4>Responsibility:</h4>
+                            <ul>
+                                <li>Communication with leads (3-10 negotiations per week)</li>
+                                <li>Preparing commercial proposals</li>
+                                <li>Leading and coordinating relationships between stakeholders from Django Stars side and client's side during the sale cycle</li>
+                                <li>Building long-term relationships with our clients</li>
+                                <li>Lead qualification</li>
+                                <li>Understand real customers' needs and readiness for cooperation</li>
+                                <li>Work with existing leads database (reactivation)</li>
+                                <li>Ability to mentor junior team members and conduct interviews with candidates would be a plus</li>
+                            </ul>
+                            <h4>What we will expect from you:</h4>
+                            <ul>
+                                <li>Must be able to work in a team</li>
+                                <li>Must have good communication skills</li>
+                                <li>Growth mindset</li>
+                                <li>Quick learner</li>
+                            </ul>
+                            <h4>We offer:</h4>
+                            <ul>
+                                <li>In-house Multilingual speaker</li>
+                                <li>Work appreciation activities</li>
+                                <li>Internship and training accomplishment</li>
+                                <li>Encouragement of projects and conferences</li>
+                                <li>Professional working environment</li>
+                                <li>Miscellaneous activities enforcement</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <h3 class="job-title">Shopify Developer</h3>
-                <div class="job-meta">
-                    <div class="job-meta-item">
-                        <i class="fa fa-briefcase"></i>
-                        <span>Full Time</span>
-                    </div>
-                    <div class="job-meta-item">
-                        <i class="fa fa-clock-o"></i>
-                        <span>1-3+ Years</span>
-                    </div>
-                    <div class="job-meta-item">
-                        <i class="fa fa-map-marker"></i>
-                        <span>Surat</span>
-                    </div>
-                </div>
-                <p class="job-description">
-                    You will be responsible for developing/maintaining and innovating high octane portal using SHOPIFY. Also API integration for different Payment gateways, shipping methods like Fedex, USPS, UPS, social media, Google Map, Google Analytics, warehouse management, commission junction and other function specific APIs.
-                </p>
-                <div class="job-card-footer">
-                    <a href="#" class="know-more-btn cta-secondary gtm-career-link" data-career-name="Shopify Developer - Know More" data-toggle="modal" data-target="#jobDetailsModal">
-                        <span class="button-text-wrapper">Know More</span>
-                    </a>
-                    <a href="#" class="apply-btn cta-primary gtm-career-link" data-career-name="Shopify Developer - Apply" data-toggle="modal" data-target="#largeModal" data-position="Shopify Developer">
-                        <span class="button-text-wrapper">Apply Now</span>
-                    </a>
-                </div>
-                <div class="job-details">
-                    <div class="job-details-content">
-                        <h4>Skills Required:</h4>
-                        <ul>
-                            <li>Expert Knowledge of Shopify and all its features</li>
-                            <li>Can write some Javascript code</li>
-                            <li>Html5, CSS3, CSS Frameworks are a must</li>
-                            <li>Advanced understanding of IT processes and Software Development Life Cycle</li>
-                            <li>Ability to create advance layout using HTML and CSS</li>
-                            <li>Very good knowledge of Liquid - Shopify's proprietary scripting language</li>
-                            <li>Knowledge of Speed optimization, App Development</li>
-                            <li>Knowledge of cross browser quirks</li>
-                            <li>Understanding of various design patterns & Custom Shopify theme development</li>
-                            <li>You Show understanding of design and usability principles</li>
-                            <li>You have worked on customized themes and understand what a hamburger menu is</li>
-                            <li>Should have done at least 10-20 or more Shopify projects on their own</li>
-                            <li>Minimum work experience: 2 to 4 years</li>
-                        </ul>
-                        <h4>Responsibility:</h4>
-                        <ul>
-                            <li>Communication with leads (3-10 negotiations per week)</li>
-                            <li>Preparing commercial proposals</li>
-                            <li>Leading and coordinating relationships between stakeholders from Django Stars side and client's side during the sale cycle</li>
-                            <li>Building long-term relationships with our clients</li>
-                            <li>Lead qualification</li>
-                            <li>Understand real customers' needs and readiness for cooperation</li>
-                            <li>Work with existing leads database (reactivation)</li>
-                            <li>Ability to mentor junior team members and conduct interviews with candidates would be a plus</li>
-                        </ul>
-                        <h4>What we will expect from you:</h4>
-                        <ul>
-                            <li>Must be able to work in a team</li>
-                            <li>Must have good communication skills</li>
-                            <li>Growth mindset</li>
-                            <li>Quick learner</li>
-                        </ul>
-                        <h4>We offer:</h4>
-                        <ul>
-                            <li>In-house Multilingual speaker</li>
-                            <li>Work appreciation activities</li>
-                            <li>Internship and training accomplishment</li>
-                            <li>Encouragement of projects and conferences</li>
-                            <li>Professional working environment</li>
-                            <li>Miscellaneous activities enforcement</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Front End Developer Card -->
-            <div class="job-card" data-job="front-end-developer">
-                <div class="job-card-header">
-                    <div class="job-icon">
-                        <i class="fa fa-code"></i>
+                <!-- Front End Developer Card -->
+                <div class="job-card" data-job="front-end-developer">
+                    <div class="job-card-header">
+                        <div class="job-icon">
+                            <i class="fa fa-code"></i>
+                        </div>
+                    </div>
+                    <h3 class="job-title">Front End Developer</h3>
+                    <div class="job-meta">
+                        <div class="job-meta-item">
+                            <i class="fa fa-briefcase"></i>
+                            <span>Full Time</span>
+                        </div>
+                        <div class="job-meta-item">
+                            <i class="fa fa-clock-o"></i>
+                            <span>1-3+ Years</span>
+                        </div>
+                        <div class="job-meta-item">
+                            <i class="fa fa-map-marker"></i>
+                            <span>Surat</span>
+                        </div>
+                    </div>
+                    <p class="job-description">
+                        We have always appreciated new talent and groomed. Join our team to create stunning user interfaces and exceptional web experiences.
+                    </p>
+                    <div class="job-card-footer">
+                        <a href="#" class="know-more-btn cta-primary gtm-career-link" data-career-name="Front End Developer - Know More" data-toggle="modal" data-target="#jobDetailsModal">
+                            <span class="button-text-wrapper">Know More</span>
+                        </a>
+                        <a href="#" class="apply-btn cta-secondary gtm-career-link" data-career-name="Front End Developer - Apply" data-toggle="modal" data-target="#largeModal" data-position="Front End Developer">
+                            <span class="button-text-wrapper">Apply Now</span>
+                        </a>
+                    </div>
+                    <div class="job-details">
+                        <div class="job-details-content">
+                            <h4>Required Skills:</h4>
+                            <ul>
+                                <li>Must be fluent at PSD to HTML</li>
+                                <li>Must be familiar with pixel perfect adjustment</li>
+                                <li>Knowledge of Bootstrap and responsive web design is highly desirable</li>
+                                <li>Proficiency in Photoshop, Illustrator and Sketch(optional) and j Query and AJAX</li>
+                                <li>Excellent visual design skills with sensitivity to user-system interaction</li>
+                                <li>Up-to-date with the latest UI trends, techniques, and technologies</li>
+                                <li>Must have working experience across multiple browsers and edit suites</li>
+                                <li>Knowledge of Angular.js/React.js/Vue.js would be great and will be considered first</li>
+                            </ul>
+                            <h4>Roles and Responsibilities:</h4>
+                            <ul>
+                                <li>Create responsive HTML using HTML5/CSS3/Bootstrap/SCSS technologies</li>
+                                <li>Create pixel perfect mockup to web output</li>
+                                <li>Make sure HTML is fully compatible in cross browsers and devices</li>
+                                <li>Understand project requirements clearly which will be given in English language</li>
+                                <li>Coordinate with TL/PM regarding ongoing process and daily activity</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <h3 class="job-title">Front End Developer</h3>
-                <div class="job-meta">
-                    <div class="job-meta-item">
-                        <i class="fa fa-briefcase"></i>
-                        <span>Full Time</span>
-                    </div>
-                    <div class="job-meta-item">
-                        <i class="fa fa-clock-o"></i>
-                        <span>1-3+ Years</span>
-                    </div>
-                    <div class="job-meta-item">
-                        <i class="fa fa-map-marker"></i>
-                        <span>Surat</span>
-                    </div>
-                </div>
-                <p class="job-description">
-                    We have always appreciated new talent and groomed. Join our team to create stunning user interfaces and exceptional web experiences.
-                </p>
-                <div class="job-card-footer">
-                    <a href="#" class="know-more-btn cta-primary gtm-career-link" data-career-name="Front End Developer - Know More" data-toggle="modal" data-target="#jobDetailsModal">
-                        <span class="button-text-wrapper">Know More</span>
-                    </a>
-                    <a href="#" class="apply-btn cta-secondary gtm-career-link" data-career-name="Front End Developer - Apply" data-toggle="modal" data-target="#largeModal" data-position="Front End Developer">
-                        <span class="button-text-wrapper">Apply Now</span>
-                    </a>
-                </div>
-                <div class="job-details">
-                    <div class="job-details-content">
-                        <h4>Required Skills:</h4>
-                        <ul>
-                            <li>Must be fluent at PSD to HTML</li>
-                            <li>Must be familiar with pixel perfect adjustment</li>
-                            <li>Knowledge of Bootstrap and responsive web design is highly desirable</li>
-                            <li>Proficiency in Photoshop, Illustrator and Sketch(optional) and j Query and AJAX</li>
-                            <li>Excellent visual design skills with sensitivity to user-system interaction</li>
-                            <li>Up-to-date with the latest UI trends, techniques, and technologies</li>
-                            <li>Must have working experience across multiple browsers and edit suites</li>
-                            <li>Knowledge of Angular.js/React.js/Vue.js would be great and will be considered first</li>
-                        </ul>
-                        <h4>Roles and Responsibilities:</h4>
-                        <ul>
-                            <li>Create responsive HTML using HTML5/CSS3/Bootstrap/SCSS technologies</li>
-                            <li>Create pixel perfect mockup to web output</li>
-                            <li>Make sure HTML is fully compatible in cross browsers and devices</li>
-                            <li>Understand project requirements clearly which will be given in English language</li>
-                            <li>Coordinate with TL/PM regarding ongoing process and daily activity</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
 
-            <!-- PHP Developer Card -->
-            <div class="job-card" data-job="php-developer">
-                <div class="job-card-header">
-                    <div class="job-icon">
-                        <i class="fa fa-server"></i>
+                <!-- PHP Developer Card -->
+                <div class="job-card" data-job="php-developer">
+                    <div class="job-card-header">
+                        <div class="job-icon">
+                            <i class="fa fa-server"></i>
+                        </div>
                     </div>
-                </div>
-                <h3 class="job-title">PHP Developer</h3>
-                <div class="job-meta">
-                    <div class="job-meta-item">
-                        <i class="fa fa-briefcase"></i>
-                        <span>Full Time</span>
+                    <h3 class="job-title">PHP Developer</h3>
+                    <div class="job-meta">
+                        <div class="job-meta-item">
+                            <i class="fa fa-briefcase"></i>
+                            <span>Full Time</span>
+                        </div>
+                        <div class="job-meta-item">
+                            <i class="fa fa-clock-o"></i>
+                            <span>1-3+ Years</span>
+                        </div>
+                        <div class="job-meta-item">
+                            <i class="fa fa-map-marker"></i>
+                            <span>Surat</span>
+                        </div>
                     </div>
-                    <div class="job-meta-item">
-                        <i class="fa fa-clock-o"></i>
-                        <span>1-3+ Years</span>
+                    <p class="job-description">
+                        We have always appreciated new talent and groomed. Join our team to build robust backend solutions and powerful web applications.
+                    </p>
+                    <div class="job-card-footer">
+                        <a href="#" class="know-more-btn cta-primary gtm-career-link" data-career-name="PHP Developer - Know More" data-toggle="modal" data-target="#jobDetailsModal">
+                        <span class="button-text-wrapper">Know More</span>
+                        </a>
+                        <a href="#" class="apply-btn cta-secondary gtm-career-link" data-career-name="PHP Developer - Apply" data-toggle="modal" data-target="#largeModal" data-position="PHP Developer">
+                            <span class="button-text-wrapper">Apply Now</span>
+                        </a>
                     </div>
-                    <div class="job-meta-item">
-                        <i class="fa fa-map-marker"></i>
-                        <span>Surat</span>
-                    </div>
-                </div>
-                <p class="job-description">
-                    We have always appreciated new talent and groomed. Join our team to build robust backend solutions and powerful web applications.
-                </p>
-                <div class="job-card-footer">
-                    <a href="#" class="know-more-btn cta-primary gtm-career-link" data-career-name="PHP Developer - Know More" data-toggle="modal" data-target="#jobDetailsModal">
-                       <span class="button-text-wrapper">Know More</span>
-                    </a>
-                    <a href="#" class="apply-btn cta-secondary gtm-career-link" data-career-name="PHP Developer - Apply" data-toggle="modal" data-target="#largeModal" data-position="PHP Developer">
-                        <span class="button-text-wrapper">Apply Now</span>
-                    </a>
-                </div>
-                <div class="job-details">
-                    <div class="job-details-content">
-                        <h4>Required Skills:</h4>
-                        <ul>
-                            <li>Good knowledge of developing themes and plugin</li>
-                            <li>Good knowledge of Framework and Apache2, MVC pattern</li>
-                            <li>Good knowledge of Javascript, HTML5, CSS 3+, XML, DHTML</li>
-                            <li>Thorough understanding of AJAX, jQuery and website frameworks</li>
-                            <li>Very good knowledge of version control systems (SVN, GIT, TFS)</li>
-                            <li>Good team player enjoying developing solutions with others</li>
-                            <li>Experience with web and interface design</li>
-                            <li>Must show some previous project and/or hacks</li>
-                            <li>Passionate about quality and details</li>
-                            <li>Hard-working and a fast learner</li>
-                        </ul>
-                        <h4>Roles and Responsibilities:</h4>
-                        <ul>
-                            <li>Developing and designing of applications</li>
-                            <li>Developing project work related to Laravel, Wordpress and Codeigniter</li>
-                            <li>Migration</li>
-                        </ul>
+                    <div class="job-details">
+                        <div class="job-details-content">
+                            <h4>Required Skills:</h4>
+                            <ul>
+                                <li>Good knowledge of developing themes and plugin</li>
+                                <li>Good knowledge of Framework and Apache2, MVC pattern</li>
+                                <li>Good knowledge of Javascript, HTML5, CSS 3+, XML, DHTML</li>
+                                <li>Thorough understanding of AJAX, jQuery and website frameworks</li>
+                                <li>Very good knowledge of version control systems (SVN, GIT, TFS)</li>
+                                <li>Good team player enjoying developing solutions with others</li>
+                                <li>Experience with web and interface design</li>
+                                <li>Must show some previous project and/or hacks</li>
+                                <li>Passionate about quality and details</li>
+                                <li>Hard-working and a fast learner</li>
+                            </ul>
+                            <h4>Roles and Responsibilities:</h4>
+                            <ul>
+                                <li>Developing and designing of applications</li>
+                                <li>Developing project work related to Laravel, Wordpress and Codeigniter</li>
+                                <li>Migration</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -12,7 +12,7 @@
 }
 
 .about-hero {
-    padding: 120px 0 80px;
+    padding: 120px 40px 80px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -76,7 +76,7 @@
 }
 
 .about-section {
-    padding: 40px 0;
+    padding: 40px;
 }
 
 .about-content {
@@ -84,9 +84,6 @@
     grid-template-columns: 1fr 1fr;
     gap: 60px;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
 }
 
 .about-text h2 {
@@ -156,10 +153,6 @@
 .section-header {
     text-align: center;
     margin-bottom: 60px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 20px;
 }
 
 .section-header h2 {
@@ -178,7 +171,7 @@
 }
 
 .testimonials-section {
-    padding: 40px 0;
+    padding: 40px;
     background: var(--bg-secondary);
 }
 
@@ -186,9 +179,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
 }
 
 .testimonial-card {
@@ -268,17 +258,19 @@
 }
 
 .cta-section {
-    padding: 40px 0;
+    padding: 40px;
     text-align: center;
 }
 
 .cta-content {
-    max-width: 800px;
+    max-width: 1000px;
+    height: 400px;
     margin: 0 auto;
     padding: 60px;
     border-radius: 30px;
     position: relative;
     overflow: hidden;
+    align-content: center;
 }
 
 [data-theme="dark"] .cta-content {
@@ -397,7 +389,7 @@
 
 @media (max-width: 768px) {
     .about-hero {
-        padding: 80px 0 40px;
+        padding: 80px 20px 40px;
     }
     .about-hero h1 {
         font-size: 32px;
@@ -410,7 +402,7 @@
     .about-section,
     .testimonials-section,
     .cta-section {
-        padding: 30px 0;
+        padding: 30px 20px;
     }
 
     .about-text h2,
@@ -451,7 +443,7 @@
 
     <!-- About Section -->
     <section class="about-section">
-        <div class="about-content">
+        <div class="about-content container">
             <div class="about-text">
                 <h2 data-sr="fadeup">Empowering Your Digital Journey</h2>
                 <p data-sr="fadeup" style="--sr-delay: 0.1s">Codelock Solutions is a leading Shopify development company offering end-to-end Shopify solutions all around the globe. We harness the power of E-commerce Shopify and emerging technologies to help our merchants adapt to the digital world and make them successful.</p>
@@ -470,60 +462,62 @@
 
     <!-- Testimonials Section -->
     <section class="testimonials-section">
-        <div class="section-header">
-            <h2>What Our Clients Say</h2>
-            <p>Trusted by businesses worldwide for our expertise and dedication</p>
-        </div>
-        <div class="testimonials-grid">
-            <div class="testimonial-card">
-                <div class="testimonial-avatar">
-                    <img src="images/testimonial/boy.jpg" alt="Veerbhdrasinh Chauhan" />
-                </div>
-                <p class="testimonial-quote">Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far. No coding skills required.</p>
-                <div class="testimonial-author">
-                    <h4>Veerbhdrasinh Chauhan</h4>
-                    <span>Web Developer</span>
-                </div>
-                <div class="testimonial-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                </div>
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Trusted by businesses worldwide for our expertise and dedication</p>
             </div>
-            <div class="testimonial-card">
-                <div class="testimonial-avatar">
-                    <img src="images/testimonial/boy.jpg" alt="Rahul Sharma" />
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="images/testimonial/boy.jpg" alt="Veerbhdrasinh Chauhan" />
+                    </div>
+                    <p class="testimonial-quote">Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far. No coding skills required.</p>
+                    <div class="testimonial-author">
+                        <h4>Veerbhdrasinh Chauhan</h4>
+                        <span>Web Developer</span>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
                 </div>
-                <p class="testimonial-quote">Codelock Solutions delivered an exceptional e-commerce platform that exceeded our expectations. Their team's expertise in Shopify development and attention to detail helped us increase our online sales by 40% within the first quarter.</p>
-                <div class="testimonial-author">
-                    <h4>Rahul Sharma</h4>
-                    <span>CEO, FashionHub</span>
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="images/testimonial/boy.jpg" alt="Rahul Sharma" />
+                    </div>
+                    <p class="testimonial-quote">Codelock Solutions delivered an exceptional e-commerce platform that exceeded our expectations. Their team's expertise in Shopify development and attention to detail helped us increase our online sales by 40% within the first quarter.</p>
+                    <div class="testimonial-author">
+                        <h4>Rahul Sharma</h4>
+                        <span>CEO, FashionHub</span>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
                 </div>
-                <div class="testimonial-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <div class="testimonial-avatar">
-                    <img src="images/testimonial/girl.jpg" alt="Drashti Sankla" />
-                </div>
-                <p class="testimonial-quote">Great Web Designing company in Surat, friendly support, quality work. Also, great for job seekers, freshers to give boost to their career in IT field.</p>
-                <div class="testimonial-author">
-                    <h4>Drashti Sankla</h4>
-                    <span>Web Designer</span>
-                </div>
-                <div class="testimonial-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="images/testimonial/girl.jpg" alt="Drashti Sankla" />
+                    </div>
+                    <p class="testimonial-quote">Great Web Designing company in Surat, friendly support, quality work. Also, great for job seekers, freshers to give boost to their career in IT field.</p>
+                    <div class="testimonial-author">
+                        <h4>Drashti Sankla</h4>
+                        <span>Web Designer</span>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
                 </div>
             </div>
         </div>

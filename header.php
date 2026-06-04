@@ -174,6 +174,7 @@ ob_start(function($buffer) {
                 'florenceblack' => 'Florence Black',
                 'gemroyals' => 'Gem Royals',
                 'hamporio' => 'Hamporio',
+                'ibex' => 'IBEX',
                 'justmeats' => 'True Nature Meats',
                 'kiddicare' => 'Kiddicare',
                 'millenniumjewelery' => 'Millennium Jewelery',
@@ -296,6 +297,7 @@ ob_start(function($buffer) {
             background: rgba(7, 5, 20, 0.85) !important;
             border-bottom: 1px solid rgba(255, 255, 255, 0.05);
             transition: background 0.3s ease;
+            padding: 0 40px;
         }
 
         [data-theme="light"] .ttm-stickable-header {
@@ -405,6 +407,10 @@ ob_start(function($buffer) {
                 background-color: var(--text-primary) !important;
             }
 
+            .ttm-stickable-header {
+                padding: 0 !important;
+            }
+
             /* Fix mobile header background */
             .ttm-stickable-header-w {
                 background-color: #070514 !important;
@@ -435,7 +441,7 @@ ob_start(function($buffer) {
 
             [data-theme="light"] #site-header-menu #site-navigation .menu>ul {
                 background-color: #ffffff !important;
-                border-top: 3px solid #0066cc !important;
+                border-top: 3px solid #728948 !important;
             }
 
             #site-header-menu #site-navigation .menu ul li a {
@@ -455,7 +461,7 @@ ob_start(function($buffer) {
 
             [data-theme="light"] #site-header-menu #site-navigation .menu ul li:hover>a,
             [data-theme="light"] #site-header-menu #site-navigation .menu ul li.active>a {
-                color: #0066cc !important;
+                color: var(--accent-primary) !important;
                 background-color: rgba(0, 0, 0, 0.02) !important;
             }
 
@@ -465,13 +471,161 @@ ob_start(function($buffer) {
             }
 
             .ttm-menu-toggle {
-                float: left !important;
-                margin-right: 15px !important;
-                z-index: 10;
-                margin-top: 5px;
+                float: none !important;
+                left: 16px;
+                margin: 0 !important;
+                position: absolute;
+                top: 30px;
+                z-index: 1001;
             }
+
             .ttm-menu-toggle label {
-                top: 25px !important;
+                top: 0 !important;
+            }
+
+            .ttm-menu-toggle .toggle-block {
+                border-radius: 999px;
+                transition: opacity 0.2s ease, transform 0.32s ease, margin 0.32s ease;
+            }
+
+            #site-header-menu #site-navigation .menu {
+                background: #05030e;
+                bottom: 0;
+                display: block !important;
+                height: calc(100dvh - 80px);
+                height: calc(100vh - 80px);
+                left: 0;
+                max-height: 0;
+                opacity: 0;
+                overflow: hidden;
+                pointer-events: none;
+                position: fixed;
+                right: 0;
+                top: 80px;
+                transform: translateY(-12px) scale(0.98);
+                transform-origin: top center;
+                width: 100vw;
+                transition: max-height 0.45s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.25s ease, transform 0.35s ease, visibility 0s linear 0.35s;
+                visibility: hidden;
+                z-index: 9998;
+            }
+
+            #site-header-menu #site-navigation .menu:before {
+                background:
+                    linear-gradient(135deg, rgba(0, 242, 254, 0.14), rgba(0, 242, 254, 0) 34%),
+                    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.045) 0 1px, transparent 1px 48px),
+                    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px 48px);
+                content: "";
+                inset: 0;
+                opacity: 0;
+                pointer-events: none;
+                position: absolute;
+                transform: translateY(-18px);
+                transition: opacity 0.35s ease, transform 0.45s ease;
+            }
+
+            #site-header-menu #site-navigation .menu.active:before {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            #site-header-menu #site-navigation .menu.active {
+                height: calc(100dvh - 80px) !important;
+                height: calc(100vh - 80px) !important;
+                max-height: calc(100dvh - 80px);
+                max-height: calc(100vh - 80px);
+                opacity: 1;
+                overflow-y: auto;
+                pointer-events: auto;
+                transform: translateY(0) scale(1);
+                transition-delay: 0s;
+                visibility: visible;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            #site-header-menu #site-navigation .menu>ul>li {
+                border: 0 !important;
+                counter-increment: mobile-nav;
+                opacity: 0;
+                transform: translateX(-26px);
+                transition: opacity 0.24s ease, transform 0.28s ease;
+            }
+
+            #site-header-menu #site-navigation .menu>ul>li:nth-child(even) {
+                transform: translateX(26px);
+            }
+
+            #site-header-menu #site-navigation .menu.active>ul>li {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            #site-header-menu #site-navigation .menu>ul>li>a {
+                align-items: center;
+                background: linear-gradient(90deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.02)) !important;
+                border: 1px solid rgba(255, 255, 255, 0.08);
+                border-left: 3px solid rgba(0, 242, 254, 0.55);
+                border-radius: 8px;
+                box-sizing: border-box;
+                display: flex !important;
+                font-size: clamp(16px, 4.6vw, 22px);
+                font-weight: 700;
+                justify-content: flex-start;
+                letter-spacing: 0;
+                min-height: 56px;
+                overflow: hidden;
+                padding: 0 20px !important;
+                position: relative;
+                text-transform: capitalize;
+                width: 100%;
+            }
+
+            #site-header-menu #site-navigation .menu>ul>li:hover>a,
+            #site-header-menu #site-navigation .menu>ul>li.active>a {
+                background: linear-gradient(90deg, rgba(0, 242, 254, 0.17), rgba(124, 58, 237, 0.12)) !important;
+                border-color: rgba(0, 242, 254, 0.38);
+            }
+
+            #site-header-menu #site-navigation .menu>ul>li:hover>a:after,
+            #site-header-menu #site-navigation .menu>ul>li.active>a:after {
+                color: #00f2fe;
+                transform: translate(4px, -50%);
+            }
+
+            [data-theme="light"] #site-header-menu #site-navigation .menu {
+                background: #f7fbff;
+            }
+
+            [data-theme="light"] #site-header-menu #site-navigation .menu:before {
+                background:
+                    linear-gradient(135deg, rgba(0, 102, 204, 0.12), rgba(0, 102, 204, 0) 34%),
+                    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.045) 0 1px, transparent 1px 48px),
+                    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.035) 0 1px, transparent 1px 48px);
+            }
+
+            [data-theme="light"] #site-header-menu #site-navigation .menu>ul>li>a {
+                background: linear-gradient(90deg, rgba(255, 255, 255, 0.9), rgba(114, 137, 72, 0.08)) !important;
+                border-color: rgba(0, 0, 0, 0.08);
+                border-left-color: rgb(114 137 72 / 56%);
+            }
+
+            #site-header-menu #site-navigation .menu.active>ul>li:nth-child(1) { transition-delay: 0.04s; }
+            #site-header-menu #site-navigation .menu.active>ul>li:nth-child(2) { transition-delay: 0.07s; }
+            #site-header-menu #site-navigation .menu.active>ul>li:nth-child(3) { transition-delay: 0.10s; }
+            #site-header-menu #site-navigation .menu.active>ul>li:nth-child(4) { transition-delay: 0.13s; }
+            #site-header-menu #site-navigation .menu.active>ul>li:nth-child(5) { transition-delay: 0.16s; }
+            #site-header-menu #site-navigation .menu.active>ul>li:nth-child(6) { transition-delay: 0.19s; }
+            #site-header-menu #site-navigation .menu.active>ul>li:nth-child(7) { transition-delay: 0.22s; }
+
+            body.mobile-menu-open {
+                overflow: hidden;
+            }
+
+            body.mobile-menu-open #whatsapp-chat,
+            body.mobile-menu-open .blantershow-chat {
+                opacity: 0;
+                pointer-events: none;
+                transform: scale(0.88);
             }
         }
     </style>
@@ -596,14 +750,14 @@ ob_start(function($buffer) {
                                         <!-- header-icons end -->
                                     </div>
                                     <div class="ttm-menu-toggle">
-                                        <input type="checkbox" id="menu-toggle-form" />
-                                        <label for="menu-toggle-form" class="ttm-menu-toggle-block">
+                                        <input type="checkbox" id="menu-toggle-form" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation menu" />
+                                        <label for="menu-toggle-form" class="ttm-menu-toggle-block" aria-label="Toggle navigation menu">
                                             <span class="toggle-block toggle-blocks-1"></span>
                                             <span class="toggle-block toggle-blocks-2"></span>
                                             <span class="toggle-block toggle-blocks-3"></span>
                                         </label>
                                     </div>
-                                    <nav id="menu" class="menu">
+                                    <nav id="menu" class="menu" aria-label="Primary navigation">
                                         <ul class="dropdown">
                                             <li><a href="index.php" class="gtm-nav-link" data-nav-name="Home">Home</a></li>
                                             <li><a href="about.php" class="gtm-nav-link" data-nav-name="About Us">About Us</a></li>

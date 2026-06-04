@@ -399,6 +399,18 @@
         </image:image>
     </url>
 
+    <!-- Project: IBEX -->
+    <url>
+        <loc>https://codelocksolutions.com/project-ibex</loc>
+        <lastmod>2026-06-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://ibex.com/cdn/shop/files/DSC00729-Enhanced-NR.jpg?v=1774628850</image:loc>
+            <image:title>IBEX Merino Wool Outdoor Clothing Shopify Store Showcase</image:title>
+        </image:image>
+    </url>
+
     <!-- Project: Ayaani -->
     <url>
         <loc>https://codelocksolutions.com/project-ayaani</loc>

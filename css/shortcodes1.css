@@ -53,7 +53,7 @@
     1.ttm-row
 ------------------------*/
 
-.ttm-row{ padding: 40px 0;}
+.ttm-row{ padding: 40px;}
 .ttm-row.zero-padding-section,
 .ttm-row.map-section{padding: 0 0;}
 .ttm-row.topzero-padding-section{padding: 0 0 90px;}
@@ -497,7 +497,6 @@
 /** btn-size-md **/
 .ttm-btn.ttm-btn-size-md { font-size: 14px; padding: 10px 30px 10px 30px; }
 .ttm-btn.ttm-btn-size-md.ttm-icon-btn-right { padding-right: 48px; }
-.ttm-btn.ttm-btn-size-md.ttm-icon-btn-left{ padding-left: 48px; }
 .ttm-btn.ttm-btn-size-md.ttm-icon-btn-left i{ left: 20px;}
 .ttm-btn.ttm-btn-size-md i {
     font-size: 11px;

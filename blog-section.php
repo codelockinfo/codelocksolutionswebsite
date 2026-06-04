@@ -50,7 +50,7 @@
 
     <style>
     .blog-section {
-        padding: 40px 0;
+        padding: 40px;
         background: var(--bg-primary);
         position: relative;
         overflow: hidden;
@@ -272,7 +272,7 @@
 
     @media (max-width: 767px) {
         .blog-section {
-            padding: 30px 0;
+            padding: 30px 20px;
         }
         .blog-grid {
             grid-template-columns: 1fr;

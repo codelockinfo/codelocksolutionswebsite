@@ -32,7 +32,7 @@
         <button class="pagination-dot" data-slide="2" aria-label="Go to slide 3"></button>
     </div>
 
-    <div class="hero-container">
+    <div class="hero-container conatiner">
         <div class="hero-content-wrapper">
             <div class="hero-badge">
                 <span class="badge-dot"></span>
@@ -358,8 +358,6 @@
 
     .hero-container {
         position: relative;
-        max-width: 1400px;
-        margin: 0 auto;
         padding: 0 40px;
         display: grid;
         grid-template-columns: 1.1fr 0.9fr;

@@ -171,7 +171,7 @@
 
 .first-footer {
     background: var(--bg-secondary);
-    padding: 25px 0;
+    padding: 25px 40px;
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -214,7 +214,7 @@
 
 .second-footer {
     background: var(--bg-tertiary);
-    padding: 30px 0;
+    padding: 30px 40px;
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -227,7 +227,7 @@
 
 .bottom-footer-text {
     background: var(--bg-secondary);
-    padding: 20px 0;
+    padding: 20px 40px;
     border-top: 1px solid var(--border-color);
 }
 

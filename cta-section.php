@@ -24,7 +24,7 @@
 
     <style>
     .cta-section {
-        padding: 40px 0;
+        padding: 40px;
         background: var(--bg-primary);
         position: relative;
         overflow: hidden;
@@ -266,7 +266,7 @@
 
     @media (max-width: 767px) {
         .cta-section {
-            padding: 30px 0;
+            padding: 30px 20px;
         }
         .cta-headline {
             font-size: 32px;

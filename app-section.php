@@ -1,6 +1,6 @@
 <!-- Shopify Apps Section -->
 <section class="shopify-apps-section">
-    <div class="apps-container">
+    <div class="apps-container container">
         <div class="apps-content-wrapper">
             <div class="apps-badge">
                 <span class="badge-dot"></span>
@@ -99,8 +99,6 @@
 
     .apps-container {
         position: relative;
-        max-width: 1400px;
-        margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr 1.2fr;
         gap: 80px;

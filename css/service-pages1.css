@@ -10,7 +10,7 @@
     color: var(--text-primary) !important;
     font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
     overflow-x: hidden;
-    transition: background 0.5s ease, color 0.5s ease;
+    transition: background 0.5s ease, color 0.5s ease;   
 }
 
 @keyframes rotate {
@@ -25,7 +25,7 @@
     background: radial-gradient(circle at 50% 50%, rgba(0, 242, 254, 0.06) 0%, transparent 60%),
                 linear-gradient(185deg, #070514 0%, #0c0a21 100%) !important;
     border-bottom: 1px solid var(--border-color);
-    padding: 120px 0 80px;
+    padding: 120px 40px 80px;
     text-align: center;
 }
 .redesign-page-title-row::before {
@@ -122,17 +122,23 @@
 
 /* Redesign Section */
 .redesign-section {
-    padding: 40px 0;
+    padding: 40px;
     position: relative;
     z-index: 1;
 }
 
 .redesign-section-alt {
-    padding: 40px 0;
+    padding: 40px;
     position: relative;
     z-index: 1;
     background-color: var(--bg-secondary);
 }
+
+/* .service-body-redesign .redesign-section-alt .container,
+.service-body-redesign .redesign-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+} */
 
 /* Hero Section */
 .service-hero-grid {
@@ -1512,7 +1518,7 @@
 /* ── 6. Responsive Typography & Mobile Layout Optimizations ────────────── */
 @media (max-width: 991px) {
     .redesign-page-title-row {
-        padding: 80px 0 40px;
+        padding: 80px 20px 40px;
     }
     .redesign-page-title-row h1 {
         font-size: 2.6rem;
@@ -1537,7 +1543,7 @@
 @media (max-width: 767px) {
     .redesign-section,
     .redesign-section-alt {
-        padding: 30px 0;
+        padding: 30px 20px;
     }
     .redesign-page-title-row h1.title {
         font-size: 32px;

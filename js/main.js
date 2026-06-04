@@ -115,16 +115,49 @@ $(window).scroll(function(){
     });
     
     var $menu = $('#menu'), $menulink = $('#menu-toggle-form'), $menuTrigger = $('.has-submenu > a');
-    $menulink.on('click',function (e) {
 
-        $menulink.toggleClass('active');
-        $menu.toggleClass('active');
+    function setMobileMenuState(isOpen) {
+        $menulink
+            .prop('checked', isOpen)
+            .toggleClass('active', isOpen)
+            .attr('aria-expanded', isOpen ? 'true' : 'false');
+        $menu.toggleClass('active', isOpen);
+        $('body').toggleClass('mobile-menu-open', isOpen && $(window).width() < 1200);
+    }
+
+    $menulink.on('change',function () {
+        setMobileMenuState(this.checked);
     });
 
     $menuTrigger.on('click',function (e) {
-        e.preventDefault();
         var t = $(this);
-        t.toggleClass('active').next('ul').toggleClass('active');
+        var submenu = t.next('ul');
+
+        if (!submenu.length) {
+            return;
+        }
+
+        e.preventDefault();
+        t.toggleClass('active');
+        submenu.toggleClass('active');
+    });
+
+    $menu.find('a').on('click', function() {
+        if ($(window).width() < 1200 && !$(this).next('ul').length) {
+            setMobileMenuState(false);
+        }
+    });
+
+    $(document).on('keyup', function(e) {
+        if (e.key === 'Escape' && $menu.hasClass('active')) {
+            setMobileMenuState(false);
+        }
+    });
+
+    $(window).on('resize', function() {
+        if ($(window).width() >= 1200 && $menu.hasClass('active')) {
+            setMobileMenuState(false);
+        }
     });
 
     $('ul li:has(ul)');

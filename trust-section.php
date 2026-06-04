@@ -34,7 +34,7 @@
 <style>
 .trust-metrics-section {
     background-color: var(--bg-primary);
-    padding: 40px 0;
+    padding: 40px;
     font-family: 'Inter', sans-serif;
     color: var(--text-primary);
     overflow: hidden;
@@ -236,7 +236,7 @@
 
 @media (max-width: 768px) {
     .trust-metrics-section {
-        padding: 30px 0;;
+        padding: 30px 20px;
     }
     
     .metrics-desc {

@@ -186,7 +186,10 @@ h4 { font-size: 24px; line-height: 30px; }
 h5 { font-size: 19px; line-height: 23px; }
 h6 { font-size: 16px; line-height: 18px;}
 
-
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
 /** Transition **/
 rs-slide a { transition: unset; }
 .featured-icon-box .featured-icon, .ttm-btn, button, 
@@ -2399,6 +2402,15 @@ align-items: center;
   @media screen and (max-width: 768px){
     .breadcrumb-wrapper span {
         font-size: 14px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    .first-footer .ttm-btn {
+        width: 100%;
+        text-align: center;
     }
   }
 @media screen and (max-width: 480px) {

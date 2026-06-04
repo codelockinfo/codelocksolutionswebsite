@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .redesign-section {
-    padding: 40px 0;
+    padding: 40px;
 }
 
 @keyframes rotate {
@@ -17,7 +17,7 @@
     background: radial-gradient(circle at 50% 50%, rgba(0, 242, 254, 0.06) 0%, transparent 60%),
                 linear-gradient(185deg, #070514 0%, #0c0a21 100%) !important;
     border-bottom: 1px solid var(--border-color);
-    padding: 120px 0 80px;
+    padding: 120px 40px 80px;
     text-align: center;
 }
 .redesign-page-title-row::before {
@@ -524,7 +524,7 @@
 /* ── 8. Responsive Typography & Layouts ─────────────────────────────────── */
 @media (max-width: 991px) {
     .redesign-page-title-row {
-        padding: 80px 0 40px;
+        padding: 80px 20px 40px;
     }
     .contact-grid {
         grid-template-columns: 1fr;
@@ -537,7 +537,7 @@
 
 @media (max-width: 767px) {
     .redesign-section {
-        padding: 30px 0;
+        padding: 30px 20px;
     }
     .redesign-page-title-row h1.title {
         font-size: 32px;
