@@ -453,8 +453,8 @@
 }
 
 .faq-icon-box {
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.05);
     display: flex;
@@ -462,11 +462,12 @@
     justify-content: center;
     color: var(--text-primary);
     transition: all 0.3s ease;
+    flex-shrink: 0;
 }
 
 .faq-icon-box svg {
-    width: 14px;
-    height: 14px;
+    width: 16px;
+    height: 16px;
     stroke: currentColor;
     stroke-width: 2.5;
     fill: none;
@@ -2762,10 +2763,10 @@
                     <h2>Let's build something exceptional together</h2>
                     <p>Partner with an expert development team to configure robust, lightning-fast digital solutions that scale your operations.</p>
                     <div class="cta-buttons">
-                        <a href="contact.php" class="cta-btn-primary cta-primary schedule-btn">
+                        <a href="contact.php" class="cta-btn-primary cta-primary">
                             <span class="button-text-wrapper">Schedule Consultation</span>
                         </a>
-                        <a href="hireexpert.php" class="cta-btn-secondary cta-secondary hire-btn">
+                        <a href="hireexpert.php" class="cta-btn-secondary cta-secondary">
                             <span class="button-text-wrapper">Hire Shopify Expert</span>
                         </a>
                     </div>
