@@ -120,6 +120,7 @@ function build_email_html($title, $subtitle, $fields) {
     }
 
     $year = date('Y');
+    $timestamp = date('d-M-Y h:i:s A T');
     $template = <<<HTML
 <!DOCTYPE html>
 <html>
@@ -229,13 +230,15 @@ function build_email_html($title, $subtitle, $fields) {
             color: #84897f;
             margin: 0;
             line-height: 1.6;
+            text-align: center;
         }
         @media only screen and (max-width: 600px) {
             .wrapper {
-                padding: 10px 10px !important;
+                padding: 10px 0 !important;
             }
             .container {
                 width: 100% !important;
+                margin: 0 auto !important;
                 border-radius: 16px !important;
             }
             .header {
@@ -246,6 +249,10 @@ function build_email_html($title, $subtitle, $fields) {
             }
             .footer {
                 padding: 20px 20px !important;
+                text-align: center !important;
+            }
+            .footer-text {
+                text-align: center !important;
             }
             .title {
                 font-size: 20px !important;
@@ -288,7 +295,8 @@ function build_email_html($title, $subtitle, $fields) {
             <div class="footer">
                 <p class="footer-text">
                     This is an automated system notification from <strong>CodeLock Solutions</strong>.<br>
-                    &copy; {$year} CodeLock Solutions. All rights reserved.
+                    &copy; {$year} CodeLock Solutions. All rights reserved.<br>
+                    <span style="font-size: 10px; color: #a4a99f; display: block; margin-top: 8px;">Sent at: {$timestamp}</span>
                 </p>
             </div>
         </div>
