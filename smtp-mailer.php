@@ -129,7 +129,7 @@ function build_email_html($title, $subtitle, $fields) {
     <title>{$title}</title>
     <style>
         body {
-            background-color: #f5f7f4;
+            /* background-color: #f5f7f4; */
             margin: 0;
             padding: 0;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -138,7 +138,7 @@ function build_email_html($title, $subtitle, $fields) {
         }
         .wrapper {
             width: 100%;
-            background-color: #f5f7f4;
+            /* background-color: #f5f7f4; */
             padding: 40px 0;
         }
         .container {
@@ -203,11 +203,17 @@ function build_email_html($title, $subtitle, $fields) {
             color: #2e322b;
             vertical-align: top;
             line-height: 1.5;
+            word-break: break-all;
+            word-break: break-word;
+            overflow-wrap: break-word;
         }
         .info-value a {
-            color: #728948;
-            text-decoration: none;
+            color: inherit !important;
+            text-decoration: underline;
             font-weight: 600;
+            word-break: break-all;
+            word-break: break-word;
+            overflow-wrap: break-word;
         }
         .info-value a:hover {
             text-decoration: underline;
@@ -223,6 +229,46 @@ function build_email_html($title, $subtitle, $fields) {
             color: #84897f;
             margin: 0;
             line-height: 1.6;
+        }
+        @media only screen and (max-width: 600px) {
+            .wrapper {
+                padding: 10px 10px !important;
+            }
+            .container {
+                width: 100% !important;
+                border-radius: 16px !important;
+            }
+            .header {
+                padding: 20px 20px !important;
+            }
+            .content {
+                padding: 20px 20px !important;
+            }
+            .footer {
+                padding: 20px 20px !important;
+            }
+            .title {
+                font-size: 20px !important;
+            }
+            .info-table, .info-table tbody, .info-table tr, .info-table td {
+                display: block !important;
+                width: 100% !important;
+            }
+            .info-table tr {
+                padding: 12px 0 !important;
+                border-bottom: 1px solid #edf0ec !important;
+            }
+            .info-table tr:last-child {
+                border-bottom: none !important;
+            }
+            .info-label {
+                width: 100% !important;
+                padding: 0 0 4px 0 !important;
+            }
+            .info-value {
+                width: 100% !important;
+                padding: 0 !important;
+            }
         }
     </style>
 </head>
