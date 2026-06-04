@@ -308,6 +308,6 @@
 
 </div>
 
-<script src="js/project-detail1.js"></script>
+<script src="js/project-detail2.js"></script>
 
 <?php include 'footer.php';?>

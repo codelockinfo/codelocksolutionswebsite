@@ -92,41 +92,105 @@ document.addEventListener('DOMContentLoaded', function() {
             
             let currentIndex = 0;
             const totalSlides = slides.length;
-            
+
+            if (totalSlides <= 1) {
+                if (pagination) {
+                    const dot = document.createElement('div');
+                    dot.className = 'pagination-dot active';
+                    pagination.appendChild(dot);
+                }
+                if (prevBtn) prevBtn.style.display = 'none';
+                if (nextBtn) nextBtn.style.display = 'none';
+                return;
+            }
+
+            // Clone slides for infinite loop
+            const firstClone = slides[0].cloneNode(true);
+            const lastClone = slides[totalSlides - 1].cloneNode(true);
+            firstClone.classList.add('slider-slide-clone');
+            lastClone.classList.add('slider-slide-clone');
+            track.appendChild(firstClone);
+            track.insertBefore(lastClone, slides[0]);
+
+            let currentDomIndex = 1;
+            let isTransitioning = false;
+
+            // Set initial position
+            track.style.transition = 'none';
+            track.style.transform = `translateX(-100%)`;
+            // Force browser reflow to apply the styling immediately
+            track.offsetHeight;
+
             // Create pagination dots
             if (pagination) {
                 for (let i = 0; i < totalSlides; i++) {
                     const dot = document.createElement('div');
                     dot.className = 'pagination-dot' + (i === 0 ? ' active' : '');
-                    dot.addEventListener('click', () => goToSlide(i));
+                    dot.addEventListener('click', () => {
+                        if (isTransitioning) return;
+                        goToSlide(i);
+                    });
                     pagination.appendChild(dot);
                 }
             }
             
-            function updateSlider() {
-                track.style.transform = `translateX(-${currentIndex * 100}%)`;
-                
-                // Update pagination dots
-                const dots = pagination.querySelectorAll('.pagination-dot');
-                dots.forEach((dot, index) => {
-                    dot.classList.toggle('active', index === currentIndex);
-                });
-            }
-            
             function goToSlide(index) {
-                if (index < 0) index = totalSlides - 1;
-                if (index >= totalSlides) index = 0;
-                currentIndex = index;
-                updateSlider();
+                if (isTransitioning) return;
+                isTransitioning = true;
+
+                let targetDomIndex;
+                if (index === -1) {
+                    targetDomIndex = 0;
+                    currentIndex = totalSlides - 1;
+                } else if (index === totalSlides) {
+                    targetDomIndex = totalSlides + 1;
+                    currentIndex = 0;
+                } else {
+                    targetDomIndex = index + 1;
+                    currentIndex = index;
+                }
+
+                track.style.transition = 'transform 0.5s ease-in-out';
+                track.style.transform = `translateX(-${targetDomIndex * 100}%)`;
+                currentDomIndex = targetDomIndex;
+
+                // Update pagination dots
+                if (pagination) {
+                    const dots = pagination.querySelectorAll('.pagination-dot');
+                    dots.forEach((dot, idx) => {
+                        dot.classList.toggle('active', idx === currentIndex);
+                    });
+                }
             }
+
+            track.addEventListener('transitionend', (e) => {
+                if (e.target !== track) return;
+                
+                if (currentDomIndex === 0) {
+                    track.style.transition = 'none';
+                    currentDomIndex = totalSlides;
+                    track.style.transform = `translateX(-${currentDomIndex * 100}%)`;
+                    track.offsetHeight; // Force layout reflow
+                } else if (currentDomIndex === totalSlides + 1) {
+                    track.style.transition = 'none';
+                    currentDomIndex = 1;
+                    track.style.transform = `translateX(-100%)`;
+                    track.offsetHeight; // Force layout reflow
+                }
+                isTransitioning = false;
+            });
             
             // Navigation button events
             if (prevBtn) {
-                prevBtn.addEventListener('click', () => goToSlide(currentIndex - 1));
+                prevBtn.addEventListener('click', () => {
+                    goToSlide(currentIndex - 1);
+                });
             }
             
             if (nextBtn) {
-                nextBtn.addEventListener('click', () => goToSlide(currentIndex + 1));
+                nextBtn.addEventListener('click', () => {
+                    goToSlide(currentIndex + 1);
+                });
             }
             
             // Touch/swipe support

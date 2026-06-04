@@ -307,6 +307,6 @@
     </section>
 </div>
 
-<script src="js/project-detail1.js"></script>
+<script src="js/project-detail2.js?v=1.1"></script>
 
 <?php include 'footer.php';?>

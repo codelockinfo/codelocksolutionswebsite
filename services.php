@@ -719,7 +719,8 @@
 .services-showcase-section {
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 100vh;
+    min-height: 750px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -731,7 +732,11 @@
     position: relative;
     width: 90%;
     max-width: 1200px;
-    height: 600px;
+    height: 70vh;
+    min-height: 600px;
+    max-height: 720px;
+    overflow: hidden;
+    border-radius: 32px;
 }
 
 .showcase-row {
@@ -747,7 +752,7 @@
     border-radius: 32px;
     overflow: hidden;
     box-shadow: 0 30px 60px rgba(0,0,0,0.15);
-    will-change: transform, opacity, filter;
+    will-change: transform, opacity;
 }
 
 .showcase-row:nth-child(1) { z-index: 1; }
@@ -1901,33 +1906,35 @@
     stroke-dashoffset: 0;
 }
 
-/* Scroll Trigger fade reveals */
+/* Scroll Trigger fade reveals - transitions removed to prevent GSAP conflict */
 .showcase-row {
-    transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+    /* transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), transform 0.8s cubic-bezier(0.25, 1, 0.5, 1); */
 }
 
 
 /* Responsive styles for Services Showcase Section */
 @media (max-width: 991px) {
     .services-showcase-section {
-        padding: 40px 0;
-        min-height: 100vh;
-        overflow: visible;
+        padding: 60px 0;
+        height: 100vh;
+        min-height: 650px;
+        overflow: hidden;
     }
     
     .cards-container {
-        overflow: visible;
-        min-height: 100vh;
-        height: auto !important;
+        overflow: hidden;
+        height: calc(100vh - 120px) !important;
+        min-height: 520px;
+        border-radius: 24px;
     }
     
     .showcase-row {
         flex-direction: column-reverse !important;
-        gap: 30px;
-        padding: 20px;
+        gap: 15px;
+        padding: 15px;
         overflow: visible;
-        min-height: 90vh;
-        height: auto !important;
+        min-height: auto;
+        height: 100% !important;
     }
     
     .showcase-visual-col,
@@ -1935,69 +1942,82 @@
         width: 100%;
         padding: 0;
         overflow: visible;
-        height: auto !important;
         flex-shrink: 0;
     }
     
     .showcase-visual-col {
-        min-height: 240px;
+        height: 40% !important;
+        min-height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .showcase-content-col {
-        min-height: 320px;
+        height: 60% !important;
+        min-height: auto;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     .visual-wrapper {
-        min-height: 240px;
+        min-height: auto;
+        height: 100%;
         overflow: visible;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .showcase-card {
-        padding: 20px;
+        padding: 10px 15px;
         overflow: visible;
         height: auto !important;
     }
     .showcase-card h3 {
         font-size: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 6px;
     }
     .showcase-card p {
-        font-size: 14px;
-        line-height: 1.4;
-        margin-bottom: 10px;
+        font-size: 13px;
+        line-height: 1.35;
+        margin-bottom: 6px;
     }
     .showcase-checklist {
-        margin: 0 0 10px 0;
+        margin: 0 0 6px 0;
     }
     .showcase-checklist li {
-        font-size: 13px;
-        line-height: 1.5;
-        margin-bottom: 0;
+        font-size: 12px;
+        line-height: 1.4;
+        margin-bottom: 2px;
     }
     .service-link {
-        font-size: 13px;
+        font-size: 12px;
+        margin-top: 2px;
     }
     .mockup-browser {
-        width: 260px;
-        height: 180px;
+        width: 220px;
+        height: 150px;
     }
     
     .mockup-phone {
-        height: 350px;
-        width: 210px;
+        height: 270px;
+        width: 165px;
     }
 
     .mockup-tablet {
-        width: 300px;
-        height: 310px;
+        width: 230px;
+        height: 240px;
     }
     
     /* Make widgets slightly smaller on mobile */
     .floating-widget-inner {
-        padding: 5px 8px;
+        padding: 4px 6px;
     }
     .floating-widget-inner span {
-        font-size: 0.65rem;
+        font-size: 0.6rem;
     }
 }
 </style>
@@ -2989,6 +3009,11 @@ document.addEventListener('DOMContentLoaded', function() {
     if (typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefined") {
         gsap.registerPlugin(ScrollTrigger);
 
+        // Configure ScrollTrigger to ignore vertical resizes on mobile (like address bar hiding/showing)
+        ScrollTrigger.config({
+            ignoreMobileResize: true
+        });
+
         const section = document.querySelector(".services-showcase-section");
         const showcaseRows = document.querySelectorAll(".showcase-row");
 
@@ -2998,18 +3023,22 @@ document.addEventListener('DOMContentLoaded', function() {
             const durationPerCard = isMobile ? 1200 : 1000;
             const totalDuration = showcaseRows.length * durationPerCard;
             
-            // Set initial states for all cards except the first one
+            // Set initial states for all cards
             showcaseRows.forEach((row, index) => {
                 if (index > 0) {
                     gsap.set(row, {
                         yPercent: 100,
-                        opacity: 0
+                        opacity: 1,
+                        scale: 1
                     });
+                    row.classList.remove("reveal-active");
                 } else {
                     gsap.set(row, {
-                        scale: 1,
-                        filter: "brightness(1)"
+                        yPercent: 0,
+                        opacity: 1,
+                        scale: 1
                     });
+                    row.classList.add("reveal-active");
                 }
             });
 
@@ -3021,7 +3050,35 @@ document.addEventListener('DOMContentLoaded', function() {
                     end: "+=" + totalDuration,
                     scrub: 1,
                     pin: true,
-                    anticipatePin: 1
+                    anticipatePin: 1,
+                    invalidateOnRefresh: true,
+                    snap: {
+                        snapTo: 1 / (showcaseRows.length - 1),
+                        duration: { min: 0.2, max: 0.6 },
+                        delay: 0.05,
+                        ease: "power1.inOut"
+                    },
+                    onUpdate: (self) => {
+                        const progress = self.progress;
+                        const totalRows = showcaseRows.length;
+                        
+                        // Map scroll progress to the timeline's relative time coordinates
+                        // Timeline total duration is (totalRows - 1) * 1.0 + 0.15
+                        const timelineDuration = (totalRows - 1) * 1.0 + 0.15;
+                        const activeTime = progress * timelineDuration;
+                        
+                        let activeIndex = Math.round(activeTime);
+                        if (activeIndex < 0) activeIndex = 0;
+                        if (activeIndex >= totalRows) activeIndex = totalRows - 1;
+                        
+                        showcaseRows.forEach((row, idx) => {
+                            if (idx === activeIndex) {
+                                row.classList.add("reveal-active");
+                            } else {
+                                row.classList.remove("reveal-active");
+                            }
+                        });
+                    }
                 }
             });
 
@@ -3030,22 +3087,26 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (index < showcaseRows.length - 1) {
                     const nextRow = showcaseRows[index + 1];
                     
-                    // Shrink and darken current card
+                    // Shrink and fade down current card to simulate darkening against dark bg
                     tl.to(row, {
                         scale: isMobile ? 0.95 : 0.92,
-                        filter: "brightness(0.4)",
+                        opacity: 0.3,
                         duration: 1,
                         ease: "power1.inOut"
                     }, index * 1);
 
-                    // Slide next card up
+                    // Slide next card up (remains fully opaque to cover card beneath)
                     tl.to(nextRow, {
                         yPercent: 0,
-                        opacity: 1,
                         duration: 1,
                         ease: "power2.out"
                     }, index * 1 + 0.15);
                 }
+            });
+
+            // Force ScrollTrigger refresh on window load to ensure dimensions are fully computed
+            window.addEventListener("load", () => {
+                ScrollTrigger.refresh();
             });
         }
     }
