@@ -242,7 +242,7 @@ ob_start(function($buffer) {
     <link rel="stylesheet" type="text/css" href="css/main2.css" />
 
     <!-- responsive -->
-    <link rel="stylesheet" type="text/css" href="css/responsive1.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive2.css" />
     <link rel="stylesheet" type="text/css" href="css/style1.css" />
     <link rel="stylesheet" type="text/css" href="css/theme1.css" />
 
