@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<link rel="stylesheet" type="text/css" href="css/projects3.css" />
+<link rel="stylesheet" type="text/css" href="/css/projects3.css" />
 <style>
     .redesign-cta-btn {
             flex: 1;
@@ -142,7 +142,7 @@
                         <div class="card-glow-blob blob-accent"></div>
                         <div class="project-image-wrap">
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/kiddicare.png" alt="kiddicare" class="project-img">
+                                <img src="/images/projects/kiddicare.png" alt="kiddicare" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -167,7 +167,7 @@
                         <div class="card-glow-blob blob-tertiary"></div>
                         <div class="project-image-wrap">
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/fabdreamsorganic.png" alt="fab dreams organic" class="project-img">
+                                <img src="/images/projects/fabdreamsorganic.png" alt="fab dreams organic" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -252,7 +252,7 @@
                         <div class="card-glow-blob"></div>
                         <div class="project-image-wrap">
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/cosnet.png" alt="cosnet" class="project-img">
+                                <img src="/images/projects/cosnet.png" alt="cosnet" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -277,7 +277,7 @@
                         <div class="card-glow-blob blob-accent"></div>
                         <div class="project-image-wrap">                         
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/naturanari.png" alt="naturanari" class="project-img">
+                                <img src="/images/projects/naturanari.png" alt="naturanari" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -302,7 +302,7 @@
                         <div class="card-glow-blob blob-tertiary"></div>
                         <div class="project-image-wrap">
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/rangya.png" alt="rangya" class="project-img">
+                                <img src="/images/projects/rangya.png" alt="rangya" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -327,7 +327,7 @@
                         <div class="card-glow-blob"></div>
                         <div class="project-image-wrap">
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/aadhunik.png" alt="aadhunikgtech" class="project-img">
+                                <img src="/images/projects/aadhunik.png" alt="aadhunikgtech" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -352,7 +352,7 @@
                         <div class="card-glow-blob blob-accent"></div>
                         <div class="project-image-wrap">                           
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/civiajewels.png" alt="civia jewels" class="project-img">
+                                <img src="/images/projects/civiajewels.png" alt="civia jewels" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -377,7 +377,7 @@
                         <div class="card-glow-blob blob-tertiary"></div>
                         <div class="project-image-wrap">                           
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/bbare.png" alt="bbare" class="project-img">
+                                <img src="/images/projects/bbare.png" alt="bbare" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -402,7 +402,7 @@
                         <div class="card-glow-blob blob-accent"></div>
                         <div class="project-image-wrap">                           
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/herosunglasses.png" alt="hero sunglasses" class="project-img">
+                                <img src="/images/projects/herosunglasses.png" alt="hero sunglasses" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -427,7 +427,7 @@
                         <div class="card-glow-blob"></div>
                         <div class="project-image-wrap">                            
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/hamporio.png" alt="hamporio" class="project-img">
+                                <img src="/images/projects/hamporio.png" alt="hamporio" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -452,7 +452,7 @@
                         <div class="card-glow-blob blob-accent"></div>
                         <div class="project-image-wrap">                            
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/rakva-desktop.png" alt="rakva" class="project-img">
+                                <img src="/images/projects/rakva-desktop.png" alt="rakva" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -477,7 +477,7 @@
                         <div class="card-glow-blob blob-tertiary"></div>
                         <div class="project-image-wrap">
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/ayaani.png" alt="ayaani" class="project-img">
+                                <img src="/images/projects/ayaani.png" alt="ayaani" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -502,7 +502,7 @@
                         <div class="card-glow-blob"></div>
                         <div class="project-image-wrap">                           
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/warriorworld.png" alt="warrior world" class="project-img">
+                                <img src="/images/projects/warriorworld.png" alt="warrior world" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -527,7 +527,7 @@
                         <div class="card-glow-blob blob-accent"></div>
                         <div class="project-image-wrap">                            
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/millenniumjewelery.png" alt="millennium jewelery" class="project-img">
+                                <img src="/images/projects/millenniumjewelery.png" alt="millennium jewelery" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -552,7 +552,7 @@
                         <div class="card-glow-blob blob-tertiary"></div>
                         <div class="project-image-wrap">                           
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/gemroyals.png" alt="gem royals" class="project-img">
+                                <img src="/images/projects/gemroyals.png" alt="gem royals" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -577,7 +577,7 @@
                         <div class="card-glow-blob"></div>
                         <div class="project-image-wrap">                           
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/fillerlabdenmark.png" alt="filler lab denmark" class="project-img">
+                                <img src="/images/projects/fillerlabdenmark.png" alt="filler lab denmark" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -602,7 +602,7 @@
                         <div class="card-glow-blob blob-accent"></div>
                         <div class="project-image-wrap">                            
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/florenceblack.png" alt="florence black" class="project-img">
+                                <img src="/images/projects/florenceblack.png" alt="florence black" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -627,7 +627,7 @@
                         <div class="card-glow-blob blob-tertiary"></div>
                         <div class="project-image-wrap">
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/truenaturemeats.png" alt="true nature meats" class="project-img">
+                                <img src="/images/projects/truenaturemeats.png" alt="true nature meats" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -652,7 +652,7 @@
                         <div class="card-glow-blob"></div>
                         <div class="project-image-wrap">                           
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/pazzionindia.png" alt="pazzion india" class="project-img">
+                                <img src="/images/projects/pazzionindia.png" alt="pazzion india" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -677,7 +677,7 @@
                         <div class="card-glow-blob blob-accent"></div>
                         <div class="project-image-wrap">                           
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/terragentle.png" alt="terra gentle" class="project-img">
+                                <img src="/images/projects/terragentle.png" alt="terra gentle" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -702,7 +702,7 @@
                         <div class="card-glow-blob blob-tertiary"></div>
                         <div class="project-image-wrap">                           
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/tistabene.png" alt="tistabene" class="project-img">
+                                <img src="/images/projects/tistabene.png" alt="tistabene" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -727,7 +727,7 @@
                         <div class="card-glow-blob"></div>
                         <div class="project-image-wrap">
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/ibex.png" alt="IBEX merino wool outdoor clothing store" class="project-img">
+                                <img src="/images/projects/ibex.png" alt="IBEX merino wool outdoor clothing store" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -752,7 +752,7 @@
                         <div class="card-glow-blob"></div>
                         <div class="project-image-wrap">
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/vanijewels.png" alt="vanijewels Jewelary store" class="project-img">
+                                <img src="/images/projects/vanijewels.png" alt="vanijewels Jewelary store" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -777,7 +777,7 @@
                         <div class="card-glow-blob"></div>
                         <div class="project-image-wrap">
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/suppdog.png" alt="suppdog Dog Supplements store" class="project-img">
+                                <img src="/images/projects/suppdog.png" alt="suppdog Dog Supplements store" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">
@@ -802,7 +802,7 @@
                         <div class="card-glow-blob"></div>
                         <div class="project-image-wrap">
                             <div class="project-mockup-graphics">
-                                <img src="images/projects/dr-ruth-roberts.png" alt="Pet Wellness & Supplement store" class="project-img">
+                                <img src="/images/projects/dr-ruth-roberts.png" alt="Pet Wellness & Supplement store" class="project-img">
                             </div>
                         </div>
                         <div class="project-info">

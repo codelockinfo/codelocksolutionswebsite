@@ -102,17 +102,17 @@
             <div class="hero-image-slider">
                 <div class="hero-image-slide active" data-slide="0">
                     <div class="image-wrapper-3d">
-                        <img src="images/slides/slidernew_2.png" alt="Shopify Development" class="hero-main-image">
+                        <img src="/images/slides/slidernew_2.png" alt="Shopify Development" class="hero-main-image">
                     </div>
                 </div>
                 <div class="hero-image-slide" data-slide="1">
                     <div class="image-wrapper-3d">
-                        <img src="images/slides/slidernew_1.png" alt="Custom Theme Design" class="hero-main-image">
+                        <img src="/images/slides/slidernew_1.png" alt="Custom Theme Design" class="hero-main-image">
                     </div>
                 </div>
                 <div class="hero-image-slide" data-slide="2">
                     <div class="image-wrapper-3d">
-                        <img src="images/slides/slidernew_3.png.png" alt="Shopify Plus Scaling" class="hero-main-image">
+                        <img src="/images/slides/slidernew_3.png.png" alt="Shopify Plus Scaling" class="hero-main-image">
                     </div>
                 </div>
             </div>

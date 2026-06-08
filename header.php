@@ -210,42 +210,42 @@ ob_start(function($buffer) {
     <title><?php echo htmlspecialchars($seo_title); ?></title>
 
     <!-- favicon icon -->
-    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="shortcut icon" href="/images/favicon.png" />
 
     <!-- bootstrap -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
 
     <!-- animate -->
-    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="/css/animate.css" />
 
     <!-- owl-carousel -->
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="/css/owl.carousel.css">
 
     <!-- fontawesome -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.css" />
 
     <!-- themify -->
-    <link rel="stylesheet" type="text/css" href="css/themify-icons.css" />
+    <link rel="stylesheet" type="text/css" href="/css/themify-icons.css" />
 
     <!-- flaticon -->
-    <link rel="stylesheet" type="text/css" href="css/flaticon.css" />
+    <link rel="stylesheet" type="text/css" href="/css/flaticon.css" />
 
     <!-- REVOLUTION LAYERS STYLES -->
-    <link rel="stylesheet" type="text/css" href="revolution/css/rs6.css">
+    <link rel="stylesheet" type="text/css" href="/revolution/css/rs6.css">
 
     <!-- prettyphoto -->
-    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+    <link rel="stylesheet" type="text/css" href="/css/prettyPhoto.css">
 
     <!-- shortcodes -->
-    <link rel="stylesheet" type="text/css" href="css/shortcodes2.css" />
+    <link rel="stylesheet" type="text/css" href="/css/shortcodes2.css" />
 
     <!-- main -->
-    <link rel="stylesheet" type="text/css" href="css/main4.css" />
+    <link rel="stylesheet" type="text/css" href="/css/main4.css" />
 
     <!-- responsive -->
-    <link rel="stylesheet" type="text/css" href="css/responsive3.css" />
-    <link rel="stylesheet" type="text/css" href="css/style1.css" />
-    <link rel="stylesheet" type="text/css" href="css/theme1.css" />
+    <link rel="stylesheet" type="text/css" href="/css/responsive3.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style1.css" />
+    <link rel="stylesheet" type="text/css" href="/css/theme1.css" />
 
     <!-- Prevent FOUC: apply saved theme before first paint -->
     <script>

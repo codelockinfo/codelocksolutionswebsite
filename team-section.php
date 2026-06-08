@@ -13,7 +13,7 @@
 
                     <div class="team-member team-reveal">
                         <div class="team-image-wrapper">
-                            <img src="images/TusharRathod.png" alt="Tushar Rathod" class="team-image">
+                            <img src="/images/TusharRathod.png" alt="Tushar Rathod" class="team-image">
                         </div>
                         <div class="team-info">
                             <h3 class="team-name">Tushar</h3>
@@ -23,7 +23,7 @@
 
                     <div class="team-member team-reveal">
                         <div class="team-image-wrapper">
-                            <img src="images/isha.png" alt="Isha Savani" class="team-image">
+                            <img src="/images/isha.png" alt="Isha Savani" class="team-image">
                         </div>
                         <div class="team-info">
                             <h3 class="team-name">Isha</h3>
@@ -33,7 +33,7 @@
 
                     <div class="team-member team-reveal">
                         <div class="team-image-wrapper">
-                            <img src="images/krishna.png" alt="Krishna Bafalipara" class="team-image">
+                            <img src="/images/krishna.png" alt="Krishna Bafalipara" class="team-image">
                         </div>
                         <div class="team-info">
                             <h3 class="team-name">Krishna</h3>
@@ -44,7 +44,7 @@
                     
                     <div class="team-member team-reveal">
                         <div class="team-image-wrapper">
-                            <img src="images/chetna.png" alt="Chetna Kanak" class="team-image">
+                            <img src="/images/chetna.png" alt="Chetna Kanak" class="team-image">
                         </div>
                         <div class="team-info">
                             <h3 class="team-name">Chetna</h3>
@@ -54,7 +54,7 @@
                     
                     <div class="team-member team-reveal">
                         <div class="team-image-wrapper">
-                            <img src="images/dipak.png" alt="Dipak Kumar" class="team-image">
+                            <img src="/images/dipak.png" alt="Dipak Kumar" class="team-image">
                         </div>
                         <div class="team-info">
                             <h3 class="team-name">Dipak</h3>
@@ -63,7 +63,7 @@
                     </div>
                     <div class="team-member team-reveal">
                         <div class="team-image-wrapper">
-                            <img src="images/janvi.png" alt="Janvi Mangukiya" class="team-image">
+                            <img src="/images/janvi.png" alt="Janvi Mangukiya" class="team-image">
                         </div>
                         <div class="team-info">
                             <h3 class="team-name">Janvi</h3>
@@ -73,7 +73,7 @@
 
                     <div class="team-member team-reveal">
                         <div class="team-image-wrapper">
-                            <img src="images/nimisha.png" alt="Nimisha Mer" class="team-image">
+                            <img src="/images/nimisha.png" alt="Nimisha Mer" class="team-image">
                         </div>
                         <div class="team-info">
                             <h3 class="team-name">Nimisha</h3>
@@ -83,7 +83,7 @@
 
                     <div class="team-member team-reveal">
                         <div class="team-image-wrapper">
-                            <img src="images/Urvashi.png" alt="Urvashi Hirapara" class="team-image">
+                            <img src="/images/Urvashi.png" alt="Urvashi Hirapara" class="team-image">
                         </div>
                         <div class="team-info">
                             <h3 class="team-name">Urvashi</h3>
@@ -93,7 +93,7 @@
 
                     <div class="team-member team-reveal">
                         <div class="team-image-wrapper">
-                            <img src="images/Payal.png" alt="Payal Nakrani" class="team-image">
+                            <img src="/images/Payal.png" alt="Payal Nakrani" class="team-image">
                         </div>
                         <div class="team-info">
                             <h3 class="team-name">Payal</h3>
@@ -103,7 +103,7 @@
 
                     <div class="team-member team-reveal">
                         <div class="team-image-wrapper">
-                            <img src="images/Harsh.png" alt="Harsh Kansagara" class="team-image">
+                            <img src="/images/Harsh.png" alt="Harsh Kansagara" class="team-image">
                         </div>
                         <div class="team-info">
                             <h3 class="team-name">Harsh</h3>
@@ -134,5 +134,5 @@
     </div>
 </section>
 
-<link rel="stylesheet" type="text/css" href="css/team-section3.css"/>
-<script src="js/team-slider.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/team-section3.css"/>
+<script src="/js/team-slider.js"></script>

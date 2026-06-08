@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<link rel="stylesheet" type="text/css" href="css/contact-page4.css" />
+<link rel="stylesheet" type="text/css" href="/css/contact-page4.css" />
 <style>
 /* Premium Toast Notification */
 .ajax-toast {

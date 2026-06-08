@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<link rel="stylesheet" type="text/css" href="css/service-pages2.css" />
+<link rel="stylesheet" type="text/css" href="/css/service-pages2.css" />
 
 <!-- Page Title Row -->
 <div class="ttm-page-title-row redesign-page-title-row">
