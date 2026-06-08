@@ -134,5 +134,5 @@
     </div>
 </section>
 
-<link rel="stylesheet" type="text/css" href="/css/team-section3.css"/>
-<script src="/js/team-slider.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/team-section3.css?v=2"/>
+<script src="/js/team-slider.js?v=2"></script>

@@ -484,23 +484,23 @@
 
         <!-- Javascript -->
 
-        <script src="/js/jquery1.min.js"></script>
-        <script src="/js/tether.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
-        <script src="/js/jquery.easing.js"></script>    
-        <script src="/js/jquery-waypoints.js"></script>    
-        <script src="/js/jquery-validate.js"></script> 
-        <script src="/js/owl.carousel.js"></script>
-        <script src="/js/jquery.prettyPhoto.js"></script>
+        <script src="/js/jquery1.min.js?v=2"></script>
+        <script src="/js/tether.min.js?v=2"></script>
+        <script src="/js/bootstrap.min.js?v=2"></script>
+        <script src="/js/jquery.easing.js?v=2"></script>    
+        <script src="/js/jquery-waypoints.js?v=2"></script>    
+        <script src="/js/jquery-validate.js?v=2"></script> 
+        <script src="/js/owl.carousel.js?v=2"></script>
+        <script src="/js/jquery.prettyPhoto.js?v=2"></script>
         <script src="/js/numinate.min6959.js?ver=4.9.3"></script>
-        <script src="/js/lazysizes.min.js"></script>
-        <script src="/js/main1.js"></script>
-        <script src="/js/theme.js"></script>
+        <script src="/js/lazysizes.min.js?v=2"></script>
+        <script src="/js/main1.js?v=2"></script>
+        <script src="/js/theme.js?v=2"></script>
 
         <!-- Revolution Slider -->
-        <script src="/revolution/js/revolution1.tools.min.js"></script>
-        <script src="/revolution/js/rs7.min.js"></script>
-        <script src="/revolution/js/slider.js"></script>
+        <script src="/revolution/js/revolution1.tools.min.js?v=2"></script>
+        <script src="/revolution/js/rs7.min.js?v=2"></script>
+        <script src="/revolution/js/slider.js?v=2"></script>
 
         <!-- Javascript end-->
 

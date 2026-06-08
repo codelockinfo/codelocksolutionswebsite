@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
-<link rel="stylesheet" type="text/css" href="/css/projects3.css" />
-<link rel="stylesheet" type="text/css" href="/css/project-detail5.css" />
+<link rel="stylesheet" type="text/css" href="/css/projects3.css?v=2" />
+<link rel="stylesheet" type="text/css" href="/css/project-detail5.css?v=2" />
 
 <!-- ======================================================
      PROJECT DETAIL PAGE - FILLER LAB DENMARK

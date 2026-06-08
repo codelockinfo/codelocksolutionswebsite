@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<link rel="stylesheet" type="text/css" href="/css/service-pages2.css" />
+<link rel="stylesheet" type="text/css" href="/css/service-pages2.css?v=2" />
 
 <!-- ======================================================
      VIEW ALL APPS PAGE

@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<link rel="stylesheet" type="text/css" href="/css/projects3.css" />
+<link rel="stylesheet" type="text/css" href="/css/projects3.css?v=2" />
 <style>
     .redesign-cta-btn {
             flex: 1;

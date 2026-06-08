@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 <!-- page-title -->
-<link rel="stylesheet" type="text/css" href="/css/service-pages2.css" />
+<link rel="stylesheet" type="text/css" href="/css/service-pages2.css?v=2" />
 <div class="ttm-page-title-row redesign-page-title-row">
     <div class="container">
         <div class="row">

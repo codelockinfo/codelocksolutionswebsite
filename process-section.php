@@ -118,5 +118,5 @@
     </div>
 </section>
 
-<link rel="stylesheet" type="text/css" href="/css/process-section3.css"/>
-<script src="/js/process-carousel1.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/process-section3.css?v=2"/>
+<script src="/js/process-carousel1.js?v=2"></script>
