@@ -364,6 +364,8 @@
         gap: 60px;
         align-items: center;
         z-index: 4;
+        max-width: 1400px;
+        margin: 0 auto;
         width: 100%;
     }
 
