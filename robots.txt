@@ -1,5 +1,9 @@
 User-agent: *
 Allow: /
+Disallow: /easy-cookie-bar/
+Disallow: /vendor/
+Disallow: /*-mail.php
+Disallow: /smtp-mailer.php
 
 # Sitemap location
 Sitemap: https://www.codelocksolutions.com/sitemap.xml
