@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<link rel="stylesheet" type="text/css" href="css/service-pages2.css" />
+<link rel="stylesheet" type="text/css" href="/css/service-pages2.css?v=2" />
 
 <!-- ======================================================
      VIEW ALL APPS PAGE
@@ -85,7 +85,7 @@
 
                         <div class="app-full-card-top">
                             <div class="app-full-icon">
-                                <img src="images/apps/app1-icon-removebg-preview.png" alt="Easy Cookie Bar GDPR / CCPA">
+                                <img src="/images/apps/app1-icon-removebg-preview.png" alt="Easy Cookie Bar GDPR / CCPA">
                             </div>
                             <div class="app-full-meta">
                                 <span class="app-full-category">GDPR & Compliance</span>
@@ -143,7 +143,7 @@
 
                         <div class="app-full-card-top">
                             <div class="app-full-icon">
-                                <img src="images/apps/app2-icon-removebg-preview.png" alt="Easy Form Builder & Contact Forms">
+                                <img src="/images/apps/app2-icon-removebg-preview.png" alt="Easy Form Builder & Contact Forms">
                             </div>
                             <div class="app-full-meta">
                                 <span class="app-full-category">Forms & Popups</span>
@@ -201,7 +201,7 @@
 
                         <div class="app-full-card-top">
                             <div class="app-full-icon">
-                                <img src="images/apps/app3-icon-removebg-preview.png" alt="AI Product Description ReWriter">
+                                <img src="/images/apps/app3-icon-removebg-preview.png" alt="AI Product Description ReWriter">
                             </div>
                             <div class="app-full-meta">
                                 <span class="app-full-category">AI & SEO</span>

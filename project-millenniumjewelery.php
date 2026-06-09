@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
-<link rel="stylesheet" type="text/css" href="css/projects3.css" />
-<link rel="stylesheet" type="text/css" href="css/project-detail5.css" />
+<link rel="stylesheet" type="text/css" href="/css/projects3.css?v=2" />
+<link rel="stylesheet" type="text/css" href="/css/project-detail5.css?v=2" />
 
 <!-- ======================================================
      PROJECT DETAIL PAGE - MILLENNIUM JEWELERY
@@ -93,7 +93,7 @@
                                         <div class="mockup-url">millenniumjewelery.com</div>
                                     </div>
                                     <div class="mockup-content">
-                                        <img src="images/projects/millenniumjewelery-desktop.png" alt="Millennium Jewelery Desktop View 1" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+1'">
+                                        <img src="/images/projects/millenniumjewelery-desktop.png" alt="Millennium Jewelery Desktop View 1" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+1'">
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@
                                         <div class="mockup-url">millenniumjewelery.com</div>
                                     </div>
                                     <div class="mockup-content">
-                                        <img src="images/projects/millenniumjewelery2-desktop.png" alt="Millennium Jewelery Desktop View 2" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+2'">
+                                        <img src="/images/projects/millenniumjewelery2-desktop.png" alt="Millennium Jewelery Desktop View 2" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+2'">
                                     </div>
                                 </div>
                             </div>
@@ -123,7 +123,7 @@
                                         <div class="mockup-url">millenniumjewelery.com</div>
                                     </div>
                                     <div class="mockup-content">
-                                        <img src="images/projects/millenniumjewelery3-desktop.png" alt="Millennium Jewelery Desktop View 3" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+3'">
+                                        <img src="/images/projects/millenniumjewelery3-desktop.png" alt="Millennium Jewelery Desktop View 3" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=Desktop+Screenshot+3'">
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +152,7 @@
                                 <div class="mobile-mockup">
                                     <div class="mobile-notch"></div>
                                     <div class="mobile-content">
-                                        <img src="images/projects/millenniumjewelery-mobile.png" alt="Millennium Jewelery Mobile View 1" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+1'">
+                                        <img src="/images/projects/millenniumjewelery-mobile.png" alt="Millennium Jewelery Mobile View 1" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+1'">
                                     </div>
                                 </div>
                             </div>
@@ -160,7 +160,7 @@
                                 <div class="mobile-mockup">
                                     <div class="mobile-notch"></div>
                                     <div class="mobile-content">
-                                        <img src="images/projects/millenniumjewelery2-mobile.png" alt="Millennium Jewelery Mobile View 2" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+2'">
+                                        <img src="/images/projects/millenniumjewelery2-mobile.png" alt="Millennium Jewelery Mobile View 2" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+2'">
                                     </div>
                                 </div>
                             </div>
@@ -168,7 +168,7 @@
                                 <div class="mobile-mockup">
                                     <div class="mobile-notch"></div>
                                     <div class="mobile-content">
-                                        <img src="images/projects/millenniumjewelery3-mobile.png" alt="Millennium Jewelery Mobile View 3" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+3'">
+                                        <img src="/images/projects/millenniumjewelery3-mobile.png" alt="Millennium Jewelery Mobile View 3" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=Mobile+Screenshot+3'">
                                     </div>
                                 </div>
                             </div>
@@ -310,6 +310,6 @@
 
 </div>
 
-<script src="js/project-detail2.js?v=1.1"></script>
+<script src="/js/project-detail2.js?v=2"></script>
 
 <?php include 'footer.php';?>

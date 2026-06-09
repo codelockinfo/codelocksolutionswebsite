@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 <!-- page-title -->
-<link rel="stylesheet" type="text/css" href="css/service-pages2.css" />
+<link rel="stylesheet" type="text/css" href="/css/service-pages2.css?v=2" />
 <div class="ttm-page-title-row redesign-page-title-row">
     <div class="container">
         <div class="row">
@@ -28,7 +28,7 @@
         <div class="row">
             <div class=" col-12 col-md-6 col-xl-8 blog_contain">
                 <div class="container">
-                    <img src="images/blog-img/Increase-shopify-sales.png" alt="image2-1-1" class="w-100 mt-3 mb-3" />
+                    <img src="/images/blog-img/Increase-shopify-sales.png" alt="image2-1-1" class="w-100 mt-3 mb-3" />
                 </div>
                 <div class="row">
                     <div class="container">
@@ -290,7 +290,7 @@
                     <div class="row">
                         <div class="col-xl-3">
                             <div class="author_img_box">
-                                <img src="images/logo.png" alt="person1" class="person1" />
+                                <img src="/images/logo.png" alt="person1" class="person1" />
                             </div>
                         </div>
                         <div class="col-xl-9 mt-3 about_autor">
@@ -319,7 +319,7 @@
                     </div>
                     <div class="container">
                         <a href="https://apps.shopify.com/">
-                            <img src="images/blogdetail-img/Shopify-App-Store-Badge-Final-White.svg" alt="shopify app" class="shopifyimage" />
+                            <img src="/images/blogdetail-img/Shopify-App-Store-Badge-Final-White.svg" alt="shopify app" class="shopifyimage" />
                         </a>
                     </div>
                     <div class="container mt-4">
@@ -392,7 +392,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/shopify plus.webp" alt="Shopify Plus Benefits" />
+                        <img src="/images/blog-img/shopify plus.webp" alt="Shopify Plus Benefits" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -409,7 +409,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/setup.webp" alt="Shopify Store Cost" />
+                        <img src="/images/blog-img/setup.webp" alt="Shopify Store Cost" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Pricing</span></div>
@@ -426,7 +426,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="images/blog-img/What-is-Shopify-Collabs.jpg" alt="Shopify Collabs" />
+                        <img src="/images/blog-img/What-is-Shopify-Collabs.jpg" alt="Shopify Collabs" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Growth</span></div>

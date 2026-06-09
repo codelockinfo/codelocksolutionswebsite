@@ -9,7 +9,7 @@
         <div class="blog-grid">
             <div class="blog-card">
                 <div class="blog-image">
-                    <img src="images/blog-img/blog1.png" alt="Why Shopify is Best in 2026" />
+                    <img src="/images/blog-img/blog1.png" alt="Why Shopify is Best in 2026" />
                 </div>
                 <div class="blog-content">
                     <h3 class="blog-title">Why Shopify is the Best eCommerce Platform for Growing Businesses in 2026</h3>
@@ -20,7 +20,7 @@
 
             <div class="blog-card">
                 <div class="blog-image">
-                    <img src="images/blog-img/why_Shopify-Experts.webp" alt="Shopify vs WooCommerce vs Magento" />
+                    <img src="/images/blog-img/why_Shopify-Experts.webp" alt="Shopify vs WooCommerce vs Magento" />
                 </div>
                 <div class="blog-content">
                     <h3 class="blog-title">Top 10 Reasons Entrepreneurs Choose Shopify Over WooCommerce and Magento</h3>
@@ -31,7 +31,7 @@
 
             <div class="blog-card">
                 <div class="blog-image">
-                    <img src="images/blog-img/shopify-develoment.png" alt="Best Shopify Agency in Surat" />
+                    <img src="/images/blog-img/shopify-develoment.png" alt="Best Shopify Agency in Surat" />
                 </div>
                 <div class="blog-content">
                     <h3 class="blog-title">Best Shopify Development Agency in Surat: How to Choose the Right Partner</h3>
