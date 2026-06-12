@@ -811,10 +811,10 @@
 
     /* CTA */
     .redesign-section {
-        padding: 30px 20px 40px;
+        padding: 0px 20px 40px;
     }
     .redesign-cta-banner {
-        padding: 40px 20px;
+        padding: 10px 40px 20px;
     }
     .redesign-cta-banner h2 {
         font-size: 1.6rem;

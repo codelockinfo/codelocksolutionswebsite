@@ -272,7 +272,7 @@
 
     @media (max-width: 767px) {
         .blog-section {
-            padding: 30px 20px;
+            padding: 0px 20px;
         }
         .blog-grid {
             grid-template-columns: 1fr;

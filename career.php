@@ -540,6 +540,15 @@ input[type="number"] {
     .job-card {
         padding: 24px;
     }
+    .job-card-header-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .job-card-header {
+        margin-bottom: 0;
+    }
     .job-icon {
         width: 48px;
         height: 48px;
@@ -547,10 +556,16 @@ input[type="number"] {
     }
     .job-title {
         font-size: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 0;
     }
     .job-meta {
         margin-bottom: 15px;
+    }
+    .job-description {
+        margin-bottom: 15px;
+    }
+    .job-card-footer {
+        padding-top: 15px;
     }
 }
 
@@ -787,12 +802,14 @@ input[type="number"] {
             <div class="career-jobs-grid">
                 <!-- Shopify Developer Card -->
                 <div class="job-card" data-job="shopify-developer">
-                    <div class="job-card-header">
-                        <div class="job-icon">
-                            <i class="fa fa-shopping-bag"></i>
+                    <div class="job-card-header-wrapper">
+                        <div class="job-card-header">
+                            <div class="job-icon">
+                                <i class="fa fa-shopping-bag"></i>
+                            </div>
                         </div>
+                        <h3 class="job-title">Shopify Developer</h3>
                     </div>
-                    <h3 class="job-title">Shopify Developer</h3>
                     <div class="job-meta">
                         <div class="job-meta-item">
                             <i class="fa fa-briefcase"></i>
@@ -869,12 +886,14 @@ input[type="number"] {
 
                 <!-- Front End Developer Card -->
                 <div class="job-card" data-job="front-end-developer">
-                    <div class="job-card-header">
-                        <div class="job-icon">
-                            <i class="fa fa-code"></i>
+                    <div class="job-card-header-wrapper">
+                        <div class="job-card-header">
+                            <div class="job-icon">
+                                <i class="fa fa-code"></i>
+                            </div>
                         </div>
+                        <h3 class="job-title">Front End Developer</h3>
                     </div>
-                    <h3 class="job-title">Front End Developer</h3>
                     <div class="job-meta">
                         <div class="job-meta-item">
                             <i class="fa fa-briefcase"></i>
@@ -927,12 +946,14 @@ input[type="number"] {
 
                 <!-- PHP Developer Card -->
                 <div class="job-card" data-job="php-developer">
-                    <div class="job-card-header">
-                        <div class="job-icon">
-                            <i class="fa fa-server"></i>
+                    <div class="job-card-header-wrapper">
+                        <div class="job-card-header">
+                            <div class="job-icon">
+                                <i class="fa fa-server"></i>
+                            </div>
                         </div>
+                        <h3 class="job-title">PHP Developer</h3>
                     </div>
-                    <h3 class="job-title">PHP Developer</h3>
                     <div class="job-meta">
                         <div class="job-meta-item">
                             <i class="fa fa-briefcase"></i>

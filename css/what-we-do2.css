@@ -359,7 +359,7 @@
     }
     .wwd-left-container {
         padding-right: 0;
-        margin-bottom: 45px;
+        margin-bottom: 0px;
         text-align: center;
     }
     .wwd-link {
@@ -381,6 +381,12 @@
 }
 
 @media (max-width: 768px) {
+    .wwd-left-container {
+        margin-bottom: 20px;
+    }
+    .wwd-desc {
+        margin-bottom: 0px;
+    }
     .wwd-card-inner {
         display: grid;
         grid-template-columns: auto 1fr;

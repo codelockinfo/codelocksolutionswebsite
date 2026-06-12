@@ -12,7 +12,7 @@
 }
 
 .about-hero {
-    padding: 120px 40px 80px;
+    padding: 80px 40px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -389,7 +389,7 @@
 
 @media (max-width: 768px) {
     .about-hero {
-        padding: 80px 20px 40px;
+        padding: 50px 20px;
     }
     .about-hero h1 {
         font-size: 32px;
@@ -423,13 +423,15 @@
     }
     
     .cta-content {
-        padding: 40px 20px;
+        padding: 30px 20px;
+        height: auto;
     }
     
     .cta-content h2 {
         font-size: 1.8rem;
     }
 }
+
 </style>
 
 <div class="about-page">

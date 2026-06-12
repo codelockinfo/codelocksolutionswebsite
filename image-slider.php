@@ -1104,14 +1104,14 @@ $projects = [
     /* Left column: compact on mobile */
     .projects-slider-container {
         gap: 40px;
-        padding: 0 16px;
+        padding: 0 20px;
         justify-content: center;
     }
     .orbit-graphics-panel {
         display: none; /* hide decorative orbit on tiny screens */
     }
     .projects-text-content {
-        padding: 0 40px;
+        padding: 0 0px;
         text-align: center;
         align-items: center;
     }

@@ -252,7 +252,7 @@
         .cta-wrapper {
             flex-direction: column;
             text-align: center;
-            padding: 40px;
+            padding: 40px 20px;
         }
 
         .cta-buttons {

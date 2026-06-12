@@ -25,7 +25,7 @@
     background: radial-gradient(circle at 50% 50%, rgba(0, 242, 254, 0.06) 0%, transparent 60%),
                 linear-gradient(185deg, #070514 0%, #0c0a21 100%) !important;
     border-bottom: 1px solid var(--border-color);
-    padding: 120px 40px 80px;
+    padding: 80px 40px;
     text-align: center;
 }
 .redesign-page-title-row::before {
@@ -1518,7 +1518,7 @@
 /* ── 6. Responsive Typography & Mobile Layout Optimizations ────────────── */
 @media (max-width: 991px) {
     .redesign-page-title-row {
-        padding: 80px 20px 40px;
+        padding: 50px 20px;
     }
     .redesign-page-title-row h1 {
         font-size: 2.6rem;

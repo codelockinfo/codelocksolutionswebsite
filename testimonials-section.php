@@ -466,6 +466,11 @@
             padding: 0px 20px;
         }
     }
+    @media (max-width: 490px) {
+        .section-header {  
+            margin-bottom: 20px !important; 
+        }
+    }
     </style>
 
     <script>

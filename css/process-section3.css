@@ -506,7 +506,7 @@
 }
 
 @media (max-width: 490px) {
-    .process-section { padding: 30px 20px; }
+    .process-section { padding: 10px 20px; }
     .process-title { font-size: 24px; }
     .process-subheading { font-size: 0.7rem; }
     .process-subtitle { font-size: 15px; }

@@ -840,6 +840,10 @@
 }
 
 @media (max-width: 768px) {
+    #blogGrid {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
     .resources-section-title {
         font-size: 22px;
     }

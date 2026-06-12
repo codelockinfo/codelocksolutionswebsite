@@ -2462,3 +2462,9 @@ align-items: center;
 .shopify-plus-img{
         width: 100%;
 }
+
+@media (max-width: 490px) {
+  a.blantershow-chat {
+    bottom: 20px;
+  }
+}
