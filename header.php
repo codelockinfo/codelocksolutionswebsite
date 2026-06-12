@@ -240,11 +240,11 @@ ob_start(function($buffer) {
     <link rel="stylesheet" type="text/css" href="css/shortcodes2.css?v=2" />
 
     <!-- main -->
-    <link rel="stylesheet" type="text/css" href="css/main4.css?v=2" />
+    <link rel="stylesheet" type="text/css" href="css/main5.css?v=2" />
 
     <!-- responsive -->
     <link rel="stylesheet" type="text/css" href="css/responsive3.css?v=2" />
-    <link rel="stylesheet" type="text/css" href="css/style1.css?v=2" />
+    <link rel="stylesheet" type="text/css" href="css/style2.css?v=2" />
     <link rel="stylesheet" type="text/css" href="css/theme1.css?v=2" />
 
     <!-- Prevent FOUC: apply saved theme before first paint -->

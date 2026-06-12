@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<link rel="stylesheet" type="text/css" href="css/service-pages2.css?v=2" />
+<link rel="stylesheet" type="text/css" href="css/service-pages3.css?v=2" />
 
 <!-- ======================================================
      VIEW ALL APPS PAGE
@@ -961,7 +961,7 @@
     color: var(--text-tertiary);
 }
 
-/* ── CTA Banner (inherited from service-pages2.css) ─── */
+/* ── CTA Banner (inherited from service-pages3.css) ─── */
 .redesign-cta-banner {
     border-radius: 24px;
     padding: 60px;
