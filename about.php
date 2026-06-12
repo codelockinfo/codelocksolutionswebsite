@@ -451,7 +451,7 @@
                 <p data-sr="fadeup" style="--sr-delay: 0.3s">We have a special team for website design who has been involved in designing professional websites of all categories. High-tech industries play an important role in the modern economy, and digital solutions have transformed the world for web applications.</p>
             </div>
             <div class="about-image" data-sr="fadeup" style="--sr-delay: 0.4s">
-                <img src="/images/about.png" alt="About Codelock Solutions" />
+                <img src="images/about.png" alt="About Codelock Solutions" />
             </div>
         </div>
     </section>
@@ -470,7 +470,7 @@
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="testimonial-avatar">
-                        <img src="/images/testimonial/boy.jpg" alt="Veerbhdrasinh Chauhan" />
+                        <img src="images/testimonial/boy.jpg" alt="Veerbhdrasinh Chauhan" />
                     </div>
                     <p class="testimonial-quote">Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far. No coding skills required.</p>
                     <div class="testimonial-author">
@@ -487,7 +487,7 @@
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-avatar">
-                        <img src="/images/testimonial/boy.jpg" alt="Rahul Sharma" />
+                        <img src="images/testimonial/boy.jpg" alt="Rahul Sharma" />
                     </div>
                     <p class="testimonial-quote">Codelock Solutions delivered an exceptional e-commerce platform that exceeded our expectations. Their team's expertise in Shopify development and attention to detail helped us increase our online sales by 40% within the first quarter.</p>
                     <div class="testimonial-author">
@@ -504,7 +504,7 @@
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-avatar">
-                        <img src="/images/testimonial/girl.jpg" alt="Drashti Sankla" />
+                        <img src="images/testimonial/girl.jpg" alt="Drashti Sankla" />
                     </div>
                     <p class="testimonial-quote">Great Web Designing company in Surat, friendly support, quality work. Also, great for job seekers, freshers to give boost to their career in IT field.</p>
                     <div class="testimonial-author">

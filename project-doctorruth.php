@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
-<link rel="stylesheet" type="text/css" href="/css/projects3.css?v=2" />
-<link rel="stylesheet" type="text/css" href="/css/project-detail5.css?v=2" />
+<link rel="stylesheet" type="text/css" href="css/projects3.css?v=2" />
+<link rel="stylesheet" type="text/css" href="css/project-detail5.css?v=2" />
 
 <div class="project-detail-page">
 
@@ -87,7 +87,7 @@
                                         <div class="mockup-url">drruthroberts.com</div>
                                     </div>
                                     <div class="mockup-content">
-                                        <img src="/images/projects/dr-ruth-roberts-desktop.png" alt="Dr Ruth Roberts Desktop View 1" onerror="this.src='https://placehold.co/1200x800/0d0d18/68b984?text=Dr+Ruth+Roberts+Desktop+View+1'">
+                                        <img src="images/projects/dr-ruth-roberts-desktop.png" alt="Dr Ruth Roberts Desktop View 1" onerror="this.src='https://placehold.co/1200x800/0d0d18/68b984?text=Dr+Ruth+Roberts+Desktop+View+1'">
                                     </div>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@
                                         <div class="mockup-url">drruthroberts.com</div>
                                     </div>
                                     <div class="mockup-content">
-                                        <img src="/images/projects/dr-ruth-roberts2-desktop.png" alt="Dr Ruth Roberts Desktop View 2" onerror="this.src='https://placehold.co/1200x800/0d0d18/68b984?text=Dr+Ruth+Roberts+Desktop+View+2'">
+                                        <img src="images/projects/dr-ruth-roberts2-desktop.png" alt="Dr Ruth Roberts Desktop View 2" onerror="this.src='https://placehold.co/1200x800/0d0d18/68b984?text=Dr+Ruth+Roberts+Desktop+View+2'">
                                     </div>
                                 </div>
                             </div>
@@ -111,7 +111,7 @@
                                         <div class="mockup-url">drruthroberts.com</div>
                                     </div>
                                     <div class="mockup-content">
-                                        <img src="/images/projects/dr-ruth-roberts3-desktop.png" alt="Dr Ruth Roberts Desktop View 3" onerror="this.src='https://placehold.co/1200x800/0d0d18/68b984?text=Dr+Ruth+Roberts+Desktop+View+3'">
+                                        <img src="images/projects/dr-ruth-roberts3-desktop.png" alt="Dr Ruth Roberts Desktop View 3" onerror="this.src='https://placehold.co/1200x800/0d0d18/68b984?text=Dr+Ruth+Roberts+Desktop+View+3'">
                                     </div>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@
                                 <div class="mobile-mockup">
                                     <div class="mobile-notch"></div>
                                     <div class="mobile-content">
-                                        <img src="/images/projects/dr-ruth-roberts-mobile.png" alt="Dr Ruth Roberts Mobile View 1" onerror="this.src='https://placehold.co/375x812/0d0d18/68b984?text=Dr+Ruth+Roberts+Mobile+View+1'">
+                                        <img src="images/projects/dr-ruth-roberts-mobile.png" alt="Dr Ruth Roberts Mobile View 1" onerror="this.src='https://placehold.co/375x812/0d0d18/68b984?text=Dr+Ruth+Roberts+Mobile+View+1'">
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +152,7 @@
                                 <div class="mobile-mockup">
                                     <div class="mobile-notch"></div>
                                     <div class="mobile-content">
-                                        <img src="/images/projects/dr-ruth-roberts2-mobile.png" alt="Dr Ruth Roberts Mobile View 2" onerror="this.src='https://placehold.co/375x812/0d0d18/68b984?text=Dr+Ruth+Roberts+Mobile+View+2'">
+                                        <img src="images/projects/dr-ruth-roberts2-mobile.png" alt="Dr Ruth Roberts Mobile View 2" onerror="this.src='https://placehold.co/375x812/0d0d18/68b984?text=Dr+Ruth+Roberts+Mobile+View+2'">
                                     </div>
                                 </div>
                             </div>
@@ -161,7 +161,7 @@
                                 <div class="mobile-mockup">
                                     <div class="mobile-notch"></div>
                                     <div class="mobile-content">
-                                        <img src="/images/projects/dr-ruth-roberts3-mobile.png" alt="Dr Ruth Roberts Mobile View 3" onerror="this.src='https://placehold.co/375x812/0d0d18/68b984?text=Dr+Ruth+Roberts+Mobile+View+3'">
+                                        <img src="images/projects/dr-ruth-roberts3-mobile.png" alt="Dr Ruth Roberts Mobile View 3" onerror="this.src='https://placehold.co/375x812/0d0d18/68b984?text=Dr+Ruth+Roberts+Mobile+View+3'">
                                     </div>
                                 </div>
                             </div>
@@ -291,6 +291,6 @@
 
 </div>
 
-<script src="/js/project-detail2.js?v=2"></script>
+<script src="js/project-detail2.js?v=2"></script>
 
 <?php include 'footer.php';?>

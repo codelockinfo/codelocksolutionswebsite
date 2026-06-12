@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 <!-- page-title -->
-<link rel="stylesheet" type="text/css" href="/css/service-pages2.css?v=2" />
+<link rel="stylesheet" type="text/css" href="css/service-pages2.css?v=2" />
 <div class="ttm-page-title-row redesign-page-title-row">
     <div class="container">
         <div class="row">
@@ -28,7 +28,7 @@
         <div class="row">
             <div class="col-md-12 col-xl-6">
                 <div class="container">
-                    <img src="/images/blog-img/blog1.png" alt="image2-1-1" class="w-100 mt-3" />
+                    <img src="images/blog-img/blog1.png" alt="image2-1-1" class="w-100 mt-3" />
                 </div>
                 <div class="row">
                     <div class="container contents-section">
@@ -103,10 +103,10 @@
                         <h3 class="supportpara">Best way to contact Shopify support</h3>
                     </div>
                     <div class="container">
-                        <img src="/images/blogdetail-img/01-07-Mon-Blog-Sub_img_1.webp" alt="01-07-Mon-Blog-Sub_img_1" class="w-100" />
+                        <img src="images/blogdetail-img/01-07-Mon-Blog-Sub_img_1.webp" alt="01-07-Mon-Blog-Sub_img_1" class="w-100" />
                     </div>
                     <div class="container">
-                        <img src="/images/blogdetail-img/image6-1.webp" alt="image6-1" class="w-100 mt-4" />
+                        <img src="images/blogdetail-img/image6-1.webp" alt="image6-1" class="w-100 mt-4" />
                     </div>
                     <div class="container">
                         <p class="mt-3">
@@ -122,7 +122,7 @@
                         </p>
                     </div>
                     <div class="container">
-                        <img src="/images/blogdetail-img/image2-1-1.webp" alt="image2-1-1" class="w-100" />
+                        <img src="images/blogdetail-img/image2-1-1.webp" alt="image2-1-1" class="w-100" />
                     </div>
                     <div class="container mt-3">
                         <h5>Shopify Live Chat Support</h5>
@@ -135,7 +135,7 @@
                         <p>Log in to your Shopify account> Contact Shopify Support</p>
                     </div>
                     <div class="container">
-                        <img src="/images/blogdetail-img/image2-1-1.webp" alt="image2-1-1" class="w-100" />
+                        <img src="images/blogdetail-img/image2-1-1.webp" alt="image2-1-1" class="w-100" />
                     </div>
                     <div class="container mt-3">
                         <p>
@@ -251,7 +251,7 @@
                         </p>
                     </div>
                     <div class="container">
-                        <img src="/images/blogdetail-img/image4-1.webp" alt="image4-1" class="w-100 mt-3" />
+                        <img src="images/blogdetail-img/image4-1.webp" alt="image4-1" class="w-100 mt-3" />
                         <ul type="disc" class="container mt-3">
                             <li>Go to the Shopify Community page.</li>
                             <li>Browse or search for topics related to your issue.</li>
@@ -281,7 +281,7 @@
                         <div class="row">
                             <div class="col-xl-3">
                                 <div class="author_img_box">
-                                    <img src="/images/logo.png" alt="person1" class="person1" />
+                                    <img src="images/logo.png" alt="person1" class="person1" />
                                 </div>
                             </div>
                             <div class="col-xl-9 mt-3">
@@ -343,7 +343,7 @@
                     </div>
                     <div class="container">
                         <a href="#">
-                            <img src="/images/blogdetail-img/Shopify-App-Store-Badge-Final-White.svg" alt="shopify app" class="shopifyimage" />
+                            <img src="images/blogdetail-img/Shopify-App-Store-Badge-Final-White.svg" alt="shopify app" class="shopifyimage" />
                         </a>
                     </div>
                     <div class="container mt-4">
@@ -384,7 +384,7 @@
                         </div>
                     </div>
                     <div class="container blogicart">
-                        <img src="/images/blogdetail-img/blog-icart.png" alt="blog-icart" />
+                        <img src="images/blogdetail-img/blog-icart.png" alt="blog-icart" />
                     </div>
                     <div class="container">
                         <div class="mt-3 mb-3">
@@ -411,7 +411,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/download2.jpg" alt="download2" />
+                        <img src="images/blog-img/download2.jpg" alt="download2" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Shopify</span></div>
@@ -428,7 +428,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/download3.png" alt="download3" />
+                        <img src="images/blog-img/download3.png" alt="download3" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Ecommerce</span></div>
@@ -445,7 +445,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/download4.png" alt="download4" />
+                        <img src="images/blog-img/download4.png" alt="download4" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Guide</span></div>

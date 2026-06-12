@@ -25,7 +25,7 @@
             <!-- App Card 1 -->
             <a href="https://apps.shopify.com/easy-cookie-banner-gdpr-eu" target="_blank" class="app-card gtm-app-link" data-app-name="Easy Cookie GDPR">
                     <div class="app-screenshot">
-                        <img src="/images/apps/app1-icon-removebg-preview.png" alt="Easy Cookie Bar GDPR / CCPA">
+                        <img src="images/apps/app1-icon-removebg-preview.png" alt="Easy Cookie Bar GDPR / CCPA">
                     </div>
                     <div class="app-details">
                         <h3 class="app-name">Easy Cookie Bar GDPR / CCPA</h3>
@@ -36,7 +36,7 @@
             <!-- App Card 2 -->
             <a href="https://apps.shopify.com/easy-form-builder-email" target="_blank" class="app-card gtm-app-link" data-app-name="Easy Form Builder">
                     <div class="app-screenshot">
-                        <img src="/images/apps/app2-icon-removebg-preview.png" alt="Easy Form Builder & Contact Forms">
+                        <img src="images/apps/app2-icon-removebg-preview.png" alt="Easy Form Builder & Contact Forms">
                     </div>
                     <div class="app-details">
                         <h3 class="app-name">Easy Form Builder & Contact Forms</h3>
@@ -47,7 +47,7 @@
             <!-- App Card 3 -->
             <a href="https://apps.shopify.com/rewriter-mega-description" target="_blank" class="app-card gtm-app-link" data-app-name="AI ReWriter">
                     <div class="app-screenshot">
-                        <img src="/images/apps/app3-icon-removebg-preview.png" alt="AI Product Description ReWriter">
+                        <img src="images/apps/app3-icon-removebg-preview.png" alt="AI Product Description ReWriter">
                     </div>
                     <div class="app-details">
                         <h3 class="app-name">AI Product Description ReWriter</h3>

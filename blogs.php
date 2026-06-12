@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-<link rel="stylesheet" type="text/css" href="/css/service-pages2.css?v=2" />
+<link rel="stylesheet" type="text/css" href="css/service-pages2.css?v=2" />
 
 <!-- page-title -->
 <div class="ttm-page-title-row redesign-page-title-row">
@@ -49,13 +49,13 @@
             <!-- Left Large Card (Featured Blog) -->
             <a href="why-shopify-best-ecommerce-platform-2026.php" class="hero-large-card blog-item-card" data-category="strategy">
                 <div class="hero-large-image">
-                    <img src="/images/blog-img/blog1.png" alt="Why Shopify is Best in 2026" />
+                    <img src="images/blog-img/blog1.png" alt="Why Shopify is Best in 2026" />
                 </div>
                 <h2 class="hero-large-title">
                     Why Shopify is the Best eCommerce Platform for Growing Businesses in 2026
                 </h2>
                 <div class="hero-large-author">
-                    <img src="/images/logo.png" alt="Codelock solutions" />
+                    <img src="images/logo.png" alt="Codelock solutions" />
                     <div class="author-meta-info">
                         <span class="author-name-text">Codelock Team</span>
                         <span class="author-date-text">June 1, 2026</span>
@@ -71,7 +71,7 @@
                         <span class="sidebar-item-date">May 28, 2026</span>
                     </div>
                     <div class="sidebar-item-thumb">
-                        <img src="/images/blog-img/why_Shopify-Experts.webp" alt="Shopify vs WooCommerce vs Magento" />
+                        <img src="images/blog-img/why_Shopify-Experts.webp" alt="Shopify vs WooCommerce vs Magento" />
                     </div>
                 </a>
 
@@ -81,7 +81,7 @@
                         <span class="sidebar-item-date">May 25, 2026</span>
                     </div>
                     <div class="sidebar-item-thumb">
-                        <img src="/images/blog-img/shopify-develoment.png" alt="Best Shopify Agency in Surat" />
+                        <img src="images/blog-img/shopify-develoment.png" alt="Best Shopify Agency in Surat" />
                     </div>
                 </a>
 
@@ -91,7 +91,7 @@
                         <span class="sidebar-item-date">May 20, 2026</span>
                     </div>
                     <div class="sidebar-item-thumb">
-                        <img src="/images/blog-img/blog2.png" alt="15 Must-Have Shopify Apps" />
+                        <img src="images/blog-img/blog2.png" alt="15 Must-Have Shopify Apps" />
                     </div>
                 </a>
 
@@ -101,7 +101,7 @@
                         <span class="sidebar-item-date">May 15, 2026</span>
                     </div>
                     <div class="sidebar-item-thumb">
-                        <img src="/images/blog-img/custom_web.webp" alt="Shopify vs WordPress" />
+                        <img src="images/blog-img/custom_web.webp" alt="Shopify vs WordPress" />
                     </div>
                 </a>
             </div>
@@ -114,7 +114,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="strategy">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/blog1.png" alt="Why Shopify is Best in 2026" />
+                        <img src="images/blog-img/blog1.png" alt="Why Shopify is Best in 2026" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -133,7 +133,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="strategy">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/why_Shopify-Experts.webp" alt="Shopify vs WooCommerce vs Magento" />
+                        <img src="images/blog-img/why_Shopify-Experts.webp" alt="Shopify vs WooCommerce vs Magento" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -152,7 +152,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="strategy">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/shopify-develoment.png" alt="Best Shopify Agency in Surat" />
+                        <img src="images/blog-img/shopify-develoment.png" alt="Best Shopify Agency in Surat" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -171,7 +171,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="growth">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/blog2.png" alt="15 Must-Have Shopify Apps" />
+                        <img src="images/blog-img/blog2.png" alt="15 Must-Have Shopify Apps" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>
@@ -190,7 +190,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="strategy">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/custom_web.webp" alt="Shopify vs WordPress" />
+                        <img src="images/blog-img/custom_web.webp" alt="Shopify vs WordPress" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -209,7 +209,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="growth">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/blog3.png" alt="How Shopify Scales Small Businesses" />
+                        <img src="images/blog-img/blog3.png" alt="How Shopify Scales Small Businesses" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>
@@ -228,7 +228,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="tech">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/blogimg7.png" alt="Shopify Beginners Guide" />
+                        <img src="images/blog-img/blogimg7.png" alt="Shopify Beginners Guide" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Technical</span></div>
@@ -247,7 +247,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="growth">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/blog4.png" alt="Best Shopify Themes in 2026" />
+                        <img src="images/blog-img/blog4.png" alt="Best Shopify Themes in 2026" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>
@@ -266,7 +266,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="growth">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/blog5.png" alt="Agency Boosts Shopify Sales" />
+                        <img src="images/blog-img/blog5.png" alt="Agency Boosts Shopify Sales" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>
@@ -285,7 +285,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="tech">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/blogimg8.png" alt="Shopify SEO Best Practices" />
+                        <img src="images/blog-img/blogimg8.png" alt="Shopify SEO Best Practices" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Technical</span></div>
@@ -304,7 +304,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="strategy">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/blog6.png" alt="Surat Switching to Shopify" />
+                        <img src="images/blog-img/blog6.png" alt="Surat Switching to Shopify" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -323,7 +323,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="strategy">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/blog7.png" alt="Shopify Development Services Surat" />
+                        <img src="images/blog-img/blog7.png" alt="Shopify Development Services Surat" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -342,7 +342,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="strategy">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/hire-shopify-developer-e-commerce.png" alt="Hire Shopify Experts in Surat" />
+                        <img src="images/blog-img/hire-shopify-developer-e-commerce.png" alt="Hire Shopify Experts in Surat" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -361,7 +361,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="pricing">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/pricing.png" alt="Shopify Website Cost India" />
+                        <img src="images/blog-img/pricing.png" alt="Shopify Website Cost India" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Pricing</span></div>
@@ -380,7 +380,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="strategy">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/blog8.png" alt="Surat Fashion & Jewelry Agency" />
+                        <img src="images/blog-img/blog8.png" alt="Surat Fashion & Jewelry Agency" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -399,7 +399,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="tech">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/blog9.png" alt="Top Shopify AI Apps" />
+                        <img src="images/blog-img/blog9.png" alt="Top Shopify AI Apps" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Technical</span></div>
@@ -418,7 +418,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="growth">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/blog10.png" alt="Build High-Converting Store" />
+                        <img src="images/blog-img/blog10.png" alt="Build High-Converting Store" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>
@@ -437,7 +437,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="pricing">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/shopify plus.webp" alt="Shopify Plus vs Shopify Advanced" />
+                        <img src="images/blog-img/shopify plus.webp" alt="Shopify Plus vs Shopify Advanced" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Pricing</span></div>
@@ -456,7 +456,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="strategy">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/blog11.png" alt="Common Shopify Mistakes" />
+                        <img src="images/blog-img/blog11.png" alt="Common Shopify Mistakes" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -475,7 +475,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="growth">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/blog12.png" alt="Shopify 300% Case Study" />
+                        <img src="images/blog-img/blog12.png" alt="Shopify 300% Case Study" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>
@@ -496,7 +496,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="pricing">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/pricing.png" alt="Shopify Pricing" />
+                        <img src="images/blog-img/pricing.png" alt="Shopify Pricing" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Pricing</span></div>
@@ -515,7 +515,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="strategy">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/custom_web.webp" alt="Shopify vs Custom" />
+                        <img src="images/blog-img/custom_web.webp" alt="Shopify vs Custom" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -534,7 +534,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="strategy">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/why_Shopify-Experts.webp" alt="Why Hire Shopify Experts" />
+                        <img src="images/blog-img/why_Shopify-Experts.webp" alt="Why Hire Shopify Experts" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -553,7 +553,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="growth">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/Increase-shopify-sales.png" alt="Increase Store Revenue" />
+                        <img src="images/blog-img/Increase-shopify-sales.png" alt="Increase Store Revenue" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>
@@ -572,7 +572,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="strategy">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/shopify plus.webp" alt="Shopify Plus Benefits" />
+                        <img src="images/blog-img/shopify plus.webp" alt="Shopify Plus Benefits" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Strategy</span></div>
@@ -591,7 +591,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="pricing">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/setup.webp" alt="Shopify Startup Cost" />
+                        <img src="images/blog-img/setup.webp" alt="Shopify Startup Cost" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Pricing</span></div>
@@ -610,7 +610,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="growth">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/What-is-Shopify-Collabs.jpg" alt="Shopify Collabs Guide" />
+                        <img src="images/blog-img/What-is-Shopify-Collabs.jpg" alt="Shopify Collabs Guide" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Store Growth</span></div>
@@ -629,7 +629,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4 blog-item-card" data-category="tech">
                 <div class="resource-card">
                     <div class="resource-card-image">
-                        <img src="/images/blog-img/shopify-develoment.png" alt="Transferring Development Store" />
+                        <img src="images/blog-img/shopify-develoment.png" alt="Transferring Development Store" />
                     </div>
                     <div class="resource-card-body">
                         <div class="resource-card-tagline">CodelockSolutions. <span>Technical</span></div>

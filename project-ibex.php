@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
-<link rel="stylesheet" type="text/css" href="/css/projects3.css?v=2" />
-<link rel="stylesheet" type="text/css" href="/css/project-detail5.css?v=2" />
+<link rel="stylesheet" type="text/css" href="css/projects3.css?v=2" />
+<link rel="stylesheet" type="text/css" href="css/project-detail5.css?v=2" />
 
 <!-- ======================================================
      PROJECT DETAIL PAGE - IBEX
@@ -88,7 +88,7 @@
                                         <div class="mockup-url">ibex.com</div>
                                     </div>
                                     <div class="mockup-content">
-                                        <img src="/images/projects/ibex-desktop.png" alt="IBEX Desktop View 1" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=IBEX+Desktop+View+1'">
+                                        <img src="images/projects/ibex-desktop.png" alt="IBEX Desktop View 1" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=IBEX+Desktop+View+1'">
                                     </div>
                                 </div>
                             </div>
@@ -103,7 +103,7 @@
                                         <div class="mockup-url">ibex.com</div>
                                     </div>
                                     <div class="mockup-content">
-                                        <img src="/images/projects/ibex2-desktop.png" alt="IBEX Desktop View 2" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=IBEX+Desktop+View+2'">
+                                        <img src="images/projects/ibex2-desktop.png" alt="IBEX Desktop View 2" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=IBEX+Desktop+View+2'">
                                     </div>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@
                                         <div class="mockup-url">ibex.com</div>
                                     </div>
                                     <div class="mockup-content">
-                                        <img src="/images/projects/ibex3-desktop.png" alt="IBEX Desktop View 3" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=IBEX+Desktop+View+3'">
+                                        <img src="images/projects/ibex3-desktop.png" alt="IBEX Desktop View 3" onerror="this.src='https://placehold.co/1200x800/0d0d18/00f2fe?text=IBEX+Desktop+View+3'">
                                     </div>
                                 </div>
                             </div>
@@ -146,7 +146,7 @@
                                 <div class="mobile-mockup">
                                     <div class="mobile-notch"></div>
                                     <div class="mobile-content">
-                                        <img src="/images/projects/ibex-mobile.png" alt="IBEX Mobile View 1" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=IBEX+Mobile+View+1'">
+                                        <img src="images/projects/ibex-mobile.png" alt="IBEX Mobile View 1" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=IBEX+Mobile+View+1'">
                                     </div>
                                 </div>
                             </div>
@@ -154,7 +154,7 @@
                                 <div class="mobile-mockup">
                                     <div class="mobile-notch"></div>
                                     <div class="mobile-content">
-                                        <img src="/images/projects/ibex2-mobile.png" alt="IBEX Mobile View 2" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=IBEX+Mobile+View+2'">
+                                        <img src="images/projects/ibex2-mobile.png" alt="IBEX Mobile View 2" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=IBEX+Mobile+View+2'">
                                     </div>
                                 </div>
                             </div>
@@ -162,7 +162,7 @@
                                 <div class="mobile-mockup">
                                     <div class="mobile-notch"></div>
                                     <div class="mobile-content">
-                                        <img src="/images/projects/ibex3-mobile.png" alt="IBEX Mobile View 3" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=IBEX+Mobile+View+3'">
+                                        <img src="images/projects/ibex3-mobile.png" alt="IBEX Mobile View 3" onerror="this.src='https://placehold.co/375x812/0d0d18/00f2fe?text=IBEX+Mobile+View+3'">
                                     </div>
                                 </div>
                             </div>
@@ -301,6 +301,6 @@
 
 </div>
 
-<script src="/js/project-detail2.js?v=2"></script>
+<script src="js/project-detail2.js?v=2"></script>
 
 <?php include 'footer.php';?>

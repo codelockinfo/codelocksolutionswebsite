@@ -5,7 +5,7 @@
  * Optimized with high-converting, keyword-rich SEO content.
  */
 ?>
-<link rel="stylesheet" href="/css/what-we-do2.css?v=2">
+<link rel="stylesheet" href="css/what-we-do2.css?v=2">
 
 <section id="what-we-do" class="what-we-do-section">
     <div class="container">
