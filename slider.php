@@ -954,7 +954,7 @@
 
     @media (max-width: 768px) {
         .hero-container {
-            padding: 80px 20px 40px; 
+            padding: 50px 20px 40px; 
             gap: 30px;
         }
 
@@ -1010,7 +1010,7 @@
 
     @media (max-width: 480px) {
         .hero-container {
-            padding: 80px 12px 30px;
+            padding: 40px 12px 30px;
         }
         .hero-headline {
             font-size: 26px;

@@ -52,7 +52,7 @@
 .metrics-title {
     font-size: 48px;
     font-weight: 700;
-    line-height: 58px;
+    line-height: 45px;
     margin: 0;
     letter-spacing: -1px;
     color: var(--text-primary);

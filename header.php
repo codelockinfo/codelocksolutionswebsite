@@ -306,14 +306,16 @@ ob_start(function($buffer) {
         }
 
         .is-sticky .ttm-stickable-header,
-        .ttm-header-wrap.is-sticky {
-            background: rgba(7, 5, 20, 0.95) !important;
+        .ttm-header-wrap.is-sticky,
+        .ttm-stickable-header.fixed-header {
+            background: #000000 !important;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
         }
 
         [data-theme="light"] .is-sticky .ttm-stickable-header,
-        [data-theme="light"] .ttm-header-wrap.is-sticky {
-            background: rgba(255, 255, 255, 0.98) !important;
+        [data-theme="light"] .ttm-header-wrap.is-sticky,
+        [data-theme="light"] .ttm-stickable-header.fixed-header {
+            background: #ffffff !important;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
         }
 

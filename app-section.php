@@ -245,7 +245,7 @@
         display: flex;
         align-items: center;
         gap: 20px;
-        padding: 20px 25px;
+        padding: 20px 20px;
         background: var(--card-bg);
         border: 1px solid transparent;
         backdrop-filter: blur(15px);
