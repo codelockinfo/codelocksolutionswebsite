@@ -953,6 +953,10 @@
     }
 
     @media (max-width: 768px) {
+        .scroll-indicator {
+            display: none;
+        }
+
         .hero-container {
             padding: 50px 20px 40px; 
             gap: 30px;

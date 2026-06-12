@@ -379,3 +379,28 @@
         font-size: 2rem;
     }
 }
+
+@media (max-width: 768px) {
+    .wwd-card-inner {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-areas: 
+            "icon title"
+            "text text";
+        column-gap: 15px;
+        row-gap: 12px;
+        align-items: center;
+        text-align: left;
+    }
+    .wwd-card-icon {
+        grid-area: icon;
+        margin-bottom: 0;
+    }
+    .wwd-card-title {
+        grid-area: title;
+        margin-bottom: 0;
+    }
+    .wwd-card-text {
+        grid-area: text;
+    }
+}
