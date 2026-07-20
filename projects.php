@@ -346,31 +346,6 @@
                     </div>
                 </div>
 
-                <!-- Project 10: Civia Jewels -->
-                <div class="project-card capability-card" data-category="web">
-                    <div class="project-card-inner">
-                        <div class="card-glow-blob blob-accent"></div>
-                        <div class="project-image-wrap">                           
-                            <div class="project-mockup-graphics">
-                                <img src="images/projects/civiajewels.png" alt="civia jewels" class="project-img">
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <h3>Civia Jewels</h3>
-                            <p class="project-desc">Elegant e-commerce platform for luxury jewelry with exquisite collections and premium customer experience.</p>
-                            <div class="project-tech">
-                                <span class="tech-pill">Shopify</span>
-                                <span class="tech-pill">Liquid</span>
-                                <span class="tech-pill">SCSS</span>
-                            </div>
-                            <div class="project-actions">
-                                <a href="project-civiajewels.php" class="proj-btn-primary">View Details <i class="fa fa-chevron-right"></i></a>
-                                <a href="https://civiajewels.com/" target="_blank" class="proj-btn-secondary"><i class="fa fa-external-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <!-- Project 11: BBARE -->
                 <div class="project-card capability-card" data-category="web" style="transition-delay: 0.1s;">
                     <div class="project-card-inner">

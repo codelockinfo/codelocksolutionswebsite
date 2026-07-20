@@ -167,7 +167,6 @@ ob_start(function($buffer) {
                 'aadhunikgtech' => 'Aadhunik Gtech',
                 'ayaani' => 'Ayaani',
                 'bbare' => 'Bbare',
-                'civiajewels' => 'Civia Jewels',
                 'cosnet' => 'Cosnet',
                 'fabdreamsorganic' => 'Fab Dreams Organic',
                 'fillerlabdenmark' => 'Filler Lab Denmark',

@@ -435,18 +435,6 @@
         </image:image>
     </url>
 
-    <!-- Project: Civia Jewels -->
-    <url>
-        <loc>https://codelocksolutions.com/project-civiajewels</loc>
-        <lastmod>2026-05-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-        <image:image>
-            <image:loc>https://codelocksolutions.com/images/projects/civiajewels-desktop.png</image:loc>
-            <image:title>Civia Jewels Premium Jewelry E-Commerce Shopify Design</image:title>
-        </image:image>
-    </url>
-
     <!-- Project: Cosnet -->
     <url>
         <loc>https://codelocksolutions.com/project-cosnet</loc>
