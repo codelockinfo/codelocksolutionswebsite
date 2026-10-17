@@ -772,7 +772,7 @@ ob_start(function($buffer) {
                                                 <!-- </ul> -->
                                             </li>
                                             <li><a href="projects.php" class="gtm-nav-link" data-nav-name="Projects">Projects</a></li>
-                                            <li><a href="careers.php" class="gtm-nav-link" data-nav-name="Careers">Careers</a></li>
+                                            <li><a href="careers.php" class="gtm-nav-link" data-nav-name="Careers">Career</a></li>
                                             <li><a href="blogs.php" class="gtm-nav-link" data-nav-name="Blogs">blogs</a></li>
                                             <li><a href="contact.php" class="gtm-nav-link" data-nav-name="Contact">Contact</a></li>
                                         </ul>

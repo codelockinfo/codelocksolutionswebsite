@@ -397,7 +397,7 @@
                                             <li><a href="contact.php">Customer Services</a></li>
                                             <li><a href="about.php">About Company</a></li>
                                             <li><a href="contact.php">Meet Our Experts</a></li>
-                                            <li><a href="careers.php">Careers</a></li>
+                                            <li><a href="careers.php">Career</a></li>
                                             <li><a href="shopifyapps.php">Shopify apps</a></li>
                                         </ul>
                                    </div>
