@@ -207,6 +207,45 @@
     box-shadow: 0 10px 25px var(--shadow-color);
 }
 
+.apply-btn.disabled,
+.apply-btn:disabled,
+button.apply-btn:disabled {
+    background: rgba(255, 255, 255, 0.08) !important;
+    color: var(--text-tertiary, rgba(255, 255, 255, 0.45)) !important;
+    border: 1px solid var(--border-color, rgba(255, 255, 255, 0.15)) !important;
+    cursor: not-allowed !important;
+    pointer-events: auto !important;
+    box-shadow: none !important;
+    transform: none !important;
+    opacity: 0.65;
+    text-decoration: none !important;
+    font-family: inherit;
+}
+
+[data-theme="light"] .apply-btn.disabled,
+[data-theme="light"] .apply-btn:disabled,
+[data-theme="light"] button.apply-btn:disabled {
+    background: rgba(0, 0, 0, 0.06) !important;
+    color: var(--text-tertiary, rgba(26, 26, 46, 0.45)) !important;
+    border: 1px solid var(--border-color, rgba(0, 0, 0, 0.15)) !important;
+}
+
+.apply-btn.disabled:hover,
+.apply-btn:disabled:hover,
+button.apply-btn:disabled:hover {
+    color: var(--text-tertiary, rgba(255, 255, 255, 0.45)) !important;
+    background: rgba(255, 255, 255, 0.08) !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+[data-theme="light"] .apply-btn.disabled:hover,
+[data-theme="light"] .apply-btn:disabled:hover,
+[data-theme="light"] button.apply-btn:disabled:hover {
+    color: var(--text-tertiary, rgba(26, 26, 46, 0.45)) !important;
+    background: rgba(0, 0, 0, 0.06) !important;
+}
+
 .know-more-btn {
     background: transparent;
     color: var(--text-primary);
@@ -831,9 +870,9 @@ input[type="number"] {
                         <a href="#" class="know-more-btn cta-secondary gtm-career-link" data-career-name="Shopify Developer - Know More" data-toggle="modal" data-target="#jobDetailsModal">
                             <span class="button-text-wrapper">Know More</span>
                         </a>
-                        <a href="#" class="apply-btn cta-primary gtm-career-link" data-career-name="Shopify Developer - Apply" data-toggle="modal" data-target="#largeModal" data-position="Shopify Developer">
-                            <span class="button-text-wrapper">Apply Now</span>
-                        </a>
+                        <button type="button" class="apply-btn disabled gtm-career-link" disabled data-career-name="Shopify Developer - No Vacancy">
+                            No Vacancy
+                        </button>
                     </div>
                     <div class="job-details">
                         <div class="job-details-content">
@@ -915,9 +954,9 @@ input[type="number"] {
                         <a href="#" class="know-more-btn cta-primary gtm-career-link" data-career-name="Front End Developer - Know More" data-toggle="modal" data-target="#jobDetailsModal">
                             <span class="button-text-wrapper">Know More</span>
                         </a>
-                        <a href="#" class="apply-btn cta-secondary gtm-career-link" data-career-name="Front End Developer - Apply" data-toggle="modal" data-target="#largeModal" data-position="Front End Developer">
-                            <span class="button-text-wrapper">Apply Now</span>
-                        </a>
+                        <button type="button" class="apply-btn disabled gtm-career-link" disabled data-career-name="Front End Developer - No Vacancy">
+                            No Vacancy
+                        </button>
                     </div>
                     <div class="job-details">
                         <div class="job-details-content">
@@ -975,9 +1014,9 @@ input[type="number"] {
                         <a href="#" class="know-more-btn cta-primary gtm-career-link" data-career-name="PHP Developer - Know More" data-toggle="modal" data-target="#jobDetailsModal">
                         <span class="button-text-wrapper">Know More</span>
                         </a>
-                        <a href="#" class="apply-btn cta-secondary gtm-career-link" data-career-name="PHP Developer - Apply" data-toggle="modal" data-target="#largeModal" data-position="PHP Developer">
-                            <span class="button-text-wrapper">Apply Now</span>
-                        </a>
+                        <button type="button" class="apply-btn disabled gtm-career-link" disabled data-career-name="PHP Developer - No Vacancy">
+                            No Vacancy
+                        </button>
                     </div>
                     <div class="job-details">
                         <div class="job-details-content">
@@ -1024,9 +1063,9 @@ input[type="number"] {
             </div>
             <div class="modal-footer" style="border-top: 1px solid var(--border-color); padding: 20px 30px; display: flex; justify-content: flex-end; gap: 15px;">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal" style="border-radius: 30px; padding: 12px 30px; font-weight: 600; background: transparent; border: 1px solid var(--border-color); color: var(--text-secondary); transition: all 0.3s ease;">Close</button>
-                <a href="#" id="career-modal-apply-btn" class="apply-btn modal-apply-btn cta-primary gtm-career-link" data-career-name="Modal Job - Apply">
-                    <span class="button-text-wrapper">Apply Now</span>
-                </a>
+                <button type="button" id="career-modal-apply-btn" class="apply-btn modal-apply-btn disabled gtm-career-link" disabled data-career-name="Modal Job - No Vacancy">
+                    No Vacancy
+                </button>
             </div>
         </div>
     </div>
@@ -1166,8 +1205,14 @@ const positionInput = document.getElementById('positionInput');
 
 applyButtons.forEach(btn => {
     btn.addEventListener('click', (e) => {
+        if (btn.hasAttribute('disabled') || btn.classList.contains('disabled')) {
+            e.preventDefault();
+            return false;
+        }
         const position = btn.getAttribute('data-position');
-        positionInput.value = position;
+        if (position && positionInput) {
+            positionInput.value = position;
+        }
     });
 });
 
@@ -1199,7 +1244,11 @@ knowMoreButtons.forEach(btn => {
 // Smooth transition and origin tracking
 window.addEventListener('load', () => {
     // Reset flags if clicked directly on card's Apply Now button
-    $('.job-card-footer .apply-btn').on('click', function() {
+    $('.job-card-footer .apply-btn').on('click', function(e) {
+        if ($(this).hasClass('disabled') || $(this).prop('disabled')) {
+            e.preventDefault();
+            return false;
+        }
         cameFromDetails = false;
         backButtonClicked = false;
     });
@@ -1216,6 +1265,10 @@ window.addEventListener('load', () => {
 
     // Transition from details modal to apply modal
     $('.modal-apply-btn').on('click', function(e) {
+        if ($(this).hasClass('disabled') || $(this).prop('disabled')) {
+            e.preventDefault();
+            return false;
+        }
         e.preventDefault();
         cameFromDetails = true;
         backButtonClicked = false;

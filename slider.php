@@ -81,7 +81,7 @@
 
             <div class="hero-trust-bar floating-card">
                 <div class="trust-item">
-                    <div class="trust-number">500+</div>
+                    <div class="trust-number">300+</div>
                     <div class="trust-label">Projects Delivered</div>
                 </div>
                 <div class="trust-divider"></div>
