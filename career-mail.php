@@ -83,7 +83,7 @@
         ?>
 		<script language="javascript" type="text/javascript"> 
 			alert('Your Message Not Sent Successfully');
-			window.location = 'career1.php'; 
+			window.location = 'career.php'; 
 		</script>
         <?php		
 		} //End Of inner If
@@ -97,7 +97,7 @@
 	  ?>
       <script language="javascript" type="text/javascript"> 
           alert("Please upload resume");
-          	window.location = 'career1.php'; 
+          	window.location = 'career.php'; 
           	</script>
       <?php }
 	} //End Of Outer If
