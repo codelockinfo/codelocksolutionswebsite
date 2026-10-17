@@ -14,8 +14,12 @@ RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
 
 # 2. Redirect legacy index.php/path/to/page.php (or page) to /page
 # Matches any path segment ending in one of our known pages
-RewriteCond %{THE_REQUEST} \s/index\.php/(?:[^/]+/)*(about|allapps|androiddevlopment|blogdetail|blogs|career|collabs|contact|coststart|custom_web|digitalmarketing|ecommercewebsite|graphicdesign|hireexpert|pricing-blog|projects|revenue24|services|shopifyapps|shopifyplus|tranceclient|websitedevlopment)(?:\.php)?(?:\s|\?) [NC]
+RewriteCond %{THE_REQUEST} \s/index\.php/(?:[^/]+/)*(about|allapps|androiddevlopment|blogdetail|blogs|career|careers|carrers|collabs|contact|coststart|custom_web|digitalmarketing|ecommercewebsite|graphicdesign|hireexpert|pricing-blog|projects|revenue24|services|shopifyapps|shopifyplus|tranceclient|websitedevlopment)(?:\.php)?(?:\s|\?) [NC]
 RewriteRule ^ /%1 [R=301,L]
+
+# Redirect /career and /carrers to /careers
+RewriteRule ^career/?$ /careers [R=301,L]
+RewriteRule ^carrers/?$ /careers [R=301,L]
 
 # 3. Redirect all other arbitrary /index.php/ path requests to home page /
 RewriteCond %{THE_REQUEST} \s/index\.php/[^\s\?]+ [NC]
