@@ -86,6 +86,10 @@ ob_start(function($buffer) {
                 'title' => 'Shopify Portfolio & E-commerce Projects | Codelock Solutions',
                 'desc' => 'Browse our portfolio of custom Shopify stores, theme customizations, and successful e-commerce projects delivered by Codelock Solutions.'
             ],
+            'products.php' => [
+                'title' => 'Products & Platforms | Codelock Solutions',
+                'desc' => 'Discover modern web platforms and products developed by Codelock Solutions, including FixNex on-demand doorstep home services.'
+            ],
             'careers.php' => [
                 'title' => 'Careers | Join Our Shopify Developer Team | Codelock Solutions',
                 'desc' => 'Looking to grow your career in IT and web development? Join Codelock Solutions as a Shopify developer, designer, or digital marketer. Apply today!'
@@ -772,6 +776,7 @@ ob_start(function($buffer) {
                                                 <!-- </ul> -->
                                             </li>
                                             <li><a href="projects.php" class="gtm-nav-link" data-nav-name="Projects">Projects</a></li>
+                                            <li class="<?php echo ($current_page_basename === 'products' || $current_page_basename === 'products.php' ? 'active' : ''); ?>"><a href="products.php" class="gtm-nav-link" data-nav-name="Products">Products</a></li>
                                             <li><a href="careers.php" class="gtm-nav-link" data-nav-name="Careers">Career</a></li>
                                             <li><a href="blogs.php" class="gtm-nav-link" data-nav-name="Blogs">blogs</a></li>
                                             <li><a href="contact.php" class="gtm-nav-link" data-nav-name="Contact">Contact</a></li>
