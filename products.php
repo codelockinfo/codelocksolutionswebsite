@@ -681,6 +681,7 @@ include 'header.php';
     scrollbar-width: thin;
     scrollbar-color: #cbd5e1 transparent;
     -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
 }
 
 .fn-process-track-wrapper::-webkit-scrollbar {
@@ -742,6 +743,7 @@ include 'header.php';
     align-items: center;
     position: relative;
     text-align: center;
+    scroll-snap-align: center;
     transition: transform 400ms cubic-bezier(0.16, 1, 0.3, 1), opacity 400ms ease;
     animation: fnStepEnter 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
@@ -2081,6 +2083,53 @@ include 'header.php';
         display: none;
     }
 }
+@media (max-width: 600px) {
+    .fn-process-header {
+        margin: 22px auto 18px !important;
+    }
+    .fn-process-title {
+        font-size: 26px !important;
+        line-height: 1.25 !important;
+    }
+    .fn-process-page {
+        padding-bottom: 40px !important;
+    }
+    .fn-bottom-cta-card {
+        padding: 30px 22px;
+        border-radius: 20px;
+        margin-top: 40px;
+    }
+    .fn-bottom-cta-btns {
+        flex-direction: column;
+        width: 100%;
+        gap: 12px;
+    }
+    .fn-btn-primary-glow,
+    .fn-btn-secondary-outline {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+}
+</style>
+
+<!-- =========================================================
+     FIXNEX GLOBAL SMOOTH SCROLL & FIXED HEADER OFFSET
+     ========================================================= -->
+<style>
+html {
+    scroll-behavior: smooth;
+}
+#fnh-hero,
+#fn-services-catalog,
+#fn-how-it-works-timeline,
+#fn-fingertips-experience,
+#fn-merchant-opportunities,
+#fn-everyday-difference,
+#fn-dual-cta,
+.fn-process-page {
+    scroll-margin-top: 85px;
+}
 </style>
 
 <!-- =========================================================
@@ -2330,14 +2379,44 @@ include 'header.php';
     .fnh2-hero {
         height: auto;
         min-height: auto;
-        padding: 60px 0;
-        background-position: 80% center;
+        padding: 70px 0;
+        background-position: 85% center;
     }
     .fnh2-left-block {
         max-width: 100%;
+        background: linear-gradient(to right, rgba(255,255,255,0.96) 0%, rgba(255,255,255,0.92) 55%, rgba(255,255,255,0.4) 100%);
+        padding: 28px 24px;
+        border-radius: 20px;
     }
     .fnh2-badge {
         display: none !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .fnh2-hero {
+        padding: 50px 0;
+        background-position: 88% center;
+    }
+    .fnh2-wrapper {
+        padding: 0 18px;
+    }
+    .fnh2-left-block {
+        padding: 22px 18px;
+        border-radius: 16px;
+    }
+    .fnh2-heading {
+        font-size: clamp(26px, 7vw, 36px) !important;
+    }
+    .fnh2-buttons {
+        flex-direction: column;
+        width: 100%;
+        gap: 12px;
+    }
+    .fnh2-btn-dark,
+    .fnh2-btn-white {
+        width: 100%;
+        justify-content: center;
     }
 }
 </style>
@@ -2415,14 +2494,14 @@ include 'header.php';
 
             <!-- 2 Buttons -->
             <div class="fnh2-buttons">
-                <a href="https://fixnex.in" target="_blank" class="fnh2-btn-dark">
+                <a href="#fn-services-catalog" class="fnh2-btn-dark">
                     Explore Services
                     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 2px;">
                         <line x1="7" y1="17" x2="17" y2="7"></line>
                         <polyline points="7 7 17 7 17 17"></polyline>
                     </svg>
                 </a>
-                <a href="https://fixnex.in" target="_blank" class="fnh2-btn-white">
+                <a href="#fn-merchant-opportunities" class="fnh2-btn-white">
                     Join as Merchant
                     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 2px;">
                         <line x1="7" y1="17" x2="17" y2="7"></line>
@@ -2642,9 +2721,23 @@ include 'header.php';
         align-items: flex-start;
     }
 }
+@media (max-width: 640px) {
+    .fn-catalog-section {
+        padding: 45px 0 45px !important;
+    }
+    .fn-catalog-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .fn-catalog-container {
+        padding: 0 18px;
+    }
+}
 @media (max-width: 480px) {
     .fn-catalog-grid {
         grid-template-columns: 1fr;
+        gap: 16px;
     }
 }
 </style>
@@ -2663,7 +2756,7 @@ include 'header.php';
                     Explore a wide range of professional home services designed to make everyday life easier.
                 </p>
             </div>
-            <a href="https://fixnex.in" target="_blank" class="fn-catalog-view-all">
+            <a href="https://fixnex.in/services" target="_blank" rel="noopener noreferrer" class="fn-catalog-view-all">
                 View all services
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="7" y1="17" x2="17" y2="7"></line>
@@ -2676,9 +2769,9 @@ include 'header.php';
         <div class="fn-catalog-grid">
 
             <!-- Card 1: AC Services -->
-            <a href="https://fixnex.in" target="_blank" class="fn-catalog-card">
+            <a href="https://fixnex.in/services/ac-services" target="_blank" rel="noopener noreferrer" class="fn-catalog-card">
                 <div class="fn-catalog-img-wrap">
-                    <img src="images/fixnex/ac-services-banner.webp" alt="AC Services">
+                    <img src="images/fixnex/ac-services-banner.webp?v=3" alt="AC Services">
                 </div>
                 <div class="fn-catalog-card-body">
                     <div class="fn-catalog-card-header">
@@ -2693,9 +2786,9 @@ include 'header.php';
             </a>
 
             <!-- Card 2: Electrical Services -->
-            <a href="https://fixnex.in" target="_blank" class="fn-catalog-card">
+            <a href="https://fixnex.in/services/electrical-services" target="_blank" rel="noopener noreferrer" class="fn-catalog-card">
                 <div class="fn-catalog-img-wrap">
-                    <img src="images/fixnex/electric.webp" alt="Electrical Services">
+                    <img src="images/fixnex/electrical-services-banner.webp?v=1" alt="Electrical Services">
                 </div>
                 <div class="fn-catalog-card-body">
                     <div class="fn-catalog-card-header">
@@ -2710,9 +2803,9 @@ include 'header.php';
             </a>
 
             <!-- Card 3: Plumbing -->
-            <a href="https://fixnex.in" target="_blank" class="fn-catalog-card">
+            <a href="https://fixnex.in/services/plumbing-services" target="_blank" rel="noopener noreferrer" class="fn-catalog-card">
                 <div class="fn-catalog-img-wrap">
-                    <img src="images/fixnex/plumbing-banner.webp" alt="Plumbing">
+                    <img src="images/fixnex/plumbing-banner.webp?v=3" alt="Plumbing">
                 </div>
                 <div class="fn-catalog-card-body">
                     <div class="fn-catalog-card-header">
@@ -2727,9 +2820,9 @@ include 'header.php';
             </a>
 
             <!-- Card 4: Home Cleaning -->
-            <a href="https://fixnex.in" target="_blank" class="fn-catalog-card">
+            <a href="https://fixnex.in/services/deep-home-cleaning" target="_blank" rel="noopener noreferrer" class="fn-catalog-card">
                 <div class="fn-catalog-img-wrap">
-                    <img src="images/fixnex/home-cleaning-banner.webp" alt="Home Cleaning">
+                    <img src="images/fixnex/home-cleaning-banner.webp?v=3" alt="Home Cleaning">
                 </div>
                 <div class="fn-catalog-card-body">
                     <div class="fn-catalog-card-header">
@@ -2744,9 +2837,9 @@ include 'header.php';
             </a>
 
             <!-- Card 5: Washing Machine Repair -->
-            <a href="https://fixnex.in" target="_blank" class="fn-catalog-card">
+            <a href="https://fixnex.in/services/washing-machine-repair" target="_blank" rel="noopener noreferrer" class="fn-catalog-card">
                 <div class="fn-catalog-img-wrap">
-                    <img src="images/fixnex/washing-machine-banner.webp" alt="Washing Machine Repair">
+                    <img src="images/fixnex/washing-machine-banner.webp?v=3" alt="Washing Machine Repair">
                 </div>
                 <div class="fn-catalog-card-body">
                     <div class="fn-catalog-card-header">
@@ -2764,7 +2857,7 @@ include 'header.php';
 
         <!-- Bottom "Explore more services ∨" button -->
         <div class="fn-catalog-bottom">
-            <a href="https://fixnex.in" target="_blank" class="fn-catalog-more-btn">
+            <a href="https://fixnex.in/services" target="_blank" rel="noopener noreferrer" class="fn-catalog-more-btn">
                 Explore more services
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                     <polyline points="6 9 12 15 18 9"></polyline>
@@ -2776,13 +2869,13 @@ include 'header.php';
 </section>
 
 <!-- =========================================================
-     FIXNEX TIMELINE SHOWCASE SECTION (Compact & Smooth Animations)
+     FIXNEX TIMELINE SHOWCASE SECTION (Refined Layout & Smooth Animations)
      "Home Services. Simplified. — From Search to Service"
      ========================================================= -->
 <style>
 .fn-flow-section {
-    padding: 50px 0 55px;
-    background: #fbfcfe;
+    padding: 65px 0 75px;
+    background: #ffffff;
     position: relative;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     overflow: hidden;
@@ -2799,8 +2892,8 @@ include 'header.php';
 
 .fn-flow-grid {
     display: grid;
-    grid-template-columns: 1fr 1.05fr;
-    gap: 50px;
+    grid-template-columns: 1fr 1.12fr;
+    gap: 60px;
     align-items: center;
 }
 
@@ -2811,98 +2904,104 @@ include 'header.php';
 }
 
 .fn-flow-eyebrow {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 8px;
-    font-size: 11px !important;
+    gap: 10px;
+    font-size: 11.5px !important;
     font-weight: 700 !important;
-    letter-spacing: 1.6px !important;
+    letter-spacing: 1.8px !important;
     text-transform: uppercase !important;
     color: #1e3a8a !important;
-    margin-bottom: 10px !important;
+    margin-bottom: 14px !important;
 }
 .fn-flow-eyebrow::before {
     content: '';
     display: inline-block;
-    width: 22px;
+    width: 24px;
     height: 2px;
     background: #1e3a8a;
     border-radius: 2px;
 }
 
 .fn-flow-title {
-    font-size: clamp(28px, 3.2vw, 42px) !important;
+    font-size: clamp(32px, 3.8vw, 48px) !important;
     font-weight: 800 !important;
-    color: #0f172a !important;
-    line-height: 1.15 !important;
+    color: #071530 !important;
+    line-height: 1.18 !important;
     letter-spacing: -0.8px !important;
-    margin: 0 0 10px 0 !important;
+    margin: 0 0 16px 0 !important;
     text-transform: none !important;
 }
 
 .fn-flow-desc {
-    font-size: 14px !important;
+    font-size: 15px !important;
     color: #64748b !important;
-    line-height: 1.55 !important;
-    margin: 0 0 24px 0 !important;
-    max-width: 380px !important;
+    line-height: 1.6 !important;
+    margin: 0 0 32px 0 !important;
+    max-width: 440px !important;
     font-weight: 400 !important;
     text-transform: none !important;
 }
 
-/* Phone Stage Container */
+/* Phone Stage */
 .fn-flow-phone-stage {
-    position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
-/* 3D Floating Phone Mockup (Compact Height) */
 .fn-flow-phone {
+    width: 250px;
+    height: 475px;
+    background: #0f172a;
+    border: 9px solid #1e293b;
+    border-radius: 40px;
+    box-shadow: 
+        0 24px 50px -12px rgba(15, 23, 42, 0.28),
+        0 0 0 1px rgba(255, 255, 255, 0.1) inset;
     position: relative;
-    z-index: 2;
-    width: 215px;
-    height: 425px;
-    background: #0a0f1d;
-    border-radius: 36px;
-    border: 3px solid #1e293b;
-    box-shadow:
-        0 20px 45px -10px rgba(15, 23, 42, 0.28),
-        0 8px 18px -6px rgba(37, 99, 235, 0.18),
-        inset 0 0 10px rgba(255, 255, 255, 0.1);
     overflow: hidden;
-    transform: rotate(-2.5deg);
+    animation: fnTlPhoneFloat 6s ease-in-out infinite;
     transition: transform 0.35s ease, box-shadow 0.35s ease;
-    animation: fnPhoneFloat 5s ease-in-out infinite;
 }
 .fn-flow-phone:hover {
-    transform: rotate(0deg) scale(1.02);
-    box-shadow:
-        0 26px 55px -10px rgba(15, 23, 42, 0.35),
-        0 12px 24px -6px rgba(37, 99, 235, 0.25);
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 
+        0 30px 65px -12px rgba(15, 23, 42, 0.35),
+        0 0 0 1px rgba(255, 255, 255, 0.15) inset;
 }
 
-@keyframes fnPhoneFloat {
-    0%, 100% { transform: translateY(0) rotate(-2.5deg); }
-    50% { transform: translateY(-8px) rotate(-1.5deg); }
+@keyframes fnTlPhoneFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-7px); }
 }
 
-/* Phone Island Notch */
+/* Dynamic Island */
 .fn-flow-island {
     position: absolute;
-    top: 7px;
+    top: 8px;
     left: 50%;
     transform: translateX(-50%);
-    width: 70px;
+    width: 74px;
     height: 18px;
     background: #000000;
-    border-radius: 14px;
-    z-index: 10;
+    border-radius: 20px;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 6px;
+}
+.fn-flow-island::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #0f172a;
 }
 
-/* Phone Screen Container */
+/* Screen Cards Container */
 .fn-flow-screen-container {
     position: relative;
     width: 100%;
@@ -2911,20 +3010,20 @@ include 'header.php';
     overflow: hidden;
 }
 
-/* Individual Interactive Screen Cards */
+/* Individual Screen Cards */
 .fn-screen-card {
     position: absolute;
     inset: 0;
     width: 100%;
     height: 100%;
-    background: #ffffff;
+    background: #f8fafc;
     display: flex;
     flex-direction: column;
     opacity: 0;
     pointer-events: none;
-    transform: translateY(8px) scale(0.98);
-    transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-    padding: 32px 14px 14px;
+    transform: translateY(12px) scale(0.97);
+    transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    padding: 34px 14px 14px;
     overflow: hidden;
     box-sizing: border-box;
 }
@@ -2934,47 +3033,51 @@ include 'header.php';
     transform: translateY(0) scale(1);
 }
 
-/* Screen 1 Styles: Category Search */
+/* Screen 1: Discover */
 .fn-sc-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 .fn-sc-brand {
     font-size: 13px;
     font-weight: 800;
-    color: #0f172a;
+    color: #071530;
 }
 .fn-sc-search-bar {
     display: flex;
     align-items: center;
-    gap: 6px;
-    background: #f1f5f9;
+    gap: 7px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
     border-radius: 8px;
-    padding: 6px 10px;
-    font-size: 11px;
+    padding: 7px 10px;
+    font-size: 10.5px;
     color: #64748b;
     margin-bottom: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
 }
 .fn-sc-hero-promo {
     background: linear-gradient(135deg, #1d4ed8, #2563eb);
     border-radius: 12px;
-    padding: 10px 12px;
+    padding: 11px 12px;
     color: #ffffff;
     margin-bottom: 12px;
+    box-shadow: 0 4px 12px rgba(29, 78, 216, 0.25);
 }
 .fn-sc-hero-promo span {
-    font-size: 9px;
-    letter-spacing: 1px;
-    opacity: 0.8;
+    font-size: 8.5px;
+    letter-spacing: 1.2px;
+    opacity: 0.85;
     text-transform: uppercase;
+    font-weight: 700;
 }
 .fn-sc-hero-promo strong {
     display: block;
     font-size: 13px;
     font-weight: 800;
-    margin: 2px 0;
+    margin: 3px 0 0;
 }
 .fn-sc-grid {
     display: grid;
@@ -2982,51 +3085,53 @@ include 'header.php';
     gap: 8px;
 }
 .fn-sc-cat-box {
-    background: #f8fafc;
+    background: #ffffff;
     border: 1px solid #e2e8f0;
     border-radius: 10px;
-    padding: 8px 6px;
+    padding: 10px 8px;
     text-align: center;
+    transition: transform 0.2s ease;
 }
 .fn-sc-cat-box i {
-    font-size: 14px;
+    font-size: 15px;
     color: #1d4ed8;
     display: block;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
 }
 .fn-sc-cat-box span {
-    font-size: 10px;
+    font-size: 10.5px;
     font-weight: 700;
-    color: #0f172a;
+    color: #071530;
     display: block;
 }
 
-/* Screen 2 Styles: Choose Verified Pro */
+/* Screen 2: Choose Pro */
 .fn-sc-pro-card {
     background: #ffffff;
     border: 1.5px solid #e2e8f0;
     border-radius: 10px;
-    padding: 8px 10px;
-    margin-bottom: 8px;
+    padding: 9px 10px;
+    margin-bottom: 9px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 9px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
 }
 .fn-sc-pro-card.selected {
     border-color: #1d4ed8;
     background: #eff6ff;
 }
 .fn-sc-avatar {
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background: #1d4ed8;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 10px;
-    font-weight: 700;
+    font-size: 11px;
+    font-weight: 800;
     flex-shrink: 0;
 }
 .fn-sc-pro-info {
@@ -3034,115 +3139,125 @@ include 'header.php';
 }
 .fn-sc-pro-info strong {
     display: block;
-    font-size: 11px;
-    color: #0f172a;
+    font-size: 11.5px;
+    color: #071530;
+    font-weight: 700;
 }
 .fn-sc-pro-info small {
     display: block;
-    font-size: 9px;
+    font-size: 9.5px;
     color: #64748b;
+    margin-top: 1px;
 }
 .fn-sc-pro-btn {
-    padding: 4px 8px;
+    font-size: 9.5px;
+    font-weight: 700;
     background: #1d4ed8;
     color: #fff;
+    padding: 3px 8px;
     border-radius: 6px;
-    font-size: 9px;
-    font-weight: 700;
 }
 
-/* Screen 3 Styles: Booking Schedule */
+/* Screen 3: Schedule */
 .fn-sc-date-pill {
-    background: #f1f5f9;
-    padding: 6px 8px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
     border-radius: 8px;
-    font-size: 10px;
+    padding: 8px 10px;
+    margin-bottom: 9px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+}
+.fn-sc-date-pill span {
+    font-size: 9px;
+    color: #64748b;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.fn-sc-date-pill strong {
+    font-size: 11.5px;
+    color: #071530;
     font-weight: 700;
-    color: #0f172a;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 8px;
 }
 .fn-sc-slot {
     background: #eff6ff;
-    border: 1px solid #1d4ed8;
+    border: 1.5px solid #1d4ed8;
     color: #1d4ed8;
-    padding: 6px;
-    border-radius: 6px;
-    text-align: center;
-    font-size: 10.5px;
-    font-weight: 700;
-    margin-bottom: 12px;
-}
-.fn-sc-btn-confirm {
-    background: #0f172a;
-    color: #fff;
-    text-align: center;
-    padding: 8px;
     border-radius: 8px;
+    padding: 8px 10px;
     font-size: 11px;
     font-weight: 700;
-    margin-top: auto;
+    text-align: center;
+    margin-bottom: 9px;
+}
+.fn-sc-btn-confirm {
+    background: #071530;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 8px;
+    box-shadow: 0 4px 12px rgba(7, 21, 48, 0.2);
 }
 
-/* Screen 4 Styles: Service Live */
+/* Screen 4: Live Service */
 .fn-sc-status-box {
     background: #ecfdf5;
     border: 1px solid #a7f3d0;
     border-radius: 8px;
-    padding: 8px 10px;
-    margin-bottom: 12px;
+    padding: 10px;
     display: flex;
     align-items: center;
     gap: 8px;
-}
-.fn-sc-status-box i {
-    color: #059669;
-    font-size: 14px;
-}
-.fn-sc-status-box div {
-    font-size: 10.5px;
     color: #065f46;
+    font-size: 10.5px;
     font-weight: 700;
+    margin-bottom: 12px;
 }
 .fn-sc-map-mock {
-    height: 120px;
-    background: #e2e8f0;
+    height: 140px;
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #64748b;
-    font-size: 11px;
-    font-weight: 600;
-    margin-bottom: 12px;
-    position: relative;
-    overflow: hidden;
 }
 .fn-sc-map-pin {
-    width: 22px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     background: #1d4ed8;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 10px;
-    box-shadow: 0 0 0 4px rgba(29, 78, 216, 0.25);
+    font-size: 11px;
+    box-shadow: 0 0 0 5px rgba(29, 78, 216, 0.25);
+    animation: fnPinPulse 2s infinite;
+}
+@keyframes fnPinPulse {
+    0% { box-shadow: 0 0 0 0 rgba(29, 78, 216, 0.5); }
+    70% { box-shadow: 0 0 0 10px rgba(29, 78, 216, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(29, 78, 216, 0); }
 }
 
-/* RIGHT COLUMN - TIMELINE STEPS (Compact) */
+/* RIGHT COLUMN - TIMELINE STEPS (100% SCOPED & ALIGNED) */
 .fn-flow-right {
     position: relative;
-    padding-left: 20px;
+    margin-top: 75px;
 }
 
 .fn-timeline-track {
     position: absolute;
-    top: 24px;
+    top: 22px;
     bottom: 24px;
-    left: 19px;
+    left: 21px;
     width: 2px;
     background: #e2e8f0;
     z-index: 1;
@@ -3154,107 +3269,120 @@ include 'header.php';
     left: 0;
     width: 100%;
     height: 0px;
-    background: #0b1736;
+    background: #071530;
     border-radius: 2px;
-    transition: height 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: height 0.38s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .fn-timeline-list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 16px !important;
     position: relative;
     z-index: 2;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
-/* Individual Step Item */
-.fn-step-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 18px;
+/* Individual Step Item (Strictly Left-Aligned) */
+.fn-tl-item {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    text-align: left !important;
+    gap: 20px !important;
     cursor: pointer;
-    padding: 10px 14px 10px 0;
-    border-radius: 12px;
-    transition: all 0.22s ease;
+    padding: 12px 16px 12px 0 !important;
+    border-radius: 14px;
+    position: relative;
+    z-index: 2;
+    transition: transform 0.26s cubic-bezier(0.16, 1, 0.3, 1), background 0.26s ease;
+    user-select: none;
 }
-.fn-step-item:hover {
-    background: rgba(241, 245, 249, 0.65);
+.fn-tl-item:hover {
+    transform: translateX(4px);
 }
 
-/* Circle Badge with Step Number */
-.fn-step-badge {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #ffffff;
-    border: 2px solid #e2e8f0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 13px;
-    font-weight: 800;
-    color: #64748b;
-    flex-shrink: 0;
-    position: relative;
-    z-index: 3;
-    transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
-    box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
+/* Badge (Circle with Step Number) */
+.fn-tl-badge {
+    width: 44px !important;
+    height: 44px !important;
+    border-radius: 50% !important;
+    background: #ffffff !important;
+    border: 2px solid #e2e8f0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 13.5px !important;
+    font-weight: 800 !important;
+    color: #64748b !important;
+    flex-shrink: 0 !important;
+    position: relative !important;
+    z-index: 3 !important;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06) !important;
 }
 
 /* Active Step Badge */
-.fn-step-item.active .fn-step-badge {
-    background: #0b1736;
-    border-color: #0b1736;
-    color: #ffffff;
-    transform: scale(1.1);
-    box-shadow: 0 4px 16px rgba(11, 23, 54, 0.3), 0 0 0 4px rgba(37, 99, 235, 0.12);
+.fn-tl-item.active .fn-tl-badge {
+    background: #071530 !important;
+    border-color: #071530 !important;
+    color: #ffffff !important;
+    transform: scale(1.1) !important;
+    box-shadow: 0 6px 20px rgba(7, 21, 48, 0.32), 0 0 0 4px rgba(37, 99, 235, 0.14) !important;
 }
 
-/* Step Content Block */
-.fn-step-content {
-    display: flex;
-    flex-direction: column;
-    padding-top: 2px;
+/* Step Content Block (Strictly Left-Aligned) */
+.fn-tl-content {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    text-align: left !important;
+    padding-top: 3px !important;
+    flex-grow: 1 !important;
 }
 
-.fn-step-category {
-    font-size: 10.5px !important;
+.fn-tl-category {
+    font-size: 11px !important;
     font-weight: 700 !important;
-    letter-spacing: 1.4px !important;
+    letter-spacing: 1.5px !important;
     text-transform: uppercase !important;
     color: #94a3b8 !important;
-    margin-bottom: 2px !important;
-    transition: color 0.22s ease;
+    margin-bottom: 3px !important;
+    text-align: left !important;
+    transition: color 0.25s ease !important;
 }
-.fn-step-item.active .fn-step-category {
+.fn-tl-item.active .fn-tl-category {
     color: #1d4ed8 !important;
 }
 
-.fn-step-title {
-    font-size: 16.5px !important;
+.fn-tl-title {
+    font-size: 18px !important;
     font-weight: 700 !important;
     color: #334155 !important;
-    line-height: 1.25 !important;
-    margin: 0 0 4px 0 !important;
-    transition: color 0.22s ease;
+    line-height: 1.3 !important;
+    margin: 0 0 5px 0 !important;
     text-transform: none !important;
+    text-align: left !important;
+    transition: color 0.25s ease !important;
 }
-.fn-step-item.active .fn-step-title {
-    color: #0f172a !important;
+.fn-tl-item.active .fn-tl-title {
+    color: #071530 !important;
     font-weight: 800 !important;
 }
 
-.fn-step-desc {
-    font-size: 13px !important;
+.fn-tl-desc {
+    font-size: 14px !important;
     color: #64748b !important;
-    line-height: 1.45 !important;
+    line-height: 1.55 !important;
     margin: 0 !important;
-    max-width: 440px !important;
+    max-width: 460px !important;
     text-transform: none !important;
     font-weight: 400 !important;
-    transition: color 0.22s ease;
+    text-align: left !important;
+    transition: color 0.25s ease !important;
 }
-.fn-step-item.active .fn-step-desc {
+.fn-tl-item.active .fn-tl-desc {
     color: #475569 !important;
 }
 
@@ -3262,19 +3390,42 @@ include 'header.php';
 @media (max-width: 991px) {
     .fn-flow-grid {
         grid-template-columns: 1fr;
-        gap: 40px;
+        gap: 45px;
     }
     .fn-flow-right {
-        padding-left: 10px;
+        margin-top: 0;
+    }
+    .fn-flow-phone-stage {
+        justify-content: center;
+        padding-left: 0;
     }
 }
 @media (max-width: 600px) {
+    .fn-flow-section {
+        padding: 45px 0 45px !important;
+    }
     .fn-flow-container {
         padding: 0 20px;
     }
+    .fn-tl-item {
+        gap: 14px !important;
+    }
+    .fn-tl-badge {
+        width: 38px !important;
+        height: 38px !important;
+        font-size: 12px !important;
+    }
+    .fn-timeline-track {
+        left: 18px;
+    }
+    .fn-tl-title {
+        font-size: 16px !important;
+    }
+}
+@media (max-width: 480px) {
     .fn-flow-phone {
-        width: 190px;
-        height: 380px;
+        width: 216px !important;
+        height: 430px !important;
     }
 }
 </style>
@@ -3283,7 +3434,7 @@ include 'header.php';
     <div class="fn-flow-container">
         <div class="fn-flow-grid">
 
-            <!-- LEFT: Title, Description, and 3D Floating Phone -->
+            <!-- LEFT: Title, Description, and Phone Showcase -->
             <div class="fn-flow-left">
                 <div class="fn-flow-eyebrow">FROM SEARCH TO SERVICE</div>
                 <h2 class="fn-flow-title">Home Services.<br>Simplified.</h2>
@@ -3300,111 +3451,50 @@ include 'header.php';
                         <!-- Screens Container (Smoothly Transitions with Active Step) -->
                         <div class="fn-flow-screen-container">
                             
-                            <!-- Screen 01: Discover & Categories -->
-                            <div class="fn-screen-card active" id="fnCard1">
-                                <div class="fn-sc-header">
-                                    <span class="fn-sc-brand">FixNex</span>
-                                    <i class="fa fa-bell-o" style="font-size: 11px; color:#64748b;"></i>
-                                </div>
-                                <div class="fn-sc-search-bar">
-                                    <i class="fa fa-search"></i>
-                                    <span>Find AC, Cleaning, Plumbing...</span>
-                                </div>
-                                <div class="fn-sc-hero-promo">
-                                    <span>DISCOVER SERVICES</span>
-                                    <strong>Verified Doorstep Pros</strong>
-                                </div>
-                                <div class="fn-sc-grid">
-                                    <div class="fn-sc-cat-box">
-                                        <i class="fa fa-snowflake-o"></i>
-                                        <span>AC Repair</span>
-                                    </div>
-                                    <div class="fn-sc-cat-box">
-                                        <i class="fa fa-tint"></i>
-                                        <span>Plumbing</span>
-                                    </div>
-                                    <div class="fn-sc-cat-box">
-                                        <i class="fa fa-bolt"></i>
-                                        <span>Electrical</span>
-                                    </div>
-                                    <div class="fn-sc-cat-box">
-                                        <i class="fa fa-magic"></i>
-                                        <span>Cleaning</span>
-                                    </div>
-                                </div>
+                            <!-- Screen 01: Discover & Categories (Real App Search Screen) -->
+                            <div class="fn-screen-card active" id="fnCard1" style="padding: 0 !important; overflow: hidden; background: #f4f7fe;">
+                                <img 
+                                    src="images/fixnex/timeline-screen-discover.png?v=2" 
+                                    alt="FixNex Discover Services" 
+                                    style="width: 100%; height: 100%; object-fit: cover; object-position: top; display: block;"
+                                >
                             </div>
 
-                            <!-- Screen 02: Meet Local Verified Professionals -->
-                            <div class="fn-screen-card" id="fnCard2">
-                                <div class="fn-sc-header">
-                                    <span class="fn-sc-brand">Verified Experts</span>
-                                    <i class="fa fa-sliders" style="font-size: 11px; color:#64748b;"></i>
-                                </div>
-                                <div class="fn-sc-pro-card selected">
-                                    <div class="fn-sc-avatar">RK</div>
-                                    <div class="fn-sc-pro-info">
-                                        <strong>Rajesh Kumar</strong>
-                                        <small>4.9 ★ (340 reviews)</small>
-                                    </div>
-                                    <span class="fn-sc-pro-btn">Selected</span>
-                                </div>
-                                <div class="fn-sc-pro-card">
-                                    <div class="fn-sc-avatar" style="background: #0284c7;">AS</div>
-                                    <div class="fn-sc-pro-info">
-                                        <strong>Amit Singh</strong>
-                                        <small>4.8 ★ (210 reviews)</small>
-                                    </div>
-                                    <span class="fn-sc-pro-btn" style="background:#e2e8f0; color:#334155;">Select</span>
-                                </div>
-                                <div class="fn-sc-pro-card">
-                                    <div class="fn-sc-avatar" style="background: #0d9488;">IA</div>
-                                    <div class="fn-sc-pro-info">
-                                        <strong>Imran Ali</strong>
-                                        <small>4.9 ★ (180 reviews)</small>
-                                    </div>
-                                    <span class="fn-sc-pro-btn" style="background:#e2e8f0; color:#334155;">Select</span>
-                                </div>
+                            <!-- Screen 02: Meet Local Verified Professionals (Explore & Service Details) -->
+                            <div class="fn-screen-card" id="fnCard2" style="padding: 0 !important; overflow: hidden; background: #f4f7fe;">
+                                <img 
+                                    src="images/fixnex/timeline-screen-explore.png?v=1" 
+                                    alt="FixNex Meet Verified Professionals" 
+                                    style="width: 100%; height: 100%; object-fit: cover; object-position: top; display: block;"
+                                >
                             </div>
 
-                            <!-- Screen 03: Make Booking Simple -->
-                            <div class="fn-screen-card" id="fnCard3">
-                                <div class="fn-sc-header">
-                                    <span class="fn-sc-brand">Schedule Visit</span>
-                                    <i class="fa fa-calendar" style="font-size: 11px; color:#64748b;"></i>
-                                </div>
-                                <div class="fn-sc-date-pill">
-                                    <span>Date</span>
-                                    <strong>Today, 31 Oct</strong>
-                                </div>
-                                <div class="fn-sc-slot">
-                                    <i class="fa fa-clock-o"></i> 02:00 PM - 04:00 PM
-                                </div>
-                                <div class="fn-sc-date-pill">
-                                    <span>Address</span>
-                                    <strong style="font-size: 9px;">5Q8H+6PF, Dumas Rd</strong>
-                                </div>
-                                <div class="fn-sc-btn-confirm">
-                                    Confirm Booking &rarr;
-                                </div>
+                            <!-- Screen 03: Make Booking Simple (Booking Parameters) -->
+                            <div class="fn-screen-card" id="fnCard3" style="padding: 0 !important; overflow: hidden; background: #f4f7fe;">
+                                <img 
+                                    src="images/fixnex/timeline-screen-book.png?v=1" 
+                                    alt="FixNex Book Service Parameters" 
+                                    style="width: 100%; height: 100%; object-fit: cover; object-position: top; display: block;"
+                                >
                             </div>
 
                             <!-- Screen 04: Leave it to Professionals -->
                             <div class="fn-screen-card" id="fnCard4">
                                 <div class="fn-sc-header">
-                                    <span class="fn-sc-brand">Live Tracking</span>
-                                    <span style="font-size: 9px; color:#059669; font-weight:700;">● Live</span>
+                                    <span class="fn-sc-brand">Service Status</span>
+                                    <span style="font-size: 9px; color:#059669; font-weight:700;">● Completed</span>
                                 </div>
                                 <div class="fn-sc-status-box">
-                                    <i class="fa fa-check-circle"></i>
-                                    <div>Expert on the way (5 mins)</div>
+                                    <i class="fa fa-check-circle" style="font-size: 16px;"></i>
+                                    <div>Service Completed &amp; Verified!</div>
                                 </div>
                                 <div class="fn-sc-map-mock">
                                     <div class="fn-sc-map-pin">
-                                        <i class="fa fa-map-marker"></i>
+                                        <i class="fa fa-check"></i>
                                     </div>
                                 </div>
-                                <div style="font-size: 10px; color:#64748b; text-align:center;">
-                                    Doorstep service &amp; secure payment
+                                <div style="font-size: 11px; color:#071530; font-weight: 700; text-align:center;">
+                                    Safe Doorstep Care with FixNex
                                 </div>
                             </div>
 
@@ -3422,42 +3512,42 @@ include 'header.php';
                 <div class="fn-timeline-list" id="fnTimelineList">
 
                     <!-- Step 01 -->
-                    <div class="fn-step-item active" data-step="1">
-                        <div class="fn-step-badge">01</div>
-                        <div class="fn-step-content">
-                            <div class="fn-step-category">DISCOVER</div>
-                            <h3 class="fn-step-title">Find what your home needs.</h3>
-                            <p class="fn-step-desc">Search for the home service you need, right in your neighbourhood.</p>
+                    <div class="fn-tl-item active" data-step="1">
+                        <div class="fn-tl-badge">01</div>
+                        <div class="fn-tl-content">
+                            <div class="fn-tl-category">DISCOVER</div>
+                            <h3 class="fn-tl-title">Find what your home needs.</h3>
+                            <p class="fn-tl-desc">Search for the home service you need, right in your neighbourhood.</p>
                         </div>
                     </div>
 
                     <!-- Step 02 -->
-                    <div class="fn-step-item" data-step="2">
-                        <div class="fn-step-badge">02</div>
-                        <div class="fn-step-content">
-                            <div class="fn-step-category">EXPLORE</div>
-                            <h3 class="fn-step-title">Meet your local professionals.</h3>
-                            <p class="fn-step-desc">Browse available service providers and explore their profiles.</p>
+                    <div class="fn-tl-item" data-step="2">
+                        <div class="fn-tl-badge">02</div>
+                        <div class="fn-tl-content">
+                            <div class="fn-tl-category">EXPLORE</div>
+                            <h3 class="fn-tl-title">Meet your local professionals.</h3>
+                            <p class="fn-tl-desc">Browse available service providers and explore their profiles.</p>
                         </div>
                     </div>
 
                     <!-- Step 03 -->
-                    <div class="fn-step-item" data-step="3">
-                        <div class="fn-step-badge">03</div>
-                        <div class="fn-step-content">
-                            <div class="fn-step-category">BOOK</div>
-                            <h3 class="fn-step-title">Make the next step simple.</h3>
-                            <p class="fn-step-desc">Choose a suitable professional and submit your booking request.</p>
+                    <div class="fn-tl-item" data-step="3">
+                        <div class="fn-tl-badge">03</div>
+                        <div class="fn-tl-content">
+                            <div class="fn-tl-category">BOOK</div>
+                            <h3 class="fn-tl-title">Make the next step simple.</h3>
+                            <p class="fn-tl-desc">Choose a suitable professional and submit your booking request.</p>
                         </div>
                     </div>
 
                     <!-- Step 04 -->
-                    <div class="fn-step-item" data-step="4">
-                        <div class="fn-step-badge">04</div>
-                        <div class="fn-step-content">
-                            <div class="fn-step-category">GET SERVICE</div>
-                            <h3 class="fn-step-title">Leave it to the professionals.</h3>
-                            <p class="fn-step-desc">Receive booking updates and get your home service completed.</p>
+                    <div class="fn-tl-item" data-step="4">
+                        <div class="fn-tl-badge">04</div>
+                        <div class="fn-tl-content">
+                            <div class="fn-tl-category">GET SERVICE</div>
+                            <h3 class="fn-tl-title">Leave it to the professionals.</h3>
+                            <p class="fn-tl-desc">Receive booking updates and get your home service completed.</p>
                         </div>
                     </div>
 
@@ -3468,27 +3558,135 @@ include 'header.php';
     </div>
 </section>
 
+<!-- Merchant Section Dynamic 3D Scroll Tilt & Mouse Tracking Animation -->
+<script>
+(function() {
+    var section = document.getElementById("fn-merchant-opportunities");
+    if (!section) return;
+    var card = section.querySelector(".fn-merch-card");
+    var halo = section.querySelector(".fn-merch-glow-halo");
+    if (!card) return;
+
+    var curX = 0, curY = 0, curZ = 0, curS = 1;
+    var targetX = 0, targetY = 0, targetZ = 0, targetS = 1;
+    var isVisible = false;
+    var rafId = null;
+
+    var mouseX = 0, mouseY = 0;
+    var isHovered = false;
+
+    function calcTilt() {
+        var rect = section.getBoundingClientRect();
+        var winH = window.innerHeight || document.documentElement.clientHeight;
+        
+        var sectionCenter = rect.top + rect.height / 2;
+        var screenCenter = winH / 2;
+        
+        // factor = 0 when section is in viewport center (Straight / Seedha 0deg)
+        // factor > 0 when approaching from bottom (Tedha / Tilted forward)
+        // factor < 0 when scrolling past it downwards (Tedha in opposite exit angle)
+        var factor = (sectionCenter - screenCenter) / (winH * 0.65);
+        if (factor > 1.2) factor = 1.2;
+        if (factor < -1.2) factor = -1.2;
+
+        var isMobile = window.innerWidth <= 768;
+        var maxTiltY = isMobile ? 6 : 10;
+        var maxTiltX = isMobile ? 4 : 7;
+
+        targetX = factor * -maxTiltX + (isHovered ? mouseY * 6 : 0);
+        targetY = factor * maxTiltY + (isHovered ? mouseX * 8 : 0);
+        targetZ = (1 - Math.min(Math.abs(factor), 1)) * 30;
+        targetS = 1 - Math.min(Math.abs(factor), 1) * 0.03;
+    }
+
+    function loop() {
+        if (!isVisible) return;
+
+        // Smooth fluid momentum lerp (0.1)
+        curX += (targetX - curX) * 0.1;
+        curY += (targetY - curY) * 0.1;
+        curZ += (targetZ - curZ) * 0.1;
+        curS += (targetS - curS) * 0.1;
+
+        var shadowX = (-curY * 1.3).toFixed(1);
+        var shadowY = (24 + Math.abs(curX) * 0.8).toFixed(1);
+        var shadowBlur = (55 + curZ * 0.8).toFixed(1);
+
+        card.style.transform = "perspective(1200px) translateY(" + ((-curX * 1.4)).toFixed(1) + "px) translateZ(" + curZ.toFixed(1) + "px) rotateX(" + curX.toFixed(2) + "deg) rotateY(" + curY.toFixed(2) + "deg) scale(" + curS.toFixed(3) + ")";
+        card.style.boxShadow = shadowX + "px " + shadowY + "px " + shadowBlur + "px -12px rgba(0, 0, 0, 0.65), 0 0 35px rgba(56, 189, 248, " + (0.15 + (curZ / 100)).toFixed(2) + ")";
+
+        if (halo) {
+            halo.style.transform = "translate(" + (-curY * 1.5).toFixed(1) + "px, " + (curX * 1.5).toFixed(1) + "px) scale(" + (0.95 + (curZ / 120)).toFixed(2) + ")";
+        }
+
+        rafId = requestAnimationFrame(loop);
+    }
+
+    if ("IntersectionObserver" in window) {
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    isVisible = true;
+                    calcTilt();
+                    if (!rafId) rafId = requestAnimationFrame(loop);
+                } else {
+                    isVisible = false;
+                    if (rafId) {
+                        cancelAnimationFrame(rafId);
+                        rafId = null;
+                    }
+                }
+            });
+        }, { threshold: [0, 0.1, 0.25, 0.5, 0.75, 1.0], rootMargin: "100px 0px" });
+        observer.observe(section);
+    } else {
+        isVisible = true;
+        rafId = requestAnimationFrame(loop);
+    }
+
+    window.addEventListener("scroll", function() {
+        if (isVisible) calcTilt();
+    }, { passive: true });
+
+    card.addEventListener("mousemove", function(e) {
+        var rect = card.getBoundingClientRect();
+        mouseX = (e.clientX - rect.left) / rect.width - 0.5;
+        mouseY = -((e.clientY - rect.top) / rect.height - 0.5);
+        isHovered = true;
+        calcTilt();
+    });
+    card.addEventListener("mouseleave", function() {
+        mouseX = 0;
+        mouseY = 0;
+        isHovered = false;
+        calcTilt();
+    });
+})();
+</script>
+
 <!-- Timeline Interactive Animation Script (Precise Alignment & Clean Transitions) -->
 <script>
 (function() {
-    var stepItems = document.querySelectorAll('.fn-step-item');
-    var screenCards = document.querySelectorAll('.fn-screen-card');
+    var section = document.getElementById('fn-how-it-works-timeline');
+    if (!section) return;
+
+    var stepItems = section.querySelectorAll('.fn-tl-item');
+    var screenCards = section.querySelectorAll('.fn-screen-card');
     var progressBar = document.getElementById('fnTimelineProgress');
     var track = document.getElementById('fnTimelineTrack');
     var currentStep = 1;
     var autoPlayTimer = null;
-    var isUserInteracting = false;
+    var isPaused = false;
     var resumeTimer = null;
 
-    function updateProgressBar(activeItem) {
-        if (!progressBar || !track || !activeItem) return;
-        var badge = activeItem.querySelector('.fn-step-badge');
+    function updateProgressBar(stepIndex) {
+        if (!progressBar || !track || !stepItems[stepIndex]) return;
+        var badge = stepItems[stepIndex].querySelector('.fn-tl-badge');
         if (!badge) return;
-        
+
         var trackRect = track.getBoundingClientRect();
         var badgeRect = badge.getBoundingClientRect();
-        
-        // Calculate center of badge relative to track top
+
         var centerPos = (badgeRect.top + badgeRect.height / 2) - trackRect.top;
         if (centerPos < 0) centerPos = 0;
         progressBar.style.height = centerPos + 'px';
@@ -3496,20 +3694,15 @@ include 'header.php';
 
     function activateStep(stepNum) {
         currentStep = stepNum;
-        var activeItem = null;
 
-        // Update active class on step items
-        stepItems.forEach(function(item) {
-            var step = parseInt(item.getAttribute('data-step'), 10);
-            if (step === stepNum) {
+        stepItems.forEach(function(item, idx) {
+            if ((idx + 1) === stepNum) {
                 item.classList.add('active');
-                activeItem = item;
             } else {
                 item.classList.remove('active');
             }
         });
 
-        // Update active phone screen card
         screenCards.forEach(function(card, idx) {
             if ((idx + 1) === stepNum) {
                 card.classList.add('active');
@@ -3518,57 +3711,50 @@ include 'header.php';
             }
         });
 
-        // Update progress bar position
-        if (activeItem) {
-            updateProgressBar(activeItem);
-        }
+        updateProgressBar(stepNum - 1);
     }
 
-    // Click & hover handlers
-    stepItems.forEach(function(item) {
-        item.addEventListener('click', function() {
-            var step = parseInt(this.getAttribute('data-step'), 10);
-            activateStep(step);
-            pauseAndResumeAutoPlay();
-        });
-
-        item.addEventListener('mouseenter', function() {
-            var step = parseInt(this.getAttribute('data-step'), 10);
-            activateStep(step);
-            pauseAndResumeAutoPlay();
-        });
-    });
-
-    // Pause on user interaction and resume after 5 seconds
-    function pauseAndResumeAutoPlay() {
-        isUserInteracting = true;
-        if (resumeTimer) clearTimeout(resumeTimer);
-        resumeTimer = setTimeout(function() {
-            isUserInteracting = false;
-        }, 5000);
-    }
-
-    // Auto Play loop (every 3.5s)
     function startAutoPlay() {
-        if (autoPlayTimer) clearInterval(autoPlayTimer);
+        stopAutoPlay();
         autoPlayTimer = setInterval(function() {
-            if (!isUserInteracting) {
-                var next = currentStep + 1;
-                if (next > 4) next = 1;
+            if (!isPaused) {
+                var next = currentStep >= stepItems.length ? 1 : currentStep + 1;
                 activateStep(next);
             }
         }, 3400);
     }
 
-    // Initial setup on load & resize
-    setTimeout(function() {
-        activateStep(1);
-        startAutoPlay();
-    }, 200);
+    function stopAutoPlay() {
+        if (autoPlayTimer) clearInterval(autoPlayTimer);
+    }
+
+    function pauseAndResumeAutoPlay() {
+        isPaused = true;
+        if (resumeTimer) clearTimeout(resumeTimer);
+        resumeTimer = setTimeout(function() {
+            isPaused = false;
+        }, 5500);
+    }
+
+    stepItems.forEach(function(item, idx) {
+        var step = idx + 1;
+        item.addEventListener('click', function() {
+            activateStep(step);
+            pauseAndResumeAutoPlay();
+        });
+
+        item.addEventListener('mouseenter', function() {
+            activateStep(step);
+            pauseAndResumeAutoPlay();
+        });
+    });
+
+    // Initialize
+    activateStep(1);
+    startAutoPlay();
 
     window.addEventListener('resize', function() {
-        var active = document.querySelector('.fn-step-item.active');
-        if (active) updateProgressBar(active);
+        updateProgressBar(currentStep - 1);
     });
 })();
 </script>
@@ -3598,7 +3784,7 @@ include 'header.php';
 .fn-ft-grid {
     display: grid;
     grid-template-columns: 1fr 1.15fr;
-    gap: 70px;
+    gap: 50px;
     align-items: center;
 }
 
@@ -3628,14 +3814,122 @@ include 'header.php';
     50% { transform: translateY(-10px); }
 }
 
-.fn-ft-stage-img {
+.fn-ft-backdrop {
+    width: 100%;
+    max-width: 390px;
+    padding: 32px 26px;
+    background: linear-gradient(145deg, #eaf2fd 0%, #f1f6fd 100%);
+    border-radius: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform-style: flat;
+    box-shadow: 
+        0 24px 50px -12px rgba(37, 99, 235, 0.12),
+        0 0 0 1px rgba(219, 234, 254, 0.7);
+}
+
+.fn-ft-phone {
+    width: 234px;
+    background: #0f172a;
+    border: 7px solid #0f172a;
+    border-radius: 32px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 
+        0 22px 48px -10px rgba(15, 23, 42, 0.35),
+        0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+    transform-origin: center center;
+    transform-style: flat;
+    transform: perspective(1200px) translateZ(40px);
+    will-change: transform, box-shadow;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    isolation: isolate;
+}
+
+.fn-ft-screen-img {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 24px;
+    border-radius: 25px;
+}
+
+/* Floating Badges on the Outside of the Stage */
+.fn-ft-badge {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 10px 15px;
     box-shadow: 
-        0 20px 45px -10px rgba(15, 23, 42, 0.12),
-        0 8px 20px -6px rgba(37, 99, 235, 0.08);
+        0 16px 36px -8px rgba(15, 23, 42, 0.18),
+        0 0 0 1px rgba(226, 232, 240, 0.9);
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    z-index: 5;
+    white-space: nowrap;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    user-select: none;
+}
+.fn-ft-badge:hover {
+    box-shadow: 
+        0 20px 42px -6px rgba(15, 23, 42, 0.22),
+        0 0 0 1px rgba(37, 99, 235, 0.3);
+}
+
+.fn-ft-badge-left {
+    left: -48px;
+    top: 55px;
+    animation: fnFtFloatBadge1 4.5s ease-in-out infinite;
+}
+
+.fn-ft-badge-right {
+    right: -48px;
+    bottom: 60px;
+    animation: fnFtFloatBadge2 5.5s ease-in-out infinite;
+}
+
+@keyframes fnFtFloatBadge1 {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+}
+
+@keyframes fnFtFloatBadge2 {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(8px); }
+}
+
+.fn-ft-badge-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    background: #eff6ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1d4ed8;
+    font-size: 15px;
+    flex-shrink: 0;
+}
+.fn-ft-badge-icon .fa-mobile {
+    font-size: 19px;
+}
+
+.fn-ft-badge-info strong {
+    display: block;
+    font-size: 13px;
+    font-weight: 800;
+    color: #071530;
+    line-height: 1.25;
+}
+.fn-ft-badge-info small {
+    display: block;
+    font-size: 10.5px;
+    color: #64748b;
+    line-height: 1.3;
+    margin-top: 2px;
 }
 
 /* RIGHT COLUMN: Content */
@@ -3793,12 +4087,79 @@ include 'header.php';
     }
 }
 @media (max-width: 600px) {
+    .fn-ft-section {
+        padding: 45px 0 45px !important;
+    }
     .fn-ft-container {
         padding: 0 20px;
     }
     .fn-ft-features {
         grid-template-columns: 1fr;
         gap: 14px;
+    }
+    .fn-ft-backdrop {
+        max-width: 290px;
+        padding: 18px 12px;
+        border-radius: 28px;
+    }
+    .fn-ft-phone {
+        width: 195px;
+        border-radius: 26px;
+    }
+    .fn-ft-badge-left {
+        left: -10px;
+        top: 20px;
+        transform: scale(0.88);
+    }
+    .fn-ft-badge-right {
+        right: -10px;
+        bottom: 25px;
+        transform: scale(0.88);
+    }
+}
+@media (max-width: 480px) {
+    .fn-ft-stage {
+        max-width: 310px;
+    }
+    .fn-ft-backdrop {
+        max-width: 265px;
+        padding: 16px 10px;
+    }
+    .fn-ft-phone {
+        width: 180px;
+        border-width: 6px;
+    }
+    .fn-ft-badge {
+        padding: 8px 11px;
+        font-size: 11px;
+    }
+    .fn-ft-badge-icon {
+        width: 30px;
+        height: 30px;
+    }
+    .fn-ft-badge-left {
+        left: -8px;
+        top: 15px;
+        transform: scale(0.82);
+    }
+    .fn-ft-badge-right {
+        right: -8px;
+        bottom: 20px;
+        transform: scale(0.82);
+    }
+    .fn-ft-ctas {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+    .fn-ft-btn-play {
+        width: 100%;
+        justify-content: center;
+    }
+    .fn-ft-btn-link {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
     }
 }
 </style>
@@ -3810,7 +4171,36 @@ include 'header.php';
             <!-- LEFT: Rounded Stage with App Phone & Floating Badges -->
             <div class="fn-ft-left">
                 <div class="fn-ft-stage">
-                    <img src="images/fixnex/fingertips-left-stage.png" alt="FixNex App Experience" class="fn-ft-stage-img">
+                    <!-- Light-Blue Rounded Stage Backdrop -->
+                    <div class="fn-ft-backdrop">
+                        <!-- High-Definition Phone Mockup -->
+                        <div class="fn-ft-phone">
+                            <!-- Real App Screen: Find Trusted Services Near You (Full uncropped view) -->
+                            <img src="images/fixnex/fingertips-screen.png?v=2" alt="FixNex Find Trusted Services Screen" class="fn-ft-screen-img">
+                        </div>
+                    </div>
+                    
+                    <!-- Floating Badge: Left (Explore Services) -->
+                    <div class="fn-ft-badge fn-ft-badge-left">
+                        <div class="fn-ft-badge-icon">
+                            <i class="fa fa-th-large"></i>
+                        </div>
+                        <div class="fn-ft-badge-info">
+                            <strong>Explore Services</strong>
+                            <small>Find what your home needs</small>
+                        </div>
+                    </div>
+
+                    <!-- Floating Badge: Right (FixNex on the go) -->
+                    <div class="fn-ft-badge fn-ft-badge-right">
+                        <div class="fn-ft-badge-icon">
+                            <i class="fa fa-mobile"></i>
+                        </div>
+                        <div class="fn-ft-badge-info">
+                            <strong>FixNex on the go</strong>
+                            <small>Your home, always connected</small>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -3876,7 +4266,7 @@ include 'header.php';
 
                 <!-- CTA Row: Google Play + Explore online -->
                 <div class="fn-ft-ctas">
-                    <a href="https://play.google.com" target="_blank" class="fn-ft-btn-play">
+                    <a href="https://play.google.com/store/apps/details?id=fixnex.myapp&amp;pcampaignid=web_share" target="_blank" rel="noopener noreferrer" class="fn-ft-btn-play">
                         <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
                             <path d="M3.6 1.8L13.8 12 3.6 22.2c-.4-.4-.6-1-.6-1.7V3.5c0-.7.2-1.3.6-1.7z" fill="#00C1A6"/>
                             <path d="M17.2 8.6L13.8 12l3.4 3.4 3.9-2.2c1.1-.6 1.1-1.7 0-2.4l-3.9-2.2z" fill="#FFD400"/>
@@ -3889,7 +4279,7 @@ include 'header.php';
                         </div>
                     </a>
 
-                    <a href="https://fixnex.in" target="_blank" class="fn-ft-btn-link">
+                    <a href="https://fixnex.in" target="_blank" rel="noopener noreferrer" class="fn-ft-btn-link">
                         Explore online
                         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                             <line x1="7" y1="17" x2="17" y2="7"></line>
@@ -3903,6 +4293,210 @@ include 'header.php';
         </div>
     </div>
 </section>
+
+<!-- Merchant Section Dynamic 3D Scroll Tilt & Mouse Tracking Animation -->
+<script>
+(function() {
+    var section = document.getElementById("fn-merchant-opportunities");
+    if (!section) return;
+    var card = section.querySelector(".fn-merch-card");
+    var halo = section.querySelector(".fn-merch-glow-halo");
+    if (!card) return;
+
+    var curX = 0, curY = 0, curZ = 0, curS = 1;
+    var targetX = 0, targetY = 0, targetZ = 0, targetS = 1;
+    var isVisible = false;
+    var rafId = null;
+
+    var mouseX = 0, mouseY = 0;
+    var isHovered = false;
+
+    function calcTilt() {
+        var rect = section.getBoundingClientRect();
+        var winH = window.innerHeight || document.documentElement.clientHeight;
+        
+        var sectionCenter = rect.top + rect.height / 2;
+        var screenCenter = winH / 2;
+        
+        // factor = 0 when section is in viewport center (Straight / Seedha 0deg)
+        // factor > 0 when approaching from bottom (Tedha / Tilted forward)
+        // factor < 0 when scrolling past it downwards (Tedha in opposite exit angle)
+        var factor = (sectionCenter - screenCenter) / (winH * 0.65);
+        if (factor > 1.2) factor = 1.2;
+        if (factor < -1.2) factor = -1.2;
+
+        var isMobile = window.innerWidth <= 768;
+        var maxTiltY = isMobile ? 6 : 10;
+        var maxTiltX = isMobile ? 4 : 7;
+
+        targetX = factor * -maxTiltX + (isHovered ? mouseY * 6 : 0);
+        targetY = factor * maxTiltY + (isHovered ? mouseX * 8 : 0);
+        targetZ = (1 - Math.min(Math.abs(factor), 1)) * 30;
+        targetS = 1 - Math.min(Math.abs(factor), 1) * 0.03;
+    }
+
+    function loop() {
+        if (!isVisible) return;
+
+        // Smooth fluid momentum lerp (0.1)
+        curX += (targetX - curX) * 0.1;
+        curY += (targetY - curY) * 0.1;
+        curZ += (targetZ - curZ) * 0.1;
+        curS += (targetS - curS) * 0.1;
+
+        var shadowX = (-curY * 1.3).toFixed(1);
+        var shadowY = (24 + Math.abs(curX) * 0.8).toFixed(1);
+        var shadowBlur = (55 + curZ * 0.8).toFixed(1);
+
+        card.style.transform = "perspective(1200px) translateY(" + ((-curX * 1.4)).toFixed(1) + "px) translateZ(" + curZ.toFixed(1) + "px) rotateX(" + curX.toFixed(2) + "deg) rotateY(" + curY.toFixed(2) + "deg) scale(" + curS.toFixed(3) + ")";
+        card.style.boxShadow = shadowX + "px " + shadowY + "px " + shadowBlur + "px -12px rgba(0, 0, 0, 0.65), 0 0 35px rgba(56, 189, 248, " + (0.15 + (curZ / 100)).toFixed(2) + ")";
+
+        if (halo) {
+            halo.style.transform = "translate(" + (-curY * 1.5).toFixed(1) + "px, " + (curX * 1.5).toFixed(1) + "px) scale(" + (0.95 + (curZ / 120)).toFixed(2) + ")";
+        }
+
+        rafId = requestAnimationFrame(loop);
+    }
+
+    if ("IntersectionObserver" in window) {
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    isVisible = true;
+                    calcTilt();
+                    if (!rafId) rafId = requestAnimationFrame(loop);
+                } else {
+                    isVisible = false;
+                    if (rafId) {
+                        cancelAnimationFrame(rafId);
+                        rafId = null;
+                    }
+                }
+            });
+        }, { threshold: [0, 0.1, 0.25, 0.5, 0.75, 1.0], rootMargin: "100px 0px" });
+        observer.observe(section);
+    } else {
+        isVisible = true;
+        rafId = requestAnimationFrame(loop);
+    }
+
+    window.addEventListener("scroll", function() {
+        if (isVisible) calcTilt();
+    }, { passive: true });
+
+    card.addEventListener("mousemove", function(e) {
+        var rect = card.getBoundingClientRect();
+        mouseX = (e.clientX - rect.left) / rect.width - 0.5;
+        mouseY = -((e.clientY - rect.top) / rect.height - 0.5);
+        isHovered = true;
+        calcTilt();
+    });
+    card.addEventListener("mouseleave", function() {
+        mouseX = 0;
+        mouseY = 0;
+        isHovered = false;
+        calcTilt();
+    });
+})();
+</script>
+
+<!-- Fingertips Dynamic 3D Scroll Tilt Animation (Tedha jab scroll karke aao -> Seedha center me -> Tedha jab niche jao) -->
+<script>
+(function() {
+    var section = document.getElementById('fn-fingertips-experience');
+    if (!section) return;
+    var phone = section.querySelector('.fn-ft-phone');
+    if (!phone) return;
+
+    var curX = 0, curY = 0, curZ = 0, curS = 1;
+    var targetX = 0, targetY = 0, targetZ = 0, targetS = 1;
+    var isVisible = false;
+    var rafId = null;
+
+    function calcTilt() {
+        var rect = section.getBoundingClientRect();
+        var winH = window.innerHeight || document.documentElement.clientHeight;
+        
+        // Center of section vs center of viewport
+        var sectionCenter = rect.top + rect.height / 2;
+        var screenCenter = winH / 2;
+        
+        // factor = 0 when section center aligns with screen center (Seedha / 0deg Straight)
+        // factor > 0 when section is below screen center (scrolling down towards it -> Tedha / Tilted)
+        // factor < 0 when section is above screen center (scrolling past it downwards -> Tedha / Tilted in exit direction)
+        var factor = (sectionCenter - screenCenter) / (winH * 0.65);
+        
+        // Clamp factor between -1.15 and 1.15
+        if (factor > 1.15) factor = 1.15;
+        if (factor < -1.15) factor = -1.15;
+
+        var isMobile = window.innerWidth <= 768;
+        var maxTiltY = isMobile ? 8 : 13;
+        var maxTiltX = isMobile ? 5 : 8;
+        var maxTiltZ = isMobile ? 2 : 4;
+
+        // When approaching (factor > 0): tilted / tedha
+        // When in center (factor == 0): completely straight / seedha (0deg)
+        // When scrolling down past (factor < 0): tilted / tedha again
+        targetX = factor * maxTiltX;
+        targetY = factor * -maxTiltY;
+        targetZ = factor * -maxTiltZ;
+        targetS = 1 - Math.min(Math.abs(factor), 1) * 0.03;
+    }
+
+    function loop() {
+        if (!isVisible) return;
+        
+        // Smooth lerp (0.12) for buttery fluid momentum
+        curX += (targetX - curX) * 0.12;
+        curY += (targetY - curY) * 0.12;
+        curZ += (targetZ - curZ) * 0.12;
+        curS += (targetS - curS) * 0.12;
+
+        var shadowX = (-curY * 1.1).toFixed(1);
+        var shadowY = (22 + Math.abs(curX) * 0.6).toFixed(1);
+        var shadowBlur = (40 + Math.abs(curX) * 0.5).toFixed(1);
+
+        phone.style.transform = 'perspective(1200px) translateZ(40px) rotateX(' + curX.toFixed(2) + 'deg) rotateY(' + curY.toFixed(2) + 'deg) rotateZ(' + curZ.toFixed(2) + 'deg) scale(' + curS.toFixed(3) + ')';
+        phone.style.boxShadow = shadowX + 'px ' + shadowY + 'px ' + shadowBlur + 'px -10px rgba(15, 23, 42, 0.35), 0 0 0 1px rgba(255, 255, 255, 0.1) inset';
+
+        rafId = requestAnimationFrame(loop);
+    }
+
+    // IntersectionObserver to only compute when visible in/near viewport
+    if ('IntersectionObserver' in window) {
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    isVisible = true;
+                    calcTilt();
+                    if (!rafId) rafId = requestAnimationFrame(loop);
+                } else {
+                    isVisible = false;
+                    if (rafId) {
+                        cancelAnimationFrame(rafId);
+                        rafId = null;
+                    }
+                }
+            });
+        }, { rootMargin: '250px 0px' });
+        observer.observe(section);
+    } else {
+        isVisible = true;
+        rafId = requestAnimationFrame(loop);
+    }
+
+    window.addEventListener('scroll', function() {
+        if (isVisible) calcTilt();
+    }, { passive: true });
+
+    window.addEventListener('resize', function() {
+        calcTilt();
+    }, { passive: true });
+
+    calcTilt();
+})();
+</script>
 
 
 
@@ -3961,8 +4555,8 @@ include 'header.php';
 
 .fn-merch-grid {
     display: grid;
-    grid-template-columns: 1.15fr 0.85fr;
-    gap: 70px;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
     align-items: center;
 }
 
@@ -4069,11 +4663,33 @@ include 'header.php';
     box-shadow: 0 8px 24px rgba(56, 189, 248, 0.4);
 }
 
-/* RIGHT COLUMN: White Card with Technician */
+/* RIGHT COLUMN: White Card with Technician & 3D Interactive Stage */
 .fn-merch-right {
     display: flex;
     justify-content: center;
     align-items: center;
+    perspective: 1200px;
+}
+
+.fn-merch-card-stage {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 460px;
+}
+
+.fn-merch-glow-halo {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background: radial-gradient(circle, rgba(56, 189, 248, 0.4) 0%, rgba(37, 99, 235, 0.18) 50%, transparent 72%);
+    filter: blur(48px);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 1;
+    will-change: transform, opacity;
 }
 
 .fn-merch-card {
@@ -4081,23 +4697,21 @@ include 'header.php';
     border-radius: 20px;
     padding: 14px;
     box-shadow: 
-        0 25px 60px -15px rgba(0, 0, 0, 0.5),
-        0 0 0 1px rgba(255, 255, 255, 0.08);
-    max-width: 360px;
+        0 28px 70px -15px rgba(0, 0, 0, 0.65),
+        0 0 0 1px rgba(255, 255, 255, 0.12);
+    max-width: 440px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fnMerchFloat 6s ease-in-out infinite;
-    transition: transform 0.35s ease;
-}
-.fn-merch-card:hover {
-    transform: translateY(-6px) scale(1.02);
-}
-
-@keyframes fnMerchFloat {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-8px); }
+    position: relative;
+    z-index: 2;
+    transform-origin: center center;
+    will-change: transform, box-shadow;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    isolation: isolate;
+    cursor: default;
 }
 
 .fn-merch-card-img {
@@ -4114,12 +4728,26 @@ include 'header.php';
         gap: 50px;
     }
     .fn-merch-card {
-        max-width: 320px;
+        max-width: 380px;
     }
 }
 @media (max-width: 600px) {
+    .fn-merch-section {
+        padding: 45px 0 50px !important;
+    }
     .fn-merch-container {
         padding: 0 20px;
+    }
+    .fn-merch-title {
+        font-size: 26px !important;
+        line-height: 1.25 !important;
+    }
+    .fn-merch-btn {
+        width: 100%;
+        justify-content: center;
+    }
+    .fn-merch-card {
+        max-width: 290px;
     }
 }
 </style>
@@ -4195,7 +4823,7 @@ include 'header.php';
                 </div>
 
                 <!-- CTA Button -->
-                <a href="https://fixnex.in" target="_blank" class="fn-merch-btn">
+                <a href="https://fixnex.in/merchant/onboarding?mode=register" target="_blank" rel="noopener noreferrer" class="fn-merch-btn">
                     Become a FixNex Merchant
                     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 4px;">
                         <line x1="7" y1="17" x2="17" y2="7"></line>
@@ -4206,14 +4834,123 @@ include 'header.php';
 
             <!-- RIGHT: White Card with Technician Thumbs Up -->
             <div class="fn-merch-right">
-                <div class="fn-merch-card">
-                    <img src="images/fixnex/merchant-technician-card.png" alt="FixNex Merchant Professional" class="fn-merch-card-img">
+                <div class="fn-merch-card-stage">
+                    <div class="fn-merch-glow-halo"></div>
+                    <div class="fn-merch-card">
+                        <img src="images/fixnex/merchant-technician-card.png?v=2" alt="FixNex Merchant Professional" class="fn-merch-card-img">
+                    </div>
                 </div>
             </div>
 
         </div>
     </div>
 </section>
+
+<!-- Merchant Section Dynamic 3D Scroll Tilt & Mouse Tracking Animation -->
+<script>
+(function() {
+    var section = document.getElementById("fn-merchant-opportunities");
+    if (!section) return;
+    var card = section.querySelector(".fn-merch-card");
+    var halo = section.querySelector(".fn-merch-glow-halo");
+    if (!card) return;
+
+    var curX = 0, curY = 0, curZ = 0, curS = 1;
+    var targetX = 0, targetY = 0, targetZ = 0, targetS = 1;
+    var isVisible = false;
+    var rafId = null;
+
+    var mouseX = 0, mouseY = 0;
+    var isHovered = false;
+
+    function calcTilt() {
+        var rect = section.getBoundingClientRect();
+        var winH = window.innerHeight || document.documentElement.clientHeight;
+        
+        var sectionCenter = rect.top + rect.height / 2;
+        var screenCenter = winH / 2;
+        
+        // factor = 0 when section is in viewport center (Straight / Seedha 0deg)
+        // factor > 0 when approaching from bottom (Tedha / Tilted forward)
+        // factor < 0 when scrolling past it downwards (Tedha in opposite exit angle)
+        var factor = (sectionCenter - screenCenter) / (winH * 0.65);
+        if (factor > 1.2) factor = 1.2;
+        if (factor < -1.2) factor = -1.2;
+
+        var isMobile = window.innerWidth <= 768;
+        var maxTiltY = isMobile ? 6 : 10;
+        var maxTiltX = isMobile ? 4 : 7;
+
+        targetX = factor * -maxTiltX + (isHovered ? mouseY * 6 : 0);
+        targetY = factor * maxTiltY + (isHovered ? mouseX * 8 : 0);
+        targetZ = (1 - Math.min(Math.abs(factor), 1)) * 30;
+        targetS = 1 - Math.min(Math.abs(factor), 1) * 0.03;
+    }
+
+    function loop() {
+        if (!isVisible) return;
+
+        // Smooth fluid momentum lerp (0.1)
+        curX += (targetX - curX) * 0.1;
+        curY += (targetY - curY) * 0.1;
+        curZ += (targetZ - curZ) * 0.1;
+        curS += (targetS - curS) * 0.1;
+
+        var shadowX = (-curY * 1.3).toFixed(1);
+        var shadowY = (24 + Math.abs(curX) * 0.8).toFixed(1);
+        var shadowBlur = (55 + curZ * 0.8).toFixed(1);
+
+        card.style.transform = "perspective(1200px) translateY(" + ((-curX * 1.4)).toFixed(1) + "px) translateZ(" + curZ.toFixed(1) + "px) rotateX(" + curX.toFixed(2) + "deg) rotateY(" + curY.toFixed(2) + "deg) scale(" + curS.toFixed(3) + ")";
+        card.style.boxShadow = shadowX + "px " + shadowY + "px " + shadowBlur + "px -12px rgba(0, 0, 0, 0.65), 0 0 35px rgba(56, 189, 248, " + (0.15 + (curZ / 100)).toFixed(2) + ")";
+
+        if (halo) {
+            halo.style.transform = "translate(" + (-curY * 1.5).toFixed(1) + "px, " + (curX * 1.5).toFixed(1) + "px) scale(" + (0.95 + (curZ / 120)).toFixed(2) + ")";
+        }
+
+        rafId = requestAnimationFrame(loop);
+    }
+
+    if ("IntersectionObserver" in window) {
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    isVisible = true;
+                    calcTilt();
+                    if (!rafId) rafId = requestAnimationFrame(loop);
+                } else {
+                    isVisible = false;
+                    if (rafId) {
+                        cancelAnimationFrame(rafId);
+                        rafId = null;
+                    }
+                }
+            });
+        }, { threshold: [0, 0.1, 0.25, 0.5, 0.75, 1.0], rootMargin: "100px 0px" });
+        observer.observe(section);
+    } else {
+        isVisible = true;
+        rafId = requestAnimationFrame(loop);
+    }
+
+    window.addEventListener("scroll", function() {
+        if (isVisible) calcTilt();
+    }, { passive: true });
+
+    card.addEventListener("mousemove", function(e) {
+        var rect = card.getBoundingClientRect();
+        mouseX = (e.clientX - rect.left) / rect.width - 0.5;
+        mouseY = -((e.clientY - rect.top) / rect.height - 0.5);
+        isHovered = true;
+        calcTilt();
+    });
+    card.addEventListener("mouseleave", function() {
+        mouseX = 0;
+        mouseY = 0;
+        isHovered = false;
+        calcTilt();
+    });
+})();
+</script>
 
 
 
@@ -4332,12 +5069,19 @@ include 'header.php';
     }
 }
 @media (max-width: 600px) {
+    .fn-diff-section {
+        padding: 45px 0 20px !important;
+    }
+    .fn-diff-header {
+        margin-bottom: 24px !important;
+    }
     .fn-diff-container {
-        padding: 0 24px;
+        padding: 0 20px;
     }
     .fn-diff-grid {
         grid-template-columns: 1fr;
-        gap: 32px;
+        gap: 20px;
+        padding-top: 18px;
     }
 }
 </style>
@@ -4406,11 +5150,118 @@ include 'header.php';
     </div>
 </section>
 
+<!-- Merchant Section Dynamic 3D Scroll Tilt & Mouse Tracking Animation -->
+<script>
+(function() {
+    var section = document.getElementById("fn-merchant-opportunities");
+    if (!section) return;
+    var card = section.querySelector(".fn-merch-card");
+    var halo = section.querySelector(".fn-merch-glow-halo");
+    if (!card) return;
+
+    var curX = 0, curY = 0, curZ = 0, curS = 1;
+    var targetX = 0, targetY = 0, targetZ = 0, targetS = 1;
+    var isVisible = false;
+    var rafId = null;
+
+    var mouseX = 0, mouseY = 0;
+    var isHovered = false;
+
+    function calcTilt() {
+        var rect = section.getBoundingClientRect();
+        var winH = window.innerHeight || document.documentElement.clientHeight;
+        
+        var sectionCenter = rect.top + rect.height / 2;
+        var screenCenter = winH / 2;
+        
+        // factor = 0 when section is in viewport center (Straight / Seedha 0deg)
+        // factor > 0 when approaching from bottom (Tedha / Tilted forward)
+        // factor < 0 when scrolling past it downwards (Tedha in opposite exit angle)
+        var factor = (sectionCenter - screenCenter) / (winH * 0.65);
+        if (factor > 1.2) factor = 1.2;
+        if (factor < -1.2) factor = -1.2;
+
+        var isMobile = window.innerWidth <= 768;
+        var maxTiltY = isMobile ? 6 : 10;
+        var maxTiltX = isMobile ? 4 : 7;
+
+        targetX = factor * -maxTiltX + (isHovered ? mouseY * 6 : 0);
+        targetY = factor * maxTiltY + (isHovered ? mouseX * 8 : 0);
+        targetZ = (1 - Math.min(Math.abs(factor), 1)) * 30;
+        targetS = 1 - Math.min(Math.abs(factor), 1) * 0.03;
+    }
+
+    function loop() {
+        if (!isVisible) return;
+
+        // Smooth fluid momentum lerp (0.1)
+        curX += (targetX - curX) * 0.1;
+        curY += (targetY - curY) * 0.1;
+        curZ += (targetZ - curZ) * 0.1;
+        curS += (targetS - curS) * 0.1;
+
+        var shadowX = (-curY * 1.3).toFixed(1);
+        var shadowY = (24 + Math.abs(curX) * 0.8).toFixed(1);
+        var shadowBlur = (55 + curZ * 0.8).toFixed(1);
+
+        card.style.transform = "perspective(1200px) translateY(" + ((-curX * 1.4)).toFixed(1) + "px) translateZ(" + curZ.toFixed(1) + "px) rotateX(" + curX.toFixed(2) + "deg) rotateY(" + curY.toFixed(2) + "deg) scale(" + curS.toFixed(3) + ")";
+        card.style.boxShadow = shadowX + "px " + shadowY + "px " + shadowBlur + "px -12px rgba(0, 0, 0, 0.65), 0 0 35px rgba(56, 189, 248, " + (0.15 + (curZ / 100)).toFixed(2) + ")";
+
+        if (halo) {
+            halo.style.transform = "translate(" + (-curY * 1.5).toFixed(1) + "px, " + (curX * 1.5).toFixed(1) + "px) scale(" + (0.95 + (curZ / 120)).toFixed(2) + ")";
+        }
+
+        rafId = requestAnimationFrame(loop);
+    }
+
+    if ("IntersectionObserver" in window) {
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    isVisible = true;
+                    calcTilt();
+                    if (!rafId) rafId = requestAnimationFrame(loop);
+                } else {
+                    isVisible = false;
+                    if (rafId) {
+                        cancelAnimationFrame(rafId);
+                        rafId = null;
+                    }
+                }
+            });
+        }, { threshold: [0, 0.1, 0.25, 0.5, 0.75, 1.0], rootMargin: "100px 0px" });
+        observer.observe(section);
+    } else {
+        isVisible = true;
+        rafId = requestAnimationFrame(loop);
+    }
+
+    window.addEventListener("scroll", function() {
+        if (isVisible) calcTilt();
+    }, { passive: true });
+
+    card.addEventListener("mousemove", function(e) {
+        var rect = card.getBoundingClientRect();
+        mouseX = (e.clientX - rect.left) / rect.width - 0.5;
+        mouseY = -((e.clientY - rect.top) / rect.height - 0.5);
+        isHovered = true;
+        calcTilt();
+    });
+    card.addEventListener("mouseleave", function() {
+        mouseX = 0;
+        mouseY = 0;
+        isHovered = false;
+        calcTilt();
+    });
+})();
+</script>
+
 
 
 
 <!-- =========================================================
-     FIXNEX DUAL ACTION CALLOUT SECTION (WITH RICH ANIMATIONS)
+     FIXNEX DUAL ACTION CALLOUT SECTION
+     Full Code Implementation (Pure HTML/CSS with Responsive Grid):
      "For Your Home" & "For Your Business"
      ========================================================= -->
 <style>
@@ -4422,10 +5273,40 @@ include 'header.php';
     overflow: hidden;
 }
 
+/* Background Subtle Dot Matrix Accents (from Figma Mockup) */
+.fn-dual-cta-section::before {
+    content: '';
+    position: absolute;
+    top: 80px;
+    left: 24px;
+    width: 90px;
+    height: 180px;
+    background-image: radial-gradient(#bfdbfe 1.8px, transparent 1.8px);
+    background-size: 16px 16px;
+    opacity: 0.65;
+    pointer-events: none;
+    z-index: 0;
+}
+.fn-dual-cta-section::after {
+    content: '';
+    position: absolute;
+    bottom: 60px;
+    right: 24px;
+    width: 90px;
+    height: 180px;
+    background-image: radial-gradient(#bfdbfe 1.8px, transparent 1.8px);
+    background-size: 16px 16px;
+    opacity: 0.65;
+    pointer-events: none;
+    z-index: 0;
+}
+
 .fn-dual-cta-container {
-    max-width: 1240px;
+    max-width: 1260px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 35px;
+    position: relative;
+    z-index: 1;
 }
 
 .fn-dual-cta-grid {
@@ -4434,22 +5315,30 @@ include 'header.php';
     gap: 32px;
 }
 
-/* Card Common */
+/* Common Card Styling */
 .fn-dual-card {
     position: relative;
-    border-radius: 24px;
-    padding: 44px 42px 42px;
+    border-radius: 28px;
+    background: linear-gradient(135deg, #f7faff 0%, #edf5ff 55%, #e1effe 100%);
+    border: 1.5px solid rgba(191, 219, 254, 0.85);
+    box-shadow: 0 10px 32px rgba(15, 34, 64, 0.06);
     overflow: hidden;
     display: flex;
-    flex-direction: column;
+    align-items: stretch;
     justify-content: space-between;
-    min-height: 290px;
+    min-height: 310px;
     transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease;
     cursor: default;
     z-index: 1;
 }
 
-/* Shimmer Light Sweep on Hover */
+.fn-dual-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 22px 48px rgba(15, 34, 64, 0.13);
+    border-color: rgba(147, 197, 253, 0.95);
+}
+
+/* Shimmer Sweep on Card Hover */
 .fn-dual-card::after {
     content: '';
     position: absolute;
@@ -4457,203 +5346,246 @@ include 'header.php';
     left: -120%;
     width: 80%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
-    transform: skewX(-22deg);
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.45), transparent);
+    transform: skewX(-20deg);
     transition: left 0.75s ease;
     pointer-events: none;
-    z-index: 3;
+    z-index: 4;
 }
 .fn-dual-card:hover::after {
     left: 140%;
 }
 
-/* CARD 1: HOME (Ice Blue Theme) */
-.fn-dual-card-home {
-    background: linear-gradient(145deg, #f0f7ff 0%, #e1effe 50%, #dbeafe 100%);
-    border: 1px solid rgba(191, 219, 254, 0.85);
-    box-shadow: 0 10px 28px -10px rgba(37, 99, 235, 0.12);
-}
-.fn-dual-card-home:hover {
-    transform: translateY(-8px);
-    border-color: #93c5fd;
-    box-shadow: 0 22px 45px -12px rgba(37, 99, 235, 0.22);
-}
-
-/* CARD 2: BUSINESS (Soft Slate/Lavender Theme) */
-.fn-dual-card-biz {
-    background: linear-gradient(145deg, #f8fafc 0%, #edf2f7 50%, #e2e8f0 100%);
-    border: 1px solid rgba(226, 232, 240, 0.95);
-    box-shadow: 0 10px 28px -10px rgba(71, 85, 105, 0.12);
-}
-.fn-dual-card-biz:hover {
-    transform: translateY(-8px);
-    border-color: #cbd5e1;
-    box-shadow: 0 22px 45px -12px rgba(71, 85, 105, 0.2);
-}
-
-/* Content Area */
+/* Left Content Area */
 .fn-dual-content {
     position: relative;
     z-index: 2;
-    max-width: 84%;
+    padding: 34px 20px 32px 34px;
+    flex: 1 1 60%;
+    max-width: 62%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-/* Eyebrow */
-.fn-dual-eyebrow {
+/* Top Pill Badge with Icon Container */
+.fn-dual-pill {
     display: inline-flex;
     align-items: center;
-    gap: 9px;
-    font-size: 11px !important;
-    font-weight: 700 !important;
-    letter-spacing: 1.6px !important;
-    text-transform: uppercase !important;
-    margin-bottom: 16px !important;
+    gap: 8px;
+    background: #e3efff;
+    color: #0b3b7e;
+    border: 1px solid rgba(191, 219, 254, 0.9);
+    border-radius: 50px;
+    padding: 5px 14px 5px 6px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+    margin-bottom: 14px;
+    width: fit-content;
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.08);
 }
-.fn-dual-card-home .fn-dual-eyebrow {
-    color: #1e3a8a !important;
-}
-.fn-dual-card-biz .fn-dual-eyebrow {
-    color: #475569 !important;
-}
-
-.fn-dual-eyebrow-line {
-    display: inline-block;
-    width: 22px;
-    height: 2px;
-    border-radius: 2px;
-    transition: width 0.3s ease;
-}
-.fn-dual-card-home .fn-dual-eyebrow-line {
-    background: #1e3a8a;
-}
-.fn-dual-card-biz .fn-dual-eyebrow-line {
-    background: #475569;
-}
-.fn-dual-card:hover .fn-dual-eyebrow-line {
-    width: 34px;
+.fn-pill-icon-box {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #cce3fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0066ff;
 }
 
-/* Title */
+/* Heading with Highlight */
 .fn-dual-title {
-    font-size: clamp(24px, 2.4vw, 30px) !important;
+    font-size: clamp(23px, 2.2vw, 28px) !important;
     font-weight: 800 !important;
     color: #071530 !important;
     line-height: 1.25 !important;
-    letter-spacing: -0.5px !important;
-    margin: 0 0 14px 0 !important;
+    letter-spacing: -0.4px !important;
+    margin: 0 0 10px 0 !important;
     text-transform: none !important;
-    transition: color 0.2s ease;
+}
+.fn-dual-blue {
+    color: #0066ff !important;
 }
 
 /* Subtitle */
 .fn-dual-desc {
-    font-size: 14px !important;
-    color: #64748b !important;
-    line-height: 1.55 !important;
-    margin: 0 0 32px 0 !important;
+    font-size: 13.5px !important;
+    color: #5c6f84 !important;
+    line-height: 1.5 !important;
+    margin: 0 0 20px 0 !important;
     font-weight: 400 !important;
     text-transform: none !important;
-    max-width: 440px;
+    max-width: 360px;
 }
 
-/* Button */
+/* 3 Mini Feature Badges Row WITH VERTICAL DIVIDERS (Figma Match) */
+.fn-dual-features {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+.fn-dual-feat-col {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.fn-dual-feat-divider {
+    width: 1px;
+    height: 38px;
+    background: #cbdcf2;
+    flex-shrink: 0;
+}
+.fn-dual-feat-icon {
+    display: flex;
+    align-items: center;
+    color: #0066ff;
+    width: 24px;
+    height: 24px;
+}
+.fn-dual-feat-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 11.5px;
+    font-weight: 700;
+    color: #1e293b;
+    line-height: 1.25;
+    letter-spacing: -0.1px;
+}
+
+/* Dark Navy Pill Button with Circle Arrow */
 .fn-dual-btn-wrap {
     position: relative;
     z-index: 2;
+    margin-top: auto;
 }
 
-.fn-dual-btn {
+.fn-dual-pill-btn {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 12px;
     background: #071530;
     color: #ffffff !important;
-    padding: 12px 24px;
-    border-radius: 8px;
+    padding: 8px 8px 8px 22px;
+    border-radius: 50px;
     font-size: 13.5px;
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: none !important;
     transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-    box-shadow: 0 4px 12px rgba(7, 21, 48, 0.15);
+    box-shadow: 0 4px 14px rgba(7, 21, 48, 0.2);
+    width: fit-content;
 }
-.fn-dual-btn svg {
-    transition: transform 0.25s ease;
+.fn-dual-pill-btn:hover {
+    background: #0c234b;
+    box-shadow: 0 8px 22px rgba(7, 21, 48, 0.35);
+    transform: translateY(-2px);
 }
-.fn-dual-card:hover .fn-dual-btn {
-    background: #0f2757;
-    box-shadow: 0 6px 18px rgba(7, 21, 48, 0.28);
-    transform: translateY(-1px);
-}
-.fn-dual-btn:hover svg,
-.fn-dual-card:hover .fn-dual-btn svg {
-    transform: translate(3px, -3px);
-}
-
-/* Watermark Outline Illustrations at Bottom-Right */
-.fn-dual-watermark {
-    position: absolute;
-    right: 28px;
-    bottom: 24px;
-    pointer-events: none;
-    z-index: 1;
-    display: flex;
+.fn-dual-pill-btn-arrow {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    animation: fnWatermarkFloat 5s ease-in-out infinite;
-    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease, color 0.3s ease;
+    transition: transform 0.25s ease;
+    flex-shrink: 0;
+}
+.fn-dual-pill-btn:hover .fn-dual-pill-btn-arrow {
+    transform: translateX(3px);
 }
 
-.fn-dual-card-home .fn-dual-watermark {
-    color: #2563eb;
-    opacity: 0.25;
+/* Right Visual Art (Technician + bottom blue wave + original badge) */
+.fn-dual-art {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 44%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 18%);
+    mask-image: linear-gradient(to right, transparent 0%, black 18%);
 }
-.fn-dual-card-biz .fn-dual-watermark {
-    color: #475569;
-    opacity: 0.25;
+.fn-dual-art-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right top;
+    display: block;
 }
 
-.fn-dual-card:hover .fn-dual-watermark {
-    transform: scale(1.16) rotate(-3deg);
-    opacity: 0.55;
-}
-
-@keyframes fnWatermarkFloat {
-    0%, 100% {
-        transform: translateY(0) rotate(0deg);
+/* Responsive Breakpoints */
+@media (max-width: 1024px) {
+    .fn-dual-content {
+        max-width: 65%;
+        padding: 28px 16px 28px 26px;
     }
-    50% {
-        transform: translateY(-7px) rotate(2deg);
+    .fn-dual-art {
+        width: 40%;
     }
 }
-
-/* Responsive */
-@media (max-width: 900px) {
+@media (max-width: 860px) {
     .fn-dual-cta-grid {
         grid-template-columns: 1fr;
-        gap: 24px;
+        gap: 32px;
     }
     .fn-dual-card {
-        padding: 34px 28px 30px;
         min-height: auto;
     }
     .fn-dual-content {
-        max-width: 100%;
+        max-width: 62%;
     }
-    .fn-dual-watermark {
-        right: 20px;
-        bottom: 20px;
+    .fn-dual-art {
+        width: 42%;
     }
 }
 @media (max-width: 600px) {
+    .fn-dual-cta-section {
+        padding: 30px 0 25px !important;
+    }
     .fn-dual-cta-container {
-        padding: 0 20px;
+        padding: 0 16px;
     }
     .fn-dual-card {
-        padding: 28px 22px;
+        flex-direction: column;
+        border-radius: 22px;
     }
-    .fn-dual-watermark svg {
-        width: 52px;
-        height: 52px;
+    .fn-dual-content {
+        max-width: 100%;
+        padding: 24px 20px 22px;
+    }
+    .fn-dual-title {
+        font-size: 21px !important;
+    }
+    .fn-dual-desc {
+        max-width: 100%;
+        margin-bottom: 16px !important;
+    }
+    .fn-dual-features {
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+    .fn-dual-feat-divider {
+        height: 32px;
+    }
+    .fn-dual-feat-text {
+        font-size: 11px;
+    }
+    .fn-dual-art {
+        position: relative;
+        width: 100%;
+        height: 210px;
+        -webkit-mask-image: none;
+        mask-image: none;
     }
 }
 </style>
@@ -4662,65 +5594,184 @@ include 'header.php';
     <div class="fn-dual-cta-container">
         <div class="fn-dual-cta-grid">
 
-            <!-- Card 1: For Your Home -->
+            <!-- Card 1: For Your Home (Pure HTML/CSS Code) -->
             <div class="fn-dual-card fn-dual-card-home">
                 <div class="fn-dual-content">
-                    <div class="fn-dual-eyebrow">
-                        <span class="fn-dual-eyebrow-line"></span>
-                        <span>FOR YOUR HOME</span>
+                    <!-- Pill Badge -->
+                    <div class="fn-dual-pill">
+                        <span class="fn-pill-icon-box">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 10.5L12 3l9 7.5v8.5a2 2 0 0 1-2 2h-14a2 2 0 0 1-2-2v-8.5z"/>
+                                <polyline points="9 21 9 12 15 12 15 21"/>
+                            </svg>
+                        </span>
+                        <span>For Your Home</span>
                     </div>
-                    <h2 class="fn-dual-title">Find the Right Professional for Your Home.</h2>
+
+                    <!-- Title with Exact Line Break & Blue Highlight -->
+                    <h2 class="fn-dual-title">
+                        Find the Right Professional<br>
+                        for <span class="fn-dual-blue">Your Home.</span>
+                    </h2>
+
+                    <!-- Subtitle -->
                     <p class="fn-dual-desc">Explore home services and connect with professionals for your everyday needs.</p>
+
+                    <!-- 3 Mini Feature Badges Row WITH VERTICAL DIVIDERS -->
+                    <div class="fn-dual-features">
+                        <div class="fn-dual-feat-col">
+                            <div class="fn-dual-feat-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0066ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                    <polyline points="9 12 11 14 15 10"/>
+                                </svg>
+                            </div>
+                            <div class="fn-dual-feat-text">
+                                <span>Trusted</span>
+                                <span>Professionals</span>
+                            </div>
+                        </div>
+
+                        <div class="fn-dual-feat-divider"></div>
+
+                        <div class="fn-dual-feat-col">
+                            <div class="fn-dual-feat-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0066ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                                </svg>
+                            </div>
+                            <div class="fn-dual-feat-text">
+                                <span>Quick</span>
+                                <span>Service</span>
+                            </div>
+                        </div>
+
+                        <div class="fn-dual-feat-divider"></div>
+
+                        <div class="fn-dual-feat-col">
+                            <div class="fn-dual-feat-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0066ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                            </div>
+                            <div class="fn-dual-feat-text">
+                                <span>Top Rated</span>
+                                <span>Experts</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="fn-dual-btn-wrap">
+                        <a href="https://fixnex.in/services" target="_blank" rel="noopener noreferrer" class="fn-dual-pill-btn">
+                            <span>Explore Services</span>
+                            <span class="fn-dual-pill-btn-arrow">
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#071530" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
                 </div>
 
-                <div class="fn-dual-btn-wrap">
-                    <a href="#fn-services-catalog" class="fn-dual-btn">
-                        Explore Services
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="7" y1="17" x2="17" y2="7"></line>
-                            <polyline points="7 7 17 7 17 17"></polyline>
-                        </svg>
-                    </a>
-                </div>
-
-                <!-- Watermark House Outline -->
-                <div class="fn-dual-watermark">
-                    <svg width="68" height="68" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M3 10.5L12 3l9 7.5v8.5a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 19v-8.5z"></path>
-                        <path d="M9 21.5v-6a3 3 0 0 1 6 0v6"></path>
-                    </svg>
+                <!-- Right Visual Art (Technician + bottom blue wave) -->
+                <div class="fn-dual-art">
+                    <img src="images/fixnex/card-home-tech.png" alt="FixNex Professional for Home" class="fn-dual-art-img" />
                 </div>
             </div>
 
-            <!-- Card 2: For Your Business -->
+            <!-- Card 2: For Your Business (Pure HTML/CSS Code) -->
             <div class="fn-dual-card fn-dual-card-biz">
                 <div class="fn-dual-content">
-                    <div class="fn-dual-eyebrow">
-                        <span class="fn-dual-eyebrow-line"></span>
-                        <span>FOR YOUR BUSINESS</span>
+                    <!-- Pill Badge -->
+                    <div class="fn-dual-pill">
+                        <span class="fn-pill-icon-box">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 9l2-5h14l2 5"></path>
+                                <path d="M21 9v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9"></path>
+                                <path d="M3 9h18"></path>
+                                <path d="M9 21V12h6v9"></path>
+                            </svg>
+                        </span>
+                        <span>For Your Business</span>
                     </div>
-                    <h2 class="fn-dual-title">Turn Your Skills Into Opportunities.</h2>
+
+                    <!-- Title with Exact Line Break & Blue Highlight -->
+                    <h2 class="fn-dual-title">
+                        Turn Your Skills Into<br>
+                        <span class="fn-dual-blue">Opportunities.</span>
+                    </h2>
+
+                    <!-- Subtitle -->
                     <p class="fn-dual-desc">Register your business, showcase your services and connect with potential customers.</p>
+
+                    <!-- 3 Mini Feature Badges Row WITH VERTICAL DIVIDERS -->
+                    <div class="fn-dual-features">
+                        <div class="fn-dual-feat-col">
+                            <div class="fn-dual-feat-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0066ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                                    <polyline points="17 6 23 6 23 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="fn-dual-feat-text">
+                                <span>Grow Your</span>
+                                <span>Business</span>
+                            </div>
+                        </div>
+
+                        <div class="fn-dual-feat-divider"></div>
+
+                        <div class="fn-dual-feat-col">
+                            <div class="fn-dual-feat-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0066ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <div class="fn-dual-feat-text">
+                                <span>Get More</span>
+                                <span>Customers</span>
+                            </div>
+                        </div>
+
+                        <div class="fn-dual-feat-divider"></div>
+
+                        <div class="fn-dual-feat-col">
+                            <div class="fn-dual-feat-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0066ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20.5 8.5l-4-4a2.12 2.12 0 0 0-3 0L3.5 14.5a2.12 2.12 0 0 0 0 3l3 3a2.12 2.12 0 0 0 3 0L19.5 10.5a1.41 1.41 0 0 0 0-2z"></path>
+                                    <path d="M15 15l-3-3"></path>
+                                    <path d="M18 18l-3-3"></path>
+                                </svg>
+                            </div>
+                            <div class="fn-dual-feat-text">
+                                <span>Build Your</span>
+                                <span>Brand</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="fn-dual-btn-wrap">
+                        <a href="https://fixnex.in/merchant/onboarding?mode=register" target="_blank" rel="noopener noreferrer" class="fn-dual-pill-btn">
+                            <span>Register as Merchant</span>
+                            <span class="fn-dual-pill-btn-arrow">
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#071530" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
                 </div>
 
-                <div class="fn-dual-btn-wrap">
-                    <a href="https://fixnex.in" target="_blank" class="fn-dual-btn">
-                        Register as Merchant
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="7" y1="17" x2="17" y2="7"></line>
-                            <polyline points="7 7 17 7 17 17"></polyline>
-                        </svg>
-                    </a>
-                </div>
-
-                <!-- Watermark Briefcase Outline -->
-                <div class="fn-dual-watermark">
-                    <svg width="68" height="68" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="2" y="7" width="20" height="14" rx="3"></rect>
-                        <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"></path>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M10 12v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2"></path>
-                    </svg>
+                <!-- Right Visual Art (Technician + bottom blue wave) -->
+                <div class="fn-dual-art">
+                    <img src="images/fixnex/card-biz-tech.png" alt="FixNex Professional for Business" class="fn-dual-art-img" />
                 </div>
             </div>
 
@@ -4728,232 +5779,112 @@ include 'header.php';
     </div>
 </section>
 
+<!-- Merchant Section Dynamic 3D Scroll Tilt & Mouse Tracking Animation -->
+<script>
+(function() {
+    var section = document.getElementById("fn-merchant-opportunities");
+    if (!section) return;
+    var card = section.querySelector(".fn-merch-card");
+    var halo = section.querySelector(".fn-merch-glow-halo");
+    if (!card) return;
 
+    var curX = 0, curY = 0, curZ = 0, curS = 1;
+    var targetX = 0, targetY = 0, targetZ = 0, targetS = 1;
+    var isVisible = false;
+    var rafId = null;
 
+    var mouseX = 0, mouseY = 0;
+    var isHovered = false;
 
-<!-- =========================================================
-     FIXNEX FINAL CALLOUT SECTION (PREMIUM ANIMATED UI)
-     "Your Next Home Service Starts Here."
-     ========================================================= -->
-<style>
-.fn-final-section {
-    padding: 95px 0 110px;
-    background: #ffffff;
-    position: relative;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    overflow: hidden;
-    text-align: center;
-}
+    function calcTilt() {
+        var rect = section.getBoundingClientRect();
+        var winH = window.innerHeight || document.documentElement.clientHeight;
+        
+        var sectionCenter = rect.top + rect.height / 2;
+        var screenCenter = winH / 2;
+        
+        // factor = 0 when section is in viewport center (Straight / Seedha 0deg)
+        // factor > 0 when approaching from bottom (Tedha / Tilted forward)
+        // factor < 0 when scrolling past it downwards (Tedha in opposite exit angle)
+        var factor = (sectionCenter - screenCenter) / (winH * 0.65);
+        if (factor > 1.2) factor = 1.2;
+        if (factor < -1.2) factor = -1.2;
 
-/* Ambient Radial Glow Behind Center */
-.fn-final-glow {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 650px;
-    height: 400px;
-    background: radial-gradient(circle, rgba(56, 189, 248, 0.14) 0%, rgba(37, 99, 235, 0.06) 45%, transparent 70%);
-    filter: blur(60px);
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 1;
-    animation: fnAmbientPulse 6s ease-in-out infinite alternate;
-}
+        var isMobile = window.innerWidth <= 768;
+        var maxTiltY = isMobile ? 6 : 10;
+        var maxTiltX = isMobile ? 4 : 7;
 
-@keyframes fnAmbientPulse {
-    0% {
-        transform: translate(-50%, -50%) scale(0.92);
-        opacity: 0.7;
+        targetX = factor * -maxTiltX + (isHovered ? mouseY * 6 : 0);
+        targetY = factor * maxTiltY + (isHovered ? mouseX * 8 : 0);
+        targetZ = (1 - Math.min(Math.abs(factor), 1)) * 30;
+        targetS = 1 - Math.min(Math.abs(factor), 1) * 0.03;
     }
-    100% {
-        transform: translate(-50%, -50%) scale(1.1);
-        opacity: 1;
+
+    function loop() {
+        if (!isVisible) return;
+
+        // Smooth fluid momentum lerp (0.1)
+        curX += (targetX - curX) * 0.1;
+        curY += (targetY - curY) * 0.1;
+        curZ += (targetZ - curZ) * 0.1;
+        curS += (targetS - curS) * 0.1;
+
+        var shadowX = (-curY * 1.3).toFixed(1);
+        var shadowY = (24 + Math.abs(curX) * 0.8).toFixed(1);
+        var shadowBlur = (55 + curZ * 0.8).toFixed(1);
+
+        card.style.transform = "perspective(1200px) translateY(" + ((-curX * 1.4)).toFixed(1) + "px) translateZ(" + curZ.toFixed(1) + "px) rotateX(" + curX.toFixed(2) + "deg) rotateY(" + curY.toFixed(2) + "deg) scale(" + curS.toFixed(3) + ")";
+        card.style.boxShadow = shadowX + "px " + shadowY + "px " + shadowBlur + "px -12px rgba(0, 0, 0, 0.65), 0 0 35px rgba(56, 189, 248, " + (0.15 + (curZ / 100)).toFixed(2) + ")";
+
+        if (halo) {
+            halo.style.transform = "translate(" + (-curY * 1.5).toFixed(1) + "px, " + (curX * 1.5).toFixed(1) + "px) scale(" + (0.95 + (curZ / 120)).toFixed(2) + ")";
+        }
+
+        rafId = requestAnimationFrame(loop);
     }
-}
 
-.fn-final-container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 30px;
-    position: relative;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* Eyebrow */
-.fn-final-eyebrow {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 11.5px !important;
-    font-weight: 700 !important;
-    letter-spacing: 1.8px !important;
-    text-transform: uppercase !important;
-    color: #1e3a8a !important;
-    margin-bottom: 16px !important;
-}
-.fn-final-eyebrow-line {
-    display: inline-block;
-    width: 24px;
-    height: 2px;
-    background: #1e3a8a;
-    border-radius: 2px;
-    transition: width 0.3s ease;
-}
-.fn-final-container:hover .fn-final-eyebrow-line {
-    width: 38px;
-}
-
-/* Headline */
-.fn-final-title {
-    font-size: clamp(32px, 4vw, 48px) !important;
-    font-weight: 800 !important;
-    color: #071530 !important;
-    line-height: 1.2 !important;
-    letter-spacing: -0.9px !important;
-    margin: 0 0 16px 0 !important;
-    text-transform: none !important;
-}
-
-/* Subtitle */
-.fn-final-sub {
-    font-size: 15px !important;
-    color: #64748b !important;
-    line-height: 1.65 !important;
-    margin: 0 auto 36px !important;
-    max-width: 540px !important;
-    font-weight: 400 !important;
-    text-transform: none !important;
-}
-
-/* Dual Button Group */
-.fn-final-btns {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    flex-wrap: wrap;
-}
-
-/* Primary Button (Dark) */
-.fn-final-btn-dark {
-    display: inline-flex;
-    align-items: center;
-    gap: 9px;
-    background: #071530;
-    color: #ffffff !important;
-    padding: 13.5px 28px;
-    border-radius: 9px;
-    font-size: 14px;
-    font-weight: 600;
-    text-decoration: none !important;
-    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-    box-shadow: 0 4px 14px rgba(7, 21, 48, 0.18);
-    position: relative;
-    overflow: hidden;
-}
-.fn-final-btn-dark svg {
-    transition: transform 0.25s ease;
-}
-.fn-final-btn-dark:hover {
-    background: #0f2b66;
-    transform: translateY(-2px);
-    box-shadow: 0 10px 26px rgba(7, 21, 48, 0.32);
-}
-.fn-final-btn-dark:hover svg {
-    transform: translate(3px, -3px);
-}
-
-/* Secondary Button (Clean White/Outline) */
-.fn-final-btn-light {
-    display: inline-flex;
-    align-items: center;
-    gap: 9px;
-    background: #ffffff;
-    color: #071530 !important;
-    padding: 13.5px 28px;
-    border-radius: 9px;
-    font-size: 14px;
-    font-weight: 600;
-    text-decoration: none !important;
-    border: 1px solid #e2e8f0;
-    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-}
-.fn-final-btn-light svg {
-    transition: transform 0.25s ease;
-}
-.fn-final-btn-light:hover {
-    border-color: #38bdf8;
-    color: #0369a1 !important;
-    transform: translateY(-2px);
-    box-shadow: 0 8px 22px rgba(56, 189, 248, 0.22);
-}
-.fn-final-btn-light:hover svg {
-    transform: translate(3px, -3px);
-}
-
-/* Responsive */
-@media (max-width: 640px) {
-    .fn-final-section {
-        padding: 70px 0 80px;
+    if ("IntersectionObserver" in window) {
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    isVisible = true;
+                    calcTilt();
+                    if (!rafId) rafId = requestAnimationFrame(loop);
+                } else {
+                    isVisible = false;
+                    if (rafId) {
+                        cancelAnimationFrame(rafId);
+                        rafId = null;
+                    }
+                }
+            });
+        }, { threshold: [0, 0.1, 0.25, 0.5, 0.75, 1.0], rootMargin: "100px 0px" });
+        observer.observe(section);
+    } else {
+        isVisible = true;
+        rafId = requestAnimationFrame(loop);
     }
-    .fn-final-btns {
-        flex-direction: column;
-        width: 100%;
-        gap: 12px;
-    }
-    .fn-final-btn-dark,
-    .fn-final-btn-light {
-        width: 100%;
-        justify-content: center;
-    }
-}
-</style>
 
-<section class="fn-final-section" id="fn-start-here">
-    <div class="fn-final-glow"></div>
+    window.addEventListener("scroll", function() {
+        if (isVisible) calcTilt();
+    }, { passive: true });
 
-    <div class="fn-final-container">
-        <!-- Eyebrow -->
-        <div class="fn-final-eyebrow">
-            <span class="fn-final-eyebrow-line"></span>
-            <span>LET'S TAKE CARE OF WHAT MATTERS</span>
-        </div>
+    card.addEventListener("mousemove", function(e) {
+        var rect = card.getBoundingClientRect();
+        mouseX = (e.clientX - rect.left) / rect.width - 0.5;
+        mouseY = -((e.clientY - rect.top) / rect.height - 0.5);
+        isHovered = true;
+        calcTilt();
+    });
+    card.addEventListener("mouseleave", function() {
+        mouseX = 0;
+        mouseY = 0;
+        isHovered = false;
+        calcTilt();
+    });
+})();
+</script>
 
-        <!-- Headline -->
-        <h2 class="fn-final-title">Your Next Home Service Starts Here.</h2>
-
-        <!-- Subtitle -->
-        <p class="fn-final-sub">
-            Whether you need a home service or want to grow your service business,<br>FixNex is ready to help you get started.
-        </p>
-
-        <!-- Centered Buttons -->
-        <div class="fn-final-btns">
-            <!-- Primary Action -->
-            <a href="#fn-services-catalog" class="fn-final-btn-dark">
-                Get the Home Service You Need
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                    <line x1="7" y1="17" x2="17" y2="7"></line>
-                    <polyline points="7 7 17 7 17 17"></polyline>
-                </svg>
-            </a>
-
-            <!-- Secondary Action -->
-            <a href="#fn-merchant-opportunities" class="fn-final-btn-light">
-                Grow With FixNex
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                    <line x1="7" y1="17" x2="17" y2="7"></line>
-                    <polyline points="7 7 17 7 17 17"></polyline>
-                </svg>
-            </a>
-        </div>
-    </div>
-</section>
 
 
 <main class="fn-process-page">
@@ -5071,9 +6002,9 @@ include 'header.php';
                      STEP 03: Schedule Booking
                      ========================================== -->
                 <div class="fn-step-item">
-                    <div class="fn-phone-mockup">
+                    <div class="fn-phone-mockup" style="background: #022656;">
                         <div class="fn-phone-island"><div class="fn-phone-camera-dot"></div></div>
-                        <div class="fn-phone-status fn-phone-status-light">
+                        <div class="fn-phone-status">
                             <span>9:41</span>
                             <div style="display:flex;gap:4px;align-items:center;">
                                 <i class="fa fa-signal" style="font-size:9px;"></i>
@@ -5082,43 +6013,13 @@ include 'header.php';
                             </div>
                         </div>
 
-                        <!-- Screen 3 Inner Content -->
-                        <div class="fn-phone-screen">
-                            <div class="fn-screen-booking">
-                                <div class="fn-chat-header">
-                                    <div class="fn-chat-user">
-                                        <img src="images/fixnex/person.webp" alt="Rajesh Kumar" class="fn-chat-avatar" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80';" />
-                                        <div>
-                                            <div class="fn-chat-name">Rajesh Kumar</div>
-                                            <div class="fn-chat-status">&#9679; Available Today</div>
-                                        </div>
-                                    </div>
-                                    <i class="fa fa-phone" style="color:#2563eb;font-size:12px;"></i>
-                                </div>
-                                <div class="fn-chat-body">
-                                    <div class="fn-msg-bubble fn-msg-incoming">
-                                        Hello! Please select your preferred date and time slot for the visit.
-                                    </div>
-                                    <div class="fn-msg-bubble fn-msg-outgoing">
-                                        Tomorrow afternoon works best for me!
-                                    </div>
-                                    <div class="fn-slot-picker-box">
-                                        <div class="fn-slot-picker-title"><i class="fa fa-calendar"></i> Select Time Slot</div>
-                                        <div class="fn-slot-chips">
-                                            <span class="fn-slot-chip">10:00 AM</span>
-                                            <span class="fn-slot-chip selected">02:00 PM</span>
-                                            <span class="fn-slot-chip">05:30 PM</span>
-                                        </div>
-                                    </div>
-                                    <div class="fn-msg-bubble fn-msg-incoming" style="margin-top:auto;">
-                                        Confirmed! Visit scheduled for Tomorrow at 2:00 PM.
-                                    </div>
-                                </div>
-                                <div class="fn-chat-input-bar">
-                                    <div class="fn-chat-input">Type a message...</div>
-                                    <div class="fn-chat-send-btn"><i class="fa fa-paper-plane" style="font-size:10px;"></i></div>
-                                </div>
-                            </div>
+                        <!-- Screen 3 Inner Content: FixNex Booking Screen (actual image) -->
+                        <div class="fn-phone-screen" style="overflow:hidden;background:#022656;">
+                            <img 
+                                src="images/fixnex/fixnex-app-booking.png" 
+                                alt="FixNex Booking Screen" 
+                                style="width:100%;height:100%;object-fit:cover;object-position:top;display:block;"
+                            >
                         </div>
 
                         <div class="fn-phone-home-bar"></div>
@@ -5137,7 +6038,7 @@ include 'header.php';
                      STEP 04: Live Tracking
                      ========================================== -->
                 <div class="fn-step-item">
-                    <div class="fn-phone-mockup">
+                    <div class="fn-phone-mockup" style="background: #eef7f2;">
                         <div class="fn-phone-island"><div class="fn-phone-camera-dot"></div></div>
                         <div class="fn-phone-status fn-phone-status-light">
                             <span>9:41</span>
@@ -5148,57 +6049,13 @@ include 'header.php';
                             </div>
                         </div>
 
-                        <!-- Screen 4 Inner Content -->
-                        <div class="fn-phone-screen">
-                            <div class="fn-screen-tracking">
-                                <!-- Styled Vector Map Canvas with Animated Moving Route & Radar Rings -->
-                                <svg class="fn-map-vector" viewBox="0 0 260 480" fill="none">
-                                    <!-- City Blocks -->
-                                    <rect width="260" height="480" fill="#f1f5f9"/>
-                                    <path d="M 0 60 L 260 60 M 0 160 L 260 160 M 0 280 L 260 280 M 0 380 L 260 380" stroke="#e2e8f0" stroke-width="8"/>
-                                    <path d="M 60 0 L 60 480 M 160 0 L 160 480 M 220 0 L 220 480" stroke="#e2e8f0" stroke-width="8"/>
-                                    <polygon points="20,80 140,80 140,140 20,140" fill="#dcfce7" opacity="0.8"/>
-                                    <polygon points="80,180 200,180 200,260 80,260" fill="#e0f2fe" opacity="0.8"/>
-                                    
-                                    <!-- Static Route Base Line -->
-                                    <path d="M 70 340 L 70 220 L 170 220 L 170 120" stroke="#bfdbfe" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-
-                                    <!-- Live Route Navigation Animated Moving Dash Line -->
-                                    <path class="fn-gps-path" d="M 70 340 L 70 220 L 170 220 L 170 120" stroke="#2563eb" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    
-                                    <!-- Radar Pulsing Rings around Vehicle -->
-                                    <circle class="fn-radar-ring-1" cx="70" cy="340" r="14" fill="none" stroke="#38bdf8" />
-                                    <circle class="fn-radar-ring-2" cx="70" cy="340" r="14" fill="none" stroke="#2563eb" />
-
-                                    <!-- Provider Vehicle/Pin Marker -->
-                                    <circle cx="70" cy="340" r="14" fill="#0d2353" />
-                                    <circle cx="70" cy="340" r="7" fill="#38bdf8" />
-                                    
-                                    <!-- Customer Destination Pin with Pulse -->
-                                    <circle cx="170" cy="120" r="16" fill="#2563eb" opacity="0.25"/>
-                                    <circle cx="170" cy="120" r="9" fill="#2563eb"/>
-                                    <circle cx="170" cy="120" r="4" fill="#ffffff"/>
-                                </svg>
-
-                                <div class="fn-map-top-bar">
-                                    <span>Live Tracking Map</span>
-                                    <span class="fn-map-eta-pill">
-                                        <span class="fn-map-eta-dot"></span>
-                                        <span>ETA: 12 Mins</span>
-                                    </span>
-                                </div>
-
-                                <div class="fn-map-bottom-card">
-                                    <div class="fn-map-marker-icon">
-                                        <i class="fa fa-map-marker" style="font-size:16px;"></i>
-                                    </div>
-                                    <div class="fn-map-dest-info">
-                                        <div class="fn-map-dest-title">Expert En Route</div>
-                                        <div class="fn-map-dest-sub">Near Dumas Road, Uttran, Surat</div>
-                                    </div>
-                                    <i class="fa fa-location-arrow" style="color:#2563eb;font-size:14px;"></i>
-                                </div>
-                            </div>
+                        <!-- Screen 4 Inner Content: FixNex Live Tracking (actual image) -->
+                        <div class="fn-phone-screen" style="overflow:hidden;background:#eef7f2;">
+                            <img 
+                                src="images/fixnex/fixnex-app-tracking.png" 
+                                alt="FixNex Live Tracking" 
+                                style="width:100%;height:100%;object-fit:cover;object-position:top;display:block;"
+                            >
                         </div>
 
                         <div class="fn-phone-home-bar"></div>
@@ -5217,9 +6074,9 @@ include 'header.php';
                      STEP 05: Doorstep Service & Payment
                      ========================================== -->
                 <div class="fn-step-item">
-                    <div class="fn-phone-mockup">
+                    <div class="fn-phone-mockup" style="background: #022d64;">
                         <div class="fn-phone-island"><div class="fn-phone-camera-dot"></div></div>
-                        <div class="fn-phone-status fn-phone-status-light">
+                        <div class="fn-phone-status">
                             <span>9:41</span>
                             <div style="display:flex;gap:4px;align-items:center;">
                                 <i class="fa fa-signal" style="font-size:9px;"></i>
@@ -5228,27 +6085,13 @@ include 'header.php';
                             </div>
                         </div>
 
-                        <!-- Screen 5 Inner Content -->
-                        <div class="fn-phone-screen">
-                            <div class="fn-screen-payment">
-                                <div class="fn-pay-success-badge">
-                                    <i class="fa fa-check" style="font-size:24px;"></i>
-                                </div>
-                                <div class="fn-pay-amount">&#8377;1,499</div>
-                                <span class="fn-pay-sub">&#10003; Payment Successful</span>
-
-                                <div class="fn-pay-review-box">
-                                    <div class="fn-pay-review-title">Review Posted</div>
-                                    <div class="fn-pay-stars-row">
-                                        <i class="fa fa-star"></i>
-                                        <span class="fn-pay-stars-score">4.5</span>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                    <button class="fn-pay-btn-done">Service Completed</button>
-                                </div>
-
-                                <button class="fn-pay-btn-bottom">Book Again</button>
-                            </div>
+                        <!-- Screen 5 Inner Content: FixNex Order and Payment (actual image) -->
+                        <div class="fn-phone-screen" style="overflow:hidden;background:#022d64;">
+                            <img 
+                                src="images/fixnex/fixnex-app-payment.png" 
+                                alt="FixNex Order and Payment" 
+                                style="width:100%;height:100%;object-fit:cover;object-position:top;display:block;"
+                            >
                         </div>
 
                         <div class="fn-phone-home-bar"></div>
@@ -5279,7 +6122,7 @@ include 'header.php';
                     <span>Explore FixNex Platform</span>
                     <i class="fa fa-arrow-right"></i>
                 </a>
-                <a href="contact.php" class="fn-btn-secondary-outline">
+                <a href="https://fixnex.in/contact-us" target="_blank" rel="noopener noreferrer" class="fn-btn-secondary-outline">
                     <span>Contact Us</span>
                 </a>
             </div>
