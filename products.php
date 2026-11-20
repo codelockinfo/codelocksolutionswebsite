@@ -2130,6 +2130,16 @@ html {
 .fn-process-page {
     scroll-margin-top: 85px;
 }
+
+/* Hide Theme Toggle Button specifically on Products Page */
+#theme-toggle,
+.theme-toggle-btn,
+.theme-toggle-header-right {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
 </style>
 
 <!-- =========================================================
@@ -3390,7 +3400,7 @@ html {
 @media (max-width: 991px) {
     .fn-flow-grid {
         grid-template-columns: 1fr;
-        gap: 45px;
+        gap: 35px;
     }
     .fn-flow-right {
         margin-top: 0;
@@ -3400,9 +3410,26 @@ html {
         padding-left: 0;
     }
 }
+/* Hide Phone Mockup Screen specifically on Mobile View */
+@media (max-width: 768px) {
+    .fn-flow-phone-stage {
+        display: none !important;
+        visibility: hidden !important;
+        height: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: hidden !important;
+    }
+    .fn-flow-grid {
+        gap: 24px !important;
+    }
+    .fn-flow-desc {
+        margin-bottom: 10px !important;
+    }
+}
 @media (max-width: 600px) {
     .fn-flow-section {
-        padding: 45px 0 45px !important;
+        padding: 40px 0 45px !important;
     }
     .fn-flow-container {
         padding: 0 20px;
@@ -3420,12 +3447,6 @@ html {
     }
     .fn-tl-title {
         font-size: 16px !important;
-    }
-}
-@media (max-width: 480px) {
-    .fn-flow-phone {
-        width: 216px !important;
-        height: 430px !important;
     }
 }
 </style>
@@ -5550,42 +5571,110 @@ html {
 }
 @media (max-width: 600px) {
     .fn-dual-cta-section {
-        padding: 30px 0 25px !important;
+        padding: 35px 0 35px !important;
     }
     .fn-dual-cta-container {
         padding: 0 16px;
     }
+    /* Keep single unified card on mobile without vertical splitting */
     .fn-dual-card {
-        flex-direction: column;
-        border-radius: 22px;
+        flex-direction: row !important;
+        align-items: stretch !important;
+        border-radius: 20px !important;
+        min-height: 265px !important;
+        overflow: hidden !important;
+        position: relative !important;
     }
     .fn-dual-content {
-        max-width: 100%;
-        padding: 24px 20px 22px;
+        max-width: 62% !important;
+        flex: 1 1 62% !important;
+        padding: 20px 10px 18px 16px !important;
+        z-index: 2 !important;
+    }
+    .fn-dual-pill {
+        padding: 4px 10px 4px 5px !important;
+        font-size: 11px !important;
+        margin-bottom: 10px !important;
+    }
+    .fn-pill-icon-box {
+        width: 20px !important;
+        height: 20px !important;
+        font-size: 10px !important;
     }
     .fn-dual-title {
-        font-size: 21px !important;
+        font-size: 17px !important;
+        line-height: 1.25 !important;
+        margin-bottom: 6px !important;
+        letter-spacing: -0.3px !important;
     }
     .fn-dual-desc {
-        max-width: 100%;
-        margin-bottom: 16px !important;
+        font-size: 11px !important;
+        line-height: 1.35 !important;
+        margin-bottom: 12px !important;
+        max-width: 100% !important;
     }
     .fn-dual-features {
-        gap: 12px;
-        margin-bottom: 20px;
+        gap: 8px !important;
+        margin-bottom: 14px !important;
+    }
+    .fn-dual-feat-icon svg {
+        width: 16px !important;
+        height: 16px !important;
     }
     .fn-dual-feat-divider {
-        height: 32px;
+        height: 26px !important;
     }
     .fn-dual-feat-text {
-        font-size: 11px;
+        font-size: 9.5px !important;
+        line-height: 1.2 !important;
+    }
+    .fn-dual-pill-btn {
+        padding: 6px 6px 6px 14px !important;
+        font-size: 11.5px !important;
+        gap: 8px !important;
+    }
+    .fn-dual-pill-btn-arrow {
+        width: 22px !important;
+        height: 22px !important;
+    }
+    /* Proportionate right-side technician graphic */
+    .fn-dual-art {
+        position: absolute !important;
+        right: 0 !important;
+        top: 0 !important;
+        bottom: 0 !important;
+        width: 44% !important;
+        height: 100% !important;
+        z-index: 1 !important;
+        pointer-events: none !important;
+        display: flex !important;
+        align-items: flex-end !important;
+        justify-content: flex-end !important;
+        overflow: hidden !important;
+        -webkit-mask-image: linear-gradient(to right, transparent 0%, black 18%) !important;
+        mask-image: linear-gradient(to right, transparent 0%, black 18%) !important;
+    }
+    .fn-dual-art-img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        object-position: right top !important;
+        display: block !important;
+    }
+}
+@media (max-width: 380px) {
+    .fn-dual-content {
+        max-width: 65% !important;
+        padding: 16px 8px 16px 14px !important;
+    }
+    .fn-dual-title {
+        font-size: 15.5px !important;
+    }
+    .fn-dual-desc {
+        display: none !important;
     }
     .fn-dual-art {
-        position: relative;
-        width: 100%;
-        height: 210px;
-        -webkit-mask-image: none;
-        mask-image: none;
+        width: 42% !important;
     }
 }
 </style>

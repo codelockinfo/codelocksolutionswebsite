@@ -696,6 +696,12 @@ ob_start(function($buffer) {
                 <div id="ttm-stickable-header-w" class="ttm-stickable-header-w clearfix">
                     <div id="site-header-menu" class="site-header-menu">
                         <div class="site-header-menu-inner ttm-stickable-header">
+                            <?php 
+                            $is_products_page = (isset($current_page) && ($current_page === 'products.php' || $current_page === 'products')) || 
+                                                (basename($_SERVER['SCRIPT_NAME'] ?? '') === 'products.php') || 
+                                                (basename($_SERVER['PHP_SELF'] ?? '') === 'products.php');
+                            if (!$is_products_page): 
+                            ?>
                             <!-- theme toggle button - positioned at right corner -->
                             <button id="theme-toggle" class="theme-toggle-btn theme-toggle-header-right"
                                 aria-label="Toggle theme">
@@ -716,6 +722,7 @@ ob_start(function($buffer) {
                                     <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
                                 </svg>
                             </button>
+                            <?php endif; ?>
                             <div class="container">
                                 <!-- site-branding -->
                                 <div class="site-branding">
