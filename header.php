@@ -296,21 +296,37 @@ ob_start(function($buffer) {
         }
 
         /* Main Header */
+        .site-header-menu,
+        .ttm-header-style-01 .site-header-menu {
+            background-color: transparent !important;
+            background: transparent !important;
+        }
+
         .ttm-stickable-header {
-            background: rgba(7, 5, 20, 0.85) !important;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-            transition: background 0.3s ease;
+            height: 93px;
+            width: 100%;
+            background: rgba(7, 5, 20, 0.95) !important;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            transition: background 0.3s ease, height 0.3s ease;
             padding: 0 40px;
         }
 
         [data-theme="light"] .ttm-stickable-header {
-            background: rgba(255, 255, 255, 0.95) !important;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            height: 93px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.98) !important;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
         }
 
         .is-sticky .ttm-stickable-header,
         .ttm-header-wrap.is-sticky,
         .ttm-stickable-header.fixed-header {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100% !important;
+            z-index: 9999 !important;
+            height: 70px !important;
             background: #000000 !important;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
         }
@@ -318,20 +334,56 @@ ob_start(function($buffer) {
         [data-theme="light"] .is-sticky .ttm-stickable-header,
         [data-theme="light"] .ttm-header-wrap.is-sticky,
         [data-theme="light"] .ttm-stickable-header.fixed-header {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100% !important;
+            z-index: 9999 !important;
+            height: 70px !important;
             background: #ffffff !important;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
         }
 
+        /* Theme toggle button in header */
+        .theme-toggle-header-right {
+            position: absolute !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+            right: 20px !important;
+            z-index: 1000 !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            pointer-events: auto !important;
+        }
+
+        @media (max-width: 1199px) {
+            .ttm-stickable-header {
+                height: 80px !important;
+                padding: 0 !important;
+            }
+            .ttm-stickable-header.fixed-header {
+                height: 80px !important;
+            }
+            .theme-toggle-header-right {
+                top: 22px !important;
+                transform: none !important;
+                right: 15px !important;
+            }
+        }
+
         /* Logo */
         .site-branding img {
-            filter: brightness(0) invert(1);
-            opacity: 0.9;
-            transition: opacity 0.3s ease;
+            filter: brightness(0) invert(1) !important;
+            opacity: 1 !important;
+            transition: opacity 0.3s ease, filter 0.3s ease;
         }
 
         [data-theme="light"] .site-branding img {
-            filter: none;
-            opacity: 1;
+            filter: none !important;
+            opacity: 1 !important;
         }
 
         .site-branding img:hover {
@@ -340,13 +392,14 @@ ob_start(function($buffer) {
 
         /* Navigation Links */
         #site-navigation .menu ul.dropdown>li>a {
-            color: #e0e0e0 !important;
+            color: #ffffff !important;
             font-weight: 500;
             transition: color 0.3s ease;
         }
 
         [data-theme="light"] #site-navigation .menu ul.dropdown>li>a {
-            color: #333333 !important;
+            color: #0f172a !important;
+            font-weight: 600;
         }
 
         #site-navigation .menu ul.dropdown>li:hover>a,
@@ -357,6 +410,15 @@ ob_start(function($buffer) {
         [data-theme="light"] #site-navigation .menu ul.dropdown>li:hover>a,
         [data-theme="light"] #site-navigation .menu ul.dropdown>li.active>a {
             color: #728948 !important;
+        }
+
+        /* Nav link hover underline line */
+        header:not(.ttm-header-style-02) #site-header-menu #site-navigation .menu ul.dropdown > li > a:before {
+            background-color: #00f2fe !important;
+        }
+
+        [data-theme="light"] header:not(.ttm-header-style-02) #site-header-menu #site-navigation .menu ul.dropdown > li > a:before {
+            background-color: #728948 !important;
         }
 
         /* Dropdown Menu styling */
@@ -379,7 +441,7 @@ ob_start(function($buffer) {
         }
 
         [data-theme="light"] #site-navigation .menu ul.dropdown ul>li>a {
-            color: #333333 !important;
+            color: #1e293b !important;
             border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
         }
 
@@ -391,7 +453,7 @@ ob_start(function($buffer) {
 
         [data-theme="light"] #site-navigation .menu ul.dropdown ul>li:hover>a {
             color: #728948 !important;
-            background: rgba(0, 102, 204, 0.1) !important;
+            background: rgba(114, 137, 72, 0.1) !important;
         }
 
         /* Social icons in topbar */
@@ -696,12 +758,6 @@ ob_start(function($buffer) {
                 <div id="ttm-stickable-header-w" class="ttm-stickable-header-w clearfix">
                     <div id="site-header-menu" class="site-header-menu">
                         <div class="site-header-menu-inner ttm-stickable-header">
-                            <?php 
-                            $is_products_page = (isset($current_page) && ($current_page === 'products.php' || $current_page === 'products')) || 
-                                                (basename($_SERVER['SCRIPT_NAME'] ?? '') === 'products.php') || 
-                                                (basename($_SERVER['PHP_SELF'] ?? '') === 'products.php');
-                            if (!$is_products_page): 
-                            ?>
                             <!-- theme toggle button - positioned at right corner -->
                             <button id="theme-toggle" class="theme-toggle-btn theme-toggle-header-right"
                                 aria-label="Toggle theme">
@@ -722,7 +778,6 @@ ob_start(function($buffer) {
                                     <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
                                 </svg>
                             </button>
-                            <?php endif; ?>
                             <div class="container">
                                 <!-- site-branding -->
                                 <div class="site-branding">

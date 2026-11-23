@@ -2130,16 +2130,6 @@ html {
 .fn-process-page {
     scroll-margin-top: 85px;
 }
-
-/* Hide Theme Toggle Button specifically on Products Page */
-#theme-toggle,
-.theme-toggle-btn,
-.theme-toggle-header-right {
-    display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-    pointer-events: none !important;
-}
 </style>
 
 <!-- =========================================================
@@ -5543,6 +5533,48 @@ html {
     object-position: right top;
     display: block;
 }
+.fn-dual-card-home .fn-dual-art-img,
+.fn-dual-card-biz .fn-dual-art-img {
+    object-position: center 6%;
+}
+
+/* Corner Circular 3D Badge (Top Right) */
+.fn-dual-corner-badge {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    z-index: 4;
+    pointer-events: none;
+}
+.fn-dual-corner-circle {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid #0066ff;
+    box-shadow: 0 6px 20px rgba(0, 102, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fn-dual-corner-circle svg {
+    width: 22px;
+    height: 22px;
+    fill: #0066ff;
+}
+
+/* Vibrant Blue Corner Wave (Bottom Right) */
+.fn-dual-blue-wave {
+    position: absolute;
+    right: -15px;
+    bottom: -20px;
+    width: 145px;
+    height: 105px;
+    background: radial-gradient(ellipse at 90% 90%, #0066ff 0%, #0050e6 65%, transparent 71%);
+    border-radius: 90% 0 0 0;
+    pointer-events: none;
+    z-index: 2;
+}
 
 /* Responsive Breakpoints */
 @media (max-width: 1024px) {
@@ -5661,6 +5693,22 @@ html {
         object-position: right top !important;
         display: block !important;
     }
+    .fn-dual-card-home .fn-dual-art-img,
+    .fn-dual-card-biz .fn-dual-art-img {
+        object-position: center 6% !important;
+    }
+    .fn-dual-corner-circle {
+        width: 44px !important;
+        height: 44px !important;
+    }
+    .fn-dual-corner-circle svg {
+        width: 18px !important;
+        height: 18px !important;
+    }
+    .fn-dual-blue-wave {
+        width: 100px !important;
+        height: 70px !important;
+    }
 }
 @media (max-width: 380px) {
     .fn-dual-content {
@@ -5764,9 +5812,10 @@ html {
                     </div>
                 </div>
 
-                <!-- Right Visual Art (Technician + bottom blue wave) -->
+                <!-- Right Visual Art (High-Res Technician + bottom blue wave) -->
                 <div class="fn-dual-art">
-                    <img src="images/fixnex/card-home-tech.png" alt="FixNex Professional for Home" class="fn-dual-art-img" />
+                    <img src="images/fixnex/card-home-tech-hd.webp" alt="FixNex Professional for Home" class="fn-dual-art-img" />
+                    <div class="fn-dual-blue-wave"></div>
                 </div>
             </div>
 
@@ -5858,9 +5907,10 @@ html {
                     </div>
                 </div>
 
-                <!-- Right Visual Art (Technician + bottom blue wave) -->
+                <!-- Right Visual Art (High-Res Technician + bottom blue wave) -->
                 <div class="fn-dual-art">
-                    <img src="images/fixnex/card-biz-tech.png" alt="FixNex Professional for Business" class="fn-dual-art-img" />
+                    <img src="images/fixnex/card-biz-tech-hd.webp" alt="FixNex Professional for Business" class="fn-dual-art-img" />
+                    <div class="fn-dual-blue-wave"></div>
                 </div>
             </div>
 
